@@ -61,3 +61,16 @@ Takedown rate is a blend of the DraftKings ladder (Rosas 8+ at +600 implies abou
 | Step-up: Over 2.5 instead of Over 1.5 | 58.5% | -141 |
 
 Breaks on: an early finish (18%), Barcelos stuffing Rosas all night (27% Rosas under 2), or Barcelos never shooting (19%).
+
+## Rebuilt on confirmed DraftKings markets only (added 9:50 PM ET)
+DraftKings, BestFightOdds, OddsShark and The Odds API are blocked from this environment. Confirmed DK lines (CBS Sports quoting DK, plus the user's DK paste): ML Rosas -142 / Barcelos +120, decision -125, Rosas dec +200, Barcelos dec +275, Rosas sub +330, distance -125, over 3.5 rounds -180, Rosas takedowns over 3.5 and 5+ to 9+ (8+ +600), Barcelos takedowns 2+ (in DK's pre-built SGP) and 3+ to 6+ (5+ +600). Lower rungs from the earlier parlay (Rosas 2+, Barcelos 1+, over 1.5) were not available.
+
+| Bet | Our P | Fair | DK |
+|---|---|---|---|
+| Barcelos 2+ takedowns | 63.8% | -177 | check app |
+| Over 3.5 rounds | 61.0% | -156 | -180 |
+| Goes the distance | 54.1% | -118 | -125 |
+| Over 3.5 rounds + Barcelos 2+ TD (SGP) | 49.8% | +101 | check app |
+| Over 3.5 + Rosas over 3.5 TD + Barcelos 2+ TD (SGP) | 33.7% | +197 | check app |
+| Rosas 5+ TD + Barcelos 2+ TD (DK pre-built) | 30.2% | +231 | check app |
+| Rosas by decision | 30.2% | +232 | +200 |

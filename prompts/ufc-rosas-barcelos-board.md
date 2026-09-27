@@ -47,3 +47,17 @@ R1-R2: Rosas chains takedowns early against a slow starter and should bank at le
 | Over 3.5 rounds | -175 | 61% | 63.6% | Highest P with a price, slightly overpriced |
 | Barcelos ML | +130 | 46.5% | 43.5% | Only +EV side, but loses more often than not |
 | Rosas ML | -155 | 53.5% | 60.8% | Overpriced by our math |
+
+## Same-fight parlay: "The wrestling war" (added 9:35 PM ET)
+Takedown rate is a blend of the DraftKings ladder (Rosas 8+ at +600 implies about 5.2, Barcelos 5+ at +600 about 2.7) and our research (Rosas about 2.9 against 88% takedown defense, Barcelos about 3.4 against Rosas's 25% takedown defense), weighted 0.55/0.45. Counts scale with fight length from our round ladder, with game-plan variance (gamma frailty). 400k simulations.
+
+| Leg | Our P | Fair odds |
+|---|---|---|
+| Over 1.5 rounds | 82% | -455 |
+| Barcelos 1+ takedown | 81% | -430 |
+| Rosas 2+ takedowns | 73% | -270 |
+| **All three (joint, correlated)** | **63%** | **-169** |
+| Same three if they were independent | 48.5% | |
+| Step-up: Over 2.5 instead of Over 1.5 | 58.5% | -141 |
+
+Breaks on: an early finish (18%), Barcelos stuffing Rosas all night (27% Rosas under 2), or Barcelos never shooting (19%).

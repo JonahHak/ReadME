@@ -1,0 +1,1036 @@
+{
+ "QF-A": {
+  "delta": -0.0068042904419591144,
+  "final": 0.5093121586176067,
+  "sim_pwin": 0.5111833333333333,
+  "p3": 0.38355,
+  "ptb_raw": 0.38215,
+  "games_mean": 23.71115,
+  "games_median": 22.0,
+  "modal_exact": "6-4 6-4",
+  "exact_top": {
+   "6-4 6-4": 0.0233,
+   "4-6 4-6": 0.0231,
+   "3-6 4-6": 0.0216,
+   "6-3 6-4": 0.0208,
+   "7-6 6-4": 0.0131,
+   "6-7 4-6": 0.0131,
+   "4-6 6-7": 0.0128,
+   "6-4 7-6": 0.0127,
+   "4-6 2-6": 0.0127,
+   "3-6 6-7": 0.0126
+  },
+  "margin_mean": 0.06338333333333333,
+  "p_tbA": 0.21021666666666666,
+  "p_tbB": 0.2102,
+  "set1A": 0.5046333333333334,
+  "markets": [
+   {
+    "match": "QF-A",
+    "market": "Moneyline",
+    "selection": "Arthur Gea",
+    "p": 0.5111833333333333,
+    "fair": -105,
+    "take_at": 101,
+    "price": 100,
+    "price_src": "DK ML via Dimers (search-reported)",
+    "ev": 0.022366666666666646,
+    "kelly": 0.0055916666666666615,
+    "breakeven": 0.5
+   },
+   {
+    "match": "QF-A",
+    "market": "Moneyline",
+    "selection": "Alejandro Davidovich Fokina",
+    "p": 0.4888166666666667,
+    "fair": 105,
+    "take_at": 110,
+    "price": -116,
+    "price_src": "DK ML via Dimers (search-reported)",
+    "ev": -0.08978965517241377,
+    "kelly": 0.0,
+    "breakeven": 0.5370370370370371
+   },
+   {
+    "match": "QF-A",
+    "market": "Set spread",
+    "selection": "Arthur Gea -1.5 sets",
+    "p": 0.3073166666666667,
+    "fair": 225,
+    "take_at": 234
+   },
+   {
+    "match": "QF-A",
+    "market": "Set spread",
+    "selection": "Alejandro Davidovich Fokina +1.5 sets",
+    "p": 0.6926833333333333,
+    "fair": -225,
+    "take_at": -208
+   },
+   {
+    "match": "QF-A",
+    "market": "Set spread",
+    "selection": "Alejandro Davidovich Fokina -1.5 sets",
+    "p": 0.3091333333333333,
+    "fair": 223,
+    "take_at": 232
+   },
+   {
+    "match": "QF-A",
+    "market": "Set spread",
+    "selection": "Arthur Gea +1.5 sets",
+    "p": 0.6908666666666666,
+    "fair": -223,
+    "take_at": -207
+   },
+   {
+    "match": "QF-A",
+    "market": "Total sets",
+    "selection": "Over 2.5 (3 sets)",
+    "p": 0.38355,
+    "fair": 161,
+    "take_at": 167,
+    "price": 125,
+    "price_src": "Oddset 2.25 (not DK)",
+    "ev": -0.13701249999999998,
+    "kelly": 0.0,
+    "breakeven": 0.4444444444444444
+   },
+   {
+    "match": "QF-A",
+    "market": "Total sets",
+    "selection": "Under 2.5 (2 sets)",
+    "p": 0.61645,
+    "fair": -161,
+    "take_at": -151
+   },
+   {
+    "match": "QF-A",
+    "market": "Total games",
+    "selection": "Over 20.5",
+    "p": 0.6071666666666666,
+    "fair": -155,
+    "take_at": -145
+   },
+   {
+    "match": "QF-A",
+    "market": "Total games",
+    "selection": "Under 20.5",
+    "p": 0.3928333333333333,
+    "fair": 155,
+    "take_at": 161
+   },
+   {
+    "match": "QF-A",
+    "market": "Total games",
+    "selection": "Over 21.5",
+    "p": 0.5549666666666667,
+    "fair": -125,
+    "take_at": -118
+   },
+   {
+    "match": "QF-A",
+    "market": "Total games",
+    "selection": "Under 21.5",
+    "p": 0.44503333333333334,
+    "fair": 125,
+    "take_at": 130
+   },
+   {
+    "match": "QF-A",
+    "market": "Total games",
+    "selection": "Over 22.5",
+    "p": 0.47845,
+    "fair": 109,
+    "take_at": 114,
+    "price": -135,
+    "price_src": "Sportskeeda, book unnamed",
+    "ev": -0.16714259259259268,
+    "kelly": 0.0,
+    "breakeven": 0.574468085106383
+   },
+   {
+    "match": "QF-A",
+    "market": "Total games",
+    "selection": "Under 22.5",
+    "p": 0.52155,
+    "fair": -109,
+    "take_at": -104,
+    "price": -110,
+    "price_src": "Sportskeeda, book unnamed",
+    "ev": -0.004313636363636353,
+    "kelly": 0.0,
+    "breakeven": 0.5238095238095238
+   },
+   {
+    "match": "QF-A",
+    "market": "Total games",
+    "selection": "Over 23.5",
+    "p": 0.4226,
+    "fair": 137,
+    "take_at": 143
+   },
+   {
+    "match": "QF-A",
+    "market": "Total games",
+    "selection": "Under 23.5",
+    "p": 0.5774,
+    "fair": -137,
+    "take_at": -129
+   },
+   {
+    "match": "QF-A",
+    "market": "Total games",
+    "selection": "Over 24.5",
+    "p": 0.40896666666666665,
+    "fair": 145,
+    "take_at": 151
+   },
+   {
+    "match": "QF-A",
+    "market": "Total games",
+    "selection": "Under 24.5",
+    "p": 0.5910333333333333,
+    "fair": -145,
+    "take_at": -136
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Arthur Gea -1.5",
+    "p": 0.4575,
+    "fair": 119,
+    "take_at": 124
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Alejandro Davidovich Fokina +1.5",
+    "p": 0.5425,
+    "fair": -119,
+    "take_at": -112
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Alejandro Davidovich Fokina -1.5",
+    "p": 0.43955,
+    "fair": 128,
+    "take_at": 133
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Arthur Gea +1.5",
+    "p": 0.56045,
+    "fair": -128,
+    "take_at": -121
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Arthur Gea -2.5",
+    "p": 0.40286666666666665,
+    "fair": 148,
+    "take_at": 154
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Alejandro Davidovich Fokina +2.5",
+    "p": 0.5971333333333333,
+    "fair": -148,
+    "take_at": -140
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Alejandro Davidovich Fokina -2.5",
+    "p": 0.39015,
+    "fair": 156,
+    "take_at": 163
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Arthur Gea +2.5",
+    "p": 0.60985,
+    "fair": -156,
+    "take_at": -147
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Arthur Gea -3.5",
+    "p": 0.33011666666666667,
+    "fair": 203,
+    "take_at": 210
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Alejandro Davidovich Fokina +3.5",
+    "p": 0.6698833333333334,
+    "fair": -203,
+    "take_at": -189
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Alejandro Davidovich Fokina -3.5",
+    "p": 0.32216666666666666,
+    "fair": 210,
+    "take_at": 218
+   },
+   {
+    "match": "QF-A",
+    "market": "Game spread",
+    "selection": "Arthur Gea +3.5",
+    "p": 0.6778333333333333,
+    "fair": -210,
+    "take_at": -195
+   },
+   {
+    "match": "QF-A",
+    "market": "Tiebreak in match",
+    "selection": "Yes",
+    "p": 0.38215,
+    "fair": 162,
+    "take_at": 168
+   },
+   {
+    "match": "QF-A",
+    "market": "Tiebreak in match",
+    "selection": "No",
+    "p": 0.61785,
+    "fair": -162,
+    "take_at": -152
+   },
+   {
+    "match": "QF-A",
+    "market": "Set 1 winner",
+    "selection": "Arthur Gea",
+    "p": 0.5046333333333334,
+    "fair": -102,
+    "take_at": 103
+   },
+   {
+    "match": "QF-A",
+    "market": "Set 1 winner",
+    "selection": "Alejandro Davidovich Fokina",
+    "p": 0.4953666666666667,
+    "fair": 102,
+    "take_at": 107
+   },
+   {
+    "match": "QF-A",
+    "market": "Correct score (sets)",
+    "selection": "Arthur Gea 2-0",
+    "p": 0.3073166666666667,
+    "fair": 225,
+    "take_at": 234
+   },
+   {
+    "match": "QF-A",
+    "market": "Correct score (sets)",
+    "selection": "Alejandro Davidovich Fokina 2-0",
+    "p": 0.3091333333333333,
+    "fair": 223,
+    "take_at": 232
+   },
+   {
+    "match": "QF-A",
+    "market": "Correct score (sets)",
+    "selection": "Arthur Gea 2-1",
+    "p": 0.20386666666666667,
+    "fair": 391,
+    "take_at": 403
+   },
+   {
+    "match": "QF-A",
+    "market": "Correct score (sets)",
+    "selection": "Alejandro Davidovich Fokina 2-1",
+    "p": 0.17968333333333333,
+    "fair": 457,
+    "take_at": 470
+   }
+  ],
+  "sgps": [
+   {
+    "match": "QF-A",
+    "sgp": "Alejandro Davidovich Fokina +1.5 sets & Over 20.5",
+    "p": 0.4953166666666667,
+    "naive_product": 0.42057423055555554,
+    "fair": 102,
+    "take_at": 112
+   },
+   {
+    "match": "QF-A",
+    "sgp": "Arthur Gea +1.5 sets & Over 20.5",
+    "p": 0.4952166666666667,
+    "naive_product": 0.4194712111111111,
+    "fair": 102,
+    "take_at": 112
+   },
+   {
+    "match": "QF-A",
+    "sgp": "Alejandro Davidovich Fokina +1.5 sets & Over 21.5",
+    "p": 0.46928333333333333,
+    "naive_product": 0.3844161605555556,
+    "fair": 113,
+    "take_at": 124
+   },
+   {
+    "match": "QF-A",
+    "sgp": "Arthur Gea +1.5 sets & Over 21.5",
+    "p": 0.46825,
+    "naive_product": 0.38340797111111113,
+    "fair": 114,
+    "take_at": 124
+   },
+   {
+    "match": "QF-A",
+    "sgp": "Alejandro Davidovich Fokina +1.5 sets & Over 22.5",
+    "p": 0.42928333333333335,
+    "naive_product": 0.3314143408333333,
+    "fair": 133,
+    "take_at": 145
+   },
+   {
+    "match": "QF-A",
+    "sgp": "Arthur Gea +1.5 sets & Over 22.5",
+    "p": 0.4297666666666667,
+    "naive_product": 0.3305451566666666,
+    "fair": 133,
+    "take_at": 144
+   },
+   {
+    "match": "QF-A",
+    "sgp": "Tiebreak Yes & Over 22.5",
+    "p": 0.2897666666666667,
+    "naive_product": 0.1828396675,
+    "fair": 245,
+    "take_at": 262
+   },
+   {
+    "match": "QF-A",
+    "sgp": "Alejandro Davidovich Fokina +3.5 games & Alejandro Davidovich Fokina +1.5 sets",
+    "p": 0.6233666666666666,
+    "naive_product": 0.4640170202777778,
+    "fair": -166,
+    "take_at": -146
+   },
+   {
+    "match": "QF-A",
+    "sgp": "Arthur Gea +3.5 games & Arthur Gea +1.5 sets",
+    "p": 0.6315333333333333,
+    "naive_product": 0.4682924555555555,
+    "fair": -171,
+    "take_at": -151
+   },
+   {
+    "match": "QF-A",
+    "sgp": "Arthur Gea ML & Over 21.5",
+    "p": 0.289,
+    "naive_product": 0.2836897105555556,
+    "fair": 246,
+    "take_at": 263
+   },
+   {
+    "match": "QF-A",
+    "sgp": "Alejandro Davidovich Fokina ML & Over 21.5",
+    "p": 0.2659666666666667,
+    "naive_product": 0.27127695611111113,
+    "fair": 276,
+    "take_at": 295
+   },
+   {
+    "match": "QF-A",
+    "sgp": "Under 2.5 sets & Under 23.5",
+    "p": 0.5703833333333334,
+    "naive_product": 0.35593823,
+    "fair": -133,
+    "take_at": -119
+   }
+  ],
+  "games_hist": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   61,
+   304,
+   814,
+   1674,
+   2663,
+   4175,
+   4550,
+   4742,
+   4587,
+   3132,
+   4591,
+   3351,
+   818,
+   2025,
+   2787,
+   1862,
+   2183,
+   2187,
+   2304,
+   2538,
+   2510,
+   1555,
+   1096,
+   1547,
+   1089,
+   132,
+   356,
+   367
+  ],
+  "in_play": {
+   "set1 to Arthur Gea": {
+    "n": 30278,
+    "pA": 0.8167646475989168,
+    "p3": 0.3910099742387212,
+    "games_mean": 23.804115199154502,
+    "p_over_22_5": 0.4852698328819605,
+    "p_B_plus15": 0.3910099742387212,
+    "p_A_plus15": 1.0
+   },
+   "set1 to Alejandro Davidovich Fokina": {
+    "n": 29722,
+    "pA": 0.1998856066213579,
+    "p3": 0.37595047439607027,
+    "games_mean": 23.616445730435366,
+    "p_over_22_5": 0.47150259067357514,
+    "p_B_plus15": 1.0,
+    "p_A_plus15": 0.37595047439607027
+   }
+  }
+ },
+ "QF-B": {
+  "delta": 0.009532608752011491,
+  "final": 0.5795206554343879,
+  "sim_pwin": 0.5785166666666667,
+  "p3": 0.3879166666666667,
+  "ptb_raw": 0.48213333333333336,
+  "games_mean": 24.584316666666666,
+  "games_median": 23.0,
+  "modal_exact": "6-4 6-4",
+  "exact_top": {
+   "6-4 6-4": 0.0311,
+   "6-3 6-4": 0.0301,
+   "7-6 7-6": 0.0246,
+   "6-4 7-6": 0.0214,
+   "7-6 6-4": 0.0197,
+   "4-6 4-6": 0.0191,
+   "6-3 7-6": 0.0188,
+   "7-6 6-3": 0.0187,
+   "3-6 4-6": 0.0184,
+   "6-7 6-7": 0.0176
+  },
+  "margin_mean": 0.9006833333333333,
+  "p_tbA": 0.28955,
+  "p_tbB": 0.2539166666666667,
+  "set1A": 0.5934333333333334,
+  "markets": [
+   {
+    "match": "QF-B",
+    "market": "Moneyline",
+    "selection": "Alexander Zverev",
+    "p": 0.5785166666666667,
+    "fair": -137,
+    "take_at": -130,
+    "price": -200,
+    "price_src": "DK ML via Dimers (search-reported)",
+    "ev": -0.13222500000000004,
+    "kelly": 0.0,
+    "breakeven": 0.6666666666666666
+   },
+   {
+    "match": "QF-B",
+    "market": "Moneyline",
+    "selection": "Alex de Minaur",
+    "p": 0.4214833333333333,
+    "fair": 137,
+    "take_at": 143,
+    "price": 175,
+    "price_src": "DK ML via Dimers (search-reported)",
+    "ev": 0.15907916666666666,
+    "kelly": 0.02,
+    "breakeven": 0.36363636363636365
+   },
+   {
+    "match": "QF-B",
+    "market": "Set spread",
+    "selection": "Alexander Zverev -1.5 sets",
+    "p": 0.38275,
+    "fair": 161,
+    "take_at": 168
+   },
+   {
+    "match": "QF-B",
+    "market": "Set spread",
+    "selection": "Alex de Minaur +1.5 sets",
+    "p": 0.61725,
+    "fair": -161,
+    "take_at": -151
+   },
+   {
+    "match": "QF-B",
+    "market": "Set spread",
+    "selection": "Alex de Minaur -1.5 sets",
+    "p": 0.22933333333333333,
+    "fair": 336,
+    "take_at": 347
+   },
+   {
+    "match": "QF-B",
+    "market": "Set spread",
+    "selection": "Alexander Zverev +1.5 sets",
+    "p": 0.7706666666666667,
+    "fair": -336,
+    "take_at": -303
+   },
+   {
+    "match": "QF-B",
+    "market": "Total sets",
+    "selection": "Over 2.5 (3 sets)",
+    "p": 0.3879166666666667,
+    "fair": 158,
+    "take_at": 164
+   },
+   {
+    "match": "QF-B",
+    "market": "Total sets",
+    "selection": "Under 2.5 (2 sets)",
+    "p": 0.6120833333333333,
+    "fair": -158,
+    "take_at": -148
+   },
+   {
+    "match": "QF-B",
+    "market": "Total games",
+    "selection": "Over 20.5",
+    "p": 0.6663666666666667,
+    "fair": -200,
+    "take_at": -186
+   },
+   {
+    "match": "QF-B",
+    "market": "Total games",
+    "selection": "Under 20.5",
+    "p": 0.33363333333333334,
+    "fair": 200,
+    "take_at": 207
+   },
+   {
+    "match": "QF-B",
+    "market": "Total games",
+    "selection": "Over 21.5",
+    "p": 0.6156166666666667,
+    "fair": -160,
+    "take_at": -150
+   },
+   {
+    "match": "QF-B",
+    "market": "Total games",
+    "selection": "Under 21.5",
+    "p": 0.38438333333333335,
+    "fair": 160,
+    "take_at": 167
+   },
+   {
+    "match": "QF-B",
+    "market": "Total games",
+    "selection": "Over 22.5",
+    "p": 0.5270666666666667,
+    "fair": -111,
+    "take_at": -106
+   },
+   {
+    "match": "QF-B",
+    "market": "Total games",
+    "selection": "Under 22.5",
+    "p": 0.4729333333333333,
+    "fair": 111,
+    "take_at": 117
+   },
+   {
+    "match": "QF-B",
+    "market": "Total games",
+    "selection": "Over 23.5",
+    "p": 0.45415,
+    "fair": 120,
+    "take_at": 126,
+    "price": -105,
+    "price_src": "BetMGM via Sportskeeda",
+    "ev": -0.11332619047619052,
+    "kelly": 0.0,
+    "breakeven": 0.5121951219512195
+   },
+   {
+    "match": "QF-B",
+    "market": "Total games",
+    "selection": "Under 23.5",
+    "p": 0.54585,
+    "fair": -120,
+    "take_at": -114,
+    "price": -140,
+    "price_src": "BetMGM via Sportskeeda",
+    "ev": -0.0642571428571429,
+    "kelly": 0.0,
+    "breakeven": 0.5833333333333333
+   },
+   {
+    "match": "QF-B",
+    "market": "Total games",
+    "selection": "Over 24.5",
+    "p": 0.44475,
+    "fair": 125,
+    "take_at": 130
+   },
+   {
+    "match": "QF-B",
+    "market": "Total games",
+    "selection": "Under 24.5",
+    "p": 0.55525,
+    "fair": -125,
+    "take_at": -118
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alexander Zverev -1.5",
+    "p": 0.5248166666666667,
+    "fair": -110,
+    "take_at": -105
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alex de Minaur +1.5",
+    "p": 0.47518333333333335,
+    "fair": 110,
+    "take_at": 116
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alex de Minaur -1.5",
+    "p": 0.36146666666666666,
+    "fair": 177,
+    "take_at": 184
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alexander Zverev +1.5",
+    "p": 0.6385333333333333,
+    "fair": -177,
+    "take_at": -165
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alexander Zverev -2.5",
+    "p": 0.4573833333333333,
+    "fair": 119,
+    "take_at": 124,
+    "price": -120,
+    "price_src": "bet365 Z -2.5 (not DK)",
+    "ev": -0.16146388888888885,
+    "kelly": 0.0,
+    "breakeven": 0.5454545454545454
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alex de Minaur +2.5",
+    "p": 0.5426166666666666,
+    "fair": -119,
+    "take_at": -112
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alex de Minaur -2.5",
+    "p": 0.30061666666666664,
+    "fair": 233,
+    "take_at": 241
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alexander Zverev +2.5",
+    "p": 0.6993833333333334,
+    "fair": -233,
+    "take_at": -215
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alexander Zverev -3.5",
+    "p": 0.36405,
+    "fair": 175,
+    "take_at": 182
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alex de Minaur +3.5",
+    "p": 0.63595,
+    "fair": -175,
+    "take_at": -163
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alex de Minaur -3.5",
+    "p": 0.2236,
+    "fair": 347,
+    "take_at": 358
+   },
+   {
+    "match": "QF-B",
+    "market": "Game spread",
+    "selection": "Alexander Zverev +3.5",
+    "p": 0.7764,
+    "fair": -347,
+    "take_at": -312
+   },
+   {
+    "match": "QF-B",
+    "market": "Tiebreak in match",
+    "selection": "Yes",
+    "p": 0.48213333333333336,
+    "fair": 107,
+    "take_at": 113
+   },
+   {
+    "match": "QF-B",
+    "market": "Tiebreak in match",
+    "selection": "No",
+    "p": 0.5178666666666667,
+    "fair": -107,
+    "take_at": -102
+   },
+   {
+    "match": "QF-B",
+    "market": "Set 1 winner",
+    "selection": "Alexander Zverev",
+    "p": 0.5934333333333334,
+    "fair": -146,
+    "take_at": -138
+   },
+   {
+    "match": "QF-B",
+    "market": "Set 1 winner",
+    "selection": "Alex de Minaur",
+    "p": 0.4065666666666667,
+    "fair": 146,
+    "take_at": 152
+   },
+   {
+    "match": "QF-B",
+    "market": "Correct score (sets)",
+    "selection": "Alexander Zverev 2-0",
+    "p": 0.38275,
+    "fair": 161,
+    "take_at": 168
+   },
+   {
+    "match": "QF-B",
+    "market": "Correct score (sets)",
+    "selection": "Alex de Minaur 2-0",
+    "p": 0.22933333333333333,
+    "fair": 336,
+    "take_at": 347
+   },
+   {
+    "match": "QF-B",
+    "market": "Correct score (sets)",
+    "selection": "Alexander Zverev 2-1",
+    "p": 0.19576666666666667,
+    "fair": 411,
+    "take_at": 424
+   },
+   {
+    "match": "QF-B",
+    "market": "Correct score (sets)",
+    "selection": "Alex de Minaur 2-1",
+    "p": 0.19215,
+    "fair": 420,
+    "take_at": 433
+   }
+  ],
+  "sgps": [
+   {
+    "match": "QF-B",
+    "sgp": "Alex de Minaur +1.5 sets & Over 20.5",
+    "p": 0.5007666666666667,
+    "naive_product": 0.411314825,
+    "fair": -100,
+    "take_at": 110
+   },
+   {
+    "match": "QF-B",
+    "sgp": "Alexander Zverev +1.5 sets & Over 20.5",
+    "p": 0.5534833333333333,
+    "naive_product": 0.5135465777777778,
+    "fair": -124,
+    "take_at": -111
+   },
+   {
+    "match": "QF-B",
+    "sgp": "Alex de Minaur +1.5 sets & Over 21.5",
+    "p": 0.48128333333333334,
+    "naive_product": 0.3799893875,
+    "fair": 108,
+    "take_at": 118
+   },
+   {
+    "match": "QF-B",
+    "sgp": "Alexander Zverev +1.5 sets & Over 21.5",
+    "p": 0.52195,
+    "naive_product": 0.4744352444444445,
+    "fair": -109,
+    "take_at": 101
+   },
+   {
+    "match": "QF-B",
+    "sgp": "Alex de Minaur +1.5 sets & Over 22.5",
+    "p": 0.44553333333333334,
+    "naive_product": 0.3253319,
+    "fair": 124,
+    "take_at": 136
+   },
+   {
+    "match": "QF-B",
+    "sgp": "Alexander Zverev +1.5 sets & Over 22.5",
+    "p": 0.46823333333333333,
+    "naive_product": 0.40619271111111116,
+    "fair": 114,
+    "take_at": 124
+   },
+   {
+    "match": "QF-B",
+    "sgp": "Tiebreak Yes & Over 22.5",
+    "p": 0.3759,
+    "naive_product": 0.2541164088888889,
+    "fair": 166,
+    "take_at": 179
+   },
+   {
+    "match": "QF-B",
+    "sgp": "Alex de Minaur +3.5 games & Alex de Minaur +1.5 sets",
+    "p": 0.55735,
+    "naive_product": 0.3925401375,
+    "fair": -126,
+    "take_at": -113
+   },
+   {
+    "match": "QF-B",
+    "sgp": "Alexander Zverev +3.5 games & Alexander Zverev +1.5 sets",
+    "p": 0.719,
+    "naive_product": 0.5983456,
+    "fair": -256,
+    "take_at": -217
+   },
+   {
+    "match": "QF-B",
+    "sgp": "Alexander Zverev ML & Over 21.5",
+    "p": 0.32986666666666664,
+    "naive_product": 0.35614450194444447,
+    "fair": 203,
+    "take_at": 218
+   },
+   {
+    "match": "QF-B",
+    "sgp": "Alex de Minaur ML & Over 21.5",
+    "p": 0.28575,
+    "naive_product": 0.25947216472222223,
+    "fair": 250,
+    "take_at": 267
+   },
+   {
+    "match": "QF-B",
+    "sgp": "Under 2.5 sets & Under 23.5",
+    "p": 0.5423666666666667,
+    "naive_product": 0.33410568749999997,
+    "fair": -119,
+    "take_at": -107
+   }
+  ],
+  "games_hist": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   31,
+   144,
+   399,
+   1088,
+   1835,
+   3295,
+   3837,
+   4888,
+   4501,
+   3045,
+   5313,
+   4375,
+   564,
+   2016,
+   3568,
+   1445,
+   1841,
+   1939,
+   2015,
+   2598,
+   2774,
+   1818,
+   1336,
+   2224,
+   1636,
+   144,
+   525,
+   806
+  ],
+  "in_play": {
+   "set1 to Alexander Zverev": {
+    "n": 35606,
+    "pA": 0.8209852272088973,
+    "p3": 0.35502443408414314,
+    "games_mean": 24.081053754985113,
+    "p_over_22_5": 0.4910689209683761,
+    "p_B_plus15": 0.35502443408414314,
+    "p_A_plus15": 1.0
+   },
+   "set1 to Alex de Minaur": {
+    "n": 24394,
+    "pA": 0.2246044109207182,
+    "p3": 0.43592686726244156,
+    "games_mean": 25.318889890956793,
+    "p_over_22_5": 0.5796097401000246,
+    "p_B_plus15": 1.0,
+    "p_A_plus15": 0.43592686726244156
+   }
+  }
+ }
+}

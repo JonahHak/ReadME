@@ -1,0 +1,144 @@
+{
+ "QF-A": {
+  "blind": 0.5487325805742116,
+  "consensus": 0.4697755887840498,
+  "gap_pts": 7.89569917901618,
+  "final": 0.5093121586176067,
+  "market_table": [
+   {
+    "source": "DraftKings ML (Dimers)",
+    "number": "Gea +100 / ADF -116",
+    "p_A_novig": 0.48214285714285704,
+    "status": "search-reported, Oct 14"
+   },
+   {
+    "source": "Pinnacle ML (predictobets)",
+    "number": "Gea 2.07 / ADF 1.82",
+    "p_A_novig": 0.4678663239074551,
+    "status": "search-reported, Oct 14-15"
+   },
+   {
+    "source": "Tennis Tonic early prices",
+    "number": "Gea 2.06 / ADF 1.75",
+    "p_A_novig": 0.4593175853018373,
+    "status": "search-reported, Oct 14"
+   },
+   {
+    "source": "TA hard Elo (2026-10-05)",
+    "number": "Gea 1784.6 / ADF 1856.0",
+    "p_A_novig": 0.39866962184425303,
+    "status": "fetched via Exa; pre-Shanghai"
+   }
+  ],
+  "waterfall": [
+   [
+    "ratings only, iid, no shrink",
+    0.524959221804584
+   ],
+   [
+    "+ court pace (+1.0 pt each)",
+    0.5247365586843156
+   ],
+   [
+    "+ this-week form x0.1",
+    0.5672319167500087
+   ],
+   [
+    "+ physical/fatigue mixture (iid)",
+    0.5834997797163335
+   ],
+   [
+    "+ backtest shrink k=0.58",
+    0.5487325805742116
+   ]
+  ],
+  "inversion": {
+   "pa": 0.650743326689192,
+   "pb": 0.6596807029829715,
+   "sum": 1.3104240296721636,
+   "p_win": 0.4697747861279155,
+   "p3": 0.39386341697290916,
+   "ptb": 0.4611509931183276,
+   "games": 24.47816003375962,
+   "p_over": 0.5230574239370421,
+   "note": "total: Sportskeeda O22.5 -135 / U -110 (book unnamed)",
+   "model_sum": 1.255993351817111
+  }
+ },
+ "QF-B": {
+  "blind": 0.5149065759834381,
+  "consensus": 0.6415200984457683,
+  "gap_pts": -12.661352246233015,
+  "final": 0.5795206554343879,
+  "market_table": [
+   {
+    "source": "DraftKings ML (Dimers)",
+    "number": "Zverev -200 / ADM +175",
+    "p_A_novig": 0.6470588235294118,
+    "status": "search-reported, Oct 14"
+   },
+   {
+    "source": "Kalshi via Robinhood",
+    "number": "Zverev 65c / ADM 36c",
+    "p_A_novig": 0.6435643564356436,
+    "status": "fetched via Exa, Oct 15 ~00:30 UTC"
+   },
+   {
+    "source": "OddsSafari best odds",
+    "number": "Zverev 1.55 / ADM 2.75",
+    "p_A_novig": 0.6395348837209303,
+    "status": "fetched via Exa"
+   },
+   {
+    "source": "bet365 (news.bet365)",
+    "number": "Zverev -200 / ADM +162",
+    "p_A_novig": 0.6359223300970873,
+    "status": "search-reported"
+   },
+   {
+    "source": "TA hard Elo (2026-10-05)",
+    "number": "Zverev 2044.6 / ADM 1943.5",
+    "p_A_novig": 0.6415225049058048,
+    "status": "fetched via Exa; pre-Shanghai"
+   }
+  ],
+  "waterfall": [
+   [
+    "ratings only, iid, no shrink",
+    0.6657192678234567
+   ],
+   [
+    "+ court pace (+1.0 pt each)",
+    0.6640288316656231
+   ],
+   [
+    "+ this-week form x0.1",
+    0.6381249505600775
+   ],
+   [
+    "+ H2H blend",
+    0.6057020327867653
+   ],
+   [
+    "+ physical/fatigue mixture (iid)",
+    0.5256859800741119
+   ],
+   [
+    "+ backtest shrink k=0.58",
+    0.5149065759834381
+   ]
+  ],
+  "inversion": {
+   "pa": 0.7066466508818308,
+   "pb": 0.6631525429632255,
+   "sum": 1.3697991938450562,
+   "p_win": 0.6415204273832111,
+   "p3": 0.38062573259406013,
+   "ptb": 0.5433865744709397,
+   "games": 25.032875815003344,
+   "p_over": 0.46753764531985365,
+   "note": "total: BetMGM O23.5 -105 / U -140 (via Sportskeeda)",
+   "model_sum": 1.3320857206088323
+  }
+ }
+}

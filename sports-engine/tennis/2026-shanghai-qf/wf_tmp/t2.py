@@ -1,0 +1,30 @@
+import sys; sys.path.insert(0,'/tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp')
+from br_common import *
+exec(open('/tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/t1.py').read().split("P='Alexander Zverev'")[0].split("df = pd.read_pickle")[0])
+df = pd.read_pickle('/tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/df.pkl')
+def summ(a, label):
+    c = a[a.complete]
+    n=len(c); w=c.won.sum(); w20=(c.won&(c.nsets==2)).sum(); l02=((~c.won)&(c.nsets==2)).sum(); three=(c.nsets==3).sum()
+    w21=(c.won&(c.nsets==3)).sum(); l12=((~c.won)&(c.nsets==3)).sum()
+    f=lambda x,y: f'{x}/{y}={x/y:.1%}' if y else f'{x}/0'
+    print(f'{label}: n={n} (excl {len(a)-n} ret/wo) W-L {w}-{n-w} | 2-0 {w20}, 2-1 {w21}, 1-2 {l12}, 0-2 {l02} | won 2-0 of all {f(w20,n)} | 3 sets {f(three,n)} | lost 0-2 of all {f(l02,n)} | losses in straights {f(l02,n-w)} | won>=1 set {f(n-l02,n)} | anyTB {f((c.ntb>0).sum(),n)} | dates {c.date.min().date() if n else None}..{c.date.max().date() if n else None}')
+P='Alex de Minaur'
+print(df[df.w.str.contains('Minaur')|df.l.str.contains('Minaur')].w.unique()[:3])
+d = hardbo3(df, '2024-10-01', '2026-10-15')
+m = player_view(d, P)
+print('dM own rank range', m.prank.min(), m.prank.max(), 'n rows', len(m))
+summ(m,'dM all')
+summ(m[m.orank.between(1,5)],'dM vs top-5')
+summ(m[m.orank.between(1,10)],'dM vs top-10')
+summ(m[m.orank<m.prank],'dM as rank-underdog (opp better ranked)')
+summ(m[m.orank>m.prank],'dM as rank-favourite')
+print(m[m.orank.between(1,10)&m.complete][['date','tourney','rnd','opp','orank','prank','won','score']].to_string())
+m2 = player_view(hardbo3(df,'2023-01-01','2026-10-15'),P)
+summ(m2,'dM 2023-01.. all')
+summ(m2[m2.orank.between(1,5)],'dM 2023-01.. vs top-5')
+summ(m2[m2.orank.between(1,10)],'dM 2023-01.. vs top-10')
+summ(m2[m2.orank<m2.prank],'dM 2023-01.. as rank-underdog')
+summ(m2[m2.orank.between(1,5)&~m2.opp.isin(['Jannik Sinner','Carlos Alcaraz','Novak Djokovic'])],'dM 2023-01.. vs top-5 excl Sinner/Alcaraz/Djokovic')
+print(m2[m2.orank.between(1,5)&m2.complete][['date','tourney','rnd','opp','orank','won','score']].to_string())
+summ(m[m.date.dt.year==2026],'dM 2026')
+print(m[m.date>='2026-07-01'][['date','tourney','rnd','opp','orank','won','score','ret']].to_string())

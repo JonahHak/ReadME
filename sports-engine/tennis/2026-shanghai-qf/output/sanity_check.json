@@ -1,0 +1,2057 @@
+{
+ "base": {
+  "findings": [
+   {
+    "metric": "Zverev: share of his wins that were 2-0 / share of all matches won 2-0 (hard Bo3, all opponents)",
+    "value": "35/50 = 70.0% of wins were 2-0; 35/70 = 50.0% of all matches won 2-0. Set split 2-0 35, 2-1 15, 1-2 10, 0-2 10. 3 sets 35.7%. Lost 0-2 14.3%",
+    "n": "70 completed matches (3 RET/W/O excluded)",
+    "date_range": "2024-10-02..2026-10-07 (includes Shanghai 2026 R64-R16)",
+    "method": "Local db.load_all(extra=shanghai.frame()); surface=Hard, bestof=3, Laver Cup/Next Gen/Davis excluded; only completed matches (no RET/W/O); sets from db.parse_score. Gap: 2026 Canada missing from local data. Scripts: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/t1.py"
+   },
+   {
+    "metric": "Zverev vs opponents ranked 1-20 (rank at the time)",
+    "value": "Wins that were 2-0: 11/13 = 84.6%. Won 2-0 in 11/26 = 42.3% of all matches. W-L 13-13 (pulled down by losses to Sinner/Alcaraz). 3 sets 30.8%. Longer window 2023-01..: 2-0 in 18/51 = 35.3%; 72% of wins were 2-0",
+    "n": "26 (2024-10..), 51 (2023-01..)",
+    "date_range": "2024-10-21..2026-09-30; 2023-01-02..2026-09-30",
+    "method": "Same filter as above. Shanghai 2026 rows have no rank, so they are left out of rank-filtered subsets"
+   },
+   {
+    "metric": "Zverev vs opponents ranked 5-15 (closest to de Minaur at No. 9)",
+    "value": "Won 2-0 in 8/12 = 66.7%; 8 of his 9 wins were 2-0. W-L 9-3, 3 sets 25.0%. Longer window 2023-01..: 10/24 = 41.7% won 2-0, 3 sets 41.7%, W-L 14-10",
+    "n": "12 (2024-10..), 24 (2023-01..)",
+    "date_range": "2024-10-28..2026-09-30; 2023-01..2026-09",
+    "method": "Same filter, opponent rank 5-15. The two windows disagree (67% vs 42%) because the samples are small"
+   },
+   {
+    "metric": "Zverev 2026 only (hard Bo3)",
+    "value": "Won 2-0 in 12/23 = 52.2%; 12/17 = 70.6% of wins were 2-0; 3 sets 34.8%. Before Shanghai: 11/20 = 55.0%. Since July (Cincinnati, Beijing, Shanghai): 4/9 = 44.4% won 2-0, 5/9 = 55.6% went 3 sets, 0 straight-set losses",
+    "n": "23 (9 since July)",
+    "date_range": "2026-01-04..2026-10-07",
+    "method": "Same filter, year 2026. Canada 2026 missing"
+   },
+   {
+    "metric": "Zverev as rank favourite vs top-20 opponents",
+    "value": "Fav win 67.7%; won 2-0 51.6%; 76.2% of wins were 2-0; 3 sets 41.9%; opponent won 2-0 6.5%",
+    "n": "31",
+    "date_range": "2023-01..2026-09",
+    "method": "Hard Bo3 completed matches with both ranks known, Zverev ranked higher, opponent ranked 20 or better"
+   },
+   {
+    "metric": "de Minaur vs top-5 opponents: won at least one set / lost 0-2",
+    "value": "2024-10..: won \u22651 set in 3/8 = 37.5%, lost 0-2 in 5/8 = 62.5%, W-L 0-8 (6 of the 8 were against Sinner or Alcaraz). 2023-01..: won \u22651 set 9/17 = 52.9%, lost 0-2 8/17 = 47.1%, W-L 5-12. Against top-5 players other than Sinner/Alcaraz/Djokovic, 2023-01..: lost 0-2 3/9 = 33.3%, won \u22651 set 66.7%",
+    "n": "8 / 17 / 9",
+    "date_range": "2024-11-11..2025-11-10; 2023-01-02..2025-11-10",
+    "method": "Hard Bo3 completed matches, opponent rank 1-5 at the time. Script: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/t2.py"
+   },
+   {
+    "metric": "de Minaur vs top-10 opponents",
+    "value": "2024-10..: won \u22651 set 7/13 = 53.8%, lost 0-2 6/13 = 46.2%, W-L 2-11. 2023-01..: won \u22651 set 18/28 = 64.3%, lost 0-2 35.7%, 3 sets 42.9%",
+    "n": "13 / 28",
+    "date_range": "2024-11..2026-02; 2023-01..2026-02",
+    "method": "Same filter, opponent rank 1-10"
+   },
+   {
+    "metric": "de Minaur straight-set loss rate as underdog (opponent ranked higher)",
+    "value": "2024-10..: lost 0-2 in 6/11 = 54.5% (6 of his 9 losses). 2023-01..: lost 0-2 in 11/29 = 37.9%, won \u22651 set 62.1%. Overall, every opponent 2024-10..: lost 0-2 20.3%, and 61.5% of his losses were 0-2",
+    "n": "11 / 29 / 79",
+    "date_range": "2024-11..2026-02; 2023-01..2026-02; 2024-10..2026-10",
+    "method": "Underdog defined by ATP rank because the local data has no historical odds. Completed hard Bo3 only"
+   },
+   {
+    "metric": "Zverev vs de Minaur H2H set outcomes",
+    "value": "Hard Bo3 meetings with known set scores (9): Zverev 2-0 in 3 (Washington 2018 6-2 6-4, Shanghai 2018 6-1 6-4, Acapulco 2019 6-4 6-4, all from CONTEXT); de Minaur 2-0 in 1 (Laver Cup 2025 6-1 6-4, local data); deciding set in 5: ATP Cup 2020 dM 4-6 7-6 6-2 (worked out from local Match Charting point data), Vienna 2021 Zverev in 3 (CONTEXT, not checked), United Cup 2024 dM 5-7 6-3 6-4 (local), Indian Wells 2024 Zverev 5-7 6-2 6-3 (local), Laver Cup 2026 match tiebreak (CONTEXT). Since 2020: 5 of 6 went to a decider and Zverev won 2-0 in 0 of 6. Also Roland Garros 2024 QF (clay, best of 5) Zverev 6-4 7-6(5) 6-4. Two of Zverev's 8 H2H wins are not in local data or CONTEXT, so their scores are not found",
+    "n": "9 hard Bo3 with set scores (4 from local data, 1 from local charting points, 4 from CONTEXT)",
+    "date_range": "2018-08..2026-09",
+    "method": "Local data search for both names (all surfaces); ATP Cup 2020 sets rebuilt from data/mcp/charting-m-points-2020s.csv using the last point of each set; the rest taken from CONTEXT as given"
+   },
+   {
+    "metric": "Tour base rate: P(favourite wins 2-0) when the favourite is a 60-68% shot",
+    "value": "Our ridge ratings, calibrated: fav 2-0 45.0% (\u00b14.6% 95% CI), fav 2-1 20.3%, dog 2-1 14.9%, dog 2-0 19.8%, 3 sets 35.2%, fav actually won 65.3%, so underdog +1.5 sets landed 55.0%. By rank: fav 2-0 42.4% (\u00b12.7%), 3 sets 38.7%, fav won 65.9%, underdog +1.5 landed 57.6%. Smoothed fit at exactly 64.2% (market Zverev): fav 2-0 42.2% (ratings) / 42.5% (rank). At 58.6% (our Zverev): 36.8% / 38.0%",
+    "n": "449 (ratings bucket), 1244 (rank bucket)",
+    "date_range": "Ratings: 2025-01-06..2026-09-30 walk-forward backtest; rank: 2023-01-02..2026-09-30",
+    "method": "Ratings: output/backtest_raw.pkl pa/pb turned into a match probability with the exact point model (pointmodel.set_dist; match = s\u00b2(3-2s)), then calibrated by logistic slope 0.585 on the logit because the raw ratings are overconfident; bucketed on the favourite's calibrated probability. Rank: logistic fit of favourite win on log(dog rank / fav rank) (coefficient 0.495) over 4,572 completed hard Bo3 matches. Smoothed values from a logistic regression of outcome on logit(p). Scripts: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/t4.py, t4b.py, t6.py"
+   },
+   {
+    "metric": "Elite matchups: fewer 3-setters, and favourites win more often in straight sets",
+    "value": "Both players top-15: 3 sets 31.7%, fav 2-0 49.7%, fav won 66.7%, 74.6% of fav wins were 2-0. Both top-15 with neither being Sinner/Alcaraz/Djokovic: 3 sets 30.4%, 73.6% of fav wins were 2-0 (n=92). Both top-20: fav 2-0 45.0%, 3 sets 35.7%, 72.2% of fav wins were 2-0. Top-5 fav (not Sinner/Alcaraz/Djokovic) vs top 6-15 dog: fav 2-0 54.1%, fav won 67.6% (n=37, wide CI). By comparison, generic 60-68% favourites win 64-69% of their wins in straight sets",
+    "n": "183 / 92 / 300 / 37",
+    "date_range": "2023-01..2026-09",
+    "method": "Completed hard Bo3 matches with both ranks known, cut by rank tier. Script: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/t8.py"
+   },
+   {
+    "metric": "Tour base rate: P(3 sets) in near-coin-flip matches",
+    "value": "Ratings-calibrated fav 50-56%: 3 sets 42.4% (fav 2-0 29.1%, dog 2-0 28.5%). Smoothed at 50.3%: 41.9%. Rank-based near coin flip (rank p under 56%): 36.5%; smoothed at 50.3%: 38.4%. All hard Bo3: 35.9% (n=4,572); Masters 36.3%; 2025-26 36.3%",
+    "n": "505 (ratings), 1283 (rank), 4572 (all)",
+    "date_range": "2025-01..2026-09 (ratings); 2023-01..2026-09 (rank/all)",
+    "method": "Same as the favourite base-rate row"
+   },
+   {
+    "metric": "Davidovich Fokina hard Bo3 set outcomes",
+    "value": "2025-26: 3 sets 18/58 = 31.0%; straight-set wins 46.6%; straight-set losses 22.4%; one player won 2-0 in 69.0% of his matches; 71.1% of his wins and 65.0% of his losses were in straight sets; \u22651 tiebreak in 46.6%; mean 23.2 games. 2026 only: 3 sets 38.1% (n=21), tiebreak 52.4%. 2023-01..: 3 sets 31.9% (n=113)",
+    "n": "58 (4 RET/W/O excluded); 21 in 2026; 113 since 2023",
+    "date_range": "2025-01-06..2026-10-07",
+    "method": "Same filter. Script: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/t5.py"
+   },
+   {
+    "metric": "Arthur Gea hard Bo3 set outcomes (THIN SAMPLE)",
+    "value": "3 sets 6/12 = 50.0%; straight-set wins 5/12 = 41.7%; straight-set losses 1/12 = 8.3%; W-L 10-2; \u22651 tiebreak 58.3%; mean 25.1 games. Without Shanghai 2026: 3 sets 4/8. Local data holds only 18 hard tour-level Gea matches: 12 best-of-3 (1 in 2025 at Marseille, the rest Los Cabos/Beijing/Shanghai 2026) plus 6 best-of-5 Slam matches. The brief's figure of 14 does not match the local data. No Challenger data",
+    "n": "12 best-of-3",
+    "date_range": "2025-02-10..2026-10-07",
+    "method": "Same filter. The sample is too small to support a reliable player-specific rate"
+   },
+   {
+    "metric": "Shanghai 2026 this week: 3-set matches for the four quarter-finalists",
+    "value": "6 of 12 went 3 sets (50%): Zverev 2/3 (Halys, Bublik), Gea 2/4 (Faria, Humbert), Davidovich Fokina 2/3 (Tiafoe, Hurkacz), de Minaur 0/2 (plus a walkover). 9 of 12 matches had at least one tiebreak (Zverev 3/3, Gea 3/4, ADF 2/3, dM 1/2); mean 26.4 games. Earlier Shanghai baselines: 3 sets 40.2% (2023), 33.0% (2024), 37.5% (2025); tiebreak 40.2% / 44.7% / 35.2%",
+    "n": "12 matches (2026); 88-94 per earlier year",
+    "date_range": "Shanghai 2026 R128-R16; Shanghai 2023-2025",
+    "method": "Rows from src/shanghai.py added through shanghai.frame(); earlier years from TML. Script: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/t6.py, t7.py"
+   },
+   {
+    "metric": "Tiebreak base rates (bears on the QF-A 'No tiebreak' value pick)",
+    "value": "Tour hard Bo3 \u22651 tiebreak: 40.5% (n=4,592). ADF: 48.4% (n=64, 2024-10..), 52.4% in 2026. Gea: 58.3% (n=12). Zverev 40.0%, de Minaur 30.4% (2024-10..). Player-based estimate for Gea vs ADF (Gea shrunk toward the tour rate): about 45-50%, compared with the model's 38.2%. That puts 'No tiebreak' at about 50-55%, below the 60.3% needed at -152",
+    "n": "see value",
+    "date_range": "2023-01..2026-10 (tour); 2024-10..2026-10 (players)",
+    "method": "Share of completed hard Bo3 matches with at least one 7-6 set. The combined estimate is a rough pooling: ADF's rate averaged with Gea's rate after shrinking it toward 40.5% with a prior weight of about 30 matches"
+   }
+  ],
+  "zverev_straight_set_estimate": "From base rates alone, P(Zverev 2-0) is about 42%, with a plausible range of 37-47%. Our model says 38.9%, so base rates sit about 3 points higher. What pushes it up: generic 60-68% favourites win 2-0 about 42-45% of the time (n=449 and n=1,244; smoothed value at the market's 64.2% is 42.2-42.5%). In elite matchups 73-76% of favourite wins come in straight sets, against 64-69% for generic favourites; Zverev himself won 70% of his wins 2-0 (35/50), 76% as favourite against top-20 opponents, and 8 of 12 against players ranked 5-15. Multiplying the market's 64.2% by a 73% straight-set share gives about 47%. What pulls it down: 5 of the last 6 hard meetings with de Minaur went to a deciding set and Zverev won 0 of those 6 in straights (his only 2-0 wins were in 2018-19). Zverev went 3 sets in 2 of 3 matches this week with an ankle problem, and 5 of 9 since July. On a 58.6% win chance, as our model has it, the generic base rate is about 37-38%, which matches the model. So the model's 2-0 number is reasonable for its own win probability; the gap comes from the model's lower win chance, which rests on the -8 point ankle adjustment. The crowd is right that Zverev 2-0 is the single most likely result, but it still happens less than half the time. If P(Zverev 2-0) is about 42%, de Minaur +1.5 sets is about 58% (fair price about -138). That is below the 59.7% break-even at -148, so the pick is roughly break-even or slightly negative on base rates and is only positive if you accept the model's 61.1%. The search-reported NEO.bet price for 'de Minaur to win a set' (1.57, 63.7% raw) would put Zverev 2-0 near 36-40%, closer to our model.",
+  "adf_gea_straight_set_estimate": "From base rates alone, P(either player wins 2-0) in QF-A is about 60%, range 57-65%, so P(3 sets) is about 40%. Split: ADF 2-0 about 31-32%, Gea 2-0 about 29-30% (with ADF a slight market favourite near 53%). Our model has 61.6% (ADF 31.4%, Gea 30.2%), which is consistent. Inputs: tour near-coin-flip matches end 2-0 in 58.1% (ratings-calibrated) to 61.6% (rank-based) of cases, and all hard Bo3 in 64.1%. ADF's matches ended 2-0 in 69.0% (n=58, 2025-26) but only 61.9% in 2026 (n=21). Gea's ended 2-0 in 50% (n=12, too thin to weight much). This week Gea and ADF each went 3 sets twice (2/4 and 2/3). The search-reported Oddset '3 sets' price of 2.25 (44.4% raw) puts either-2-0 at about 56% or higher. Gea +1.5 sets on base rates is about 67-69%, against the model's 68.6%, so it is consistent but leaves little room at -202 (66.9% break-even). Separate flag: the 'No tiebreak' value pick (model 61.8%) is not supported by base rates. ADF (48%, n=64) and Gea (58%, n=12) both play tiebreaks more often than the tour's 40.5%, and 9 of 12 of the four players' matches this week had a tiebreak. Base rates put No tiebreak at about 50-55%, below the 60.3% needed at -152.",
+  "summary": "I checked the straight-sets question against our local match data: tour-level hard-court best-of-3 matches from 2023-01 to 2026-09, plus this week's Shanghai rows. Retirements and walkovers are excluded, and Laver Cup, Next Gen and Davis Cup are left out. Two gaps: 2026 Canada is missing, and the Shanghai 2026 rows have no opponent ranks. Scripts and intermediate files are in /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/ (br_common.py, t1.py to t8.py, df.pkl, bt_p.pkl). I did not fetch anything from the web.\n\nQF-B: the crowd's 'Zverev 2-0' is the single most likely set score in base rates as well as in our model, but it is still less likely than not. Base rates put it at about 42% (range 37-47%) against our 38.9%. Pushing it up: elite matchups produce fewer 3-setters (about 30-32% against 36% tour-wide). Zverev wins in straight sets often (70% of his wins since Oct 2024; 8 of 12 against players ranked 5-15). Generic 64% favourites win 2-0 about 42-45% of the time. Pulling it down: de Minaur took 5 of the last 6 hard-court meetings to a deciding set, and Zverev has not beaten him 2-0 since 2019. Zverev also went 3 sets in 2 of 3 matches this week with the ankle problem. Our model's 2-0 number fits its own 58.6% win chance; the difference from the market comes from the lower win chance, which leans on the ankle adjustment. Consequence: the high-hit pick de Minaur +1.5 sets is about 58% on base rates against 61.1% in the model, which makes it roughly break-even at -148 rather than clearly positive. It should be presented as model-dependent (ankle) rather than research-confirmed, or taken only at about -135 or better. The de Minaur moneyline value pick likewise depends on the model's win probability; base rates do not test it directly.\n\nQF-A: base rates say about 60% that one player wins 2-0 (ADF about 31%, Gea about 29%), against the model's 61.6% (31.4% / 30.2%). That is consistent, and Gea +1.5 sets (base rate about 67-69%, model 68.6%) holds up, but with little margin at -202. The main new problem is the 'No tiebreak' value pick. Model 61.8% looks too high: ADF plays tiebreaks in 48% of his matches (n=64) and Gea in 58% (n=12, thin), against 40.5% tour-wide, and 9 of 12 of the four players' matches this week had a tiebreak. Base rates put No tiebreak at about 50-55%, below the 60.3% needed at -152, so I would drop it or downgrade it.\n\nCaveats: Gea has only 12 hard best-of-3 tour-level matches in local data plus 6 Slam matches, not the 14 in the brief, and no Challengers. Some H2H set scores (2018-19 Zverev 2-0 wins, Vienna 2021, Laver Cup 2026) are taken from CONTEXT rather than local data. Two of Zverev's eight H2H wins have no score in either source. Market figures (NEO.bet 1.57, Oddset 2.25) are search-reported from CONTEXT and were not opened by me."
+ },
+ "results": [
+  {
+   "match": "QF-B",
+   "research": {
+    "match": "2026 Rolex Shanghai Masters QF: Alexander Zverev (1) vs Alex de Minaur (9). Thu Oct 15 2026, not before 6:00 AM ET, Stadium Court, outdoor hard",
+    "predictions": [
+     {
+      "source": "bets.com.au (Andrew Hendrie)",
+      "url": "https://www.bets.com.au/tennis/atp-tour/alexander-zverev-vs-alex-de-minaur-atp-shanghai-tips-prediction-live-stream-20261014-0020/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "Zverev 2-0",
+      "probability_given": "none",
+      "published": "2026-10-14 (updated 23:56)",
+      "type": "tipster",
+      "quote_or_basis": "'I'll take him to close this out in straight sets.' Reasons: de Minaur is 2-13 in Slam/Masters QFs and 7-43 vs top-5 (excluding Laver Cup), and 10 of his last 12 losses to top-5 players came in straight sets. Official H2H is 8-2 and Zverev has won his last 7 Masters QFs. Caveat in the article: Zverev has lost 19 of his last 24 vs top 10."
+     },
+     {
+      "source": "Last Word on Sports QF predictions (Zain Mustafa)",
+      "url": "https://lastwordonsports.com/tennis/2026/10/14/atp-shanghai-quarterfinal-predictions-zverev-de-minaur/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "Zverev in 2",
+      "probability_given": "none",
+      "published": "2026-10-14",
+      "type": "tipster",
+      "quote_or_basis": "The court is outdoor and 'super fast', unlike de Minaur's two slow indoor Laver Cup wins. Zverev has 39 aces in 3 matches and over 70% of first serves in: 'too big a mountain to climb'."
+     },
+     {
+      "source": "ATS.io quantitative model",
+      "url": "https://ats.io/matchup/tennis/alex-de-minaur-vs-alexander-zverev-prediction-15-10-2026/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "2-0, 23 games",
+      "probability_given": "Zverev 71% (market 67.7%)",
+      "published": "not shown",
+      "type": "model/AI",
+      "quote_or_basis": "Zverev's serve-driven hard-court game gives him a 'higher floor in best-of-three'. Recommends Zverev ML at -200 (threshold -213). Lists Zverev -2.5 games -130 / dM +2.5 -103 and 23.5 games O -103 / U -130 (book not named)."
+     },
+     {
+      "source": "Agatha.gg",
+      "url": "https://agatha.gg/atp/de-minaur-vs-zverev-2026-10-15",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "2-0 (predicted 0-2 from de Minaur's side)",
+      "probability_given": "Zverev 64%",
+      "published": "not shown (line snapshot 2026-10-14 6:05 PM ET)",
+      "type": "model/AI",
+      "quote_or_basis": "'The head-to-head decides it': Zverev is 7-0 in main-tour meetings. Page also shows Pinnacle Zverev opened -202 and is now -183, and FanDuel -210 now -205."
+     },
+     {
+      "source": "Predixsport",
+      "url": "https://www.predixsport.com/tennis/alexander_zverev_vs_alex_de_minaur_2026_shanghai.html",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "modal set score 2-0 at 44.4%; 22.4 expected games; no-tiebreak 64.9%",
+      "probability_given": "Zverev 74%",
+      "published": "not shown (after Oct 13)",
+      "type": "model/AI",
+      "quote_or_basis": "Neural net: serve and return +11.0 points to Zverev, overall strength +5.2. Flags fatigue as the upset path: de Minaur 179 minutes on court vs Zverev 388."
+     },
+     {
+      "source": "Foretennis",
+      "url": "https://www.foretennis.com/tournament/atp/shanghai/2026",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "2-0",
+      "probability_given": "Zverev 64% / de Minaur 36%",
+      "published": "not shown",
+      "type": "model/AI",
+      "quote_or_basis": "Algorithm table: predicted sets '2 0'."
+     },
+     {
+      "source": "Forebet",
+      "url": "https://www.forebet.com/en/tennis/matches/atp-singles/shanghai/a-zverev-a-de-minaur/361266",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "2-0",
+      "probability_given": "Zverev 59% / de Minaur 41%",
+      "published": "not shown",
+      "type": "model/AI",
+      "quote_or_basis": "Search-reported (Exa highlight): 'The algorithm prediction slightly favors A. Zverev ... 59%'. Predicted sets 2-0."
+     },
+     {
+      "source": "Tennis Tonic (Mark Hall)",
+      "url": "https://tennistonic.com/tennis-news/1065761/h2h-prediction-of-alexander-zverev-vs-alex-de-minaur-in-shanghai-with-odds-preview-pick-15th-october-2026/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "Zverev in 3 sets",
+      "probability_given": "odds 1.46 / 2.69",
+      "published": "2026-10-14",
+      "type": "tipster",
+      "quote_or_basis": "'The pick for Tennis Tonic is Alexander Zverev who should win in 3 sets.' Shanghai stats: Zverev 6h28m on court and dropped 2 sets, broken 3 times. De Minaur 2h59m, no sets dropped, never broken."
+     },
+     {
+      "source": "SportyTrader NL (Domenic Lalieu)",
+      "url": "https://www.sportytrader.nl/voorspellingen-tips/alexander-zverev-alex-de-minaur-379009/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "Zverev 2-1",
+      "probability_given": "Zverev 55.75% (their odds conversion)",
+      "published": "2026-10-13 (modified 2026-10-14)",
+      "type": "tipster",
+      "quote_or_basis": "'Alexander Zverev wint met 2-1.' Zverev lost at least one set in 3 of his last 4 matches."
+     },
+     {
+      "source": "Tipico.de (Matthias Schmied)",
+      "url": "https://www.tipico.de/wett-tipps/sportwetten-news/tennis-zverev-vs-de-minaur-tipp-quoten-prognose-15-10-2026",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "Over 2.5 sets (2.15) and Zverev 2-1 (3.30)",
+      "probability_given": "ML 1.47 / 2.60",
+      "published": "2026-10-14",
+      "type": "bookmaker blog",
+      "quote_or_basis": "Zverev went the distance in 3 of his last 5. On 2026 hard, holds are 92% (Zverev) vs 84% (de Minaur) and return games won 20% vs 24%. Neither is at an 85% hold, so expect breaks. Zverev has won the first set in 5 of his last 5."
+     },
+     {
+      "source": "MiCasino blog (Ricardo Zerpa)",
+      "url": "https://blog.micasino.com/alexander-zverev-vs-alex-de-minaur-pronostico-atp-shanghai-2026-datos-cuotas-apuesta-recomendada-tenis/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "Zverev wins and de Minaur wins a set (Zverev 2-1)",
+      "probability_given": "odds 1.50 / 2.70",
+      "published": "2026-10-13",
+      "type": "bookmaker blog",
+      "quote_or_basis": "'\u00c1lex de Mi\u00f1aur gana un set': he has won at least one set in each of his last 6 hard-court meetings with Zverev."
+     },
+     {
+      "source": "Wettfreunde.net (Christian Capponi)",
+      "url": "https://www.wettfreunde.net/tennis-tipps/shanghai-heute-15-10-2026/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "Bet: de Minaur to win a set (1.57 @NEO.bet); expects Zverev to win a physical match",
+      "probability_given": "none",
+      "published": "2026-10-14",
+      "type": "tipster",
+      "quote_or_basis": "De Minaur's footwork and return consistency force long rallies. Zverev carries 'leichte Blessuren' (minor knocks) but his power wins the tight phases."
+     },
+     {
+      "source": "PickDawgz (Nur Said)",
+      "url": "https://pickdawgz.com/tennis-picks/alexander-zverev-vs-alex-de-minaur-prediction-atp-shanghai-masters-picks/",
+      "predicted_winner": "none stated (bets de Minaur side)",
+      "predicted_sets_or_score": "de Minaur +1.5 sets",
+      "probability_given": "line Zverev -227 / dM +165",
+      "published": "2026-10-14",
+      "type": "tipster",
+      "quote_or_basis": "'I'll take De Minaur to cover the set handicap.' Zverev's record vs top-10 is grim, de Minaur's speed is a problem for him, and 'historically, Zverev doesn't do well under pressure'."
+     },
+     {
+      "source": "The Stats Zone (Alex Meechan)",
+      "url": "https://www.thestatszone.com/alexander-zverev-vs-alex-de-minaur-preview-prediction-2026-shanghai-masters-quarter-final-230369",
+      "predicted_winner": "none stated",
+      "predicted_sets_or_score": "Both players to win a set (3 sets)",
+      "probability_given": "none",
+      "published": "2026-10-14",
+      "type": "tipster",
+      "quote_or_basis": "De Minaur has won 7 of 8 since the US Open and won the last two H2H. The fast surface helps Zverev's serve, but he struggled with the ankle vs Bublik."
+     },
+     {
+      "source": "FreeTips.com (Eddy Tora)",
+      "url": "https://www.freetips.com/tennis/alexander-zverev-vs-alex-de-minaur-tips-live-stream-20261014-0006/",
+      "predicted_winner": "none stated",
+      "predicted_sets_or_score": "Goes the distance (3 sets) / over 22.5 games",
+      "probability_given": "none",
+      "published": "2026-10-14",
+      "type": "tipster",
+      "quote_or_basis": "'Zverev has gone the distance in five of his previous six matches against de Minaur on hard courts.' (Checked against the H2H table: true.)"
+     },
+     {
+      "source": "CasasDeApuestas.com (\u00c1lvaro Miralles)",
+      "url": "https://www.casasdeapuestas.com/pronosticos/alexander-zverev-alex-de-minaur-20261015/",
+      "predicted_winner": "Zverev slight (favourite)",
+      "predicted_sets_or_score": "Over 2.5 sets; also over 21 games",
+      "probability_given": "none",
+      "published": "2026-10-14",
+      "type": "bookmaker blog",
+      "quote_or_basis": "Zverev needed 3 sets vs Halys and Bublik, has ankle discomfort, and won only 34% of return points vs Bublik. De Minaur is fresher and won the last two H2H."
+     },
+     {
+      "source": "Lottomatica.sport",
+      "url": "https://www.lottomatica.sport/news/tennis/atp-shanghai-2026-quarti-analisi-e-precedenti-di-zverev-de-minaur/",
+      "predicted_winner": "none stated",
+      "predicted_sets_or_score": "de Minaur to win at least one set",
+      "probability_given": "none",
+      "published": "2026-10-14",
+      "type": "bookmaker blog",
+      "quote_or_basis": "Zverev's ankle problem, de Minaur's ATP Finals race motivation, and his last two Laver Cup wins."
+     },
+     {
+      "source": "GoldbetLive (Filippo Re)",
+      "url": "https://www.goldbetlive.it/news/analisi/atp-shanghai-2026-quarti-preview-zverev-de-minaur/",
+      "predicted_winner": "none stated",
+      "predicted_sets_or_score": "de Minaur to win at least one set",
+      "probability_given": "none",
+      "published": "not shown (Oct 14)",
+      "type": "bookmaker blog",
+      "quote_or_basis": "Search-reported highlight: the ankle problem in R16 plus the last two H2H wins mean the Aussie 'possa strappare almeno un set' (could take at least a set)."
+     },
+     {
+      "source": "Last Word on Sports Best Bets (Matt Zemek)",
+      "url": "https://lastwordonsports.com/tennis/2026/10/14/atp-shanghai-best-bets-zverev-de-minaur/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "Best bet Zverev -1.5 games @1.70 (Interwetten); hedge de Minaur +1.5 sets @1.63 (Unibet)",
+      "probability_given": "confidence 4/10",
+      "published": "2026-10-14",
+      "type": "tipster",
+      "quote_or_basis": "'We don't think Zverev will lose three straight times to De Minaur... Take Zverev against the spread.'"
+     },
+     {
+      "source": "Tennisnerd.net (Stefan Jonsson)",
+      "url": "https://www.tennisnerd.net/betting-blog/arthur-gea-vs-davidovich-fokina-and-zverev-vs-de-minaur-atp-shanghai-predictions/69995",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "not stated (no bet line in the fetched text)",
+      "probability_given": "none",
+      "published": "2026-10-14",
+      "type": "tipster",
+      "quote_or_basis": "The Laver Cup losses were 'exhibition matches on much slower indoor courts... On these conditions in Shanghai I think Zverev will command this match.'"
+     },
+     {
+      "source": "SportyTrader US (Tyler Doty)",
+      "url": "https://www.sportytrader.com/us/picks/alexander-zverev-alex-de-minaur-379234/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "ML only (-240)",
+      "probability_given": "none",
+      "published": "2026-10-14",
+      "type": "tipster",
+      "quote_or_basis": "Best form this year, plus 'tremendous determination' vs Bublik."
+     },
+     {
+      "source": "SportyTrader FR (L\u00e9o Measson)",
+      "url": "https://www.sportytrader.com/pronostics/alexander-zverev-alex-de-minaur-378985/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "ML only (1.50 Betclic)",
+      "probability_given": "55.75% (odds conversion)",
+      "published": "2026-10-13 (modified 2026-10-14)",
+      "type": "tipster",
+      "quote_or_basis": "Same reasoning as the US edition (same network)."
+     },
+     {
+      "source": "bet365 News DE (Kim Klos)",
+      "url": "https://news.bet365.de/de-de/article/zverev-gegen-de-minaur-prognose-tv-uebertragung-startzeit-und-h2h/2026101408265877283",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "winner only; 'kein Selbstl\u00e4ufer' (not a walkover), could be tight",
+      "probability_given": "none",
+      "published": "2026-10-14",
+      "type": "bookmaker blog",
+      "quote_or_basis": "Better serve and baseline. But de Minaur has been the more assured player in Shanghai, and if Zverev only plays well in phases 'wird es eng' (it gets tight)."
+     },
+     {
+      "source": "Sportwetten24 (Simon Schneider)",
+      "url": "https://wc.sportwetten24.com/magazin/zverev-de-minaur-tipp-prognose-quoten-15-10-shanghai/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "Zverev wins + over 22.5 games @2.75",
+      "probability_given": "ML ~1.45-1.47 / 2.65-2.70",
+      "published": "2026-10-14",
+      "type": "tipster",
+      "quote_or_basis": "'Ein glattes Match erwarten wir allerdings nicht' (we don't expect a smooth match). A quick 6-2 6-3 is less likely given the ankle and de Minaur's last two H2H wins."
+     },
+     {
+      "source": "Predictobets",
+      "url": "https://www.predictobets.com/tennis/match/a-zverev-vs-a-de-minaur-15-10-2026",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "Zverev ML + over 22.5 games; human analyst: over 22.5 @2.16",
+      "probability_given": "none",
+      "published": "not shown",
+      "type": "model/AI",
+      "quote_or_basis": "AI text with an inaccurate H2H ('4-3'). Expects long rallies and a high game count. Pinnacle 1.50/2.81, first set 1.60/2.47."
+     },
+     {
+      "source": "Stats Insider",
+      "url": "https://www.statsinsider.com.au/news/alexander-zverev-vs-alex-de-minaur-prediction-atp-shanghai-masters-2026",
+      "predicted_winner": "Zverev (model) but value bets on de Minaur",
+      "predicted_sets_or_score": "no set call; bets de Minaur H2H $2.62 and de Minaur first set $1.80",
+      "probability_given": "Zverev 62% (10,000 sims)",
+      "published": "2026-10-14 (updated 2026-10-15 00:32 AEDT)",
+      "type": "model/AI",
+      "quote_or_basis": "'Taking de Minaur to win is our preferred option because of the edge' vs TAB $1.50 / $2.62."
+     },
+     {
+      "source": "Court Shark",
+      "url": "https://courtshark.ai/blog/alexander-zverev-de-minaur-shanghai-model-edge/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "none",
+      "probability_given": "Zverev 62% (consensus opened 67%, now 65%)",
+      "published": "2026-10-13",
+      "type": "model/AI",
+      "quote_or_basis": "Holds 92% vs 82% favour Zverev. De Minaur's 9-1 recent form and hard H2H of 6-4 justify a narrower edge than the market."
+     },
+     {
+      "source": "Tennis.com match page",
+      "url": "https://www.tennis.com/tournaments/rolex-shanghai-masters/matches/a-zverev-vs-a-de-minaur-2026-10-15",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "none",
+      "probability_given": "Zverev 65% / de Minaur 35%",
+      "published": "not shown",
+      "type": "model/AI",
+      "quote_or_basis": "'Projected Winner 65%'."
+     },
+     {
+      "source": "Tuze Sports",
+      "url": "https://sports.tuze.ai/atp/2026-10-15-alexander-zverev-alex-de-minaur",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "no set call; 'could easily extend to a decider'",
+      "probability_given": "none",
+      "published": "2026-10-15",
+      "type": "model/AI",
+      "quote_or_basis": "Seeding, serve and composure vs Bublik."
+     },
+     {
+      "source": "Sportskeeda (via MySportsTab summary)",
+      "url": "https://mysportstab.com/sports/tennis/alexander-zverev-vs-alex-de-minaur-preview-head-to-head-odds-prediction-betting/89309/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "not visible in summary",
+      "probability_given": "none",
+      "published": "2026-10-14",
+      "type": "tipster",
+      "quote_or_basis": "Search-reported summary only: 'Zverev is favored to win based on his form and previous encounters'. Original Sportskeeda page not opened."
+     },
+     {
+      "source": "Kalshi",
+      "url": "https://kalshi.com/markets/kxatpmatch/atp-tennis-match/kxatpmatch-26oct15zvede",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "n/a",
+      "probability_given": "Zverev 66% (Yes 67c / de Minaur 34c)",
+      "published": "live (seen ~Oct 14)",
+      "type": "prediction market",
+      "quote_or_basis": "Search-reported snapshot about 22h before the start; $2,810 volume."
+     },
+     {
+      "source": "Polymarket (polymarket.us and order book via PolyBot)",
+      "url": "https://polymarket.us/sports/atp/atp-alezve-alemin-2026-10-15",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "Exact Match Score market listed but no price",
+      "probability_given": "Zverev 67c / de Minaur 34c; global book mid 0.65",
+      "published": "live (opened Oct 14-15)",
+      "type": "prediction market",
+      "quote_or_basis": "Moneyline only is priced. Set and score markets showed '\u2013 No price'. Mid of 0.65 is from https://poly-bot.pro/market/atp-zverev-minaur-2026-10-15."
+     },
+     {
+      "source": "TennisTemple user predictions",
+      "url": "https://en.tennistemple.com/match/zverev-de-minaur-shanghai-2026/9485790/",
+      "predicted_winner": "Zverev",
+      "predicted_sets_or_score": "n/a",
+      "probability_given": "91.1% of 45 users pick Zverev",
+      "published": "live",
+      "type": "other",
+      "quote_or_basis": "Fan poll. TennisTemple counts the H2H as 7-0 (team events excluded)."
+     }
+    ],
+    "set_market_prices": [
+     {
+      "book": "Unibet.fr",
+      "market": "Correct score (sets)",
+      "selection": "Zverev 2-0",
+      "price": "2.10 (+110)",
+      "implied_prob": 0.476,
+      "url": "https://www.unibet.fr/paris-tennis/atp/shanghai/3389544/a-zverev-vs-a-de-minaur",
+      "status": "opened (live page, Oct 14-15)"
+     },
+     {
+      "book": "Unibet.fr",
+      "market": "Correct score (sets)",
+      "selection": "Zverev 2-1",
+      "price": "3.40 (+240)",
+      "implied_prob": 0.294,
+      "url": "https://www.unibet.fr/paris-tennis/atp/shanghai/3389544/a-zverev-vs-a-de-minaur",
+      "status": "opened"
+     },
+     {
+      "book": "Unibet.fr",
+      "market": "Correct score (sets)",
+      "selection": "de Minaur 2-0",
+      "price": "4.25 (+325)",
+      "implied_prob": 0.235,
+      "url": "https://www.unibet.fr/paris-tennis/atp/shanghai/3389544/a-zverev-vs-a-de-minaur",
+      "status": "opened"
+     },
+     {
+      "book": "Unibet.fr",
+      "market": "Correct score (sets)",
+      "selection": "de Minaur 2-1",
+      "price": "5.10 (+410)",
+      "implied_prob": 0.196,
+      "url": "https://www.unibet.fr/paris-tennis/atp/shanghai/3389544/a-zverev-vs-a-de-minaur",
+      "status": "opened"
+     },
+     {
+      "book": "Unibet.fr",
+      "market": "de Minaur wins at least 1 set",
+      "selection": "Yes / No",
+      "price": "1.44 (-227) / 1.94 (-106)",
+      "implied_prob": 0.694,
+      "url": "https://www.unibet.fr/paris-tennis/atp/shanghai/3389544/a-zverev-vs-a-de-minaur",
+      "status": "opened (implied_prob is for Yes; No = 0.515)"
+     },
+     {
+      "book": "Unibet.fr",
+      "market": "Total sets",
+      "selection": "2 sets",
+      "price": "1.45 (-222)",
+      "implied_prob": 0.69,
+      "url": "https://www.unibet.fr/paris-tennis/atp/shanghai/3389544/a-zverev-vs-a-de-minaur",
+      "status": "opened (3-sets side not shown)"
+     },
+     {
+      "book": "PokerStars.fr",
+      "market": "Final score (sets)",
+      "selection": "Zverev 2-0 / Zverev 2-1 / dM 2-0 / dM 2-1",
+      "price": "2.20 (+120) / 3.50 (+250) / 4.33 (+333) / 5.00 (+400)",
+      "implied_prob": 0.455,
+      "url": "https://www.pokerstars.fr/sports/tennis/2/atp-shanghai-2026/12835824/a-zverev-alex-de-minaur/36188691/",
+      "status": "opened (implied_prob is for Zverev 2-0)"
+     },
+     {
+      "book": "PokerStars.fr",
+      "market": "de Minaur wins at least 1 set",
+      "selection": "Yes / No",
+      "price": "1.57 (-175) / 2.20 (+120)",
+      "implied_prob": 0.637,
+      "url": "https://www.pokerstars.fr/sports/tennis/2/atp-shanghai-2026/12835824/a-zverev-alex-de-minaur/36188691/",
+      "status": "opened (implied_prob is for Yes; No = 0.455)"
+     },
+     {
+      "book": "Unnamed book (Cappster feed)",
+      "market": "Set spread",
+      "selection": "Zverev -1.5 sets / de Minaur +1.5 sets",
+      "price": "+129 / -150",
+      "implied_prob": 0.6,
+      "url": "https://cappster.com/picks/tennis/atp-shanghai-qf/3587",
+      "status": "opened (book not named; implied_prob is for dM +1.5; Zverev -1.5 = 0.437)"
+     },
+     {
+      "book": "Unnamed book (Cappster feed)",
+      "market": "Total sets 2.5",
+      "selection": "Over / Under",
+      "price": "+136 / -158",
+      "implied_prob": 0.424,
+      "url": "https://cappster.com/picks/tennis/atp-shanghai-qf/3587",
+      "status": "opened (implied_prob is for Over; Under = 0.612)"
+     },
+     {
+      "book": "4 unnamed books (Wincomparator)",
+      "market": "Player 2 (de Minaur) to win a set",
+      "selection": "Yes / No",
+      "price": "1.57/2.20, 1.55/2.30, 1.55/2.29, 1.63/2.20 (best Yes 1.63 = -159)",
+      "implied_prob": 0.613,
+      "url": "https://www.wincomparator.com/predictions/alexander-zverev-alex-de-minaur-8892740/",
+      "status": "opened (books not named; implied_prob is for best Yes 1.63)"
+     },
+     {
+      "book": "Unibet (per LWOS)",
+      "market": "Set handicap",
+      "selection": "de Minaur +1.5 sets",
+      "price": "1.63 (-159)",
+      "implied_prob": 0.613,
+      "url": "https://lastwordonsports.com/tennis/2026/10/14/atp-shanghai-best-bets-zverev-de-minaur/",
+      "status": "reported by LWOS 2026-10-14 (article opened, book page not)"
+     },
+     {
+      "book": "NEO.bet (per wettfreunde)",
+      "market": "de Minaur to win a set",
+      "selection": "Yes",
+      "price": "1.57 (-175)",
+      "implied_prob": 0.637,
+      "url": "https://www.wettfreunde.net/tennis-tipps/shanghai-heute-15-10-2026/",
+      "status": "reported by wettfreunde 2026-10-14 (article opened)"
+     },
+     {
+      "book": "Tipico.de",
+      "market": "Total sets / set betting",
+      "selection": "Over 2.5 sets ; Zverev 2-1",
+      "price": "2.15 (+115) ; 3.30 (+230)",
+      "implied_prob": 0.465,
+      "url": "https://www.tipico.de/wett-tipps/sportwetten-news/tennis-zverev-vs-de-minaur-tipp-quoten-prognose-15-10-2026",
+      "status": "reported in Tipico's own blog 2026-10-14 (one side only; implied_prob is for Over 2.5)"
+     },
+     {
+      "book": "Meridianbet / Supergooal",
+      "market": "Exact number of sets; set score",
+      "selection": "2 sets / 3 sets; Zverev 2-0; Zverev 2-1; dM 2-1",
+      "price": "1.50 (-200) / 2.12 (+112); 2.23 (+123); 3.55 (+255); 5.40 (+440)",
+      "implied_prob": 0.448,
+      "url": "https://supergooal.cg/fr/pari/tennis/atp-shanghai-masters/simple-hommes/zverev-alexander-de-minaur-alex/19869634",
+      "status": "search-reported (Exa highlight, page not opened; implied_prob is for Zverev 2-0). Same prices at meridiansports.be"
+     },
+     {
+      "book": "DraftKings",
+      "market": "Set spread / set betting",
+      "selection": "any",
+      "price": "not found",
+      "url": "https://sportsbook.draftkings.com/leagues/tennis/atp-shanghai",
+      "status": "not found (page fetch returned no markets)"
+     }
+    ],
+    "tally": "33 distinct sources, plus 2 prediction markets and 1 fan poll. None picks de Minaur to win outright; Stats Insider backs him only as a value bet. 18 sources make a set-level call: 7 say Zverev 2-0, 5 say Zverev 2-1 (Zverev wins, de Minaur takes a set), and 6 say 3 sets / de Minaur wins at least one set without naming a winner. So 11 of 18 expect de Minaur to win a set. Only 2 of the 7 Zverev 2-0 calls come from human tipsters (bets.com.au, LWOS). The other 5 are algorithm sites printing their single most likely score (ATS.io, Agatha, Foretennis, Forebet, Predixsport at 44.4%). Of 13 human set-level calls, 2 say Zverev 2-0 and 11 say de Minaur wins a set. About 13 more sources give a winner only, all Zverev, and several of those add 'over 22.5 games' or 'not a smooth match' (Sportwetten24, Predictobets, bet365 DE, Tuze). Model sites put Zverev at 59-74% (Forebet 59, Stats Insider 62, Court Shark 62, Agatha 64, Foretennis 64, Tennis.com 65, ATS 71, Predixsport 74; mean about 65%). Prediction markets have Zverev at 65-67c.",
+    "market_implied_fav_straight_sets": "About 41% (range 38.8-42.6%) that Zverev wins 2-0, so about 59% that de Minaur wins at least one set. Vig removed by dividing each side by the overround:\n(1) Unibet.fr correct score: 1/2.10=.476, 1/3.40=.294, 1/4.25=.235, 1/5.10=.196, sum 1.2017. Zverev 2-0 = .476/1.2017 = 39.6%. Zverev wins = 64.1%, P(3 sets) = 40.8%. Zverev 2-0 given he wins = 61.8%. Power-method devig gives 42.2%.\n(2) PokerStars.fr correct score: 2.20/3.50/4.33/5.00, sum 1.1712. Zverev 2-0 = .4545/1.1712 = 38.8% (power method 40.9%).\n(3) PokerStars.fr 'de Minaur wins \u22651 set': No 2.20 = .455, Yes 1.57 = .637, sum 1.091. Zverev 2-0 = 41.6%.\n(4) Unibet.fr 'de Minaur \u22651 set': No 1.94 = .515, Yes 1.44 = .694, sum 1.210. Zverev 2-0 = 42.6%.\n(5) Wincomparator books, same market: 40.3%, 40.4%, 41.6%, 42.6% (best 1.63/2.20).\n(6) Unnamed book via Cappster: Zverev -1.5 sets +129 = .437, dM +1.5 -150 = .600, sum 1.037. Zverev 2-0 = 42.1%. Total sets O2.5 +136 / U -158 gives P(3 sets) = 40.9%.\n(7) Meridianbet: exact sets 2 @1.50 / 3 @2.12 gives P(3 sets) = 41.4%.\nMedian about 41.5%. Market P(3 sets) is 40.8-41.5%.\nOur model: Zverev 2-0 38.9%, de Minaur +1.5 61.1%, P(3 sets) 38.7%. That is within about 2-3 points of the market. Zverev 2-0 is the most likely single score in both, but it is below 50%.\nDraftKings set prices: not found.",
+    "key_arguments_used_by_crowd": [
+     "For Zverev / 2-0: Shanghai is outdoor and very fast, which suits Zverev's serve. He has 39 aces in 3 matches and over 70% of first serves in (LWOS, Tennisnerd, Stats Zone, Predixsport's serve-return factor +11).",
+     "For Zverev / 2-0: the official H2H is 8-2 (7-0 on the main tour). All 4 de Minaur wins came in team events, including two Laver Cup exhibitions on slow indoor courts (bets.com.au, Tennisnerd, Agatha, Yahoo).",
+     "For Zverev / 2-0: de Minaur is 2-13 in Slam/Masters QFs and 7-43 vs top-5, and 10 of his last 12 losses to top-5 players were in straight sets (bets.com.au). Our local data shows 8 of 12 hard best-of-3 losses to top-5 since 2023 in straight sets.",
+     "For Zverev / 2-0: Zverev has won his last 7 Masters QFs, holds about 92% on hard vs de Minaur's 82-84% (Court Shark, Tipico), won RG and the US Open in 2026, and has clinched year-end No. 1 so he can 'swing freely' (Rolex preview).",
+     "For de Minaur set / 3 sets: de Minaur won the last two meetings (Laver Cup 2025; 2026 after saving a match point) and 3 of the last 4 on hard since 2024. Zverev has gone the distance in 5 of the last 6 hard-court H2H, and de Minaur won at least one set in each (FreeTips, MiCasino).",
+     "For de Minaur set / 3 sets: fatigue and the ankle. Zverev needed 3 sets vs Halys and Bublik, had an ankle flare-up, and has about 388 minutes on court vs de Minaur's 179 (Predixsport, CasasDeApuestas, Lottomatica, GoldbetLive, Stats Zone).",
+     "For de Minaur set / 3 sets: de Minaur has not dropped a set or been broken in Shanghai, says the groin feels 'better every single day', and has won 9 of his last 10 (Tennis Tonic, Rolex preview, Court Shark).",
+     "For de Minaur set / 3 sets: Zverev has lost 19 of his last 24 vs top-10 players and 'doesn't do well under pressure' (PickDawgz, bets.com.au). Local data has him 3-9 vs top-10 on hard best-of-3 since 2025.",
+     "Market drift toward de Minaur: Pinnacle Zverev opened -202 and is now -183 (Agatha); Court Shark's consensus went from 67% to 65%."
+    ],
+    "notes": "What this means for the card:\n\n1. The crowd and our model mostly agree on set scores.\n- The many 'Zverev 2-0' projections are mostly algorithm sites printing their single most likely score.\n- Zverev 2-0 is the most likely single outcome in our model (38.9%) and in the market (about 41%), but it happens only about 4 times in 10.\n- The human tipsters actually lean the other way: 11 of 13 set-level human calls have de Minaur winning a set.\n- So the 2-0 consensus does not contradict de Minaur +1.5 sets.\n\n2. de Minaur +1.5 sets is a high-hit pick but has almost no value.\n- Market fair is about 59% (about -144). Our number is 61.1%.\n- Best prices seen: -150 (unnamed book via Cappster) and 1.63 / -159 (Unibet per LWOS; Wincomparator's best book). Unibet.fr's own price is 1.44 (-227).\n- EV against our model: about +1.8% at -150, about -0.4% at -159. Against the market it is negative.\n- Suggestion: only take it at -145 or better and label it a hit-rate play, not value.\n\n3. Zverev 2-0 / -1.5 sets has no value at any price seen.\n- Breakevens: 47.6% at Unibet 2.10, 45.5% at PokerStars 2.20, 44.8% at Meridian 2.23, 43.7% at +129.\n- All are above both the market's about 41% and our 38.9%.\n\n4. de Minaur ML +175 (our 41.5%) is the real contrarian call.\n- Every model site has Zverev at 59-74% (mean about 65%), markets at 65-67%.\n- Only Stats Insider (62%) also recommends de Minaur ML.\n- Our edge rests almost entirely on the -8.0 point ankle discount and the 3-AI blind pool. Treat it as the riskiest pick.\n\n5. Totals.\n- Several sources lean over 22.5 games: Predictobets (human 2.16), Sportwetten24 (Zverev + over 22.5 @2.75), CasasDeApuestas (over 21), FreeTips.\n- Unibet 22.5 games: over 1.58 / under 1.75.\n\n6. Local data check (gaps in coverage).\n- Hard best-of-3, top-3 vs #5-15, 2023-26 (n=77): the favourite won 72.7%, won 2-0 57.1%, 3 sets 27.3%. Those favourites were mostly dominant Sinner/Alcaraz.\n- Since 2025 on hard best-of-3: Zverev won 2-0 in 67% of his wins and lost 0-2 in 58% of his losses. De Minaur lost 0-2 in 65% of his losses.\n\n7. Excluded or flagged sources.\n- Nocturn Sport (nocturnsport.com) uses its own pricing (ML 1.32/3.19, Zverev -1.5 sets 2.27, de Minaur +1.5 1.59, sets O2.5 2.03 / U 1.73). Its moneyline is off-market, so I left it out of the set-market estimate.\n- A netwerk24 page claims de Minaur beat Zverev in Beijing 2026 and calls Navone Australian. It is fabricated and excluded.\n- The Unibet.fr handicap blocks are ambiguously labelled in the scrape and were not used.\n- Predictobets' H2H text ('4-3') is wrong.\n\n8. QF-A (Gea vs Davidovich Fokina), found incidentally:\n- LWOS: Davidovich Fokina in 3. Tennisnerd: Davidovich Fokina to win in 3 sets.\n- BetMGM (Chase Kiddy, 2026-10-14): over 22.5 games -135, lean Gea -102.\n- Stats Zone: over 21.5. LWOS Best Bets: Gea ML; over 2.5 sets 2.25 @Unibet; Davidovich Fokina +0.5 games 1.77; confidence 1/10.\n- Wettfreunde: 3 sets 2.25 @Oddset.\n- Model sites: Maiden Davidovich Fokina 52%; Foretennis Davidovich Fokina 53%, predicted 2-1 for him; Pronocast favours Davidovich Fokina; Universtennis market estimate 52/48.\n- So the crowd there is split, leaning Davidovich Fokina in 3 sets / over, not Davidovich Fokina 2-0.\n\nScratch scripts: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/setmkt.py and /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/emp.py"
+   },
+   "steel": {
+    "match": "2026 Rolex Shanghai Masters QF-B: Alexander Zverev (1) vs Alex de Minaur (9), Thu Oct 15 2026, not before 6:00 AM ET, Stadium Court, outdoor hard",
+    "position_argued": "Steelman for the popular view: Zverev wins 2-0 (Zverev -1.5 sets, straight-sets win). I argue it as hard as the evidence allows, then check whether any popular bet is actually +EV at prices we really found.",
+    "strongest_evidence": [
+     {
+      "claim": "Every market makes Zverev a clear favourite. Our no-vig consensus is 64.2%. Model sites average about 65% and the TA hard Elo gives 64.1%.",
+      "number": "64.2% no-vig consensus (DK -200/+175; Kalshi 65c/36c; OddsSafari 1.55/2.75; bet365 -200/+162). Model sites 59-74%, mean about 65%.",
+      "source": "output/markets.json. DK via Dimers is search-reported (Oct 14). Kalshi was fetched via Exa (Oct 15 ~00:30 UTC). bet365 is search-reported. TA Elo snapshot is from 2026-10-05. Model-site figures are from the QF-B research tally (Forebet, Stats Insider, Court Shark, Agatha, Foretennis, Tennis.com, ATS.io, Predixsport)."
+     },
+     {
+      "claim": "Zverev 2-0 is the single most likely set score in the books, after removing the vig.",
+      "number": "Zverev 2-0 is about 41.5% (range 38.8-42.6%). P(3 sets) is 40.8-41.5%.",
+      "source": "Unibet.fr correct score 2.10/3.40/4.25/5.10 (page opened, Oct 14-15). PokerStars.fr 2.20/3.50/4.33/5.00 (opened). Unnamed book via cappster.com/picks/tennis/atp-shanghai-qf/3587: Zverev -1.5 sets +129 / de Minaur +1.5 -150 (opened). Wincomparator 'de Minaur to win a set' prices from four unnamed books (opened)."
+     },
+     {
+      "claim": "Feed the market's win probability into our own simulation and Zverev 2-0 comes out higher than the card's number. The card's 38.9% is low only because the model's win probability is low, not because of anything about set structure.",
+      "number": "At a 64.3% win probability: Zverev 2-0 43.0%, Zverev 2-1 21.3%, de Minaur 2-0 19.7%, de Minaur 2-1 16.0%, P(2 sets) 62.75%. At 66%: Zverev 2-0 44.5%.",
+      "source": "Local Monte Carlo using the card's pa/pb, day-form sd 0.06, 80k sims: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/steel/sims.py and /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/steel/sgp.py"
+     },
+     {
+      "claim": "In elite matchups, favourites win in straight sets more often than a generic favourite at the same win probability.",
+      "number": "Elite means both players top-15 and neither is Sinner, Alcaraz or Djokovic (n=92). Elite coefficient +0.225 (se 0.124). At a 64.2% favourite, P(fav 2-0) is 48.0% for elite matchups vs 42.4% otherwise, and P(3 sets) is 29.2% vs 35.9%.",
+      "source": "Logistic fit on 4,572 completed hard best-of-3 tour matches, 2023-01 to 2026-09, from local db: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/steel/elite.py"
+     },
+     {
+      "claim": "Zverev usually wins in straights when he is the favourite against good players.",
+      "number": "As rank favourite vs top-20 (2023-26): won 2-0 in 51.6% of matches (n=31), and 76.2% of his wins were straight sets. Vs players ranked 5-15 since Oct 2024: 8 of 12 won 2-0.",
+      "source": "Base-rate analysis on local data (wf_tmp/t1.py, t8.py)."
+     },
+     {
+      "claim": "De Minaur rarely takes sets off the very top players.",
+      "number": "0-8 vs top-5 since Oct 2024 on hard best-of-3, 5 of those 8 lost 0-2 (local data). bets.com.au: 2-13 in Slam/Masters QFs, 7-43 vs top-5, and 10 of his last 12 losses to top-5 players were in straight sets.",
+      "source": "Local db (wf_tmp/t2.py). https://www.bets.com.au/tennis/atp-tour/alexander-zverev-vs-alex-de-minaur-atp-shanghai-tips-prediction-live-stream-20261014-0020/ (2026-10-14)"
+     },
+     {
+      "claim": "Zverev's serve is much stronger than de Minaur's, which matters most on a fast court and in tiebreaks.",
+      "number": "Charted matches 2024-26: Zverev first serve in 70.8%, ace rate 12.3%, unreturned 35.0%, tiebreak serve points won 73.7%. De Minaur: ace rate 5.3%, unreturned 24.5%, tiebreak serve points won 59.1%. LWOS reports 39 aces in 3 Shanghai matches and a 'super fast' court.",
+      "source": "output/mcp_analytics.csv (Match Charting Project). https://lastwordonsports.com/tennis/2026/10/14/atp-shanghai-quarterfinal-predictions-zverev-de-minaur/ (2026-10-14, via the research brief)"
+     },
+     {
+      "claim": "The ankle evidence is weaker than our -8 point discount implies, and the market already prices some of it.",
+      "number": "No medical timeout in any match. Zverev won the deciding-set tiebreak against Bublik 7-1, after the flare-up in set 2 (score 7-6(6) 4-6 7-6(1)). Pinnacle moved from -202 to -183, roughly a 2-point shade.",
+      "source": "Match scores from CONTEXT. Pinnacle line history from https://agatha.gg/atp/de-minaur-vs-zverev-2026-10-15 (line snapshot 2026-10-14 6:05 PM ET). My web searches found no post-match ankle update: the index stops around Oct 12 (puntodebreak.com, malaymail.com)."
+     },
+     {
+      "claim": "Zverev leads 7-0 in tour-level meetings. All four de Minaur wins came in team events, two of them Laver Cup matches on slow indoor courts.",
+      "number": "Tour-level H2H 7-0 (official 8-2; 8-4 counting all team events).",
+      "source": "CONTEXT; Tennisnerd (2026-10-14); bets.com.au (2026-10-14)."
+     }
+    ],
+    "weaknesses_found_in_current_picks": [
+     "De Minaur ML +175 'value' (P 41.5%, EV +14%) rests almost entirely on the model's ankle assumption. The model gives a 50% chance Zverev is 'limited', and a limited Zverev wins only 44.6% (fit Zverev 60.6%, both before shrink). That 16-point swing is assumed, not calibrated. At the market-consistent 36%, EV at +175 is about -1%. Every model site (59-74% Zverev) and both prediction markets (65-67c) disagree; only Stats Insider also backs de Minaur.",
+     "The H2H blend (-3.2 points) learns from H2H serve data that includes team events. De Minaur's two Laver Cup wins on slow indoor courts pull Zverev's H2H serve-points-won down to 62.5% (h2h_spwA in qf_results.json), yet the tour-level H2H is 7-0 Zverev. It also partly overlaps the de Minaur form adjustment (-2.6).",
+     "The 'pooled blind' of 52.8% is 70% the lead's own 51.5% number. The other two AI passes were graded weak on facts (Gemini 4/10) or calibration (Grok 4/10). Blending 50/50 with the market therefore moves the line halfway toward one subjective estimate.",
+     "De Minaur +1.5 sets with take-at -148 needs 59.7% to break even. Market-consistent fair is about 57%, so the best prices found (-150 from the unnamed book via Cappster, 1.63 at Unibet per LWOS) are -5% and -7% EV. The pick is +1.8% at -150 only on the model's 61.1%. It is a hit-rate pick, not value.",
+     "The SGP (de Minaur +1.5 sets + Over 21.5) and the alt (de Minaur +3.5 games) have no verified book price. The +185 and -115 in crosscheck.json come from the Gemini pass, not a sportsbook. Centred on the market's win probability, their probabilities drop to 45.8% and 59.0% (model: 47.9% and 62.9%), so the take-at thresholds of +119 and -159 are too generous.",
+     "The card frames Zverev 2-0 at 38.9% as if the crowd were overrating it. But at the market's win probability, the same model gives 43.0%. All of the disagreement is about who wins; none of it is about set structure.",
+     "Fair point against the steelman: since 2020, 5 of 6 hard-court meetings went to a deciding set and Zverev won 0 of 6 in straight sets. Four of those six were team events, but the two tour matches (Vienna 2021, Indian Wells 2024) also went three. Zverev went three sets in 2 of 3 matches this week and 5 of 9 since July, and he has 388 minutes on court to de Minaur's 179. This is why I don't adopt the 48% elite base rate for Zverev 2-0."
+    ],
+    "probability_estimates": [
+     {
+      "outcome": "Zverev wins the match",
+      "probability": 0.64,
+      "basis": "Market consensus no-vig 64.2%, model-site mean about 65%, TA Elo 64.1%. Our model's ratings alone give 66.6%; adding form and H2H brings fit-state Zverev to 60.6% before shrink. Most of the -8 point ankle discount is unsupported or already in the price (no medical timeout, won the final-set tiebreak 7-1 vs Bublik, Pinnacle already moved -202 to -183)."
+     },
+     {
+      "outcome": "Zverev 2-0",
+      "probability": 0.43,
+      "basis": "The model simulation centred on a 64.3% win gives 43.0%. The generic tour base rate at a 64.2% favourite is 42.2-42.5%. The market after vig removal says about 41.5%. The elite-matchup base rate says 48%, with a wide interval. The recent H2H deciders and this week's three-setters pull it down. It is the most likely single set score, but well under 50%."
+     },
+     {
+      "outcome": "Zverev 2-1",
+      "probability": 0.21,
+      "basis": "Simulation at a 64.3% win: 21.3%. Our model: 19.6%."
+     },
+     {
+      "outcome": "de Minaur 2-0",
+      "probability": 0.2,
+      "basis": "Simulation at a 64.3% win: 19.7%. Our model: 22.4%."
+     },
+     {
+      "outcome": "de Minaur 2-1",
+      "probability": 0.16,
+      "basis": "Simulation at a 64.3% win: 16.0%. Our model: 19.0%."
+     },
+     {
+      "outcome": "de Minaur +1.5 sets (de Minaur wins at least one set)",
+      "probability": 0.57,
+      "basis": "1 minus P(Zverev 2-0). The market after vig removal says about 58.5%; our model says 61.1%."
+     },
+     {
+      "outcome": "Match ends in straight sets (Under 2.5 sets)",
+      "probability": 0.63,
+      "basis": "Simulation at the market win probability: 62.75%. Our model: 61.3%. Generic tour base rate: 64.1%. Elite-matchup base rate: 70.8%. The market after vig removal says about 59%, apparently pricing in the H2H deciders."
+     },
+     {
+      "outcome": "Zverev 2-0, steelman upper bound",
+      "probability": 0.47,
+      "basis": "Only if you accept the market's 64-66% plus the full elite-matchup straight-sets effect (48% at 64.2%; 44.5% in our simulation at 66%), and ignore the H2H and ankle signals."
+     }
+    ],
+    "ev_checks": [
+     {
+      "bet": "Zverev 2-0 ('de Minaur to win a set: No'), best of four Wincomparator books",
+      "price": "2.30 (+130)",
+      "price_status": "opened by research agent; books not named",
+      "prob": 0.43,
+      "ev": -0.011
+     },
+     {
+      "bet": "Zverev -1.5 sets",
+      "price": "+129",
+      "price_status": "opened (Cappster feed, unnamed book)",
+      "prob": 0.43,
+      "ev": -0.015
+     },
+     {
+      "bet": "Zverev 2-0 correct score, Meridianbet",
+      "price": "2.23 (+123)",
+      "price_status": "search-reported (Exa highlight, page not opened)",
+      "prob": 0.43,
+      "ev": -0.041
+     },
+     {
+      "bet": "Zverev 2-0 correct score, PokerStars.fr",
+      "price": "2.20 (+120)",
+      "price_status": "opened",
+      "prob": 0.43,
+      "ev": -0.054
+     },
+     {
+      "bet": "Zverev 2-0 correct score, Unibet.fr",
+      "price": "2.10 (+110)",
+      "price_status": "opened",
+      "prob": 0.43,
+      "ev": -0.097
+     },
+     {
+      "bet": "Zverev 2-1 correct score, Meridianbet (best 2-1 price seen)",
+      "price": "3.55 (+255)",
+      "price_status": "search-reported",
+      "prob": 0.21,
+      "ev": -0.255
+     },
+     {
+      "bet": "Zverev ML, DraftKings",
+      "price": "-200",
+      "price_status": "search-reported via Dimers (Oct 14)",
+      "prob": 0.64,
+      "ev": -0.04
+     },
+     {
+      "bet": "Zverev ML, Pinnacle",
+      "price": "-183",
+      "price_status": "reported on the Agatha.gg page (snapshot Oct 14 6:05 PM ET); Pinnacle page not opened",
+      "prob": 0.64,
+      "ev": -0.01
+     },
+     {
+      "bet": "Zverev ML, OddsSafari best odds",
+      "price": "1.55 (-182)",
+      "price_status": "fetched via Exa (markets.json)",
+      "prob": 0.64,
+      "ev": -0.008
+     },
+     {
+      "bet": "Zverev ML, Kalshi YES",
+      "price": "65c",
+      "price_status": "fetched via Exa (Oct 15 ~00:30 UTC); EV before fees",
+      "prob": 0.64,
+      "ev": -0.015
+     },
+     {
+      "bet": "Zverev -1.5 games, Interwetten",
+      "price": "1.70 (-143)",
+      "price_status": "reported by LWOS Best Bets 2026-10-14 (article opened, book page not)",
+      "prob": 0.585,
+      "ev": -0.006
+     },
+     {
+      "bet": "Zverev -2.5 games, bet365",
+      "price": "-120",
+      "price_status": "search-reported",
+      "prob": 0.514,
+      "ev": -0.058
+     },
+     {
+      "bet": "Zverev to win + Over 22.5 games",
+      "price": "2.75 (+175)",
+      "price_status": "reported in the Sportwetten24 tip 2026-10-14 (book not named)",
+      "prob": 0.3,
+      "ev": -0.175
+     },
+     {
+      "bet": "Under 2.5 sets (straight sets, either player)",
+      "price": "-158",
+      "price_status": "opened (Cappster feed, unnamed book)",
+      "prob": 0.63,
+      "ev": 0.029
+     },
+     {
+      "bet": "Under 23.5 games, BetMGM",
+      "price": "-140",
+      "price_status": "search-reported via Sportskeeda",
+      "prob": 0.558,
+      "ev": -0.043
+     },
+     {
+      "bet": "de Minaur ML, DraftKings (current card's value pick)",
+      "price": "+175",
+      "price_status": "search-reported via Dimers (Oct 14)",
+      "prob": 0.36,
+      "ev": -0.01
+     },
+     {
+      "bet": "de Minaur +1.5 sets (current card's high-hit pick), best price found",
+      "price": "-150",
+      "price_status": "opened (Cappster feed, unnamed book)",
+      "prob": 0.57,
+      "ev": -0.05
+     },
+     {
+      "bet": "de Minaur +1.5 sets, Unibet",
+      "price": "1.63 (-159)",
+      "price_status": "reported by LWOS 2026-10-14 (book page not opened)",
+      "prob": 0.57,
+      "ev": -0.071
+     }
+    ],
+    "verdict": {
+     "keep_current_picks": false,
+     "changes": [
+      "Downgrade de Minaur ML +175 from 'value' to pass. On market-consistent numbers (36%) it is about -1% EV. It is +14% only if you accept the model's -8 point ankle discount, which is an assumption, not research. If kept at all, cap it at a token stake and label it an ankle bet.",
+      "Keep de Minaur +1.5 sets only as a hit-rate pick (57-61%), labelled 'no edge'. Tighten the take-at from -148 to -135 or better. The best prices found (-150, 1.63) are -5% to -7% on market-consistent numbers.",
+      "Do not bet the popular Zverev 2-0 / -1.5 sets at Unibet.fr 2.10, PokerStars.fr 2.20 or Meridian 2.23. At 43% it needs 2.33 (+133) or better to beat a 2.5% edge threshold. Only someone who fully buys the elite-matchup argument (46-48%) should take it, at +125 or better. No DraftKings set-spread or correct-score price was found.",
+      "Zverev ML is fairly priced at the best books (Pinnacle -183 reported, OddsSafari 1.55, about -1% EV) and -4% at DK -200. Pass at -200; consider it only at -175 or better.",
+      "Add one research-consistent way to back the crowd's 'straight sets' instinct: Under 2.5 sets at -160 or better. Estimate 63% vs 61.2% break-even at -158, so about +3% EV; break-even on our model. Thin edge, and the only price found is from an unnamed book.",
+      "Re-price the de Minaur SGP and alt at the market's win probability. De Minaur +1.5 sets + Over 21.5 is 45.8% joint, so take only at +130 or better (was +119). De Minaur +3.5 games is 59.0%, so take only at -135 or better (was -159). Neither has a verified book price."
+     ],
+     "best_high_hit_pick": "Zverev ML, about 64% to hit, at -175 or better. Pinnacle -183 (reported) is about fair, about -1% EV; DK -200 is -4%. If you trust the model's ankle discount instead, de Minaur +1.5 sets (57-61%) at -135 or better. Neither has a real edge.",
+     "best_value_pick": "A thin edge only: Under 2.5 sets (match ends in straight sets, either player) at -160 or better. About 63% vs 61.2% break-even at -158, so about +3% EV (unnamed book via Cappster; DK not found). Nothing in the Zverev 2-0, Zverev ML or de Minaur ML group is +EV at any found price on market-consistent numbers.",
+     "best_sgp": "None with a verified price. If forced: de Minaur +1.5 sets + Over 21.5 games at +130 or better (joint 45.8% centred on the market, 47.9% in our model). The pro-crowd version, Zverev ML + Under 22.5 games (joint about 34%, fair about +193), had no price found.",
+     "confidence": "Medium-low. The market looks efficient here. Every edge found is under 3%, and the de Minaur side rests on one ankle assumption that can't be verified.",
+     "reasoning": "Where the crowd is right: Zverev is the right side (about 64%), and Zverev 2-0 really is the single most likely set score, at about 43%. Next come Zverev 2-1 at about 21%, de Minaur 2-0 at about 20% and de Minaur 2-1 at about 16%. The strongest case for 2-0 is real: at the same win probability, elite matchups end in straight sets more often (48% fav 2-0 at 64.2%, n=92, wide interval). Zverev won 76% of his wins as favourite against top-20 players in straight sets. De Minaur is 0-8 against the top 5 since Oct 2024, five of those in straight sets. And the serve gap (aces 12.3% vs 5.3%, tiebreak serve points 73.7% vs 59.1%) is widest on a fast court.\n\nWhere 'most likely' is not the 'best bet': 43% being the top single score still leaves about 57% for the complement, de Minaur winning a set. More importantly, the books already price the crowd's view. Zverev 2-0 trades at 2.10-2.30 (break-even 43.5-47.6%), which is at or above any honest estimate, so every Zverev-side price we found has negative EV at 43% and 64%. The pile of '2-0' projections is mostly algorithm sites printing their modal score (5 of 7). Human tipsters who make a set call go 11 of 13 for de Minaur winning a set.\n\nThe steelman does expose a real flaw in our card. The de Minaur ML 'value' and most of the de Minaur +1.5 edge come from one assumption: a 50% chance Zverev is limited, worth 16 points of win probability when he is. Run the model at the market's win probability and the de Minaur bets go to about break-even or worse. Honest answer: back Zverev to win only at a fair price; treat de Minaur +1.5 as a hit-rate play only at -135 or better; the only research-consistent sliver of value is straight sets either way (Under 2.5 sets at -160 or better). Any 'Zverev 2-0' bet needs +130 or better before it is worth it.\n\nCaveats: no DraftKings set or SGP prices were found. Several prices come from unnamed books (Cappster, Wincomparator) or are search-reported. Web searches found no post-Bublik ankle update; the search index stops around Oct 12. Scratch scripts: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/steel/sims.py, /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/steel/sgp.py, /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/steel/elite.py"
+    }
+   },
+   "refute": {
+    "match": "QF-B: Alexander Zverev (1) vs Alex de Minaur (9), Shanghai Masters 2026 QF, Thu Oct 15, not before 6:00 AM ET (6 PM local), Stadium Court",
+    "position_argued": "Adversarial refutation of the QF-B card: de Minaur +1.5 sets (high-hit), de Minaur ML +175 (value), SGP de Minaur +1.5 sets + Over 21.5 games. Finding: the crowd's 'Zverev 2-0' does not contradict the card. Zverev 2-0 is the single most likely result (~40%), but at every quoted price it is the worst bet on the board (-11% to -16% EV). Of our three picks, only the de Minaur ML clears break-even under every reasonable input, and only at +170 or better. De Minaur +1.5 sets breaks even at best: it is a hit-rate play, not value. The SGP has no verified DraftKings price and bets the same outcome as the other two picks.",
+    "strongest_evidence": [
+     {
+      "claim": "Pinnacle (sharpest book) set and total-sets lines put de Minaur +1.5 sets at 60.0% and P(3 sets) at 41.0% after removing the vig, against our model's 61.1% and 38.7%. Pinnacle's moneyline gives Zverev 63.4%. The page labels these columns 'game handicap/total games', but every match shows '2.5 o/u', so they are set lines.",
+      "number": "ML 1.54/2.67 -> Zverev 63.4%; Zverev -1.5 sets 2.43 / dM +1.5 sets 1.621 (-161) -> dM +1.5 = 60.0%; sets O2.5 2.37 / U 1.649 -> P3 41.0%",
+      "source": "https://pinnodds.com/pinnacle-odds/tennis (Pinnacle feed page, opened; snapshot 00:19 UTC Oct 15 2026)"
+     },
+     {
+      "claim": "The market has moved toward de Minaur since the ankle news went public. Pinnacle opened Zverev -202 at 10:50 AM ET Oct 13, about 2 hours after AFP/SID reported the ankle, and was -185 by 7:50 PM ET Oct 14. FanDuel moved from -210 to -205 with de Minaur at +160. So our DraftKings +175 (Dimers, Oct 14) may be stale.",
+      "number": "Pinnacle Zverev -202 -> -185; FanDuel dM +160; PickDawgz line -227/+165 (2026-10-14); Bleacher Nation/DataSkrive -222/+170 (2026-10-13, book not named)",
+      "source": "https://agatha.gg/atp/de-minaur-vs-zverev-2026-10-15 (search-reported highlight, line snapshot Oct 14 7:50 PM ET); https://pickdawgz.com/tennis-picks/alexander-zverev-vs-alex-de-minaur-prediction-atp-shanghai-masters-picks/ (2026-10-14, search-reported); https://www.bleachernation.com/picks/2026/10/13/zverev-vs-de-minaur-prediction-at-the-rolex-shanghai-masters-thursday-october-15/ (2026-10-13, search-reported)"
+     },
+     {
+      "claim": "Zverev's own account of the ankle: fine in the warm-up and the first set, worse from the middle of set 2. He rejected withdrawing ('I don't want to retire with no reason'). No Oct 14-15 practice report or medical update was found.",
+      "number": "Ankle worsened from mid-set 2 vs Bublik (won 7-6 4-6 7-6, 2h37-2h41)",
+      "source": "https://www.am850.com/zverev-injured-in-shanghai-i-have-never-retired-from-a-tennis-match-in-my-life-and-i-want-to-keep-that-streak-going/ (2026-10-14); https://tennistonic.com/tennis-news/1065437/... (2026-10-14); https://www.atptour.com/en/news/zverev-bublik-shanghai-2026-tuesday (2026-10-13)"
+     },
+     {
+      "claim": "Zverev's serve did not measurably decline in the two matches where the ankle flared. The model's 'limited' state cuts his serve by 2 points in set 2 and 3 points in set 3; that cut is not visible in these match totals.",
+      "number": "Serve-points-won vs expected: +0.65 pts (Halys), +1.7 pts (Bublik); return -4.3 / +0.5 pts",
+      "source": "/tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/output/qf_results.json (QF-B form_table)"
+     },
+     {
+      "claim": "The model's own backtest says the H2H adjustment makes predictions slightly worse. It is still applied to QF-B, and it includes both Laver Cup exhibitions (slow indoor courts). The 2025 Laver Cup, with Zverev winning only 48% of serve points, is the most heavily weighted low data point.",
+      "number": "Log loss with H2H 0.63916 vs without 0.63890; on the H2H subset 0.62588 vs 0.62519 (lower is better)",
+      "source": "/tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/output/bt_form_h2h.csv; src/qf_model.py H2H_ZA list"
+     },
+     {
+      "claim": "Re-running the model with each shaky input toggled moves P(Zverev) only between 58.2% and 62.6%; every variant stays below the sharp market's 63.4%. Removing H2H adds about 1.0 point; removing the ankle term adds 2.3 points (the -8.0 quoted in the brief is before the backtest shrink); weighting the market 80% instead of 50% gives 61.4-62.6%.",
+      "number": "As built 58.6; no Laver Cup 59.5; no ankle 60.9; no ankle + no Laver Cup 61.7; 80% market weight 61.4-62.6",
+      "source": "/tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/refute_b/variants.py (local recomputation)"
+     },
+     {
+      "claim": "Base rates for the SGP and its legs are at or below the model. When both players are top-15, the favourite wins 2-0 more often.",
+      "number": "Rank favourite 60-68% (n=1,244): underdog +1.5 sets 57.6%, Over 21.5 57.9%, SGP joint 45.9%. Both top-15 (n=183): underdog +1.5 sets 50.3%, Over 21.5 52.5%, SGP joint 37.2%. Model: 61.1% / 62.5% / 47.9%",
+      "source": "/tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/refute_b/br_sgp.py (local hard best-of-3 data, 2023-01 to 2026-09)"
+     },
+     {
+      "claim": "bet365's own pricing leans toward a deciding set even more than Pinnacle does. Its games handicap is a coin flip at -2.5.",
+      "number": "Total sets: 2 sets -163 / 3 sets +120 -> P3 42.3%; games Zverev -2.5 -120 / dM +2.5 -120; ML -200/+162",
+      "source": "https://news.bet365.com/en-us/article/shanghai-masters-zverev-vs-de-minaur-quarterfinal-preview/2026101420162441867 (2026-10-14, search-reported)"
+     },
+     {
+      "claim": "De Minaur's groin was hurt recently: he retired in the Beijing final on Oct 6, though he now says it feels 'better and better every single day'. The model has no physical term for him, only for Zverev. A small matching term (25% chance, half the size of Zverev's) would add about 0.5 points to Zverev.",
+      "number": "Retired Beijing final Oct 6; 'Today was by far the best day' (after beating Khachanov 6-3 6-4)",
+      "source": "https://en.rolexshanghaimasters.com/en/media/news/day-9-preview-zverev-d-de-minaur (2026-10-14); https://www.tennis365.com/tennis-news/alex-de-minaur-injury-update-shanghai-masters-quarterfinal (2026-10-13)"
+     }
+    ],
+    "weaknesses_found_in_current_picks": [
+     "Biggest lever: the final number is a 50/50 blend of the 'blind' estimate (our model pooled with Gemini and Grok) and the market. The backtest (log loss 0.6385) was never compared against closing odds, so giving the model equal weight with a liquid market is not justified. Before any adjustment, the calibrated ratings-only number is already 59.9%, not 66.6% (66.6% is the pre-shrink figure). So most of the gap to the market (63.4%) is built into the model, not caused by the ankle. With 80% market weight, P(Zverev) = 61.4-62.6% and de Minaur's ML edge shrinks from +14% to about +3-6% at +175.",
+     "H2H blend: the model's own backtest says it hurts slightly (log loss 0.63916 vs 0.63890). It also counts both Laver Cup exhibitions on slow indoor courts. Removing H2H adds about 1 point to Zverev on the final number.",
+     "Ankle mixture: the 50% chance that Zverev is limited is a judgment call. The size of the hit (serve -2/-3 points in sets 2/3, de Minaur's serve +1.5/+2.5) does not show in his Shanghai serve stats (+0.65 and +1.7 points above expectation in the ankle matches). No Oct 14-15 practice or medical update was found. The market had already priced the news when Pinnacle opened. Its effect on our final is -2.3 points, not -8.0.",
+     "The physical risk is modelled for one player only: de Minaur's groin retirement in the Beijing final (Oct 6) gets no term.",
+     "de Minaur +1.5 sets has no edge at any price seen. Pinnacle is 1.621 (-161), worse than the card's -148 take-at. The best seen is -150 at an unnamed book via Cappster, and at our central estimate (59.5%) that is -0.8% EV. Unibet.fr is 1.44 and PokerStars.fr 1.57. DraftKings set prices: not found. It is a ~60% hit-rate bet at a fair price at best.",
+     "SGP (de Minaur +1.5 sets + Over 21.5): DraftKings price and availability not found. The model's Over 21.5 (62.5%) is above base rates (57.9% for generic favourites, 52.5% when both are top-15). The joint is 47.9% in the model, 46.8% at our central estimate, and 45.9% / 37.2% in base rates. 78-80% of its probability comes from the same 'de Minaur wins a set' outcome, so it adds no independent edge.",
+     "The card is concentrated: all three QF-B picks lose if Zverev wins 2-0 (about 40%, the crowd's modal call), and the SGP also loses on a de Minaur 2-0 with 21 or fewer games. Stacking all three triples exposure to one outcome.",
+     "DraftKings de Minaur +175 is search-reported (Dimers, Oct 14) and possibly stale. Other books moved toward de Minaur: FanDuel +160, Pinnacle +167, PickDawgz +165, Kalshi 37c. At +160 the ML is about 0% EV at our central estimate and -4.8% against the market."
+    ],
+    "probability_estimates": [
+     {
+      "outcome": "Zverev wins",
+      "probability": 0.615,
+      "basis": "Central skeptic estimate: model variants range 58.2-62.6% (shaky inputs toggled; 80% market weight gives 61.4-62.6%); Pinnacle no-vig 63.4%; model as built 58.6%"
+     },
+     {
+      "outcome": "de Minaur wins",
+      "probability": 0.385,
+      "basis": "1 - Zverev; range 36.6% (Pinnacle no-vig) to 41.4% (model as built)"
+     },
+     {
+      "outcome": "Zverev 2-0",
+      "probability": 0.405,
+      "basis": "Model re-centred at P(Z) 0.605-0.62 gives 39.2-41.5%; Pinnacle no-vig 40.0%; other books 38.8-42.6%; generic base rate 42.4%; model as built 38.9%"
+     },
+     {
+      "outcome": "de Minaur +1.5 sets (wins at least one set)",
+      "probability": 0.595,
+      "basis": "1 - Zverev 2-0; Pinnacle no-vig 60.0%; model 61.1%; base rate 57.6% (generic) / 50.3% (both top-15)"
+     },
+     {
+      "outcome": "Match goes 3 sets",
+      "probability": 0.39,
+      "basis": "Model 38.2-38.7%; market 41.0% (Pinnacle) to 42.3% (bet365); base rate 38.7% generic, 31.7% both top-15; 5 of the last 6 hard-court H2H meetings went to a decider"
+     },
+     {
+      "outcome": "de Minaur 2-0",
+      "probability": 0.215,
+      "basis": "Model re-centred 20.7-22.3%; Unibet.fr/PokerStars.fr correct-score no-vig about 19.6-19.7%"
+     },
+     {
+      "outcome": "Over 21.5 games",
+      "probability": 0.61,
+      "basis": "Model re-centred 60.6-61.7%; base rate 57.9% generic / 52.5% both top-15; the market's main total of 22.5 (Unibet over 52.6% no-vig) matches the model at 52-53%"
+     },
+     {
+      "outcome": "SGP: de Minaur +1.5 sets AND Over 21.5",
+      "probability": 0.468,
+      "basis": "Simulated jointly at P(Z) 0.605-0.62: 46.4-47.8%; model as built 47.9%; base rate 45.9% generic / 37.2% both top-15"
+     }
+    ],
+    "ev_checks": [
+     {
+      "bet": "de Minaur ML",
+      "price": "+175",
+      "price_status": "DraftKings via Dimers, search-reported Oct 14; not re-verified, market has since moved toward de Minaur",
+      "prob": 0.385,
+      "ev": 0.059
+     },
+     {
+      "bet": "de Minaur ML (if DraftKings has moved to match FanDuel)",
+      "price": "+160",
+      "price_status": "FanDuel latest line per agatha.gg (search-reported Oct 14); DraftKings current price not found",
+      "prob": 0.385,
+      "ev": 0.001
+     },
+     {
+      "bet": "de Minaur +1.5 sets",
+      "price": "-150",
+      "price_status": "Unnamed book via Cappster feed (opened); best price seen",
+      "prob": 0.595,
+      "ev": -0.008
+     },
+     {
+      "bet": "de Minaur +1.5 sets",
+      "price": "-161 (1.621)",
+      "price_status": "Pinnacle via pinnodds feed (opened, snapshot 00:19 UTC Oct 15); DraftKings set spread not found",
+      "prob": 0.595,
+      "ev": -0.035
+     },
+     {
+      "bet": "SGP de Minaur +1.5 sets + Over 21.5",
+      "price": "+119 (card's take-at threshold, NOT a quoted price)",
+      "price_status": "DraftKings SGP price/availability not found",
+      "prob": 0.468,
+      "ev": 0.025
+     },
+     {
+      "bet": "de Minaur +2.5 games",
+      "price": "-120",
+      "price_status": "bet365 US news page 2026-10-14 (search-reported)",
+      "prob": 0.515,
+      "ev": -0.056
+     },
+     {
+      "bet": "Over 2.5 sets (3 sets)",
+      "price": "+137 (2.37)",
+      "price_status": "Pinnacle via pinnodds (opened)",
+      "prob": 0.39,
+      "ev": -0.076
+     },
+     {
+      "bet": "Zverev 2-0 (the crowd's call)",
+      "price": "+120 (2.20)",
+      "price_status": "PokerStars.fr correct score (opened per research brief)",
+      "prob": 0.405,
+      "ev": -0.109
+     },
+     {
+      "bet": "Zverev ML",
+      "price": "-185 (1.54)",
+      "price_status": "Pinnacle via pinnodds (opened)",
+      "prob": 0.615,
+      "ev": -0.053
+     }
+    ],
+    "verdict": {
+     "keep_current_picks": false,
+     "changes": [
+      "de Minaur ML: KEEP as the value pick, but only at +170 or better. At +175 it is positive under every input variant, including the sharp market's no-vig number (+0.6%), with a central EV of about +6%. Cut the claimed edge from +14% to about +3-6%. Pass if DraftKings now shows +165 or worse. It is the riskiest pick (hits about 38% of the time), so stake small.",
+      "de Minaur +1.5 sets: DOWNGRADE from 'best high-hit pick' to 'hit-rate play, no edge'. Take only at -150 or better (about 60% hit rate, break-even at best). Pass at Pinnacle's -161 or any typical DraftKings set price worse than -155. Lower its take-at from -148 to -150 at most, and do not call it value.",
+      "SGP de Minaur +1.5 sets + Over 21.5: DOWNGRADE to 'pass unless DraftKings offers +125 or better'. No DraftKings price was found, and its edge comes from the same 'de Minaur wins a set' outcome as the other two picks.",
+      "Do not stack all three QF-B picks. A Zverev 2-0 (about 40%) loses every one. Choose either the ML (value) or +1.5 sets (hit rate) as the single main play.",
+      "Model fixes for the record: drop the H2H blend or exclude the Laver Cup matches, since the model's own backtest says H2H hurts. Re-weight the market blend toward 70-80% market. Add a small groin term for de Minaur. Restate the ankle effect as -2.3 points on the final, not -8.0.",
+      "Tell the user plainly that Zverev 2-0 IS the single most likely score (about 40%, and the market agrees). But it happens less than half the time, and betting it at 2.10-2.23 is the worst EV on the board (-11% to -16%). So the crowd's projection and our picks do not conflict."
+     ],
+     "best_high_hit_pick": "de Minaur +1.5 sets, only at -150 or better (about 59-61% to hit; roughly fair price, no edge). If DraftKings is worse than -155, there is no high-hit bet with acceptable value in this match; pass.",
+     "best_value_pick": "de Minaur ML at +170 or better (DraftKings +175 if still posted). About 38.5% to win against a 36.4% break-even; positive in every input variant.",
+     "best_sgp": "Pass unless DraftKings prices de Minaur +1.5 sets + Over 21.5 at +125 or better (joint about 46.8%, fair about +114). Do not combine it with the de Minaur ML or a straight +1.5 sets bet.",
+     "confidence": "Low-moderate. The direction (de Minaur side at plus money) holds up under every variant, but the edges are small (0-6%), and the DraftKings prices for the ML (possibly stale), set spread and SGP are not verified.",
+     "reasoning": "I re-ran the QF-B model with each shaky assumption switched on and off. P(Zverev) moves only between 58% and 63%; the as-built 58.6% leans most on giving our blind model equal weight with the market. Two inputs are weaker than presented. First, the H2H blend makes predictions slightly worse in our own backtest, and it counts two Laver Cup exhibitions. Second, the ankle penalty assumes a serve decline that did not show in Zverev's Shanghai stats, and the market had priced the ankle news before it opened. The sharpest book, Pinnacle, has Zverev at 63.4%, de Minaur +1.5 sets at 60.0% and three sets at 41%. Those are within one to three points of our set-structure numbers, so the crowd's 'Zverev 2-0' is just the most likely single score (about 40%), not a reason to flip sides. The trouble is price, not direction. De Minaur +1.5 sets is about a 60% shot, but every price found (-150 to -227) is at or below fair, so it is a hit-rate bet with no edge. The SGP has no verified DraftKings price and adds only more exposure to the same outcome. The de Minaur ML at +170 or better stays positive even on the market's own number, so it is the one pick that survives. It wins only about 38% of the time and should be a small stake. Scratch work: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/refute_b/variants.py, reprice.py, reprice.csv, br_sgp.py. Incidental QF-A note from the same Pinnacle page: Gea 1.98 / ADF 1.925 (Gea about 49.3% no-vig, moved from 2.07) and Gea +1.5 sets 1.411 (about 68.9% no-vig, roughly -244), which is worse than the card's -202 take-at for Gea +1.5."
+    }
+   }
+  },
+  {
+   "match": "QF-A",
+   "research": {
+    "match": "QF-A: Arthur Gea (FRA, #56) vs Alejandro Davidovich Fokina (ESP, #26, seed 25). 2026 Rolex Shanghai Masters QF, Stadium Court, Thu Oct 15, not before 2:30 AM ET. First meeting.",
+    "predictions": [
+     {
+      "source": "Tennisnerd.net (Stefan Jonsson)",
+      "url": "https://www.tennisnerd.net/betting-blog/arthur-gea-vs-davidovich-fokina-and-zverev-vs-de-minaur-atp-shanghai-predictions/69995",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "ADF in 3 sets (bet)",
+      "probability_given": "none",
+      "quote_or_basis": "Opened. 'Davidovich Fokina has been through more of these situations, he's coming off a title run, and his defense and variety should give Gea problems in a longer match... might be the fresher player... I think we will see three sets.' Bet: ADF to win in three sets."
+     },
+     {
+      "source": "Sportskeeda",
+      "url": "https://www.sportskeeda.com/tennis/alejandro-davidovich-fokina-vs-arthur-gea-preview-head-to-head-odds-prediction-betting-tips-shanghai-masters-2026",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "ADF in 3 sets; tips: at least 25 games; ADF wins at least one set 7-5 or better",
+      "probability_given": "none",
+      "quote_or_basis": "Opened. Cites ADF's Masters experience, return of big serves, movement/defence to force long rallies. 'Given how closely matched they appear... a deciding set looks plausible.' Also warns his demanding route 'could test his physical reserves'."
+     },
+     {
+      "source": "Last Word on Sports (Zain Mustafa)",
+      "url": "https://lastwordonsports.com/tennis/2026/10/14/atp-shanghai-quarterfinal-predictions-zverev-de-minaur/",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "ADF in 3",
+      "probability_given": "none",
+      "quote_or_basis": "Opened. 'The level at which both of these players are playing makes me think a long match is in play... Davidovich Fokina should be the fresher player here. That, along with the Spaniard's better defensive abilities, makes me give him the edge.'"
+     },
+     {
+      "source": "Tennis Tonic (Mark Hall)",
+      "url": "https://tennistonic.com/tennis-news/1065764/h2h-prediction-of-alejandro-davidovich-fokina-vs-arthur-gea-in-shanghai-with-odds-preview-pick-15th-october-2026/",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "ADF in 3 sets",
+      "probability_given": "Initial odds ADF 1.75 / Gea 2.06",
+      "quote_or_basis": "Opened. 'The pick for Tennis Tonic is Alejandro Davidovich Fokina who should win in 3 sets.' Their table shows court time this week: Gea 7h35 over 4 matches, ADF 6h02 over 3."
+     },
+     {
+      "source": "VSiN (Zachary Cohen)",
+      "url": "https://vsin.com/tennis/tennis-best-bets-overnight-picks-and-predictions-for-october-14-and-15/",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "ML only",
+      "probability_given": "Bet ADF ML -120 (1.5u)",
+      "quote_or_basis": "Opened. TennisViz 52-week non-major ratings favour ADF: Performance 7.70 vs 7.03, Serve 7.8 vs 7.2, Return 7.0 vs 6.0, Backhand 7.8 vs 6.7. Gea's only clear edge is the forehand. Says ADF is 'more battle-tested'."
+     },
+     {
+      "source": "Tony's Picks (Tony Tellez)",
+      "url": "https://www.tonyspicks.com/2026/10/14/gea-davidovich-fokina-pick-10-15-26/",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "ML only, graded PASS",
+      "probability_given": "Prices quoted: Gea 1.98-2.02 / ADF 1.77-1.80",
+      "quote_or_basis": "Search-reported. 'Davidovich Fokina remains the selected winner, but the betting decision is a pass.' Says the price is too close to justify a bet."
+     },
+     {
+      "source": "predictobets (AI plus human analyst)",
+      "url": "https://www.predictobets.com/tennis/match/a-gea-vs-a-davidovich-fokina-15-10-2026",
+      "type": "model/AI",
+      "published": "undated (match page)",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "'two or three tight sets'; set-betting lean ADF in 3",
+      "probability_given": "ADF @1.73; Pinnacle Gea 2.03 / ADF 1.87",
+      "quote_or_basis": "Search-reported. Reasons are ranking (26 vs 56), ATP points and experience. Text contains errors (calls Gea 'Alejandro Gea' and claims an 'equal head-to-head record')."
+     },
+     {
+      "source": "Oddspedia (algorithm plus tipster consensus)",
+      "url": "https://oddspedia.com/tennis/alejandro-davidovich-fokina-arthur-gea-2176362",
+      "type": "model/AI",
+      "published": "modified 2026-10-13",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "Algorithm: Gea 0:2 ADF (ADF 2-0)",
+      "probability_given": "80% of tipsters on ADF ML (-116); 5 tips",
+      "quote_or_basis": "Search-reported. Reasons are recent form ('four of his last five') and 'consensus leaning towards an away win'. User tips are split on totals (Over 23.5 / Under 23)."
+     },
+     {
+      "source": "Forebet",
+      "url": "https://www.forebet.com/en/tennis/matches/atp-singles/shanghai/a-gea-a-davidovich-fokina/361281",
+      "type": "model/AI",
+      "published": "undated",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "0-2 (ADF 2-0)",
+      "probability_given": "ADF 51% / Gea 49%",
+      "quote_or_basis": "Search-reported. Cites ADF's '83% win rate in his last 6 matches' and his higher ranking."
+     },
+     {
+      "source": "BetClan (algorithm plus tipsters)",
+      "url": "https://www.betclan.com/tennis/predictionsdetails/202860933/Arthur-Gea-vs-Alejandro-Davidovich-Fokina-prediction-h2h-tip-and-match-preview/",
+      "type": "model/AI",
+      "published": "undated",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "ADF 2-1 (30%); Over 23.5 (54%)",
+      "probability_given": "ADF 55%",
+      "quote_or_basis": "Search-reported. Algorithmic verdict: ADF to win, ADF to win set 1 (55%), set betting ADF 2-1."
+     },
+     {
+      "source": "Maiden",
+      "url": "https://maiden.bet/tennis/predictions/alejandro-davidovich-fokina-vs-arthur-gea-shanghai-atp-2026-10-15",
+      "type": "model/AI",
+      "published": "2026-10-14 08:24 UTC",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "not shown (paywalled)",
+      "probability_given": "ADF 52% (fair -108; market -113 = 53.0%)",
+      "quote_or_basis": "Opened. 'Neither the serve numbers nor the ratings separate these two by much... Fokina gets the nod on the finest of margins.' Their hard rating actually favours Gea (1992 vs 1938); overall rating favours ADF (1992 vs 1949)."
+     },
+     {
+      "source": "Umpiry",
+      "url": "https://umpiry.com/match/2026-10-15/fokina-vs-gea-shanghai-masters-qf",
+      "type": "model/AI",
+      "published": "undated",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "none",
+      "probability_given": "ADF 60%",
+      "quote_or_basis": "Opened. Reasons: ranking, hard Elo 1921 vs 1887, overall Elo 2091 vs 1981, 'Clutch Rating 90 vs 38'. Workload: Gea 156 games in 14 days vs ADF 111. Note: Gea leads on 1st-serve points won (75% vs 71%) and return points won (39% vs 36%). Court rated 'fast'."
+     },
+     {
+      "source": "BSD / bzzoiro model",
+      "url": "https://sports.bzzoiro.com/tennis/match/55365/",
+      "type": "model/AI",
+      "published": "undated",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "none",
+      "probability_given": "ADF 66% / Gea 34%",
+      "quote_or_basis": "Opened. Reasons: 'Dominant on this surface (63% win rate)', 'Better on break points', 'Strong in tiebreaks (65%)'. The same page carries an 11-14 book odds table (used below)."
+     },
+     {
+      "source": "Pronocast",
+      "url": "https://www.pronocast.com/en/match/a-gea-a-davidovich-fokina-shanghai-2026-10-15-12170856",
+      "type": "model/AI",
+      "published": "undated",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "hidden (members only)",
+      "probability_given": "hidden",
+      "quote_or_basis": "Search-reported. 'The model has A. Davidovich Fokina winning this match.' Lists tiebreak win rates: Gea 56% (36/64), ADF 45% (64/141)."
+     },
+     {
+      "source": "Tuze Sports (AI)",
+      "url": "https://sports.tuze.ai/atp/2026-10-15-arthur-gea-alejandro-davidovich-fokina",
+      "type": "model/AI",
+      "published": "2026-10-15 04:00 UTC",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "not clear (snippet fragment)",
+      "probability_given": "none",
+      "quote_or_basis": "Search-reported. Reasons: seed, 'experience on bigger stages', wins over Hurkacz and Tiafoe. Claims Gea beat 'lesser-known opponents', which is factually weak: Gea beat Shelton (#4) and Mensik (#15)."
+     },
+     {
+      "source": "Tennis.com match projection",
+      "url": "https://www.tennis.com/tournaments/rolex-shanghai-masters/matches/a-gea-vs-a-davidovich-fokina-2026-10-15",
+      "type": "model/AI",
+      "published": "undated",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "none",
+      "probability_given": "ADF 53% / Gea 47%",
+      "quote_or_basis": "Opened. Labelled 'Projected Winner 53%'."
+     },
+     {
+      "source": "casasdeapuestas.com (Alvaro Miralles, Spanish)",
+      "url": "https://www.casasdeapuestas.com/pronosticos/arthur-gea-alejandro-davidovich-fokina-20261015/",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "Davidovich Fokina",
+      "predicted_sets_or_score": "Main: ADF -1.5 games. Alternatives: ADF +1.5 sets; ADF in two sets (prudent); ADF wins set 1 7-5",
+      "probability_given": "none",
+      "quote_or_basis": "Opened. Cites six straight wins in China, the Chengdu title, the Hurkacz comeback, his return game ('se definio como un gran restador') and experience."
+     },
+     {
+      "source": "Agatha",
+      "url": "https://agatha.gg/atp/davidovich-fokina-vs-gea-2026-10-15",
+      "type": "model/AI",
+      "published": "undated",
+      "predicted_winner": "Gea",
+      "predicted_sets_or_score": "Gea 2-0",
+      "probability_given": "Gea 54%; FanDuel Gea +105 / ADF -130; Hard Rock Gea +110",
+      "quote_or_basis": "Opened. Reasons: Gea's four-match streak and wins over Mensik and Shelton; 'Gea is 16-4 on hard courts this year'."
+     },
+     {
+      "source": "SportyTrader US (Lou Aguila)",
+      "url": "https://www.sportytrader.com/us/picks/arthur-gea-alejandro-davidovich-fokina-379309/",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "Gea",
+      "predicted_sets_or_score": "Gea 6-4 5-7 7-6 (2-1)",
+      "probability_given": "Gea ML +100",
+      "quote_or_basis": "Search-reported. Gea lands 63% of first serves and wins 77.2% behind them, converted 13/26 break points, and is 3-1 in tiebreaks this week. 'Gea edges Fokina in an action-packed duel.'"
+     },
+     {
+      "source": "SportyTrader FR (Jeremy Ernou)",
+      "url": "https://www.sportytrader.com/pronostics/arthur-gea-alejandro-davidovich-fokina-379249/",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "Gea",
+      "predicted_sets_or_score": "ML only",
+      "probability_given": "Gea 2.05 Unibet (48.61%) / ADF 1.82 Betclic",
+      "quote_or_basis": "Search-reported. Argues Gea's momentum and freshness ('dispose de plus de fraicheur'). Questions ADF's body after two straight three-setters following his back injury."
+     },
+     {
+      "source": "BetMGM blog (Chase Kiddy)",
+      "url": "https://sports.betmgm.com/en/blog/atp/shanghai-masters-quarterfinals-best-bets-2026-bm06/",
+      "type": "bookmaker blog",
+      "published": "2026-10-14",
+      "predicted_winner": "Gea (lean)",
+      "predicted_sets_or_score": "Best bet Over 22.5 games (-135); likes Set 1 Over 10.5 (+180)",
+      "probability_given": "Lean Gea -102",
+      "quote_or_basis": "Opened. Gea is 21-4 since Granby in July. 'If this match goes to three sets, this over is practically automatic... a 7-6, 6-4 scoreline would still cash the over at 22.5.'"
+     },
+     {
+      "source": "SportyTrader EN (Steve Ashfield)",
+      "url": "https://www.sportytrader.com/en/betting-tips/arthur-gea-alejandro-davidovich-fokina-379106/",
+      "type": "tipster",
+      "published": "2026-10-13, modified 2026-10-14",
+      "predicted_winner": "none (totals)",
+      "predicted_sets_or_score": "Over 22.5 games; suggests each set going 7-5/7-6",
+      "probability_given": "Gea 2.01 Stake / ADF 1.86 1xbet",
+      "quote_or_basis": "Search-reported. 'These two players have already played seven tie-breaks between them.' Gea over 22.5 in each of his last 5; ADF over 22.5 in 5 of his last 6."
+     },
+     {
+      "source": "SportyTrader PT (Armando Rodrigues)",
+      "url": "https://www.sportytrader.pt/prognosticos/arthur-gea-alejandro-davidovich-fokina-379191/",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "none (totals)",
+      "predicted_sets_or_score": "Over 22.5 games",
+      "probability_given": "Gea 2.02 Betano / ADF 1.80 Luckia",
+      "quote_or_basis": "Search-reported. Same tiebreak and over-trend arguments as the EN piece."
+     },
+     {
+      "source": "FreeTips (Eddy Tora)",
+      "url": "https://www.freetips.com/tennis/arthur-gea-vs-alejandro-davidovich-fokina-tips-live-stream-20261014-0011/",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "none ('coin flip')",
+      "predicted_sets_or_score": "Over 22.5; 'go the distance' (3 sets)",
+      "probability_given": "none",
+      "quote_or_basis": "Search-reported. 'Gea has won 3 tie breaks in his previous 4 sets; Fokina has seen a tie break in 4 of his last 5 matches.'"
+     },
+     {
+      "source": "scores24 (Dmitry Rudakow)",
+      "url": "https://scores24.live/en/tennis/m-15-10-2026-gea-arthur-davidovich-fokina-alejandro-prediction",
+      "type": "tipster",
+      "published": "undated (match-day page)",
+      "predicted_winner": "none ('no clear favourite')",
+      "predicted_sets_or_score": "Over 21.5 games",
+      "probability_given": "none",
+      "quote_or_basis": "Search-reported. 'Neither player has lost 0-2 in sets in their last ten matches.' Average games per match: Gea 29.9, ADF 24.8."
+     },
+     {
+      "source": "The Stats Zone (Alex Meechan)",
+      "url": "https://www.thestatszone.com/arthur-gea-vs-alejandro-davidovich-fokina-preview-prediction-2026-shanghai-masters-quarter-final-230371",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "none (calls ADF 'the favourite')",
+      "predicted_sets_or_score": "Over 21.5 games",
+      "probability_given": "none",
+      "quote_or_basis": "Opened. 'The Spaniard is the favourite to advance... but Gea cannot be ruled out.'"
+     },
+     {
+      "source": "wettfreunde.net (Christian Capponi, German)",
+      "url": "https://www.wettfreunde.net/tennis-tipps/shanghai-heute-15-10-2026/",
+      "type": "tipster",
+      "published": "2026-10-14",
+      "predicted_winner": "none (ADF 'leicht favorisiert')",
+      "predicted_sets_or_score": "3 sets @2.25 Oddset",
+      "probability_given": "none",
+      "quote_or_basis": "Search-reported. 'Aufgrund der engen Kraefteverhaeltnisse... ist ein 3-Satz-Krimi zu erwarten' (with the players this close, expect a three-set thriller)."
+     },
+     {
+      "source": "Kalshi (prediction market)",
+      "url": "https://kalshi.com/markets/kxatpmatch/atp-tennis-match/kxatpmatch-26oct15geadav",
+      "type": "prediction market",
+      "published": "live snapshot about 19.5h before start (Oct 14 morning ET)",
+      "predicted_winner": "Davidovich Fokina (slight)",
+      "predicted_sets_or_score": "Set 1 ADF 51-53%; Set 2 ADF 52-54%; Over 24.5 games 45c",
+      "probability_given": "ADF 54c / Gea 47c (vig-free ADF 53.5%); combos page ADF 51 / Gea 50",
+      "quote_or_basis": "Opened, plus https://kalshi.com/combos/games/gea-vs-davidovich-fokina/props. Thin volume ($1,167)."
+     },
+     {
+      "source": "Polymarket",
+      "url": "https://explore.polynode.dev/markets/atp-gea-fokina-2026-10-15",
+      "type": "prediction market",
+      "published": "live snapshot",
+      "predicted_winner": "Davidovich Fokina (slight)",
+      "predicted_sets_or_score": "n/a",
+      "probability_given": "ADF 52c / Gea 48c (predictmarketcap shows Gea 46.5%)",
+      "quote_or_basis": "Search-reported. Low volume (about $1.4-4k)."
+     }
+    ],
+    "set_market_prices": [
+     {
+      "book": "Meridianbet BE",
+      "market": "Correct score",
+      "selection": "ADF 2-0 (0:2)",
+      "price": "2.85 (+185)",
+      "implied_prob": 0.351,
+      "url": "https://meridiansports.be/nl/weddenschappen/tennis/atp-shanghai-masters/mannen-enkel/gea-arthur-davidovich-fokina-alejandro/19870304",
+      "status": "Opened (Exa crawl from Oct 14, exact time unknown). Vig-free 30.9% after normalising the 4-way book (overround 1.1346)."
+     },
+     {
+      "book": "Meridianbet BE",
+      "market": "Correct score",
+      "selection": "Gea 2-0 (2:0)",
+      "price": "3.20 (+220)",
+      "implied_prob": 0.3125,
+      "url": "https://meridiansports.be/nl/weddenschappen/tennis/atp-shanghai-masters/mannen-enkel/gea-arthur-davidovich-fokina-alejandro/19870304",
+      "status": "Opened. Vig-free 27.5%."
+     },
+     {
+      "book": "Meridianbet BE",
+      "market": "Correct score",
+      "selection": "Gea 2-1 / ADF 2-1",
+      "price": "4.40 (+340) / 4.10 (+310)",
+      "implied_prob": 0.227,
+      "url": "https://meridiansports.be/nl/weddenschappen/tennis/atp-shanghai-masters/mannen-enkel/gea-arthur-davidovich-fokina-alejandro/19870304",
+      "status": "Opened. implied_prob is for Gea 2-1 (raw). Vig-free: Gea 2-1 20.0%, ADF 2-1 21.5%."
+     },
+     {
+      "book": "Meridianbet BE",
+      "market": "Set handicap",
+      "selection": "ADF -1.5 sets / Gea +1.5 sets",
+      "price": "2.85 (+185) / 1.40 (-250)",
+      "implied_prob": 0.714,
+      "url": "https://meridiansports.be/nl/weddenschappen/tennis/atp-shanghai-masters/mannen-enkel/gea-arthur-davidovich-fokina-alejandro/19870304",
+      "status": "Opened. implied_prob is Gea +1.5 (raw). Vig-free: ADF 2-0 32.9%, Gea +1.5 67.1% (fair about -204)."
+     },
+     {
+      "book": "Meridianbet BE",
+      "market": "Set handicap",
+      "selection": "Gea -1.5 sets / ADF +1.5 sets",
+      "price": "3.20 (+220) / 1.33 (-303)",
+      "implied_prob": 0.3125,
+      "url": "https://meridiansports.be/nl/weddenschappen/tennis/atp-shanghai-masters/mannen-enkel/gea-arthur-davidovich-fokina-alejandro/19870304",
+      "status": "Opened. Vig-free Gea 2-0 29.4%."
+     },
+     {
+      "book": "Meridianbet BE",
+      "market": "Exact number of sets",
+      "selection": "2 sets / 3 sets",
+      "price": "1.51 (-196) / 2.09 (+109)",
+      "implied_prob": 0.478,
+      "url": "https://meridiansports.be/nl/weddenschappen/tennis/atp-shanghai-masters/mannen-enkel/gea-arthur-davidovich-fokina-alejandro/19870304",
+      "status": "Opened. implied_prob is 3 sets (raw). Vig-free P(3 sets) 41.9%."
+     },
+     {
+      "book": "Unibet.fr",
+      "market": "Correct score",
+      "selection": "ADF 2-0 / ADF 2-1 / Gea 2-0 / Gea 2-1",
+      "price": "2.70 (+170) / 3.75 (+275) / 3.15 (+215) / 4.10 (+310)",
+      "implied_prob": 0.37,
+      "url": "https://www.unibet.fr/paris-tennis/atp/shanghai/3389559/a-gea-vs-a-davidovich",
+      "status": "Opened (crawl time unknown). implied_prob is ADF 2-0 (raw). Overround 1.198, normalised: ADF 2-0 30.9%, ADF 2-1 22.3%, Gea 2-0 26.5%, Gea 2-1 20.4%. High-margin French book (ML 1.90/1.68)."
+     },
+     {
+      "book": "Unibet.fr",
+      "market": "Player to win at least 1 set",
+      "selection": "Gea wins >=1 set YES / NO",
+      "price": "1.28 (-357) / 2.35 (+135)",
+      "implied_prob": 0.781,
+      "url": "https://www.unibet.fr/paris-tennis/atp/shanghai/3389559/a-gea-vs-a-davidovich",
+      "status": "Opened. Vig-free Gea +1.5 64.7% / ADF 2-0 35.3%. Outlier: does not match the book's own correct-score prices. ADF wins >=1 set: 1.21 / 2.60, which gives Gea 2-0 31.8%."
+     },
+     {
+      "book": "Unibet.fr",
+      "market": "Handicap (unlabelled; matches the set markets)",
+      "selection": "Gea +1.5 / ADF -1.5",
+      "price": "1.27 (-370) / 2.30 (+130)",
+      "implied_prob": 0.787,
+      "url": "https://www.unibet.fr/paris-tennis/atp/shanghai/3389559/a-gea-vs-a-davidovich",
+      "status": "Opened. Line is not labelled sets or games on the page. If sets, vig-free Gea +1.5 = 64.4%. Same page shows '2 sets 1.50' (raw 66.7%)."
+     },
+     {
+      "book": "BSD consensus (11 books: 10bet, 1xBet, Betsson, Betway, Bwin, Interwetten, SportingBet, Unibet, Vistabet, William Hill, fonbet)",
+      "market": "Set handicap -1.5",
+      "selection": "Gea -1.5 sets / ADF +1.5 sets",
+      "price": "3.18 (+218) / 1.31 (-323); best Gea -1.5 3.25 (10bet, Betway, WH, fonbet); best ADF +1.5 1.33 (WH)",
+      "implied_prob": 0.3145,
+      "url": "https://sports.bzzoiro.com/tennis/match/55365/",
+      "status": "Opened. Vig-free Gea 2-0 29.2%. Direction matches Meridianbet's identical 3.20/1.33 line."
+     },
+     {
+      "book": "BSD consensus (8 books)",
+      "market": "Total sets O/U 2.5",
+      "selection": "Over 2.5 (3 sets) / Under 2.5",
+      "price": "2.22 (+122) / 1.60 (-167); Betway 2.30/1.50; WH 2.10/1.67",
+      "implied_prob": 0.4505,
+      "url": "https://sports.bzzoiro.com/tennis/match/55365/",
+      "status": "Opened. Vig-free P(3 sets) 41.9%, P(2 sets) 58.1%."
+     },
+     {
+      "book": "BSD (Novibet, fonbet)",
+      "market": "Tiebreaks O/U 0.5",
+      "selection": "Yes TB (Over) / No TB (Under)",
+      "price": "consensus 1.98 (-102) / 1.74 (-135); Novibet 2.00/1.72; fonbet 1.95/1.75",
+      "implied_prob": 0.5747,
+      "url": "https://sports.bzzoiro.com/tennis/match/55365/",
+      "status": "Opened. implied_prob is No TB (raw). Vig-free P(no TB) 53.2%, P(>=1 TB) 46.8%."
+     },
+     {
+      "book": "Oddset (via wettfreunde)",
+      "market": "Number of sets",
+      "selection": "3 sets",
+      "price": "2.25 (+125)",
+      "implied_prob": 0.444,
+      "url": "https://www.wettfreunde.net/tennis-tipps/shanghai-heute-15-10-2026/",
+      "status": "Search-reported, one side only."
+     },
+     {
+      "book": "Kalshi",
+      "market": "Set 1 winner / Set 2 winner",
+      "selection": "ADF",
+      "price": "Set 1 51-53c; Set 2 52-54c (Gea 48-50c)",
+      "implied_prob": 0.52,
+      "url": "https://kalshi.com/combos/tennis/atp-shanghai/set-winners",
+      "status": "Search-reported / opened (combos props page). Thin liquidity."
+     },
+     {
+      "book": "DraftKings",
+      "market": "Set spread / correct score / total sets / tiebreak",
+      "selection": "any",
+      "price": "not found",
+      "url": "https://sportsbook.draftkings.com/leagues/tennis/atp-shanghai",
+      "status": "Not found. The DK page fetch returned only a footer with no odds. Dimers/DK set prices not visible anywhere searched."
+     }
+    ],
+    "tally": "27 non-market sources (plus Kalshi and Polymarket). 17 pick Davidovich Fokina to win. Among those, the human tipsters mostly say ADF IN THREE SETS: Tennisnerd, Sportskeeda, LWOS, Tennis Tonic and BetClan (2-1), with predictobets leaning 'two or three sets'. Only 2 pick ADF 2-0, and both are algorithmic aggregators (Oddspedia algorithm, Forebet 51%). The other ADF picks give a winner or probability only: VSiN ML -120, Tony's Picks (pass), Maiden 52%, Umpiry 60%, BSD 66%, Pronocast, Tuze, Tennis.com 53%, casasdeapuestas (ADF -1.5 games). 4 pick Gea: Agatha (2-0, 54%), SportyTrader US (6-4 5-7 7-6), SportyTrader FR (ML), BetMGM (lean Gea; main bet Over 22.5). 6 give totals or sets only: SportyTrader EN and PT (Over 22.5), FreeTips (Over 22.5, 'go the distance'), scores24 (Over 21.5), Stats Zone (Over 21.5), wettfreunde (3 sets). In total, 13 sources forecast 3 sets or a long match. Only 3 forecast straight sets for anyone, all of them algorithms (2 for ADF, 1 for Gea). Markets: ADF 51.6% (11-14 book consensus 1.84/1.96), 52.1% (Pinnacle 1.87/2.03), 51.8% (DK -116/+100), 53.5% (Kalshi 54/47), 52% (Polymarket). So for QF-A the user's premise is wrong: the crowd does not project a straight-sets win. The consensus is a close match, ADF in three, with overs and tiebreaks.",
+    "market_implied_fav_straight_sets": "About 31% that ADF (the favourite) wins 2-0 (range 29-33%). The inverse, Gea +1.5 sets, is about 69% (range 67-71%). Arithmetic: (1) Meridianbet correct score 2:0 3.20, 2:1 4.40, 1:2 4.10, 0:2 2.85 gives raw .3125/.2273/.2439/.3509, sum 1.1346, so ADF 2-0 = .3509/1.1346 = 30.9%. (2) Unibet.fr correct score Gea 2-0 3.15, Gea 2-1 4.10, ADF 2-1 3.75, ADF 2-0 2.70 gives raw .3175/.2439/.2667/.3704, sum 1.1985, so ADF 2-0 = 30.9% (Gea 2-0 26.5%). (3) Meridianbet set handicap ADF -1.5 2.85 / Gea +1.5 1.40 gives .3509/.7143, sum 1.0652, so ADF 2-0 = 32.9%. (4) BSD 11-book consensus: Gea -1.5 3.18 / ADF +1.5 1.31 gives Gea 2-0 = .3145/1.0779 = 29.2%. O/U 2.5 sets 2.22/1.60 gives P(2 sets) = .6250/1.0755 = 58.1%. So ADF 2-0 = 58.1 - 29.2 = 28.9%. Median of (1)-(4) is 30.9%. Outlier: Unibet 'Gea wins >=1 set' 1.28/2.35 implies 35.3% (high-margin market that disagrees with the same book's correct score). Market P(3 sets) is about 42% (Meridianbet 1.51/2.09 gives 41.9%; consensus 41.9%). Market Gea 2-0 is about 26.5-29.4%. Our model by comparison: ADF 2-0 31.4% (in line), Gea 2-0 30.2% (1-3 pts higher than market), P(3 sets) 38.4% (about 3.5 pts lower than market). DraftKings set prices: not found.",
+    "key_arguments_used_by_crowd": [
+     "For ADF: more experienced and 'battle-tested' in big Masters matches, with deeper Masters-level results (VSiN, Tennisnerd, Sportskeeda, LWOS, Tuze, casasdeapuestas).",
+     "For ADF: hot Asian-swing form. Won the Chengdu title (beat Hurkacz in the final), 7-1 / six straight wins in China, came back from a set down vs Hurkacz and saved a match point vs Tiafoe.",
+     "For ADF: better defence, variety and return to blunt Gea's serve. VSiN cites TennisViz 52-week ratings: Performance 7.70 vs 7.03, Return 7.0 vs 6.0, Serve 7.8 vs 7.2, Backhand 7.8 vs 6.7. ADF calls himself a strong returner.",
+     "For ADF: fresher player (LWOS, Tennisnerd). Umpiry has Gea at 156 games in 14 days vs ADF 111; Tennis Tonic has Gea at 7h35 on court this week vs ADF 6h02. SportyTrader FR argues the opposite.",
+     "For ADF: ranking and seed gap (26 vs 56), Elo or rating edges (Umpiry, BSD 66%, predictobets), and 'clutch' ratings (Umpiry 90 vs 38).",
+     "For Gea: momentum from four straight wins including Shelton (#4) and Mensik (#15), 13 of his last 15 tour-level matches since Los Cabos, 21-4 since July (BetMGM), 30-5 on hard in 2026 including Challengers.",
+     "For Gea: serve. 11 aces and 79-80% of first-serve points won vs Mensik, no breaks conceded. 3-1 in tiebreaks this week. 'Nothing to lose'.",
+     "Against ADF: physical doubts after a three-month back layoff and two straight three-setters (SportyTrader FR, Sportskeeda).",
+     "For a long match: the two have played 7 tiebreaks between them in Shanghai (Gea 4, ADF 3). Gea went over 22.5 games in each of his last 5; ADF in 5 of his last 6. Neither has lost 0-2 in his last 10. Fast court with big serves. This drives the many Over 21.5/22.5/25, 3-sets and ADF-in-3 picks.",
+     "Coin-flip framing: several writers (FreeTips, scores24, Tony's Picks, Maiden) say the match is too close to bet a side and move to totals or pass."
+    ],
+    "notes": "WHAT THIS MEANS FOR OUR QF-A CARD.\n(1) Gea +1.5 sets. Our model (68.6%) is essentially the same as the market (about 69%; Meridianbet two-way vig-free 67.1%), so there is no edge, only a high hit rate. Every real price found is worse than our take-at of -202: Meridianbet 1.40 (-250, EV -4.0% on our 68.6%) and Unibet 1.27-1.28 (-357/-370, EV about -12%). Since the market's fair price is about -205 to -245, DraftKings (price not found) will almost certainly be juiced past -202. Keep it as 'only at -202 or better', which in practice means pass. Do not present it as a best pick.\n(2) No tiebreak. This is the pick most at odds with the evidence. Our model has P(no TB) 61.8%; the market has 53.2% (BSD O/U TB 0.5 at 1.98/1.74). Local DB, hard best-of-3, 2025-26: both players ranked 15-70 have at least one tiebreak in 44.2% of matches (n=480, so 55.8% no TB). ADF: 46.6% (n=58) and 52.4% in 2026 (n=21). Gea: 58.3% (n=12) and 63.6% in 2026 (n=11; tour-level only, Challengers missing). Shanghai 2023-25: 40.2%, 44.7%, 35.2%. Our model's 38.2% chance of a tiebreak is lower than every comparable reference except Shanghai 2025. EV at fonbet 1.75 is +8% only if our model is right. I'd treat it as low confidence or drop it.\n(3) Totals. Our model is short: Over 22.5 at 47.8% vs Unibet vig-free 56.2%; Over 20.5 at 60.7% vs market 68.1%; median 22 vs a market line of about 23.5. The empirical over-20.5 rate for comparable matches is 65.4% (Gea 81.8%, ADF 71.4% in 2026). So the Over 20.5 leg of our SGP is probably better than modelled.\n(4) Gea ML pass at +100 is fine (market about 48% Gea; crowd 17-4 for ADF).\n(5) The crowd's favourite exact bet, ADF 2-1, is priced 3.75-4.10 (vig-free about 22%). Our model has 18.1%, so EV at 4.10 is about -26% on our numbers.\n(6) The only set-market price our model makes positive is Under 2.5 sets at William Hill 1.67 (+2.9% EV). But our model also projects fewer 3-setters than the market (38.4% vs 41.9%), so it is not worth adding.\n\nCAVEATS. Exa page crawls have no timestamp, so prices may be several hours old. Some page text has errors: predictobets calls Gea 'Alejandro Gea' and invents an 'equal H2H'; Tuze calls Gea's opponents 'lesser-known'; Umpiry shows a '+233' hard-Elo edge that conflicts with its own 1921 vs 1887. Other US prices seen: FanDuel Gea +105 / ADF -130 (via Agatha); bet365 Gea +100 / ADF -125 (gainblers, search-reported); Pinnacle 2.03/1.87 (predictobets, search-reported). Local scratch scripts: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/qfa_tb.py and /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/qfa_setmkt.py."
+   },
+   "steel": {
+    "match": "QF-A: Arthur Gea (FRA, #56, live ~44) vs Alejandro Davidovich Fokina (ESP, #26, seed 25), 2026 Rolex Shanghai Masters quarterfinal, Stadium Court, Thu Oct 15, not before 2:30 AM ET. First meeting.",
+    "position_argued": "The case for the popular view: Davidovich Fokina (ADF) wins, whether on the moneyline, 2-0, or in three sets. Where the evidence supports it I say so, and I say where it stops. One correction to the premise first: for QF-A the crowd is not projecting a straight-sets win. Most human tipsters say ADF in three. Only two algorithms (Oddspedia, Forebet 51%) pick ADF 2-0, and one (Agatha) picks Gea 2-0.",
+    "strongest_evidence": [
+     {
+      "claim": "Every market leans ADF, but only slightly. Pinnacle, often treated as the sharpest book, sits in the same 52-53% band as the rest.",
+      "number": "Vig-free ADF win chance: DK -116/+100 = 51.8%; Pinnacle 1.87/2.03 = 52.1% (1.82/2.07 = 53.2%); 11-14 book consensus 1.84/1.96 = 51.6%; Kalshi 54c/47c = 53.5%; Polymarket 52%; FanDuel -130/+105 = 53.7%. Median about 52.5%.",
+      "source": "DK via Dimers (search-reported, Oct 14); Pinnacle via predictobets.com (search-reported); https://sports.bzzoiro.com/tennis/match/55365/ (opened, undated crawl); https://kalshi.com/markets/kxatpmatch/atp-tennis-match/kxatpmatch-26oct15geadav (opened, Oct 14 snapshot, thin volume); FanDuel via https://agatha.gg/atp/davidovich-fokina-vs-gea-2026-10-15 (opened, undated)"
+     },
+     {
+      "claim": "Hard-court Elo ratings favor ADF. The 60% figure is stale, but even after counting this week's wins (Gea 4, ADF 3) ADF stays a slight favorite.",
+      "number": "Before Shanghai: hard Elo ADF 1856.0 vs Gea 1784.6, so ADF 60.1%. My rough update for this week's results (opponents' hard Elo from the same table; assumed rating-update speed 25-40 points per expected win for Gea, 18-25 for ADF): Gea about 1839-1869, ADF about 1879-1888, so ADF 52.7-55.8% (central 54.1%). The update speeds are my assumption, not Tennis Abstract's exact formula.",
+      "source": "Tennis Abstract ATP Elo report https://tennisabstract.com/reports/atp_elo_ratings.html (last update 2026-10-05; saved locally at scratchpad/data/ta_elo_forecast.md); calculation in /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/steelA/elo.py"
+     },
+     {
+      "claim": "Our model's lean to Gea should not be trusted in this probability range. The 4.2-point boost from Gea's form this week rests on a setting the backtest barely supports.",
+      "number": "Backtest, predictions between 50% and 55.6%: the model's favorite won only 49.6% (n=500: 46.7%, 53.3%, 48.8% by bucket). The this-week form setting improved backtest accuracy by a negligible margin (log loss 0.63890 vs 0.63894 with form off), yet it moves Gea from 52.5% to 56.7% before shrinkage. Ratings alone give Gea 52.5%. With form removed, the blended final is about ADF 50-51% instead of 49.7%.",
+      "source": "Local: scratchpad/output/bt_calib_deciles.csv, bt_form_h2h.csv, markets.json (waterfall)"
+     },
+     {
+      "claim": "ADF has beaten opponents in Gea's ranking band more often than ranking predicts, and when he wins against them it is usually in straight sets.",
+      "number": "Completed hard best-of-3 vs opponents ranked 27-100: since 2025, 21-9 (70.0%) against a ranking-based expectation of 58.6%; won 2-0 in 56.7% of those matches and 2-1 in 13.3%. Since 2023: 36-18 (66.7%), 2-0 in 55.6%. About 81-83% of these wins came in straight sets.",
+      "source": "Local DB (db.load_all + shanghai.frame), /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/steelA/adf_fav.py"
+     },
+     {
+      "claim": "In comparable close matches the higher-ranked player wins about 56%, and match length supports the crowd's 'long match' view only partly.",
+      "number": "Both players ranked 15-70 with ranking-implied favorite under 58% (n=745, 2023-26): favorite won 56.0%; favorite 2-0 34.5%, favorite 2-1 21.5%, underdog 2-1 18.0%, underdog 2-0 26.0%; 3 sets 39.5%; at least one tiebreak 43.1%; Over 20.5 games 65.2%, Over 22.5 games 50.5%; median 23 games. In 2-0 matches, Over 20.5 hits 42.6%; in 3-set matches, 100%.",
+      "source": "Local DB, /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/steelA/tot.py and cond.py"
+     },
+     {
+      "claim": "The books' set-score prices back the algorithms' view that ADF 2-0 is the single most likely score, but at only about 31%.",
+      "number": "Meridianbet correct score with the margin removed: ADF 2-0 30.9%, ADF 2-1 21.5%, Gea 2-0 27.5%, Gea 2-1 20.0%. Unibet.fr: ADF 2-0 30.9%, ADF 2-1 22.3%, Gea 2-0 26.5%, Gea 2-1 20.4%. Market chance of 3 sets is about 41.9%.",
+      "source": "https://meridiansports.be/nl/weddenschappen/tennis/atp-shanghai-masters/mannen-enkel/gea-arthur-davidovich-fokina-alejandro/19870304 and https://www.unibet.fr/paris-tennis/atp/shanghai/3389559/a-gea-vs-a-davidovich (both opened via Exa crawl, Oct 14, exact time unknown)"
+     },
+     {
+      "claim": "Third-party skill ratings and models favor ADF.",
+      "number": "TennisViz 52-week non-major ratings: Performance 7.70 vs 7.03, Return 7.0 vs 6.0, Serve 7.8 vs 7.2. Model sites: Umpiry 60%, BSD 66%, BetClan 55%, Tennis.com 53%, Maiden 52%, Forebet 51% (Agatha has Gea 54%). Tipsters: 17 pick ADF, 4 pick Gea.",
+      "source": "VSiN https://vsin.com/tennis/tennis-best-bets-overnight-picks-and-predictions-for-october-14-and-15/ (opened, 2026-10-14); others per the research tally (mix of opened and search-reported)"
+     },
+     {
+      "claim": "The strongest evidence against the ADF case.",
+      "number": "Gea is 4-0 against top-20 players at tour level on hard courts (Lehecka, F. Cerundolo, Shelton, Mensik). Players who came through the 128-player first round and reached a Masters QF or later won 40% of those matches, against 25% expected from ranking (n=20), so rankings undersell players like Gea. Fatigue barely registers in the data: each extra hour on court that week moved the favorite's win odds by -0.015 on the log-odds scale, about 0.4 percentage points, well within noise (n=3,263). In raw 52-week hard-court numbers Gea wins more return points than ADF (40.7% vs 34.6%), though against weaker opponents (average rank 87 vs 60). ADF reportedly took an early medical timeout for back pain against Tiafoe this week.",
+      "source": "Local DB scripts /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/steelA/mqf.py, fatigue.py, sr.py; back-pain timeout search-reported from an essentiallysports.com headline and snippet (page not opened; DNS failed)"
+     }
+    ],
+    "weaknesses_found_in_current_picks": [
+     "The 'No tiebreak' value pick (model 61.8%, take at -152) is not supported by the evidence. The market has 53.2% (BSD fonbet/Novibet at 1.74-1.75 vs 1.98). Comparable matches have no tiebreak in 56.9% of cases. ADF plays at least one tiebreak in 48% of his matches (n=64) and Gea in 58% (n=12). 9 of the 12 quarterfinalists' matches this week had a tiebreak. At the real prices of 1.72-1.75 this bet loses money unless our model is right, so it should be dropped.",
+     "Gea +1.5 sets is the less likely of the two +1.5 sides. Our own model has ADF +1.5 at 69.8% vs Gea +1.5 at 68.6%. The market has ADF +1.5 at about 71-72% (1 minus Gea 2-0 at 27.5-29.4%) vs Gea +1.5 at about 69%. It was chosen for price, but no price at or better than our -202 threshold was found: Meridianbet 1.40 (-250), Unibet.fr 1.27-1.28. If ADF is 53%, Gea +1.5 is about 68% (fair -213), so the -202 threshold leaves almost no margin.",
+     "Our model underestimates match length. It has 38.4% for 3 sets, a median of 22 games and 60.7% for Over 20.5. The market has 41.9% for 3 sets, a line near 23.5, and Over 20.5 at about 68%. Comparable matches show 39.5% three-setters, a median of 23 and Over 20.5 at 65.2%. ADF went over 20.5 in 71% of his 2026 hard best-of-3 matches and Gea in 82% (n=11). So the Over leg of the parlay is better than modelled, and the 'No tiebreak' and 'Under' leans are worse.",
+     "The same-game parlay is on the weaker side. Our model already rates 'ADF +1.5 sets + Over 20.5' higher than the current 'Gea +1.5 sets + Over 20.5' (49.6% vs 49.4%). With market and comparable-match inputs, the ADF version comes to about 54.6-55.1% vs 52.5-54.0%, because ADF 2-0 is more likely than Gea 2-0 in every view.",
+     "Our card's 50.3% for Gea relies on the this-week form setting, which added nothing in the backtest, and on a physical penalty applied to ADF. The market, updated Elo and comparable-ranking data all put Gea at about 46-48%. Passing on the Gea moneyline at +100 is still right; on the best evidence it would lose about 6% per dollar.",
+     "None of the crowd's favorite bets makes money at the prices found, even with probabilities tilted toward ADF: ADF 2-1 at 3.75-4.10 needs 24-27% (best estimate about 21%); ADF 2-0 at 2.70-2.85 needs 35-37% (about 32%); Over 22.5 at -135 needs 57.4% (about 50%); 3 sets at 2.22-2.30 needs 43.5-45% (about 41%)."
+    ],
+    "probability_estimates": [
+     {
+      "outcome": "ADF wins match",
+      "probability": 0.53,
+      "basis": "The best case for ADF. Market median about 52.5% (range 51.6-53.7%), updated Elo about 54% (range 52.7-55.8%), comparable ranking matchups 56%. Our model is 49.7%, or about 50-51% without the unproven form setting. My straight estimate is 52%, plausible range 50-55%. Ranking-based numbers are discounted because players who came through the first round outperform their ranking (40% vs 25%, n=20)."
+     },
+     {
+      "outcome": "ADF wins 2-0 (= ADF -1.5 sets)",
+      "probability": 0.32,
+      "basis": "About 60% of ADF's wins at P(win) 53%, in line with comparable matches (favorite 2-0 is 61.6% of favorite wins) and the books (Meridianbet and Unibet.fr both 30.9% with margin removed). Our model has 31.4%. Range 30-34%. This is the single most likely set score, but it fails about 68% of the time."
+     },
+     {
+      "outcome": "ADF wins 2-1 (the human tipsters' pick)",
+      "probability": 0.21,
+      "basis": "Books with margin removed: 21.5-22.3%. Comparable matches: favorite 2-1 21.5%. Our model: 18.1%. Against opponents ranked 27-100, ADF's own 2-1 rate is only 11-13% because he tends to win in straight sets."
+     },
+     {
+      "outcome": "Gea wins 2-0",
+      "probability": 0.27,
+      "basis": "Books with margin removed: 26.5-29.4%. Comparable underdog 2-0: 26.0%. Our model: 30.2%."
+     },
+     {
+      "outcome": "Gea wins 2-1",
+      "probability": 0.2,
+      "basis": "Books 20.0-20.4%, our model 20.2%, comparable underdog 2-1 18.0%."
+     },
+     {
+      "outcome": "Match goes 3 sets",
+      "probability": 0.41,
+      "basis": "Books 41.9%; comparable matches 39.5%; ratings-calibrated near coin flips 42.4%; our model 38.4%. Both players went 3 sets in 2 of their matches this week."
+     },
+     {
+      "outcome": "ADF +1.5 sets (ADF wins at least one set)",
+      "probability": 0.73,
+      "basis": "1 minus Gea 2-0. Market 70.6-73.5%, our model 69.8%."
+     },
+     {
+      "outcome": "Gea +1.5 sets",
+      "probability": 0.68,
+      "basis": "1 minus ADF 2-0. Market about 67-69%, our model 68.6%."
+     },
+     {
+      "outcome": "Over 20.5 games",
+      "probability": 0.64,
+      "basis": "Comparable matches 65.2%; market about 68%; our model 60.7%."
+     },
+     {
+      "outcome": "Over 22.5 games",
+      "probability": 0.5,
+      "basis": "Comparable matches 50.5%; market (Unibet, margin removed) 56.2%; our model 47.8%."
+     },
+     {
+      "outcome": "No tiebreak in match",
+      "probability": 0.54,
+      "basis": "Market 53.2%; comparable matches 56.9%; player-specific estimate 50-55%; our model 61.8%, which is too high."
+     },
+     {
+      "outcome": "ADF +1.5 sets AND Over 20.5 games (same-game parlay)",
+      "probability": 0.53,
+      "basis": "P(3 sets) 0.41 \u00d7 1.00 + P(ADF 2-0) 0.32 \u00d7 0.426 (comparable-match rate of Over 20.5 in 2-0 matches) = 0.546. Market inputs give 0.551, our model's simulation 0.496. Blended about 0.53."
+     },
+     {
+      "outcome": "Gea +1.5 sets AND Over 20.5 games (current same-game parlay)",
+      "probability": 0.51,
+      "basis": "0.41 + 0.27 \u00d7 0.426 = 0.525. Market inputs give about 0.54, our model 0.494. Blended about 0.51."
+     }
+    ],
+    "ev_checks": [
+     {
+      "bet": "ADF moneyline",
+      "price": "DK -116 (1.862)",
+      "price_status": "search-reported (DK via Dimers, Oct 14)",
+      "prob": 0.53,
+      "ev": -0.013
+     },
+     {
+      "bet": "ADF moneyline",
+      "price": "Pinnacle 1.87 (-115)",
+      "price_status": "search-reported (predictobets match page)",
+      "prob": 0.53,
+      "ev": -0.009
+     },
+     {
+      "bet": "ADF moneyline",
+      "price": "Kalshi 54c (1.852), fees excluded",
+      "price_status": "opened via Exa, Oct 14 morning ET snapshot, thin volume",
+      "prob": 0.53,
+      "ev": -0.019
+     },
+     {
+      "bet": "ADF moneyline",
+      "price": "FanDuel -130 (1.769)",
+      "price_status": "opened (shown on agatha.gg match page, undated)",
+      "prob": 0.53,
+      "ev": -0.062
+     },
+     {
+      "bet": "ADF 2-0 / ADF -1.5 sets",
+      "price": "Meridianbet 2.85 (+185)",
+      "price_status": "opened (Exa crawl Oct 14, time unknown)",
+      "prob": 0.32,
+      "ev": -0.088
+     },
+     {
+      "bet": "ADF 2-0 correct score",
+      "price": "Unibet.fr 2.70 (+170)",
+      "price_status": "opened (crawl time unknown; high-margin French book)",
+      "prob": 0.32,
+      "ev": -0.136
+     },
+     {
+      "bet": "ADF 2-1 correct score (tipster favorite)",
+      "price": "Meridianbet 4.10 (+310)",
+      "price_status": "opened (Exa crawl Oct 14)",
+      "prob": 0.21,
+      "ev": -0.139
+     },
+     {
+      "bet": "ADF 2-1 correct score",
+      "price": "Unibet.fr 3.75 (+275)",
+      "price_status": "opened",
+      "prob": 0.21,
+      "ev": -0.213
+     },
+     {
+      "bet": "Over 2.5 sets (3 sets)",
+      "price": "Betway 2.30 (+130)",
+      "price_status": "opened (BSD 8-book odds table, sports.bzzoiro.com)",
+      "prob": 0.41,
+      "ev": -0.057
+     },
+     {
+      "bet": "ADF +1.5 sets",
+      "price": "William Hill 1.33 (-303)",
+      "price_status": "opened (BSD odds table; Meridianbet has the same 1.33)",
+      "prob": 0.73,
+      "ev": -0.029
+     },
+     {
+      "bet": "Gea +1.5 sets (current high-hit pick)",
+      "price": "Meridianbet 1.40 (-250)",
+      "price_status": "opened (Exa crawl Oct 14)",
+      "prob": 0.68,
+      "ev": -0.048
+     },
+     {
+      "bet": "Over 22.5 games (crowd total)",
+      "price": "-135 (1.741)",
+      "price_status": "opened (BetMGM blog, 2026-10-14); also search-reported via Sportskeeda, book unnamed",
+      "prob": 0.5,
+      "ev": -0.13
+     },
+     {
+      "bet": "No tiebreak (current value pick)",
+      "price": "fonbet 1.75 (-133)",
+      "price_status": "opened (BSD odds table)",
+      "prob": 0.54,
+      "ev": -0.055
+     },
+     {
+      "bet": "Gea moneyline",
+      "price": "Hard Rock +110 (2.10)",
+      "price_status": "opened (shown on agatha.gg page, undated)",
+      "prob": 0.47,
+      "ev": -0.013
+     },
+     {
+      "bet": "Gea moneyline",
+      "price": "DK +100 (2.00)",
+      "price_status": "search-reported (DK via Dimers)",
+      "prob": 0.47,
+      "ev": -0.06
+     },
+     {
+      "bet": "ADF +1.5 sets + Over 20.5 same-game parlay",
+      "price": "not found (DK parlay price not visible)",
+      "price_status": "not found",
+      "prob": 0.53,
+      "ev": 0
+     }
+    ],
+    "verdict": {
+     "keep_current_picks": false,
+     "changes": [
+      "Drop the 'No tiebreak' value pick. Model 61.8% against market 53.2%, comparable matches 56.9%, and both players play tiebreaks more often than the tour average. It loses money at the only real prices found (1.72-1.75).",
+      "Value pick: pass. No side, set score, total or set count in QF-A makes money at any price found, even on numbers tilted toward ADF. ADF moneyline becomes playable only at -105 or better: at P 53% the fair price is -113, and DK's -116 needs 53.7%. Gea moneyline only at +115 or better.",
+      "High-hit pick: prefer ADF +1.5 sets (P about 70-73%; take at -230 or better) over Gea +1.5 sets. Keep Gea +1.5 sets (P about 68-69%) only at -200 or better. ADF +1.5 is the more likely of the two in our model, in the market and in comparable matches. At every real price found (WH/Meridianbet 1.33, Meridianbet 1.40, Unibet 1.27-1.28) both lose about 3-5% per dollar.",
+      "Swap the same-game parlay to ADF +1.5 sets + Over 20.5 games (P about 50-55%; take at +105 or better; DK price not found). It beats the current Gea version in our model (49.6% vs 49.4%) and with market and comparable-match inputs (about 55% vs 52-54%), because ADF 2-0 is more likely than Gea 2-0 in every view.",
+      "Do not follow the crowd's popular bets. ADF in 3 at 3.75-4.10 needs 24-27% (best estimate 21%). ADF 2-0 at 2.70-2.85 needs 35-37% (estimate 32%). Over 22.5 at -135 needs 57.4% (estimate about 50%). 3 sets at 2.22-2.30 needs 43.5-45% (estimate 41%).",
+      "Treat our model's lean to Gea (50.3%) as noise. The best evidence puts ADF at 52-53%."
+     ],
+     "best_high_hit_pick": "ADF +1.5 sets (ADF wins at least one set): P about 0.70-0.73, take at -230 or better. Fallback: Gea +1.5 sets, P about 0.68-0.69, only at -200 or better. Real prices found for both lose about 3-5% per dollar, so these are hit-rate plays, not edges.",
+     "best_value_pick": "Pass. No QF-A bet clears break-even at any price found. ADF moneyline is a bet only at -105 or better, since the best evidence gives P 0.52-0.53 and the best price found, Pinnacle 1.87 (-115, search-reported), is break-even at best. Drop 'No tiebreak'.",
+     "best_sgp": "ADF +1.5 sets + Over 20.5 games: P about 0.50-0.55 (model 0.496; market inputs 0.551; comparable matches 0.546). Take at +105 or better. DK parlay price not found. It replaces Gea +1.5 sets + Over 20.5 (model 0.494).",
+     "confidence": "Low-medium. The winner is close to a coin flip (ADF 52-53%, range 50-55%). The pick changes do not depend on who wins. They rest on firmer patterns: which +1.5 side is more likely, how often these players play tiebreaks, and how long their matches run.",
+     "reasoning": "The crowd is right on two points. ADF is a slight favorite: about 52.5% in the markets, about 54% on updated hard-court Elo, and our model's opposite lean comes from a form setting that added nothing in the backtest. In backtested predictions between 50% and 55.6%, the model's favorite won only 49.6% (n=500). The crowd is also right that this is likely to be a long, tight match: about 41% chance of 3 sets, a median of about 23 games, and Over 20.5 about 65%. But the most likely outcome is not the best bet. ADF 2-0 is the single most likely set score (about 31-32%; Meridianbet and Unibet.fr both 30.9%, our model 31.4%), yet it loses about 68% of the time and pays only 2.70-2.85, which needs 35-37%. 'ADF in 3', the human tipsters' favorite, is only about 21% and is priced at 3.75-4.10. The ADF moneyline at -116 needs 53.7%, at or above the best estimate. The crowd is weak where it leans on ranking and experience (players who came through the first round outperform their ranking at Masters QFs, 40% vs 25%, n=20; Gea is 4-0 against top-20 players on tour-level hard courts) and on fatigue (no measurable effect in 3,263 matches). The useful result of the exercise is about structure: ADF +1.5 sets is more likely than Gea +1.5 sets in every source, the 'No tiebreak' value pick is not supported, and the Over 20.5 leg is stronger than our model says. Net for QF-A: the best pick is a hit-rate cushion only at a good price, the 'ADF +1.5 sets + Over 20.5' parlay at +105 or better, and no value bet at current prices. Scripts are in /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/steelA/ (elo.py, fatigue.py, mqf.py, sr.py, tot.py, cond.py, adf_fav.py). Exa failed to connect this session and WebFetch failed DNS lookups, so the back-pain report is search-reported only, and no DK set, total or parlay prices were found."
+    }
+   },
+   "refute": {
+    "match": "QF-A: Arthur Gea vs Alejandro Davidovich Fokina, 2026 Rolex Shanghai Masters QF (Stadium Court, Thu Oct 15, not before 2:30 AM ET / 06:30 UTC; still listed as scheduled on exa.ai/library/sports/atp, published 2026-10-15 02:16 UTC)",
+    "position_argued": "Adversarial refutation of our QF-A card. Drop 'No tiebreak': its edge rests on one shaky input, the model's low serve-point sum (1.256), and the market, base rates, the players' own tiebreak history and the model's own market inversion all disagree with it. 'Gea +1.5 sets' is not wrong: about 69% is right, and it is the outcome the crowd actually predicts, because 'ADF in 3' cashes it. But there is no edge, and at real US prices (best found -278) it loses money. Only the SGP Gea +1.5 sets + Over 20.5 survives, because our model is too low on both of its legs compared with the market and base rates. Even that is a bet only at about even money or better, and the DraftKings price was not found. Gea ML stays a pass.",
+    "strongest_evidence": [
+     {
+      "claim": "The model's own market inversion shows the total-games market implies much stronger serving than the model uses. At the market-implied serve level, P(at least one tiebreak) is 46.1%, not the card's 38.2%.",
+      "number": "Market-inverted serve sum 1.310 (pa .651 / pb .660) vs model sum 1.256. Inverted P(TB) 46.1%, P(3 sets) 39.4%, mean games 24.5",
+      "source": "Local /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/output/markets.json (QF-A 'inversion'; total from Sportskeeda O22.5 -135 / U-110, book unnamed, Oct 14)"
+     },
+     {
+      "claim": "Tiebreak market (No TB side): sportsbooks price 'no tiebreak' far below our 61.8%",
+      "number": "Tiebreaks O/U 0.5 consensus 1.98 / 1.74 (Novibet 2.00/1.72, fonbet 1.95/1.75), vig-free P(no TB) 53.2%",
+      "source": "https://sports.bzzoiro.com/tennis/match/55365/ (opened in prior research step, undated page, crawl Oct 14)"
+     },
+     {
+      "claim": "Base rate: tour-level hard best-of-3 near-coin-flip matches (both ranked 10-80, rank ratio 2.5 or less) have a tiebreak more often than the model says",
+      "number": "P(>=1 TB) 43.2% (n=1,262, 2023-01..2026-10); 44.2% in 2025-26 (n=566). So No TB is about 56%, below the 60.3% break-even at -152",
+      "source": "Local DB via /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/refuteA/emp.py"
+     },
+     {
+      "claim": "Both players play tiebreaks more often than the tour average",
+      "number": "ADF hard Bo3: 52.4% of matches had a TB in 2026 (n=21), 46.6% in 2025-26 (n=58). Gea: 63.6% (n=11, thin). Tour hard Bo3: 40.5% (n=4,592). This week they have played 5 TB-matches out of 7 between them",
+      "source": "Local DB, emp.py (same path as above)"
+     },
+     {
+      "claim": "Sensitivity: 'No TB' only beats -152 if the model's serve sum is almost exactly right",
+      "number": "P(TB) at serve sum 1.256 / 1.28 / 1.30 / 1.31 / 1.33 = 38.5% / 41.5% / 44.4% / 45.8% / 48.7%. The No-TB break-even of 60.3% needs a sum of about 1.265 or less. Tour-average sum is 1.293 (avg hard spw .647, 2025-26, n=2,600)",
+      "source": "My 60k-sim rerun with the model's MC (day-form sd 0.06): /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/refuteA/sens.py and stats.py"
+     },
+     {
+      "claim": "Real US prices for the set handicap are far worse than our -202 take-at; the market agrees with the model on about 69%, so there is no edge",
+      "number": "Best odds across 4 US-facing books: Gea +1.5 sets -278 / ADF -1.5 +210; ADF +1.5 -303 / Gea -1.5 +230; correct score ADF 2-0 +225, ADF 2-1 +325, Gea 2-0 +250; sets Over 2.5 +105 / Under -150; ML Gea +100 / ADF -116",
+      "source": "https://oddspedia.com/tennis/alejandro-davidovich-fokina-arthur-gea-2176362 (opened via Exa; page shows match as 'Tomorrow 15th Oct', so crawled Oct 14, exact time unknown)"
+     },
+     {
+      "claim": "European set markets agree: Gea +1.5 is a fair 67-69% shot, which is the model's number, so the pick has zero edge",
+      "number": "Meridianbet Gea +1.5 1.40 / ADF -1.5 2.85, vig-free 67.1%; correct-score books put ADF 2-0 at 29-33% (median 30.9%)",
+      "source": "https://meridiansports.be/nl/weddenschappen/tennis/atp-shanghai-masters/mannen-enkel/gea-arthur-davidovich-fokina-alejandro/19870304 (opened in prior research, Oct 14 crawl)"
+     },
+     {
+      "claim": "Empirical analog for the SGP: in near-coin-flip matches, 'player wins at least 1 set AND over 20.5 games' lands about half the time or more. The model's 49.4% is at the low end; the market-implied figure is higher",
+      "number": "Rank-underdog +1.5 sets & O20.5: 50.3%; rank-favourite +1.5 & O20.5: 52.4% (n=1,262). 43.6% of straight-set matches in this group still reach 21+ games. Market-implied joint is P(3 sets) 41.9-44.8% plus P(Gea 2-0) about 27.5% times 0.40-0.44, which comes to about 53-57%",
+      "source": "Local DB emp.py; set prices from bzzoiro/Meridianbet/Oddspedia above"
+     },
+     {
+      "claim": "ADF's back is still being managed day to day. The model applies no physical discount to him (p_limited = 0 for QF-A)",
+      "number": "MTO at 2-3 in set 1 vs Tiafoe after a pain-relief cream for his 'relentless back pain' burned his skin. He missed Canada, Cincinnati and the US Open with the back injury",
+      "source": "https://www.essentiallysports.com/tennis-news-davidovich-fokina-survives-uncanny-physio-blunder-as-frances-tiafoe-loses-his-cool-in-shanghai/ (opened, published 2026-10-12)"
+     },
+     {
+      "claim": "ADF himself says his level this week is poor. Workload runs the other way: Gea has played more games",
+      "number": "ADF: 'Mentally, I was very flat... it was a rather mediocre match'; said he has not been feeling the ball well in Shanghai. Workload: Gea 156 games in 14 days vs ADF 111",
+      "source": "https://www.tennisworlditalia.com/en/tennis/news/Interviste_Tennis/108036/ (opened via search highlights, 2026-10-14); https://tennistonic.com/tennis-news/1065299/ (2026-10-13); https://umpiry.com/match/2026-10-15/fokina-vs-gea-shanghai-masters-qf (opened, undated)"
+     },
+     {
+      "claim": "The court is playing fast and serve-heavy, which pushes toward more holds, more tiebreaks and more games, while the model's pace adjustment is only +0.01",
+      "number": "Hurkacz hit 21 aces vs ADF in the R16; Gea won 80% (39/49) of first-serve points and hit 11 aces vs Mensik",
+      "source": "https://en.tennistemple.com/actu/davidovich-fokina-after-his-shanghai-win-it-was-a/X97r (2026-10-13); https://www.atptour.com/en/news/gea-mensik-shanghai-2026-tuesday (2026-10-13)"
+     }
+    ],
+    "weaknesses_found_in_current_picks": [
+     "NO TIEBREAK (value pick) is refuted. Model 61.8% vs market 53.2% (BSD TB O/U), near-coin-flip base rate about 56%, player-specific about 50% (ADF 47-52% TB rate, Gea 58-64%), and the model's own market inversion 53.9%. All four disagree with the model in the same direction. The 'edge' comes entirely from the serve-point sum of 1.256, which is about 3.7 points below an average tour-level hard match (1.293), on a court playing fast. Even on the model's own 61.8%, EV at the -152 take-at is only +2.4%. On a realistic 55% it is about -9%.",
+     "Fair counterpoint on No TB: player-level serve/return data alone gives a sum of 1.235-1.29, because Gea's raw return-points-won is high (.395, not adjusted for opponents and boosted by Los Cabos opponents). The backtest also shows the model's TB rates are calibrated given its own sum (sum<1.26 bucket: pred 33.3% vs actual 30.5%, n=440). So the model is not absurd, but a +2.4% edge that disappears if the sum is off by 0.01 is not a bettable edge.",
+     "GEA +1.5 SETS (high-hit) has no edge. Model 68.6% equals the market (vig-free 67-69%). The -202 take-at is not on offer anywhere: the best US price found is -278 (Oddspedia, 4 books) and the best European is 1.40 (-250, Meridianbet). EV is about -6% at -278 and about -4% at 1.40. It is a high hit-rate position, not a value pick, and should not be presented as 'best'.",
+     "The model's set split is slightly off the market. Gea 2-0 30.2% vs market 26.5-29.4%; P(3 sets) 38.4% vs market 41.9% (bzzoiro/Meridianbet) to 44.8% (Oddspedia US vig-free). The model leans to shorter matches everywhere (TB, totals, 3 sets), and base rates side with the market. This one bias inflates No TB and deflates Over/SGP.",
+     "SGP Gea +1.5 sets + Over 20.5: the card correctly used the joint simulation (49.4%) rather than the naive product (41.6%), so there is no correlated-parlay error. Its probability is likely understated rather than overstated (market-implied 53-57%, empirical 50-52%). But no DraftKings SGP price was found, and DK prices the same correlation. Whether it has an edge depends entirely on the quoted price.",
+     "The model ignores ADF's back (p_limited = 0 for QF-A) even though there was an MTO for back treatment vs Tiafoe and he says he is 'flat'. Gea has the heavier workload (156 vs 111 games in 14 days). These roughly cancel for the ML, but the back issue adds variance and slightly helps Gea +1.5. It does not rescue No TB.",
+     "Gea's thin sample (12 hard best-of-3 tour-level matches in local data, no Challengers) means his serve and return ratings are heavily shrunk. That uncertainty feeds straight into the serve sum that drives the TB and totals outputs.",
+     "The user's premise does not hold for QF-A. Of 27 non-market sources, only 3 algorithms (Oddspedia, Forebet, plus ats.io's model) project ADF 2-0. Human tipsters mostly say 'ADF in 3', which is a WIN for Gea +1.5 sets. The market prices ADF 2-0 at about 31% (Oddspedia +225), so it is a 1-in-3 outcome, not the expected result."
+    ],
+    "probability_estimates": [
+     {
+      "outcome": "Gea wins match",
+      "probability": 0.49,
+      "basis": "Model final 50.3%; market vig-free 47-48.5% (Oddspedia +100/-116, OddsSafari average 1.96/1.83, Pinnacle 2.07/1.82); Kalshi/Polymarket ~47-48%. ADF's back concern offsets Gea's heavier workload."
+     },
+     {
+      "outcome": "ADF wins 2-0 (= Gea +1.5 sets loses)",
+      "probability": 0.31,
+      "basis": "Model 31.4%; correct-score markets 29-33% (median 30.9%); base rate for a slight favourite in a near-coin-flip about 31-32%"
+     },
+     {
+      "outcome": "Gea wins 2-0",
+      "probability": 0.285,
+      "basis": "Model 30.2%; market 26.5-29.4%"
+     },
+     {
+      "outcome": "Match goes 3 sets",
+      "probability": 0.405,
+      "basis": "Model 38.4%; market 41.9% (bzzoiro 8-book / Meridianbet) to 44.8% (Oddspedia US); near-coin-flip base rate 37.8% (rank) to 42.4% (ratings); both players went 3 sets twice this week"
+     },
+     {
+      "outcome": "Gea +1.5 sets (Gea wins at least one set)",
+      "probability": 0.69,
+      "basis": "1 - P(ADF 2-0). Model 68.6%, market 67-69%; sim at market win probability 67.7%"
+     },
+     {
+      "outcome": "At least one tiebreak",
+      "probability": 0.45,
+      "basis": "Market 46.8%; model inversion 46.1%; near-coin-flip base rate 43-44%; ADF 47-52%, Gea 58-64% (thin); model 38.2% looks too low"
+     },
+     {
+      "outcome": "No tiebreak",
+      "probability": 0.55,
+      "basis": "1 - 0.45. Below the 60.3% break-even at -152"
+     },
+     {
+      "outcome": "Over 20.5 games",
+      "probability": 0.64,
+      "basis": "Model 60.7%; sim at market serve sum 65.2%; near-coin-flip base rate 64.9%; Oddspedia O21.5 -215/+140 vig-free 62.1% implies O20.5 about 66-68%"
+     },
+     {
+      "outcome": "SGP: Gea +1.5 sets AND Over 20.5 games",
+      "probability": 0.52,
+      "basis": "Model joint 49.4% (conservative); sim at market serve sum and win probability 51.4%; empirical analog 50.3-52.4%; market-implied 53-57% (3-set probability plus Gea 2-0 with 21+ games)"
+     }
+    ],
+    "ev_checks": [
+     {
+      "bet": "Gea +1.5 sets",
+      "price": "-278",
+      "price_status": "Opened: best of 4 US books on Oddspedia (Oct 14 crawl, time unknown). DraftKings price not found",
+      "prob": 0.69,
+      "ev": -0.062
+     },
+     {
+      "bet": "Gea +1.5 sets",
+      "price": "-250 (1.40)",
+      "price_status": "Opened: Meridianbet BE (Oct 14 crawl). Not DK",
+      "prob": 0.69,
+      "ev": -0.034
+     },
+     {
+      "bet": "Gea +1.5 sets at card take-at",
+      "price": "-202",
+      "price_status": "Hypothetical threshold; not found at any book",
+      "prob": 0.69,
+      "ev": 0.032
+     },
+     {
+      "bet": "No tiebreak",
+      "price": "-152",
+      "price_status": "Card take-at; no DK price found",
+      "prob": 0.55,
+      "ev": -0.088
+     },
+     {
+      "bet": "No tiebreak",
+      "price": "-133 (1.75)",
+      "price_status": "Opened: fonbet via bzzoiro (undated). Best price found, not DK",
+      "prob": 0.55,
+      "ev": -0.038
+     },
+     {
+      "bet": "SGP Gea +1.5 sets + Over 20.5",
+      "price": "+100",
+      "price_status": "Hypothetical threshold; DK SGP price not found",
+      "prob": 0.52,
+      "ev": 0.04
+     },
+     {
+      "bet": "SGP Gea +1.5 sets + Over 20.5",
+      "price": "+113",
+      "price_status": "Card take-at; DK SGP price not found",
+      "prob": 0.52,
+      "ev": 0.108
+     },
+     {
+      "bet": "SGP Gea +1.5 sets + Over 20.5",
+      "price": "-120",
+      "price_status": "Hypothetical typical SGP juice; not found",
+      "prob": 0.52,
+      "ev": -0.047
+     },
+     {
+      "bet": "Gea ML",
+      "price": "+100",
+      "price_status": "Search-reported DK via Dimers; also opened as best price on Oddspedia",
+      "prob": 0.49,
+      "ev": -0.02
+     },
+     {
+      "bet": "ADF 2-0 correct score (the algorithms' pick)",
+      "price": "+225",
+      "price_status": "Opened: Oddspedia best odds (Oct 14 crawl)",
+      "prob": 0.31,
+      "ev": 0.008
+     },
+     {
+      "bet": "ADF 2-1 (the human tipsters' favourite 'ADF in 3')",
+      "price": "+325",
+      "price_status": "Opened: Oddspedia best odds (Oct 14 crawl)",
+      "prob": 0.2,
+      "ev": -0.15
+     },
+     {
+      "bet": "Over 2.5 sets (3 sets)",
+      "price": "+130 (2.30)",
+      "price_status": "Opened: Betway via bzzoiro (undated). Not DK",
+      "prob": 0.405,
+      "ev": -0.069
+     },
+     {
+      "bet": "Under 22.5 games (model's short-match lean)",
+      "price": "+100",
+      "price_status": "Opened: Oddspedia best odds (Oct 14 crawl)",
+      "prob": 0.48,
+      "ev": -0.04
+     }
+    ],
+    "verdict": {
+     "keep_current_picks": false,
+     "changes": [
+      "DROP 'No tiebreak' (value pick). Model 61.8% is contradicted by the market (53.2%), base rates (about 56%), both players' TB history (about 50%) and the model's own market inversion (53.9%). Best estimate 55%, EV about -9% at -152.",
+      "RE-LABEL 'Gea +1.5 sets' from best pick to a high-hit lean with no edge. It is right about 69% of the time, and it is what the human crowd actually predicts ('ADF in 3' cashes it). But model and market agree, so the price decides it: bet only at -210 or better. At the best US price found (-278) or Meridianbet 1.40 it loses about 3-6% per bet, so it is a pass at real prices.",
+      "KEEP the SGP 'Gea +1.5 sets + Over 20.5' as the only QF-A play with a plausible edge, and raise its probability from 49.4% to about 52% (market and base rates both say the model understates it). Bet it at +100 or better; pass if DraftKings prices it at -110 or shorter. DK SGP price not found.",
+      "KEEP 'Gea ML pass' (49% vs +100 means EV about -2%).",
+      "Do not chase the crowd's exact scores. ADF 2-0 at +225 is break-even (about 31% true) and ADF 2-1 at +325 is about -15% EV.",
+      "Model note for the lead: QF-A serve sum 1.256 is about 3.7 points below an average tour-level hard match (1.293), on a court playing fast (+0.01 pace only). Gea's thin, Challenger-free sample probably shrinks his serve rating. This one input makes every QF-A derivative lean short (TB, totals, 3 sets)."
+     ],
+     "best_high_hit_pick": "Gea +1.5 sets (Gea wins at least one set), about 69%. Model, market, base rates and the human tipsters' 'ADF in 3' view all agree. No edge: worth it only at -210 or better; at the -250 to -278 prices actually seen it is a pass.",
+     "best_value_pick": "No clean single-market value pick survives in QF-A. The only plausible positive-EV play is the SGP below at +100 or better. Drop No tiebreak, and pass on Gea ML (+100), ADF 2-0 (+225), 3 sets (+130) and Under 22.5 (+100).",
+     "best_sgp": "Gea +1.5 sets + Over 20.5 games. Estimated 52% (model 49.4% is conservative; market-implied 53-57%; empirical 50-52%). It wins if the match goes 3 sets, or if Gea wins 2-0 with 21+ games (e.g. 7-5 6-4, 7-6 6-3). Bet at +100 or better; pass at -110 or shorter. DK price not found.",
+     "confidence": "Medium that No tiebreak should be dropped: market, base rates, player history and the model's own inversion all point the same way. Medium that Gea +1.5 is a fair 68-70% shot with no value at US prices. Low on the SGP's edge, because the DK price is unknown and the margin is about 2-4 points.",
+     "reasoning": "I re-ran the model's own Monte Carlo across serve-sum assumptions and checked the outputs against market prices (Oddspedia US best odds, Meridianbet, bzzoiro's 11-book consensus) and against local base rates (1,262 near-coin-flip hard best-of-3 matches, 2023-26). The model's QF-A set split (ADF 2-0 31%, Gea +1.5 69%) matches both market and base rates, so Gea +1.5 sets is accurate but unpriced: the -202 take-at does not exist (best US -278, best European -250). The model's real disagreements with the market are all on match length (TB 38% vs 47%, 3 sets 38% vs 42-45%, Over 20.5 61% vs 66-68%), and base rates side with the market every time. That points to one biased input, the low serve-point sum (1.256), rather than an edge. The bias inflates 'No tiebreak', which is dropped, and understates the 'Gea +1.5 + Over 20.5' SGP, which survives at even money or better. News from Oct 12-14 (ADF's back MTO vs Tiafoe and 'mentally flat' quotes; Gea's 80% first-serve points won and 11 aces vs Mensik; Gea's heavier workload) does not move the moneyline much, though it slightly supports Gea winning a set. On the user's complaint: for this match the crowd does not project a straight-sets ADF win. Only algorithms do; human tipsters mostly say 'ADF in 3', and books price ADF 2-0 at about 31%. Scratch scripts: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/refuteA/sens.py, emp.py, stats.py."
+    }
+   }
+  }
+ ],
+ "judged": {
+  "matches": [
+   {
+    "match": "QF-B: Alexander Zverev (1) vs Alex de Minaur (9), Shanghai Masters QF, Thu Oct 15, not before 6:00 AM ET",
+    "most_likely_outcome": "Zverev wins 2-0. It is the single most likely set score at about 41% (our final estimate). But it is less likely than not: about 59% of the time de Minaur wins at least one set. Final set-score split: Zverev 2-0 ~41%, Zverev 2-1 ~21%, de Minaur 2-0 ~21%, de Minaur 2-1 ~17%. Final P(Zverev wins) is 62%, raised from the model's 58.6% toward the market (63.4% Pinnacle no-vig, 64.2% consensus).",
+    "crowd_view_summary": "Everyone has Zverev winning. Model sites put him at 59-74% (mean about 65%), and Kalshi/Polymarket trade him at 65-67c. Most of the 'Zverev 2-0' calls come from algorithm sites printing their single most likely score: 5 of the 7 straight-sets calls (ATS.io, Agatha, Foretennis, Forebet, Predixsport). Human tipsters who make a set call lean the other way: 11 of 13 have de Minaur winning a set (e.g. Tennis Tonic 'Zverev in 3', Tipico 'Zverev 2-1', MiCasino, wettfreunde, PickDawgz 'de Minaur +1.5 sets', all published 2026-10-13/14). The books agree with our numbers. After removing the bookmaker margin, they price Zverev 2-0 at about 40-42% (Unibet.fr 2.10, PokerStars.fr 2.20, Pinnacle de Minaur +1.5 sets 1.621 via pinnodds.com, snapshot Oct 15 00:19 UTC, gives 60.0% for de Minaur winning a set).",
+    "does_crowd_view_contradict_picks": "Partly, and it changed one pick. On the set score there is no contradiction: Zverev 2-0 really is the most likely result, and the market prices it at 40-42%, so 'de Minaur wins a set' at about 59% is consistent with the crowd. On who wins, the crowd was right and our card was too low on Zverev. The card's 58.6% leaned on an ankle discount and an H2H adjustment, and the H2H term made our own backtest slightly worse (log loss 0.63916 vs 0.63890) while counting two Laver Cup exhibitions. Every market and model site sits at 62-66%. I moved our number to 62%. That cuts the de Minaur moneyline edge from +14% to about +4.5% and pushes the take-at on de Minaur +1.5 sets from -148 to -140. Betting the crowd's favourite (Zverev 2-0) is still not recommended: at the best price found (2.30) it needs 43.5%, and the honest estimate is about 41%.",
+    "final_high_hit_pick": "de Minaur +1.5 sets (de Minaur wins at least one set). This is a hit-rate play, not a value bet.",
+    "final_high_hit_prob": 0.59,
+    "final_high_hit_take_at": "-140 or better (fair price about -144). The best price found was -150 (unnamed book via cappster.com), which is about -2% EV, a marginal pass. Pinnacle 1.621 (-161) and Unibet.fr 1.44 (-227) are passes. No DraftKings set price was found.",
+    "final_value_pick": "de Minaur moneyline: a small edge, and only at +170 or better",
+    "final_value_prob": 0.38,
+    "final_value_price_and_ev": "DraftKings +175 (search-reported via Dimers, Oct 14; may be stale, since FanDuel moved to +160 and Pinnacle to about +167). EV at +175 = 0.38 x 2.75 - 1 = about +4.5%. Break-even at +170 is 37.0%. At +160 or worse, EV is about -1%: pass. This is the riskiest pick (it loses about 62% of the time), so keep the stake small.",
+    "final_sgp": "de Minaur +1.5 sets + Over 21.5 games. It wins if the match goes 3 sets, or if de Minaur wins 2-0 with 22 or more games.",
+    "final_sgp_prob": 0.465,
+    "final_sgp_take_at": "+125 or better (break-even 44.4%; fair about +115). Joint probability comes from the model's simulation re-centred at P(Zverev) 0.62: 46.4% with the ankle term on, 47.2% with it off (wf_tmp/refute_b/reprice.csv). No DraftKings SGP price was found. Do not combine it with the moneyline or the plain +1.5 bet: all three lose on a Zverev 2-0.",
+    "bets_to_avoid": [
+     "Zverev 2-0 / Zverev -1.5 sets, the crowd's favourite. It is about 41% likely but priced at 2.10-2.30 (needs 43.5-47.6%), so -6% to -14% EV.",
+     "Zverev 2-1 correct score: about 21% likely, best price 3.55 (search-reported, Meridianbet), about -25% EV.",
+     "Zverev ML at DK -200 (search-reported): needs 66.7% against our 62%, about -7% EV. Only worth it at -160 or better.",
+     "Over 2.5 sets (3 sets) at Pinnacle +137: about 38-40% likely against a 42.2% break-even.",
+     "Stacking the de Minaur ML, de Minaur +1.5 sets and the SGP together. They are the same bet three times, and a Zverev 2-0 (about 41%) loses all of them.",
+     "Zverev to win + Over 22.5 at 2.75 (Sportwetten24): about 30% likely, about -17% EV."
+    ],
+    "plain_english_why": [
+     "The crowd is right that Zverev 2-0 is the most likely single scoreline. But 'most likely' here means about 4 times in 10, and the other 6 times de Minaur takes at least one set. The bookmakers already price it that way: their Zverev 2-0 odds imply about 40-42%.",
+     "Our original model was too low on Zverev (58.6%). Every market and model site has him at 62-66%, and two of our adjustments (H2H that counted Laver Cup exhibitions, and a large ankle penalty) are weaker than we treated them. So I moved our number up to 62%, and every de Minaur bet got less attractive.",
+     "De Minaur winning a set is still the most likely outcome type (about 59%). He has taken at least one set in each of his last 6 hard-court meetings with Zverev, Zverev went 3 sets in 2 of 3 matches this week, and de Minaur has not dropped a set or been broken in Shanghai. The price is roughly fair, though, so treat it as a high-hit bet at -140 or better, not a value bet.",
+     "The de Minaur moneyline at +175 only needs him to win about 36% of the time. We have him at 38%, which is a thin edge. If the price has dropped to +160 like FanDuel's, the edge is gone and you should pass.",
+     "Pick ONE of the de Minaur bets. They all win and lose together."
+    ],
+    "changed_from_current_card": [
+     "P(Zverev) raised from 58.6% to 62%, toward market, base rates and the refuter (a +3.4-point move). P(Zverev 2-0) raised from 38.9% to about 41%.",
+     "High-hit pick kept (de Minaur +1.5 sets), with its probability cut from 61.1% to 59% and the take-at tightened from -148 to -140. It is now labelled a hit-rate play with no edge.",
+     "Value pick kept (de Minaur ML), with its probability cut from 41.5% to 38% and its EV from +14% to about +4.5%. New condition: only at +170 or better; pass if DK has moved to +160.",
+     "SGP kept, with the joint probability cut from 47.9% to 46.5% and the take-at raised from +119 to +125.",
+     "The alternative de Minaur +3.5 games is dropped as a recommendation (about 61% re-centred, no verified price).",
+     "Added an explicit warning not to stack the three de Minaur bets."
+    ]
+   },
+   {
+    "match": "QF-A: Arthur Gea (FRA, #56) vs Alejandro Davidovich Fokina (ESP, #26), Shanghai Masters QF, Thu Oct 15, not before 2:30 AM ET",
+    "most_likely_outcome": "Davidovich Fokina (ADF) wins 2-0, but only at about 31%. This is close to a coin flip: ADF wins about 51.5% (the model said 49.7%; I moved it toward the market's 52-53%). Final split: ADF 2-0 ~31%, ADF 2-1 ~21%, Gea 2-0 ~28%, Gea 2-1 ~20%. About 41% chance of 3 sets.",
+    "crowd_view_summary": "The crowd is NOT projecting a straight-sets win here. Of 27 non-market sources, 17 pick ADF, and the human tipsters mostly say 'ADF in 3 sets' (Tennisnerd, Sportskeeda, LWOS, Tennis Tonic, all 2026-10-14). Only two algorithms (Oddspedia, Forebet at 51%) say ADF 2-0, and Agatha says Gea 2-0. Many writers bet a long match: Over 21.5/22.5 games or 3 sets (BetMGM blog Over 22.5 -135, SportyTrader EN/PT, FreeTips, Stats Zone, wettfreunde 3 sets @2.25 Oddset). Markets have ADF 51.6-53.7% (DK -116/+100 search-reported via Dimers; Pinnacle 1.87/2.03 search-reported; Kalshi 54c/47c).",
+    "does_crowd_view_contradict_picks": "It contradicted two parts of our card, and I changed both. (1) Our 'No tiebreak' value pick (model 61.8%) assumed a short, low-tiebreak match. The crowd, the tiebreak market (no-tiebreak 53.2% with margin removed, BSD consensus 1.98/1.74 at sports.bzzoiro.com/tennis/match/55365), base rates (about 56%) and both players' tiebreak history (ADF 48%, Gea 58%, against a 40.5% tour rate) all say there will be more tiebreaks than the model expects. The pick is dropped. (2) The crowd and market lean ADF, and our 50.3% Gea lean came from a form setting that added nothing in the backtest. So the SGP switches from the Gea side to the ADF side: ADF winning at least one set is more likely than Gea winning at least one set in every source. The crowd's 'ADF in 3' still pays both +1.5 sides, so it fits our structure picks.",
+    "final_high_hit_pick": "Davidovich Fokina +1.5 sets (ADF wins at least one set). This is a hit-rate play only.",
+    "final_high_hit_prob": 0.71,
+    "final_high_hit_take_at": "-250 or better (fair price about -245). Every real price found is worse: William Hill/Meridianbet 1.33 (-303), best US price -303 on Oddspedia (Oct 14 crawl). So at current prices it is a pass. The fallback is Gea +1.5 sets (about 68%) at -215 or better; best found Meridianbet 1.40 (-250), also a pass. No DraftKings set price was found.",
+    "final_value_pick": "No value bet at current prices. Conditional: ADF moneyline only at -105 or better.",
+    "final_value_prob": 0.515,
+    "final_value_price_and_ev": "No single market clears break-even at a price we found. ADF ML at DK -116 (search-reported via Dimers) needs 53.7%, so EV is about -4% at 51.5%. Pinnacle 1.87 (-115, search-reported) is about -3.7%. At -105, EV is about +0.6%, so the threshold is -105 or better. Gea ML +100 (DK, search-reported) at 48.5% is -3%: pass unless +115 or better.",
+    "final_sgp": "Davidovich Fokina +1.5 sets + Over 20.5 games. It wins if the match goes 3 sets (any 3-setter has at least 21 games), or if ADF wins 2-0 with 21 or more games (e.g. 7-5 6-4).",
+    "final_sgp_prob": 0.52,
+    "final_sgp_take_at": "+100 or better (break-even 50%; fair about -108). The joint probability comes from the model's simulation re-centred at P(ADF) 0.515: 50.2% at the model's serve level, 51.4% at a tour-average serve level, 52.4% at the serve level implied by the total-games market (wf_tmp/judge_a.py). The simulation's 3-set rate (38.7%) sits below the market's 41.9%, so the final estimate is rounded up to about 52%. The comparable-match estimate is 54.6%. No DraftKings SGP price was found; pass if DK shows -110 or shorter.",
+    "bets_to_avoid": [
+     "No tiebreak (the old value pick): about 55% likely, needs 60.3% at -152; about -4% even at the best price found (fonbet 1.75).",
+     "ADF 2-1 / 'ADF in 3' correct score, the tipsters' favourite: about 21% likely, priced 3.75-4.10 (needs 24-27%), about -14% to -21% EV.",
+     "ADF 2-0 correct score: about 31% likely, Meridianbet 2.85 needs 35%; Oddspedia +225 is break-even at best.",
+     "Over 22.5 games at -135 (BetMGM blog): about 50% likely against a 57.4% break-even.",
+     "Over 2.5 sets (3 sets) at 2.22-2.30: about 41% likely against a 43.5-45% break-even.",
+     "Gea ML at +100 and ADF ML at -116: both a few percent negative."
+    ],
+    "plain_english_why": [
+     "This match is close to a coin flip, so no side bet has value at today's prices. The most likely single score (ADF 2-0) happens only about 3 times in 10.",
+     "Our 'No tiebreak' pick was wrong. Both players play tiebreaks more often than the average tour player, 9 of the 12 matches the four quarter-finalists played this week had one, and the bookmakers price it at about 53/47. We were the outlier, so it's dropped.",
+     "The crowd's real call is 'ADF in three sets'. That pays any '+1.5 sets' bet on either player, but the exact-score bet itself pays too little for about a 1-in-5 outcome.",
+     "ADF winning at least one set (about 71%) is slightly more likely than Gea doing it (about 68%) in our model, the market and comparable matches. So the safe-side bets now go with ADF.",
+     "The parlay works because a 3-set match almost always goes over 20.5 games. Long, tight sets are exactly what both players have been producing. Take it only at even money or better."
+    ],
+    "changed_from_current_card": [
+     "P(Gea) moved from 50.3% to 48.5%, toward the market (47-48%), updated Elo and the steelman (a -1.8-point move). The model's Gea lean relied on a form setting with no backtest support.",
+     "'No tiebreak' value pick dropped: probability cut from 61.8% to about 55%; market, base rates and player history all disagree with the model.",
+     "High-hit pick switched from Gea +1.5 sets (68.6%, take at -202) to ADF +1.5 sets (about 71%, take at -250). Gea +1.5 is kept only as a fallback at -215 or better. Both are passes at the prices found.",
+     "SGP switched from Gea +1.5 sets + Over 20.5 (49.4%, take at +113) to ADF +1.5 sets + Over 20.5 (about 52%, take at +100 or better).",
+     "Value pick is now a 'pass', with the ADF ML conditional at -105 or better. The Gea ML pass is unchanged."
+    ]
+   }
+  ],
+  "overall_notes": "I checked the picks against what other people are predicting for both matches, the bookmakers' prices, and our historical match data. One lesson covers both games: the most likely score is not the best bet. The most likely score shows what is likely to happen; the best bet is the one paying more than its true chance.\n\nQF-B: the crowd is right that Zverev 2-0 is the most likely scoreline. But it happens only about 41% of the time, and the books already charge for it (2.10-2.30 needs 43.5-47.6%), so it is a losing bet. The crowd was also right that our win number for Zverev was too low. I moved it from 58.6% to 62% because the ankle and H2H adjustments were weaker than we had treated them. As a result, the de Minaur moneyline is now only a small edge, and only at +170 or better. De Minaur +1.5 sets (59%) is a hit-rate bet at -140 or better. Choose one de Minaur bet; don't stack them.\n\nQF-A: the crowd is not predicting straight sets here. Human tipsters mostly say 'Davidovich Fokina in 3'. Our 'No tiebreak' value pick was dropped because the market, base rates and both players' tiebreak histories all disagree with it. The safe-side bets switch to Davidovich Fokina (+1.5 sets about 71%; parlay with Over 20.5 games about 52%, at +100 or better). No straight bet has value at current prices.\n\nCaveats:\n- No DraftKings set, total, tiebreak or parlay prices were found anywhere. The DraftKings moneylines (Zverev -200 / de Minaur +175; Davidovich Fokina -116 / Gea +100) are search-reported via Dimers on Oct 14 and may be stale. Check them before betting.\n- Some prices come from unnamed books (cappster.com feed, Wincomparator) or Exa page crawls with no timestamp.\n- The Exa web tools failed to connect in this session, so I did no new web fetching. The judgment rests on the research, steelman and refutation outputs, plus one fresh simulation for the QF-A parlay: /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/judge_a.py.\n- The QF-B re-priced numbers come from /tmp/claude-0/-home-user-ReadME/466937d5-7a1a-5b7b-8d33-791a10f066e2/scratchpad/wf_tmp/refute_b/reprice.csv.\n- All edges are small (0-5%), so stakes should be small."
+ }
+}

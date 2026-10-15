@@ -16,6 +16,7 @@ QF-A Arthur Gea vs Alejandro Davidovich Fokina · QF-B Alexander Zverev vs Alex 
 | Markets | `src/markets.py` (consensus, waterfall, blend, inversion) | `output/markets.json` |
 | Card | `src/card.py` (re-centred 60k sims, price ladder, SGPs) · `src/tripwires.py` | `output/card.json`, `output/tripwires.json` |
 | Tactics | `src/mcp_analytics.py` | `output/mcp_analytics.csv` |
+| Reconciliation | `src/reconcile.py` (grade + pool Grok/Gemini, re-blend) → `src/card.py` → `src/crosscheck.py` | `output/reconcile.json`, `output/crosscheck.json` |
 | Workbook | `src/build_xlsx.py` (then LibreOffice recalc) | `output/Shanghai_2026_QF_model.xlsx` |
 
 Run order: `./fetch_data.sh && python3 src/grid.py && python3 src/backtest.py && python3 src/evaluate.py && python3 src/qf_model.py && python3 src/markets.py && python3 src/card.py && python3 src/tripwires.py && python3 src/build_xlsx.py`

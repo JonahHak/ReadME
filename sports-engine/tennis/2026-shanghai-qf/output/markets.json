@@ -3,7 +3,7 @@
   "blind": 0.5487325805742116,
   "consensus": 0.4697755887840498,
   "gap_pts": 7.89569917901618,
-  "final": 0.5093121586176067,
+  "final": 0.50311536329648,
   "market_table": [
    {
     "source": "DraftKings ML (Dimers)",
@@ -63,13 +63,15 @@
    "p_over": 0.5230574239370421,
    "note": "total: Sportskeeda O22.5 -135 / U -110 (book unnamed)",
    "model_sum": 1.255993351817111
-  }
+  },
+  "final_pre_recon": 0.5093121586176067,
+  "pooled_blind": 0.5364274569135875
  },
  "QF-B": {
   "blind": 0.5149065759834381,
   "consensus": 0.6415200984457683,
   "gap_pts": -12.661352246233015,
-  "final": 0.5795206554343879,
+  "final": 0.585884208610106,
   "market_table": [
    {
     "source": "DraftKings ML (Dimers)",
@@ -139,6 +141,8 @@
    "p_over": 0.46753764531985365,
    "note": "total: BetMGM O23.5 -105 / U -140 (via Sportskeeda)",
    "model_sum": 1.3320857206088323
-  }
+  },
+  "final_pre_recon": 0.5795206554343879,
+  "pooled_blind": 0.5279670742814364
  }
 }

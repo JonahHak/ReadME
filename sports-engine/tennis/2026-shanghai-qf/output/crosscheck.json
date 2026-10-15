@@ -1,0 +1,158 @@
+[
+ {
+  "match": "QF-A",
+  "source": "Claude",
+  "pick": "Gea +1.5 sets",
+  "p": 0.6859,
+  "fair": -218,
+  "take_at": -202
+ },
+ {
+  "match": "QF-A",
+  "source": "Gemini",
+  "pick": "Gea +1.5 sets",
+  "p": 0.6859,
+  "fair": -218,
+  "take_at": -202,
+  "price": -200,
+  "ev": 0.0288,
+  "kelly": 0.0144
+ },
+ {
+  "match": "QF-A",
+  "source": "Grok",
+  "pick": "ADF ML (high-hit)",
+  "p": 0.4952,
+  "fair": 102,
+  "take_at": 107,
+  "price": -116,
+  "ev": -0.0779,
+  "kelly": 0.0
+ },
+ {
+  "match": "QF-A",
+  "source": "Claude/Gemini/Grok",
+  "pick": "Gea ML (value)",
+  "p": 0.5048,
+  "fair": -102,
+  "take_at": 103,
+  "price": 100,
+  "ev": 0.0096,
+  "kelly": 0.0024
+ },
+ {
+  "match": "QF-A",
+  "source": "Gemini",
+  "pick": "Gea ML (value) @ +102",
+  "p": 0.5048,
+  "fair": -102,
+  "take_at": 103,
+  "price": 102,
+  "ev": 0.0197,
+  "kelly": 0.0048
+ },
+ {
+  "match": "QF-A",
+  "source": "Claude",
+  "pick": "SGP Gea +1.5 sets + Over 20.5",
+  "p": 0.4941,
+  "fair": 102,
+  "take_at": 113
+ },
+ {
+  "match": "QF-A",
+  "source": "Gemini",
+  "pick": "SGP Gea +1.5 sets + Under 24.5",
+  "p": 0.2976,
+  "fair": 236,
+  "take_at": 253,
+  "price": 175,
+  "ev": -0.1816,
+  "kelly": 0.0
+ },
+ {
+  "match": "QF-A",
+  "source": "Grok",
+  "pick": "SGP ADF ML + Over 22.5",
+  "p": 0.2289,
+  "fair": 337,
+  "take_at": 359,
+  "price": 230,
+  "ev": -0.2446,
+  "kelly": 0.0
+ },
+ {
+  "match": "QF-B",
+  "source": "Claude",
+  "pick": "de Minaur +1.5 sets",
+  "p": 0.611,
+  "fair": -157,
+  "take_at": -148
+ },
+ {
+  "match": "QF-B",
+  "source": "Gemini",
+  "pick": "de Minaur +3.5 games",
+  "p": 0.6294,
+  "fair": -170,
+  "take_at": -159,
+  "price": -115,
+  "ev": 0.1767,
+  "kelly": 0.02
+ },
+ {
+  "match": "QF-B",
+  "source": "Grok",
+  "pick": "Zverev ML (high-hit)",
+  "p": 0.5853,
+  "fair": -141,
+  "take_at": -133,
+  "price": -200,
+  "ev": -0.122,
+  "kelly": 0.0
+ },
+ {
+  "match": "QF-B",
+  "source": "Claude/Gemini/Grok",
+  "pick": "de Minaur ML (value)",
+  "p": 0.4147,
+  "fair": 141,
+  "take_at": 147,
+  "price": 175,
+  "ev": 0.1403,
+  "kelly": 0.02
+ },
+ {
+  "match": "QF-B",
+  "source": "Gemini",
+  "pick": "de Minaur ML @ +176",
+  "p": 0.4147,
+  "fair": 141,
+  "take_at": 147,
+  "price": 176,
+  "ev": 0.1445,
+  "kelly": 0.02
+ },
+ {
+  "match": "QF-B",
+  "source": "Claude/Gemini",
+  "pick": "SGP de Minaur +1.5 sets + Over 21.5",
+  "p": 0.479,
+  "fair": 109,
+  "take_at": 119,
+  "price": 185,
+  "ev": 0.3652,
+  "kelly": 0.02
+ },
+ {
+  "match": "QF-B",
+  "source": "Grok",
+  "pick": "SGP Zverev ML + Under 25.5",
+  "p": 0.3743,
+  "fair": 167,
+  "take_at": 181,
+  "price": 200,
+  "ev": 0.1229,
+  "kelly": 0.0154
+ }
+]

@@ -4,54 +4,64 @@
    {
     "trigger": "baseline",
     "p_model": 0.5487325805742116,
-    "p_final": 0.5093121586176067
+    "p_final": 0.5093121586176067,
+    "p_final_pooled": 0.50311536329648
    },
    {
     "trigger": "Gea >=3 double faults in first 4 service games (DF clustering): Gea SPW -2 pts",
     "p_model": 0.4903872066506964,
-    "p_final": 0.48007291845780325
+    "p_final": 0.48007291845780325,
+    "p_final_pooled": 0.4826467619137609
    },
    {
     "trigger": "ADF 1st-serve in <55% through first 4 service games: ADF SPW -2 pts",
     "p_model": 0.6074369512740853,
-    "p_final": 0.539356665085855
+    "p_final": 0.539356665085855,
+    "p_final_pooled": 0.5241840282779743
    },
    {
     "trigger": "Gea wins >=35% of return pts vs ADF 1st serve early: ADF SPW -2 pts",
     "p_model": 0.6074369512740853,
-    "p_final": 0.539356665085855
+    "p_final": 0.539356665085855,
+    "p_final_pooled": 0.5241840282779743
    },
    {
     "trigger": "ADF holds 4/4 losing <=4 serve pts total (ADF serving hot): ADF SPW +3 pts",
     "p_model": 0.46191127340979365,
-    "p_final": 0.46584130856293293
+    "p_final": 0.46584130856293293,
+    "p_final_pooled": 0.4726750024248947
    }
   ],
   "QF-B": [
    {
     "trigger": "baseline",
     "p_model": 0.5149065759834381,
-    "p_final": 0.5795206554343879
+    "p_final": 0.5795206554343879,
+    "p_final_pooled": 0.585884208610106
    },
    {
     "trigger": "Zverev visibly limping / strapped / MTO in first 4 service games: P(limited) 0.5 -> 0.9",
     "p_model": 0.4777414483389984,
-    "p_final": 0.5612994334810003
+    "p_final": 0.5612994334810003,
+    "p_final_pooled": 0.5731998528201214
    },
    {
     "trigger": "Zverev 1st-in >=70% and 1st won >=80% through 4 service games, moving freely: P(limited) 0.5 -> 0.2, Zverev SPW +2 pts",
     "p_model": 0.5967984506334184,
-    "p_final": 0.6194125162673442
+    "p_final": 0.6194125162673442,
+    "p_final_pooled": 0.6138088650326822
    },
    {
     "trigger": "de Minaur wins >=40% of return pts in first 4 Zverev service games (lever on): Zverev SPW -3 pts",
     "p_model": 0.43158232718882317,
-    "p_final": 0.5382463565913816
+    "p_final": 0.5382463565913816,
+    "p_final_pooled": 0.5571767445319973
    },
    {
     "trigger": "de Minaur serving <60% SPW early (groin/serve speed down): ADM SPW -3 pts",
     "p_model": 0.5983639479458104,
-    "p_final": 0.6201795472280364
+    "p_final": 0.6201795472280364,
+    "p_final_pooled": 0.614348833347187
    }
   ]
  },

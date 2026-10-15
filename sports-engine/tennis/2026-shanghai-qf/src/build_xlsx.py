@@ -6,6 +6,7 @@ from openpyxl.utils import get_column_letter
 sys.path.insert(0, os.path.dirname(__file__))
 OUT = os.path.join(os.path.dirname(__file__), '..', 'output')
 res = json.load(open(f'{OUT}/qf_results.json')); mk = json.load(open(f'{OUT}/markets.json')); card = json.load(open(f'{OUT}/card.json'))
+REC = json.load(open(f'{OUT}/reconcile.json')); XC = json.load(open(f'{OUT}/crosscheck.json'))
 BLUE = Font(color='0000CC', bold=True); HDR = Font(bold=True); TITLE = Font(bold=True, size=13)
 FILL = PatternFill('solid', fgColor='EEF3FB')
 
@@ -69,7 +70,9 @@ def model_sheet(wb, key):
               ('f3', 'Set-3 fatigue: opponent SPW up in set 3 (ADF return, QF-A)', 0.010 if key == 'QF-A' else 0.0),
               ('f3A', 'Fatigued player is B? (1 = B tired -> A SPW up)', 1),
               ('k', 'Winner shrink k (walk-forward backtest)', 0.58),
-              ('mkt', 'Market consensus P(A) no-vig (edit)', mk[key]['consensus'])]
+              ('mkt', 'Market consensus P(A) no-vig (edit)', mk[key]['consensus']),
+              ('gem', 'Gemini blind P(A)', REC[key]['blind']['Gemini']), ('grok', 'Grok blind P(A)', REC[key]['blind']['Grok']),
+              ('wC', 'Pool weight Claude', REC[key]['weights']['Claude']), ('wG', 'Pool weight Gemini', REC[key]['weights']['Gemini']), ('wK', 'Pool weight Grok', REC[key]['weights']['Grok'])]
     R = {}
     ws['A3'] = 'INPUTS'; ws['A3'].font = HDR
     for i, (k, lab, v) in enumerate(inputs):
@@ -123,8 +126,9 @@ def model_sheet(wb, key):
     pf, pl = f'$B${rr + 1}', f'$B${rr + 2}'
     rows2 = [('P(A) iid mixture', f"=(1-{R['plim']})*{pf}+{R['plim']}*{pl}"),
              ('P(A) BLIND = shrink(mixture)', f"=1/(1+EXP(-{R['k']}*LN(B{rr+3}/(1-B{rr+3}))))"),
-             ('P(A) FINAL = 50/50 log-odds blend with market', f"=1/(1+EXP(-(0.5*LN(B{rr+4}/(1-B{rr+4}))+0.5*LN({R['mkt']}/(1-{R['mkt']})))))"),
-             ('Fair American odds A (final)', f'=IF(B{rr+5}>=0.5,-100*B{rr+5}/(1-B{rr+5}),100*(1-B{rr+5})/B{rr+5})'),
+             ('P(A) POOLED blind (Claude/Gemini/Grok, log-odds)', f"=1/(1+EXP(-({R['wC']}*LN(B{rr+4}/(1-B{rr+4}))+{R['wG']}*LN({R['gem']}/(1-{R['gem']}))+{R['wK']}*LN({R['grok']}/(1-{R['grok']})))))"),
+             ('P(A) FINAL = 50/50 log-odds blend of pooled blind with market', f"=1/(1+EXP(-(0.5*LN(B{rr+5}/(1-B{rr+5}))+0.5*LN({R['mkt']}/(1-{R['mkt']})))))"),
+             ('Fair American odds A (final)', f'=IF(B{rr+6}>=0.5,-100*B{rr+6}/(1-B{rr+6}),100*(1-B{rr+6})/B{rr+6})'),
              ('Python check: blind P(A) (exact engine)', r['p_win']), ('Python check: final P(A)', mk[key]['final'])]
     for i, (lab, f) in enumerate(rows2):
         ws.cell(rr + 3 + i, 1, lab); ws.cell(rr + 3 + i, 2, f)
@@ -184,7 +188,17 @@ def build(path):
     for i, l in enumerate(lines): ws.cell(1 + i, 1, l).font = TITLE if i == 0 else Font()
     ws.column_dimensions['A'].width = 140
     for k in ('QF-A', 'QF-B'): model_sheet(wb, k)
+    rr = []
+    for k in ('QF-A', 'QF-B'):
+        for a in ('Claude', 'Gemini', 'Grok'):
+            g = REC['grades'][a]
+            rr.append(dict(match=k, ai=a, blind_pA=REC[k]['blind'][a], weight=REC[k]['weights'][a], facts=g['facts'], opponent_adjustment=g['opponent_adjustment'],
+                           calibration=g['calibration'], real_prices=g['real_prices'], ev=g['ev'], audit_notes=g['notes']))
+        rr.append(dict(match=k, ai='POOLED blind', blind_pA=REC[k]['pooled_blind'], weight=1.0, audit_notes=f"consensus {REC[k]['consensus']:.4f} -> FINAL {REC[k]['final_pooled']:.4f} (pre-reconciliation {REC[k]['final_pre_recon']:.4f})"))
+    recon_df = pd.DataFrame(rr)
     pricing_sheet(wb)
+    table_sheet(wb, 'Reconciliation', recon_df, 'Step 9: grades (0-10), pool weights (start 0.6/0.2/0.2), pooled blind and final; P(A) = Gea (QF-A), Zverev (QF-B)')
+    table_sheet(wb, 'Other AI picks priced', pd.DataFrame(XC), "Every AI's picks priced on the same re-centred 60k simulation; prices for Gemini derivatives are its own [INFERENCE] numbers, not DK quotes")
     table_sheet(wb, 'Backtest variants', pd.read_csv(f'{OUT}/bt_variants.csv'), 'Walk-forward backtest, n=1667 hard Bo3 tour-level, 2025-01-06..2026-09-30')
     table_sheet(wb, 'Backtest form-H2H', pd.read_csv(f'{OUT}/bt_form_h2h.csv'), 'Form weight x H2H blend (day-form sd 0.085)')
     table_sheet(wb, 'Calib derivatives sd06', pd.read_csv(f'{OUT}/bt_deriv_calib_sd06.csv'), 'Sets / tiebreak / games calibration at day-form sd 0.06')

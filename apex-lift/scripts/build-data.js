@@ -3,6 +3,7 @@
 //   data/fightlab.json, data/systems.json
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
+import { DEFAULT_PROFILE } from '../lib/profile.js';
 
 const root = new URL('..', import.meta.url).pathname;
 const parts = join(root, 'data/parts');
@@ -16,4 +17,5 @@ const exercises = { cards, morning5: read('morning5.json'), pregame: read('prega
 writeFileSync(join(root, 'data/exercises.json'), JSON.stringify(exercises, null, 1));
 writeFileSync(join(root, 'data/fightlab.json'), JSON.stringify(read('fightlab.json'), null, 1));
 writeFileSync(join(root, 'data/systems.json'), JSON.stringify(read('systems.json'), null, 1));
+writeFileSync(join(root, 'data/profile.json'), JSON.stringify({ profile: DEFAULT_PROFILE }, null, 1));
 console.log(`exercises.json: ${cards.length} cards, ${exercises.pregame.length} pre-game, ${exercises.sessions.length} sessions`);

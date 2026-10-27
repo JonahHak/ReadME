@@ -1,4 +1,5 @@
 import { parsePartial } from './partial-json.js';
+import * as offline from './offline-match.js';
 
 // ---------- tiny helpers ----------
 const $ = (sel, el = document) => el.querySelector(sel);
@@ -122,13 +123,31 @@ function logSummary() {
 }
 
 // ---------- streaming API ----------
+const LOCAL = {
+  'api/optimize': b => offline.offlineCard(DATA.lib, b.input),
+  'api/session': b => offline.offlineSession(DATA.lib, b.input, S.toggles),
+  'api/pregame': b => offline.offlinePregame(DATA.lib, b.input),
+  'api/vision': () => null,
+};
+
+// No server reachable (e.g. the static preview): answer from the offline library in the browser.
+function localAnswer(path, body) {
+  const data = LOCAL[path](body);
+  if (data) return { data, source: 'offline', note: 'gateway not configured' };
+  const msg = path === 'api/vision'
+    ? 'Photo mode needs the live coach (OmniRoute). Pick the exercise from the offline list instead.'
+    : 'Not in the offline library yet. Try one of these, or connect the live coach.';
+  throw Object.assign(new Error(msg), { offline: offline.offlineIndex(DATA.lib) });
+}
+
 async function stream(path, body, { onPartial, onMeta, onStatus }) {
+  if (DATA.static) return localAnswer(path, body);
   const res = await fetch(path, {
     method: 'POST', headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       ...body, profile: S.profile || DATA.profile, log: logSummary(),
       toggles: { ...S.toggles, programMode: S.settings.programMode },
-      model: path === '/api/vision' ? S.settings.visionModel : S.settings.textModel,
+      model: path === 'api/vision' ? S.settings.visionModel : S.settings.textModel,
     }),
   });
   if (!res.ok || !res.body) throw new Error(`Server ${res.status}`);
@@ -204,7 +223,7 @@ async function optimize(target, input, context = '') {
   target.innerHTML = statusLine(`Optimizing "${esc(input)}"…`);
   let meta = {};
   try {
-    const fin = await stream('/api/optimize', { input, context }, {
+    const fin = await stream('api/optimize', { input, context }, {
       onMeta: m => { meta = m; },
       onStatus: m => target.insertAdjacentHTML('beforeend', statusLine(esc(m))),
       onPartial: p => { target.innerHTML = renderCard(p, { ...meta, streaming: true }); },
@@ -264,7 +283,7 @@ async function photoFlow(file, note) {
   try { image = await resizeImage(file); } catch (e) { out.innerHTML = h`<p class="err">${e.message}</p>`; return; }
   out.innerHTML = h`<img class="photo-prev" src="${image}" alt="your photo">${raw(statusLine('Reading the photo…'))}`;
   try {
-    const fin = await stream('/api/vision', { image, context: note }, {});
+    const fin = await stream('api/vision', { image, context: note }, {});
     const v = fin.data;
     const ctx = [
       v.kind === 'machine' && v.machineSetup ? `Machine setup identified: ${v.machineSetup.join('; ')}` : '',
@@ -327,7 +346,7 @@ const VIEWS = {
   },
 
   async fight() {
-    const f = DATA.fight || (DATA.fight = await getJSON('/data/fightlab.json'));
+    const f = DATA.fight || (DATA.fight = await getJSON('data/fightlab.json'));
     if (!f) { $('#view').innerHTML = '<p class="err">Fight Lab data missing.</p>'; return; }
     const ladder = (f.contactLadder || []).map(l => h`<div class="item"><div class="item-top"><span class="name">Level ${l.level} · ${l.name}</span>${l.siblingOK ? raw('<span class="badge live">OK w/ sibling</span>') : raw('<span class="badge offline">Coach/gym only</span>')}</div><ul class="rules">${raw(list(l.rules))}</ul></div>`).join('');
     const prog = arr => (arr || []).map(s => layer(`${s.step}. ${s.name}`, 'amber', (s.drills || []).map(d => h`<div class="item"><div class="item-top"><span class="name">${d.name}</span><span class="dose">${d.dose}</span></div>${d.cue ? raw(h`<div class="note">Cue: ${d.cue}</div>`) : ''}</div>`).join(''))).join('');
@@ -358,8 +377,8 @@ const VIEWS = {
   progress() { renderProgress(); },
 
   async tips() {
-    const t = DATA.tips || (DATA.tips = await getJSON('/data/tips.json'));
-    const sys = DATA.systems || (DATA.systems = await getJSON('/data/systems.json'));
+    const t = DATA.tips || (DATA.tips = await getJSON('data/tips.json'));
+    const sys = DATA.systems || (DATA.systems = await getJSON('data/systems.json'));
     const cats = [...new Set((t?.tips || []).map(x => x.category))];
     const draw = cat => {
       const items = (t?.tips || []).filter(x => !cat || x.category === cat);
@@ -395,20 +414,25 @@ const VIEWS = {
         <textarea id="prof">${S.profile || DATA.profile}</textarea>
         <div class="row" style="margin-top:8px"><button class="btn sm" id="saveProf">Save profile</button><button class="btn ghost sm" id="resetProf">Reset to default</button></div></div>
       <div class="panel"><h3>Backup</h3><p class="muted" style="font-size:13px">Everything lives on this device. Export to move it to your iPad or keep a copy.</p>
-        <div class="row"><button class="btn ghost sm" id="exp">Export JSON</button><label class="btn ghost sm">Import JSON<input type="file" id="imp" accept="application/json" hidden></label></div></div>`;
+        <div class="row"><button class="btn ghost sm" id="exp">Export JSON</button><label class="btn ghost sm">Import JSON<input type="file" id="imp" accept="application/json" hidden></label></div>
+        <textarea id="expBox" hidden readonly style="min-height:120px;margin-top:8px"></textarea></div>`;
     $('#tm').onchange = e => { S.settings.textModel = e.target.value; save(); };
     $('#vm').onchange = e => { S.settings.visionModel = e.target.value; save(); };
     $('#pm').onchange = e => { S.settings.programMode = e.target.value; save(); };
     $('#saveProf').onclick = () => { S.profile = $('#prof').value; save(); $('#saveProf').textContent = 'Saved ✓'; };
     $('#resetProf').onclick = () => { S.profile = ''; save(); $('#prof').value = DATA.profile; };
     $('#exp').onclick = () => {
-      const blob = new Blob([JSON.stringify(S, null, 2)], { type: 'application/json' });
-      const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: `apex-lift-${today()}.json` });
-      a.click();
+      const json = JSON.stringify(S, null, 2);
+      navigator.clipboard?.writeText(json).then(() => { $('#exp').textContent = 'Copied ✓'; }, () => {});
+      $('#expBox').hidden = false; $('#expBox').value = json; $('#expBox').select();
+      if (!DATA.static) {
+        const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(new Blob([json], { type: 'application/json' })), download: `apex-lift-${today()}.json` });
+        a.click();
+      }
     };
     $('#imp').onchange = async e => {
       try { S = { ...structuredClone(DEFAULT_STATE), ...JSON.parse(await e.target.files[0].text()) }; save(); go('settings'); }
-      catch { alert('That file is not an APEX export.'); }
+      catch { $('#imp').closest('label').textContent = 'Not an APEX export — try again'; }
     };
   },
 };
@@ -437,7 +461,7 @@ async function buildSession(input) {
   out.innerHTML = statusLine(`Building "${esc(input)}"…`);
   let meta = {};
   try {
-    const fin = await stream('/api/session', { input }, {
+    const fin = await stream('api/session', { input }, {
       onMeta: m => { meta = m; },
       onPartial: p => { out.innerHTML = renderSession(p, { ...meta, streaming: true }); },
     });
@@ -482,7 +506,7 @@ async function preGame(input) {
   out.innerHTML = statusLine(`Priming for "${esc(input)}"…`);
   let meta = {};
   try {
-    const fin = await stream('/api/pregame', { input }, { onMeta: m => { meta = m; }, onPartial: p => { out.innerHTML = renderPregame(p, { ...meta, streaming: true }); } });
+    const fin = await stream('api/pregame', { input }, { onMeta: m => { meta = m; }, onPartial: p => { out.innerHTML = renderPregame(p, { ...meta, streaming: true }); } });
     out.innerHTML = noteHtml(fin) + renderPregame(fin.data, fin);
   } catch (e) { out.innerHTML = errorBox(e, 'pregame'); }
 }
@@ -494,7 +518,7 @@ function sectionsHtml(sections, title) {
     h`<p>${raw(gradeBadge(s.grade))} ${s.summary || ''}</p>` + (s.items || []).map(i => h`<div class="item"><div class="item-top"><span class="name">${i.name}</span>${raw(gradeBadge(i.grade))}</div><div class="dose">${i.dose || ''}</div><div class="note">${i.why || ''}</div></div>`).join(''))).join('');
 }
 async function systemsView(keys, title, extra = '') {
-  const sys = DATA.systems || (DATA.systems = await getJSON('/data/systems.json'));
+  const sys = DATA.systems || (DATA.systems = await getJSON('data/systems.json'));
   if (!sys) { $('#view').innerHTML = '<p class="err">Content missing.</p>'; return; }
   $('#view').innerHTML = extra + keys.map(k => sectionsHtml(sys[k], { lungs: 'Lungs / VO2 / EIB', running: 'XC running economy', vision: 'Vision', skills: 'Skills (5-10 min/day, rotate 2-3)' }[k] || title)).join('');
 }
@@ -717,13 +741,20 @@ function showBanner(msg) { const b = $('#banner'); b.textContent = msg; b.hidden
 async function boot() {
   renderTabs(); renderToggles();
   $('#toggles').hidden = !TOGGLE_TABS.has(current);
-  const [health, prof] = await Promise.all([getJSON('/api/health'), getJSON('/api/profile')]);
+  const [health, prof] = await Promise.all([getJSON('api/health'), getJSON('api/profile')]);
   DATA.health = health; DATA.profile = prof?.profile || ''; DATA.morning5 = prof?.morning5 || null;
+  if (!health) {
+    DATA.static = true;
+    const [lib, p] = await Promise.all([getJSON('data/exercises.json'), getJSON('data/profile.json')]);
+    DATA.lib = lib || { cards: [], pregame: [], sessions: [] };
+    DATA.profile = p?.profile || ''; DATA.morning5 = lib?.morning5 || null;
+  }
   const gw = $('#gw');
   if (health?.gateway) { gw.textContent = 'LIVE'; gw.className = 'gw on'; gw.title = `Default model: ${health.defaults?.text}`; }
-  else { gw.textContent = 'OFFLINE'; gw.className = 'gw off'; gw.title = health?.reason || 'Server unreachable'; }
+  else { gw.textContent = 'OFFLINE'; gw.className = 'gw off'; gw.title = health?.reason || 'Preview: offline library only'; }
+  if (DATA.static) showBanner('Preview: running on the offline library (43 cards, 14 sessions, 15 sports). Live AI coaching and photo mode turn on once the app is deployed with OmniRoute.');
   if (S.toggles.hrvFlag) showBanner('Energy auto-set to Cooked from your HRV. Tap a different Energy chip to override.');
   (VIEWS[current] || VIEWS.optimize)();
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(() => {});
+  if (!DATA.static && 'serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 }
 boot();

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="APEX">
+  <title>APEX LIFT</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icon.svg">
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand"><span class="logo">APEX</span><span class="lift">LIFT</span><span id="gw" class="gw" title="Gateway status">…</span></div>
+    <nav id="tabs" class="tabs" role="tablist"></nav>
+  </header>
+  <div id="banner" class="banner" hidden></div>
+  <section id="toggles" class="toggles" aria-label="Quick toggles"></section>
+  <main id="view"></main>
+  <dialog id="sheet" class="sheet"></dialog>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

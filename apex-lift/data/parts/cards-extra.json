@@ -1,0 +1,780 @@
+[
+  {
+    "name": "Inverted Row",
+    "aliases": [
+      "inverted rows",
+      "table row",
+      "table rows",
+      "australian pull-up",
+      "australian pull up",
+      "bodyweight row",
+      "body row",
+      "ring row",
+      "trx row",
+      "horizontal pull-up"
+    ],
+    "category": "compound",
+    "muscles": [
+      "lats",
+      "mid/lower traps",
+      "rhomboids",
+      "rear delts",
+      "biceps",
+      "core"
+    ],
+    "equipment": [
+      "sturdy table or bar",
+      "bodyweight"
+    ],
+    "doThisNotThat": "Pull your chest to the edge as one rigid plank, with heels down and glutes squeezed, and lead with the elbows driving toward your back pockets. Most people sag at the hips and crane the chin up, so the reps \"count\" without the back doing the work.",
+    "priorityNote": "At home this is your main horizontal pull (no pull-up bar). Athleticism and posture win here, so keep the body rigid even if that means fewer reps; looks follow.",
+    "prescription": {
+      "sets": "3 working",
+      "reps": "6-12 (double progression: 12 clean on all sets → feet onto a chair, then add a 2-s hold at the top)",
+      "load": "Bodyweight; set the difficulty with body angle. More horizontal = harder. Stop at 1-2 RIR or when the hips start to sag.",
+      "rest": "2-2.5 min",
+      "tempo": "2-3 s lower, 1-s hold with chest at the edge, explosive pull",
+      "slot": "Back + Triceps day, main lift at home (or the first accessory in the gym after pull-ups)",
+      "warmup": "1 set x 6 at a steeper (easier) angle"
+    },
+    "setup": {
+      "steps": [
+        "Use a heavy, stable table that cannot tip (test it first, or have someone sit on it). Lie underneath with your chest under the edge.",
+        "Grip the edge just wider than shoulders, palms facing away, thumbs wrapped.",
+        "Heels on the floor, legs straight, glutes squeezed, ribs down: shoulders to ankles is one straight line.",
+        "Pull the chest to the edge, hold 1 s, lower until the arms are fully straight and the shoulder blades spread."
+      ],
+      "cues": [
+        "Pull the table edge to your sternum.",
+        "Drive your elbows toward your back pockets.",
+        "Keep your belt buckle pointed at the ceiling."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Mostly horizontal pull. The more horizontal your body, the larger the share of bodyweight you lift (roughly 50-70% of bodyweight in common setups).",
+      "jointAngles": "Shoulder extension from ~90° flexion to ~0-10° behind the torso; elbows ~45° from the body; scapulae retract and depress at the top.",
+      "momentArm": "The body is a lever pivoting on the heels; the arms pull near the top of the lever. Feet elevated moves the pivot up and raises the load share.",
+      "kineticChain": "Heels → glutes → anti-extension brace → scapulae → elbows. If the plank breaks, force leaks into the hips instead of the back.",
+      "grf": "Heels push into the floor and act as the pivot; push the heels down to lock the plank so pulling force goes into moving the body, not bending it.",
+      "hardestPoint": "Top 20% (chest to the edge), where the moment arm on the lats and mid-back is greatest and the shoulder blades must fully retract."
+    },
+    "neural": {
+      "intent": "Explode up, control down. Pull fast and hard every rep; slow reps at the top mean you stop the set.",
+      "rfd": "Moderate. Fast pulling RFD is the same rate you need to snap back the hand after a jab or pull a collar tie.",
+      "powerPair": {
+        "exercise": "Explosive inverted row with a hand release (let go at the top, catch the edge)",
+        "dose": "2 x 3",
+        "rest": "20-30 s after the main set",
+        "type": "contrast"
+      }
+    },
+    "elastic": null,
+    "mobility": "Full arm extension at the bottom with the shoulder blades spread loads the lats and rhomboids long, opening the upper back your posture rounds. The loaded range builds mobility about as well as stretching (Afonso 2021).",
+    "footBase": "Heels are the base: pressing them into the floor locks the posterior chain, so the plank stays rigid. Feet together, toes up.",
+    "sequencing": "Scapula first, then elbows: the shoulder blades start the pull and the arms finish it. That is the same order your boxing guard returns in.",
+    "looks": {
+      "effect": "Mid-back thickness, rear delts and posture. You stand taller, and the V-taper reads better from the side.",
+      "lengthened": "Bottom: arms straight, shoulder blades spread wide, 1-s stretch before each rep. Last set: 3-5 bottom-half partials."
+    },
+    "sportTransfer": {
+      "sports": [
+        "boxing",
+        "MMA",
+        "wrestling",
+        "BJJ",
+        "tennis",
+        "baseball",
+        "swimming-type pulls in football blocking"
+      ],
+      "mechanism": "The retraction strength balances all the pushing and punching, which keeps the shoulder centered. A strong horizontal pull also decelerates the arm after throws and serves.",
+      "combatNote": "Clinch pulls, pulling an opponent into a knee, and fast jab retraction. Also counters the forward-rounded \"boxer posture\"."
+    },
+    "intensityTechnique": {
+      "technique": "Rest-pause: at 1 RIR, rest 15 s, do 2-3 more reps, repeat once",
+      "when": "Last set"
+    },
+    "tips": [
+      {
+        "tip": "Change difficulty by angle, not by ugly reps. Walk the feet forward or put them on a chair to progress. A 1-s top hold doubles time at the hardest point with zero new equipment.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Stop when the hips start to sag. That is your velocity-loss cue at home; grinding past it trains a broken plank, and stopping early kept more speed in velocity-loss studies (Pareja-Blanco 2017 — squat data, extrapolated).",
+        "grade": "B-C",
+        "source": "Pareja-Blanco 2017 (extrapolated)"
+      },
+      {
+        "tip": "Do a horizontal pull for every push. Matching the volume protects the front of the shoulder, which takes a lot of stress from punching volume.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Safety: test the table. It must be heavy and not tip. A sturdy bar in a rack, or a broomstick between two chairs (backs together, with weight on them), also works. Avoid flimsy furniture.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      }
+    ],
+    "teachMe": "Your back muscles pull the shoulder blades together first, and then the arms finish the job. When the arms go first (your usual pattern), the biceps work hard and the back does little. The heels act as a pivot: you are a lever being pulled up, so a rigid plank lets all the force move your body instead of bending it at the hips. Training that full chain at once teaches your nervous system to fire the trunk and the back as one unit, which is the same stiffness that makes a punch transfer force.",
+    "swaps": {
+      "home": "Table inverted row (above), or a sturdy broom across two heavy chairs. If neither works: towel door rows (towel around both handles of a closed door, lean back, pull) or a one-arm DB row.",
+      "bodyweight": "Door-frame or towel-door row, feet close to the door and body leaning back; walk the feet forward to make it harder."
+    },
+    "evidence": {
+      "grade": "C",
+      "studies": [
+        "Afonso et al. 2021 (loaded ROM)",
+        "Pareja-Blanco et al. 2017 (velocity loss, extrapolated)",
+        "grade C, mechanism-based"
+      ],
+      "confidence": 65
+    }
+  },
+  {
+    "name": "Dumbbell Pullover",
+    "aliases": [
+      "pullover",
+      "pullovers",
+      "db pullover",
+      "dumbbell pullovers",
+      "lat pullover",
+      "cross bench pullover"
+    ],
+    "category": "isolation",
+    "muscles": [
+      "lats",
+      "long head triceps (stabilizing)",
+      "pec sternal head",
+      "serratus"
+    ],
+    "equipment": [
+      "one dumbbell",
+      "bench or floor"
+    ],
+    "doThisNotThat": "Keep the elbows soft and locked at one angle, ribs pulled down, and lower the DB behind your head only as far as your ribs stay down. Then drag it back over your eyes with the lats. Most people bend and straighten the elbows (turning it into a skull crusher) and arch the low back to fake range.",
+    "priorityNote": "Looks (lat width for the V-taper) and shoulder mobility win; the main lift remains the row or pull-up.",
+    "prescription": {
+      "sets": "2-3 working (last set to failure)",
+      "reps": "10-15 (double progression: 15 on all sets → +5 lb or 3-s lowering)",
+      "load": "1-2 RIR, failure on the last set. One light-moderate DB held with both hands.",
+      "rest": "90 s",
+      "tempo": "3 s lower to the stretch, 1-s pause, pull up hard to above the eyes",
+      "slot": "Back + Triceps day, accessory (after rows; before triceps work)",
+      "warmup": "1 set x 10 light"
+    },
+    "setup": {
+      "steps": [
+        "Lie with your upper back across a bench (or flat on the floor at home), feet flat in a tripod, hips level.",
+        "Hold one DB with both hands cupped under the top plate, arms straight up over the chest, elbows slightly bent.",
+        "Exhale, pull ribs down. Lower the DB in an arc behind the head until you feel a big stretch in your lats, without the ribs flaring.",
+        "Pause 1 s, then pull the DB back up in the same arc until it's above the eyes (not over the chest)."
+      ],
+      "cues": [
+        "Draw a big arc with the dumbbell — same elbow angle the whole time.",
+        "Keep your bottom ribs pinned to the bench.",
+        "Drag the dumbbell back over your eyes, not your chest."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Gravity pulls down while the arm moves in an arc around the shoulder, so the load on the lats is greatest when the arm is near horizontal behind the head.",
+      "jointAngles": "Shoulder flexion ~90° → ~160-180° (overhead); elbows locked at ~10-20° bend. The lat is longest with the arm overhead.",
+      "momentArm": "Max when the arm is horizontal (DB furthest from the shoulder horizontally), which is also near the stretch position: hard and long at the same time.",
+      "kineticChain": "Ribs down (abs) → shoulder blades on the bench → the arm swings around the shoulder. Lose the ribs and the lumbar spine makes the range instead of the shoulder.",
+      "grf": "Feet push into the floor to keep the hips stable; minimal role otherwise.",
+      "hardestPoint": "Arm near horizontal behind the head, which is also the lengthened part of the range."
+    },
+    "neural": {
+      "intent": "Controlled stretch, then pull with intent. Feel the lats start the arc, not the triceps.",
+      "rfd": "Low priority. This is a range-and-looks lift.",
+      "powerPair": {
+        "exercise": "None (accessory)",
+        "dose": "—",
+        "rest": "—",
+        "type": "none"
+      }
+    },
+    "elastic": null,
+    "mobility": "The best overhead-mobility tool in the program. It loads the lats and long head of the triceps in full shoulder flexion with the ribs down, which is the range stiff lats steal (it forces the back to arch when you reach overhead). Loaded ROM ≈ stretching for range (Afonso 2021).",
+    "footBase": "Tripod feet flat and wide on the floor; light Screw pressure to keep the pelvis level so the back doesn't arch.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Lat width and serratus definition, which together make the V-taper. Also some upper-chest fill.",
+      "lengthened": "The stretch with the arm overhead, ribs down. Last set: 5-6 partials in the bottom (overhead) third only."
+    },
+    "sportTransfer": {
+      "sports": [
+        "volleyball",
+        "tennis",
+        "baseball",
+        "football",
+        "boxing",
+        "MMA",
+        "basketball"
+      ],
+      "mechanism": "Overhead range without the low back arching protects the spine in serves, spikes, throws and rebounds. Stronger lats in the stretched position drive the \"pull down\" of a spike or overhead serve.",
+      "combatNote": "Overhook and whizzer strength, frames in BJJ, and a long overhand reach without the ribs flaring."
+    },
+    "intensityTechnique": {
+      "technique": "Lengthened partials (5-6 in the overhead third)",
+      "when": "Last set after full-range failure"
+    },
+    "tips": [
+      {
+        "tip": "Ribs down is the whole lift. When the ribs flare, the lumbar spine gives the \"fake\" overhead range, and the lats stay short. Exhale fully before each rep.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "The lat is longest overhead. Training at long lengths often grows muscle at least as well as full ROM (Wolf 2023 meta; parity in Wolf 2025), so the stretch here is a free bonus.",
+        "grade": "B-C",
+        "source": "Wolf 2023 meta; Wolf 2025"
+      },
+      {
+        "tip": "Stop the up-arc above the eyes. Past that point gravity has no lever on the lats, so it's a rest instead of a rep.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Cross-bench (shoulders on the bench, hips lower) gives the most range; flat on the floor is safer if your shoulders are stiff and you want the floor to stop the range for you.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      }
+    ],
+    "teachMe": "Stiff lats are a hidden reason you cannot reach overhead without arching your back. The lats attach to the arm and the low back, so when they are short, raising the arm pulls the spine into an arch. Loading the stretch with the ribs held down teaches your nervous system the overhead position is safe, and it releases the protective tension, so range shows up in your serve, your shot and your guard. The physics: the load is hardest exactly when the lat is longest, so this is one of the few exercises where hard and stretched happen together.",
+    "swaps": {
+      "home": "Floor DB pullover with the light DB; the floor limits range safely. If it's too light, use a 4-s lowering and lengthened partials.",
+      "bodyweight": "Towel lat slide: kneel or plank with hands on a towel on a smooth floor, slide the arms overhead and pull back with the lats (ab-wheel style but short range)."
+    },
+    "evidence": {
+      "grade": "C",
+      "studies": [
+        "Afonso et al. 2021",
+        "Wolf et al. 2023 meta-analysis",
+        "Wolf et al. 2025 (PeerJ)"
+      ],
+      "confidence": 60
+    }
+  },
+  {
+    "name": "Prone Y-T-W Raise",
+    "aliases": [
+      "ytw",
+      "y t w",
+      "ytws",
+      "y-t-w",
+      "prone ytw",
+      "y raise",
+      "t raise",
+      "w raise",
+      "blackburns",
+      "prone raises"
+    ],
+    "category": "isolation",
+    "muscles": [
+      "lower traps",
+      "mid traps",
+      "rhomboids",
+      "rear delts",
+      "rotator cuff (infraspinatus, teres minor)"
+    ],
+    "equipment": [
+      "floor or incline bench",
+      "very light dumbbells (optional)"
+    ],
+    "doThisNotThat": "Lift from the shoulder blades with the thumbs pointed up and the neck long, and hold each top position 2 s. Most people heave with the low back, shrug the upper traps and flap the arms, so the weak lower traps never do any work.",
+    "priorityNote": "Athleticism (shoulder health for punching and throwing volume) wins over looks. Small, precise, light.",
+    "prescription": {
+      "sets": "2 rounds",
+      "reps": "8 each of Y, T and W (24 total per round), 2-s hold at the top of each rep",
+      "load": "Bodyweight to 2-5 lb. If the upper traps take over or you shrug, the weight is too heavy.",
+      "rest": "60-90 s between rounds",
+      "tempo": "1 s up, 2-s hold, 2 s down",
+      "slot": "Back + Triceps day accessory; also a pre-press warm-up (1 round with no weight) on Chest days, and before boxing",
+      "warmup": "No warm-up set needed; the first round is light enough to warm up"
+    },
+    "setup": {
+      "steps": [
+        "Lie face-down on the floor (forehead on a folded towel) or chest-down on a 30-45° incline bench.",
+        "Y: arms overhead at ~135° (a Y shape), thumbs up. T: arms out at 90°, thumbs up. W: elbows bent and tucked, pull them toward the back pockets, thumbs up.",
+        "Lift the arms a few inches off the floor by sliding the shoulder blades down and together; hold 2 s.",
+        "Lower slowly. Keep the chin tucked and the lower ribs on the floor."
+      ],
+      "cues": [
+        "Point your thumbs at the ceiling.",
+        "Slide your shoulder blades into your back pockets.",
+        "Keep your forehead on the towel."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Gravity pulls the arms down; the scapular muscles lift them against it. In the Y the line of pull matches the lower traps' fibers; in the T the mid traps; in the W the rotator cuff (external rotation) and rhomboids.",
+      "jointAngles": "Y: ~135° shoulder abduction-flexion; T: 90° abduction; W: ~45° abduction with 90° elbow bend and external rotation. Thumbs up = external rotation, which opens space at the front of the shoulder.",
+      "momentArm": "Long straight arms in Y and T give a big lever, so even 2 lb is hard. The W shortens the lever, which allows slightly more load.",
+      "kineticChain": "Scapula moves first (down and back), then the arm. If the arm moves without the scapula, the upper traps and rear delt take over.",
+      "grf": "Minimal: the floor or bench supports the torso, which removes low-back cheating if the ribs stay down.",
+      "hardestPoint": "The top hold in the Y, where the lower traps are fully shortened against the longest lever."
+    },
+    "neural": {
+      "intent": "Precise, slow and owned: this is motor control, not power. You are teaching the brain to find the lower traps on demand.",
+      "rfd": "Not a target.",
+      "powerPair": {
+        "exercise": "None",
+        "dose": "—",
+        "rest": "—",
+        "type": "none"
+      }
+    },
+    "elastic": null,
+    "mobility": "Overhead range (Y) with the ribs down and the thumbs-up external rotation (W) restore range that stiff, rounded shoulders lose. Light, end-range loading builds active control there, which is what the brain needs before it lets the joint move.",
+    "footBase": null,
+    "sequencing": "Scapula first, then the arm. Stabilizing the shoulder blade before the arm moves is the base for punching, throwing and serving: the hips start the punch, but the scapula is the platform the arm fires from.",
+    "looks": {
+      "effect": "Posture (shoulders back, chest up), rear-delt detail and an upper back that \"frames\" the shoulders, so the V-taper reads from the front and side.",
+      "lengthened": "Let the shoulder blades spread fully at the bottom of each rep before lifting."
+    },
+    "sportTransfer": {
+      "sports": [
+        "boxing",
+        "MMA",
+        "baseball",
+        "tennis",
+        "volleyball",
+        "football",
+        "pickleball",
+        "table tennis"
+      ],
+      "mechanism": "Lower traps and the cuff decelerate the arm after punches, throws, serves and spikes. That braking capacity protects the shoulder when volume is high.",
+      "combatNote": "Hundreds of punches a week pull the shoulders forward. This counters the boxer slouch, keeps the guard high longer before fatigue, and protects the shoulder in snapping punches and frames."
+    },
+    "intensityTechnique": {
+      "technique": "Iso-hold finisher: 20 s in the top Y position after the last round",
+      "when": "Last round only"
+    },
+    "tips": [
+      {
+        "tip": "Weight is not progress here: add hold time (2 s → 5 s) or reps before adding even 2 lb. The moment the upper traps shrug, the exercise has changed muscles.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Thumbs up (external rotation) keeps the front of the shoulder open when the arm is raised. Thumbs down closes that space and can pinch.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Put 1 round before pressing and boxing as a primer. Light activation helps the scapula set in its best position before load, so pressing feels steadier.",
+        "grade": "C-D",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "External cue wins: \"thumbs to the ceiling\" beats \"squeeze your lower traps\" for performance and learning (Wulf).",
+        "grade": "A",
+        "source": "Wulf 2013 review"
+      }
+    ],
+    "teachMe": "Your nervous system protects shoulders it doesn't trust: weak lower traps make the brain clamp the upper traps and limit how hard you can punch or throw. Small, precise holds at the end of the range build a map of the shoulder blade in the brain, so the platform the arm fires from stays steady when you snap a jab or serve. Steady base, more force out: the same Newton's 3rd law as the floor under your feet, applied to the shoulder blade.",
+    "swaps": {
+      "home": "Floor Y-T-W, bodyweight or with water bottles (~1 lb). Progress by holding longer at the top.",
+      "bodyweight": "Floor Y-T-W with no load; or wall slides with the forearms on a wall, sliding up into a Y."
+    },
+    "evidence": {
+      "grade": "C",
+      "studies": [
+        "Wulf 2013 (external focus)",
+        "grade C, mechanism-based"
+      ],
+      "confidence": 55
+    }
+  },
+  {
+    "name": "Sprawl",
+    "aliases": [
+      "sprawls",
+      "sprawl drill",
+      "takedown defense sprawl",
+      "sprawl and recover",
+      "burpee sprawl"
+    ],
+    "category": "combat",
+    "muscles": [
+      "hip flexors/extensors",
+      "core",
+      "chest/shoulders",
+      "quads",
+      "calves"
+    ],
+    "equipment": [
+      "open floor or mat"
+    ],
+    "doThisNotThat": "Shoot the hips back and DOWN to the mat with the legs splayed wide on the toes, chest heavy, then snap back to stance with hands up. Most people do a lazy burpee: they drop the knees, land with flat feet together, and stand up with hands down.",
+    "priorityNote": "Athleticism (reactive hip speed and fight conditioning) wins. Done as a skill drill first, conditioning second; quality stops the set, not a rep count.",
+    "prescription": {
+      "sets": "3-5 rounds",
+      "reps": "Skill: 3 x 6 reactive sprawls (on a sibling's clap or a random cue). Conditioning: 20-30 s on / 30-40 s off",
+      "load": "Bodyweight. Stop the round when the recovery to stance slows, or the hands drop at the top.",
+      "rest": "Skill: 60-90 s. Conditioning: per the interval",
+      "tempo": "Explosive drop, 1-s heavy hips on the mat, explosive recover",
+      "slot": "Fight Lab / Boxing conditioning finisher, or after shadowboxing rounds; contact ladder level 0 (solo) or 2 (cooperative: sibling shoots slowly, you sprawl)",
+      "warmup": "1 slow-motion set of 3 to groove the pattern"
+    },
+    "setup": {
+      "steps": [
+        "Start in fight stance: knees ~25° bent, hip hinge ~15°, hands up, weight on the balls of the feet.",
+        "On the cue: throw the legs back and wide, drive the hips down to the mat; land on the balls of the feet with the hands hitting the floor (or the opponent's back).",
+        "Hips heavy, chest heavy, head up; hold 1 s.",
+        "Snap the feet back under you in one hop and land in stance with the hands up. Step-and-Stick: freeze 1 s balanced."
+      ],
+      "cues": [
+        "Throw your hips to the floor behind you.",
+        "Feet go wide like a kickstand.",
+        "Land back in stance with your hands at your cheekbones."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Hips move backward and down fast; gravity plus active hip extension drive body mass onto the opponent's head and shoulders (or the mat).",
+      "jointAngles": "Hips go from ~60° flexion in stance to ~0° (or extended) on the mat; legs ~shoulder width-plus apart; ankles dorsiflexed on the toes.",
+      "momentArm": "Wide feet make a broad base and lower the center of mass, which makes it far harder for an opponent to turn the corner on you.",
+      "kineticChain": "Eyes see the shot → hips fire back → core braces → arms post/frame. Hips first: if the arms reach first, you get dragged into the takedown.",
+      "grf": "On the recovery, the balls of the feet push into the floor to drive the hips forward and up into stance. Newton's 3rd: the push into the floor is what brings you back up.",
+      "hardestPoint": "The recovery from the mat to stance, especially with fatigue."
+    },
+    "neural": {
+      "intent": "React, then explode. The drop is a reaction to a visual or sound cue, which trains the eyes-to-hips connection.",
+      "rfd": "High. A sprawl that lands 0.2 s late is a takedown, so the drop must be as fast as possible.",
+      "powerPair": {
+        "exercise": "Broad jump",
+        "dose": "2 x 3",
+        "rest": "20-30 s after a sprawl set",
+        "type": "contrast"
+      }
+    },
+    "elastic": "The recovery hop uses a small stretch-shortening cycle at the ankle and hip. Land on the balls of the feet and rebound instead of stepping back one foot at a time.",
+    "mobility": "Hip extension through the sprawl stretches the hip flexors (which stay short from sitting) under a dynamic load.",
+    "footBase": "In stance and on the recovery landing: tripod foot and the Screw, so the arches hold, the knees stay out, and the stance is stable. On the mat: balls of the feet with toes tucked under, not tops of the feet.",
+    "sequencing": "Hips lead, hands follow. The hips get back and down before the hands touch, the same hips-first order as every punch and throw. Arm-first = getting taken down.",
+    "looks": {
+      "effect": "Conditioning and leanness without any deficit; some chest, shoulder and core tone from the repeated drops.",
+      "lengthened": "Hip flexors are lengthened in the bottom of the sprawl."
+    },
+    "sportTransfer": {
+      "sports": [
+        "wrestling",
+        "MMA",
+        "BJJ",
+        "football",
+        "basketball",
+        "soccer"
+      ],
+      "mechanism": "Reacting to a visual cue and moving the hips fast is the same skill as reacting to a cut on defense in basketball, a tackle in football, or a change of direction in soccer.",
+      "combatNote": "Core takedown defense. Wrestle at contact ladder level 0 (solo) or 2 (sibling shoots slowly, you sprawl, no driving through); never live with a younger sibling."
+    },
+    "intensityTechnique": {
+      "technique": "Reactive cue rounds: random clap/visual cue, 20-30 s",
+      "when": "Final round"
+    },
+    "tips": [
+      {
+        "tip": "Use a reaction cue (clap, finger point, phone flashing) instead of doing them on your own rhythm. Reacting to a stimulus trains the eyes-to-hips link; your own rhythm trains only fitness.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Stop the round when recovery to stance slows or the hands drop at the top. A sloppy sprawl rehearsed is a bad habit rehearsed.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Sprawl rounds are conditioning. If you have asthma, warm up with intervals (e.g. 8 x 30 s hard / 30 s easy) 15-30 min before; high-intensity interval warm-ups reduced the post-exercise lung function drop (Stickland 2012).",
+        "grade": "B",
+        "source": "Stickland 2012 systematic review"
+      },
+      {
+        "tip": "Freeze 1 s in stance on every recovery (Step-and-Stick). The pause installs balance at the end of the movement, which is when fighters get hit.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      }
+    ],
+    "teachMe": "A takedown attempt is a fast visual threat. If your brain is in threat mode, you freeze and react late, and that is the whole fight. Sprawling to a random cue teaches the system to turn \"see shot\" into \"hips back\" without thinking, so the reaction becomes automatic. The physics: wide feet and low hips mean a big base and low center of mass, so the attacker has to lift your weight against gravity instead of you falling into them.",
+    "swaps": {
+      "home": "Same drill on a rug or mat in the living room; sibling claps or points as the cue (level 0-2).",
+      "bodyweight": "Same: it's already bodyweight. Easier version: sprawl to the knees on a soft surface, then build to the full sprawl."
+    },
+    "evidence": {
+      "grade": "C",
+      "studies": [
+        "Stickland et al. 2012 (EIB warm-up)",
+        "grade C, mechanism-based"
+      ],
+      "confidence": 60
+    }
+  },
+  {
+    "name": "Treadmill Sprint",
+    "aliases": [
+      "sprint",
+      "sprints",
+      "hill sprint",
+      "hill sprints",
+      "incline sprint",
+      "incline sprints",
+      "treadmill sprints",
+      "sprint intervals",
+      "speed work"
+    ],
+    "category": "conditioning",
+    "muscles": [
+      "hamstrings",
+      "glutes",
+      "calves/Achilles",
+      "quads",
+      "hip flexors"
+    ],
+    "equipment": [
+      "treadmill (or a hill outdoors)"
+    ],
+    "doThisNotThat": "Sprint on a 6-10% incline with short, fast reps (8-12 s) and full recovery, after a proper interval warm-up. Most people run flat-out on a flat belt for 30+ s with short rest, which is conditioning sludge with more hamstring risk and no top-speed training.",
+    "priorityNote": "Athleticism (speed and power) wins. These are speed reps, not conditioning, so keep rest long; if rep 5 is slower than rep 1, stop.",
+    "prescription": {
+      "sets": "6-8 reps",
+      "reps": "8-12 s each at near-max effort (~95%)",
+      "load": "Incline 6-10%, belt speed set so you can hold near-max for 8-12 s (start ~9-11 mph and adjust). Step off onto the side rails between reps.",
+      "rest": "60-90 s walking between reps (straddle the rails); full recovery on top-speed days",
+      "tempo": "Max intent each rep",
+      "slot": "Sprint/speed day or after CNS prime before lifting legs; never after heavy leg training",
+      "warmup": "EIB interval warm-up: 5 min easy jog → 8 x 30 s fast / 30 s easy (~15 min before the first sprint), then pogos 2 x 15 and 3 build-ups at 70/80/90%"
+    },
+    "setup": {
+      "steps": [
+        "Do the EIB interval warm-up (above) about 15-30 min before the main sprints. If you have a prescribed pre-exercise inhaler, use it the way your doctor set up.",
+        "Set incline to 6-10%. Stand on the side rails, set the speed, hold the handrails and step on when the belt is at speed.",
+        "Let go of the rails immediately: tall posture, slight forward lean from the ankles, arms driving.",
+        "After 8-12 s, grab the rails and step back to the side; walk or rest 60-90 s."
+      ],
+      "cues": [
+        "Punch the belt down and back under your hips.",
+        "Drive your knee toward the screen.",
+        "Swing your hands from hip pocket to chin."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Mostly vertical force into the belt with a backward push; on an incline, the push line tilts so the hips must extend harder. Top speed depends on how much vertical force you put into the ground in a short contact.",
+      "jointAngles": "Knee lift to ~90° hip flexion, foot strikes close under the hip; at the end of the push, hip extended near 0-10°. Incline shortens the stride slightly, reducing the hamstring's end-of-swing stretch.",
+      "momentArm": "Foot landing far in front of the hip (overstriding) creates a braking moment and loads the hamstring at its longest. Landing under the hip keeps the lever short.",
+      "kineticChain": "Ground → ankle (stiff spring) → knee → hip extension → trunk stays tall → arms counterbalance the legs.",
+      "grf": "Short, hard contacts: push the belt down and back. Newton's 3rd: the harder you push into the belt in a short contact, the more it pushes you up and forward.",
+      "hardestPoint": "Late swing, when the hamstring decelerates the lower leg before foot strike. Incline reduces the speed of that phase and the risk."
+    },
+    "neural": {
+      "intent": "Max intent, relaxed face and hands. Tension in the face spreads to the shoulders and slows the arm swing.",
+      "rfd": "Very high: ground contacts at speed are ~0.1-0.2 s, so force must be produced faster than you can think.",
+      "powerPair": {
+        "exercise": "Pogo hops",
+        "dose": "2 x 15",
+        "rest": "~3-4 min before the first sprint (part of the warm-up)",
+        "type": "PAPE"
+      }
+    },
+    "elastic": "Your Achilles is the spring: stiff ankles and short contacts store and return energy. Pogos before the sprints tune the spring.",
+    "mobility": "Full hip extension in each push stretches the hip flexors at high speed; full knee drive works hip flexion range dynamically.",
+    "footBase": "Land on the ball of the foot under the hip with the arch braced (short-foot under the foot). A collapsing arch leaks force and lets the knee cave; strong ankles and pogos help you hold it.",
+    "sequencing": "Arms and legs counterbalance: the opposite arm drives back as the leg pushes. A tight upper body and a relaxed face let the arm swing match the legs.",
+    "looks": {
+      "effect": "Hamstrings, glutes and calves, and leanness without a deficit. Sprinters are lean and muscular because the work is short and intense.",
+      "lengthened": "Hamstrings and hip flexors are lengthened at high speed in each stride."
+    },
+    "sportTransfer": {
+      "sports": [
+        "sprinting",
+        "basketball",
+        "soccer",
+        "football",
+        "baseball",
+        "tennis",
+        "cross country"
+      ],
+      "mechanism": "Acceleration and top speed in every running sport; short contacts and a stiff ankle improve XC running economy too.",
+      "combatNote": "Topuria-style engine: roadwork plus sprints. Short sprints build the fast-twitch power for explosive exchanges without slowing you down."
+    },
+    "intensityTechnique": {
+      "technique": "Velocity-loss cutoff: stop the session when a rep is visibly slower than the first",
+      "when": "Every set"
+    },
+    "tips": [
+      {
+        "tip": "The interval warm-up matters for your lungs: high-intensity interval and variable-intensity warm-ups reduced the post-exercise drop in lung function (FEV1), while continuous easy jogging didn't reliably help. About half of asthmatics get a refractory window of about 1-2 h.",
+        "grade": "B",
+        "source": "Stickland 2012 systematic review; Mickleborough 2007"
+      },
+      {
+        "tip": "HR targets: max HR ~200-205. Warm-up intervals ~160-180 bpm (80-88%). Sprints are too short for HR to tell you much; use rep speed instead.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Incline sprints cut top speed and overstriding, which lowers the hamstring's end-of-swing stress, a safer way to sprint hard while you build up to flat sprints.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Stop when a rep is slower than the first. Stopping before speed drops preserved more power and gave bigger jump gains in lifting (Pareja-Blanco 2017, VL20 vs VL40) — the same logic applies to sprints.",
+        "grade": "B-C",
+        "source": "Pareja-Blanco 2017 (extrapolated)"
+      },
+      {
+        "tip": "Nordic hamstring curls (2 x 4-6, 1-2x/week) are the best insurance for sprinting: programs including them cut hamstring injuries by up to ~51% (van Dyk 2019).",
+        "grade": "A-B",
+        "source": "van Dyk 2019 meta"
+      },
+      {
+        "tip": "Treadmill safety: start and stop from the side rails; never jump on a moving belt; clip the safety key on.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      }
+    ],
+    "teachMe": "Speed is mostly how much force you put into the ground in a tiny window: about a tenth of a second per step. That is faster than conscious thought, so the nervous system has to learn it, which is why you sprint fresh, short and fast, never tired. Your lungs need the interval warm-up because a fast jump into heavy breathing dries and cools your airways, which can trigger narrowing; short hard bursts first can leave your airways less reactive for a while. Incline reduces how far your leg reaches in front of you, so the hamstring has to brake less, letting you sprint hard with less risk.",
+    "swaps": {
+      "home": "Treadmill incline sprints (as above), or outdoors: hill sprints 6-8 x 8-12 s at a 5-10% hill, walk back down for rest.",
+      "bodyweight": "Hill sprints or flat sprints of 10-20 m in a park; in a small space, A-skips and fast high knees for 8-10 s."
+    },
+    "evidence": {
+      "grade": "B-C",
+      "studies": [
+        "Stickland et al. 2012 (EIB warm-up)",
+        "Mickleborough et al. 2007",
+        "Pareja-Blanco et al. 2017 (extrapolated)",
+        "van Dyk et al. 2019"
+      ],
+      "confidence": 70
+    }
+  },
+  {
+    "name": "Norwegian 4x4 Intervals",
+    "aliases": [
+      "4x4",
+      "4 x 4",
+      "norwegian 4x4",
+      "vo2 intervals",
+      "vo2 max intervals",
+      "vo2 day",
+      "norwegian intervals",
+      "4 by 4"
+    ],
+    "category": "conditioning",
+    "muscles": [
+      "heart and lungs",
+      "legs (whole lower body)"
+    ],
+    "equipment": [
+      "treadmill (or outdoor run / hill)"
+    ],
+    "doThisNotThat": "Run each 4-minute interval at a pace that brings HR to 85-95% of max (≈172-195 bpm for you) by minute 2-3 and hold it there, after an interval warm-up for your airways. Most people sprint the first minute, then die. That front-loads lactate and you never accumulate time near VO2 max.",
+    "priorityNote": "Athleticism (engine for XC, fighting and all your sports) wins. Once a week only; it is hard on the system, so keep it away from heavy leg days and game days.",
+    "prescription": {
+      "sets": "4 intervals",
+      "reps": "4 min hard at 85-95% HRmax (≈172-195 bpm) + 3 min active recovery at ~60-70% (≈120-140 bpm) between",
+      "load": "Speed/incline that gets HR to ~172+ by minute 2-3; last minute of each interval ~185-195. Should feel like 8/10 effort, not an all-out sprint.",
+      "rest": "3 min active recovery (easy jog/walk) between intervals",
+      "tempo": "Even pace, slightly faster in the last minute",
+      "slot": "VO2 Day (once a week); not within 48 h of a game or fight; not the day before heavy legs",
+      "warmup": "EIB interval warm-up: 5 min easy → 6-8 x 30 s fast / 30 s easy (~15-20 min before interval 1), then 3-5 min easy. Use your prescribed pre-exercise inhaler the way your doctor set up."
+    },
+    "setup": {
+      "steps": [
+        "Do the interval warm-up, then 3-5 min easy jog.",
+        "Interval 1: set speed/incline so HR climbs to ~172 by minute 2-3. Treadmill: incline 2-6% lets you hit HR at a lower belt speed.",
+        "Recovery: drop to easy jog/walk for 3 min; HR should fall toward ~130-140.",
+        "Repeat 4 times. Cooldown 5-10 min easy, nasal breathing if you can."
+      ],
+      "cues": [
+        "Run tall like a string is pulling your head to the ceiling.",
+        "Quick, quiet feet — 170-180 steps per minute, in time to the music.",
+        "Breathe out long through the mouth at the hard part."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Repeated vertical push into the belt at moderate force; the goal is economy: minimal braking, minimal bounce.",
+      "jointAngles": "Foot lands under the hip with a slight knee bend; cadence 170-180 keeps contacts short and avoids overstriding.",
+      "momentArm": "Overstriding puts the foot far in front of the hip, which acts as a brake every step; a short stride under the hips reduces that braking moment.",
+      "kineticChain": "Stiff ankle spring → knee → hip extension → tall trunk → relaxed arms in rhythm with the legs.",
+      "grf": "Push the belt down and back each step. Newton's 3rd: the belt pushes you up and forward; wasted vertical bounce is energy lost.",
+      "hardestPoint": "Minutes 3-4 of intervals 3 and 4, when HR is near max and form breaks."
+    },
+    "neural": {
+      "intent": "Steady, controlled hard effort. This is an engine session; save explosive intent for other days.",
+      "rfd": "Not a target.",
+      "powerPair": {
+        "exercise": "None (conditioning day)",
+        "dose": "—",
+        "rest": "—",
+        "type": "none"
+      }
+    },
+    "elastic": "Running economy uses the Achilles spring: short contacts at 170-180 steps/min and stiff ankles return energy. Pogos 2 x 15 before the warm-up tune the spring.",
+    "mobility": "Running through full hip extension each stride works the hip flexors dynamically; the cooldown is the time for slow nasal breathing and light hip-flexor stretching.",
+    "footBase": "Short-foot under each landing, ankle stiff, foot landing under the hip. Collapsed arches let the knee cave on every step, thousands of times — that leaks energy and stresses the knee.",
+    "sequencing": "Arms counterbalance the legs: elbow drives back as the opposite leg pushes. Relaxed shoulders and hands keep the rhythm smooth.",
+    "looks": {
+      "effect": "Leanness and heart health without dieting; the session builds the engine, it does not shrink muscle at once-a-week volume.",
+      "lengthened": "Not a looks lift."
+    },
+    "sportTransfer": {
+      "sports": [
+        "cross country",
+        "soccer",
+        "basketball",
+        "tennis",
+        "boxing",
+        "MMA",
+        "wrestling",
+        "BJJ"
+      ],
+      "mechanism": "A bigger VO2 max lets you work at a higher pace before you go into the red, and recover faster between sprints, points and rounds. Your ~173 bpm at 8:22/mile shows the engine is the limiter.",
+      "combatNote": "A bigger engine lets you hold the 70% sustainable pace (Zahabi) longer and recover between exchanges; it is the \"roadwork\" half of Topuria's roadwork + sprints."
+    },
+    "intensityTechnique": {
+      "technique": "Progressive last minute: speed up so the final minute of each interval hits ~185-195 bpm",
+      "when": "Intervals 3-4"
+    },
+    "tips": [
+      {
+        "tip": "Do the interval warm-up 15-30 min before interval 1: high-intensity and variable-intensity warm-ups reduced the post-exercise lung-function drop in EIB; continuous easy jogging alone didn't reliably help (Stickland 2012).",
+        "grade": "B",
+        "source": "Stickland 2012 systematic review"
+      },
+      {
+        "tip": "Sync music to 170-180 BPM: running in time to music lowered oxygen cost and extended time to exhaustion in triathletes (Terry 2012).",
+        "grade": "B",
+        "source": "Terry et al. 2012"
+      },
+      {
+        "tip": "Script 3 lines of self-talk for minute 3-4 of the hard intervals (\"smooth and strong\", \"push the belt\", \"one more minute\"). Motivational self-talk lowered effort ratings and extended time to exhaustion (Blanchfield 2014).",
+        "grade": "B",
+        "source": "Blanchfield 2014"
+      },
+      {
+        "tip": "Judge by HR, not speed: your HR runs naturally high, so use your Garmin. If you can't reach ~172 by minute 3, raise incline, not speed.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "No cold bath after a lifting day, but cold water after conditioning like this is fine (Roberts 2015 blunted gains only after strength training).",
+        "grade": "B",
+        "source": "Roberts 2015"
+      }
+    ],
+    "teachMe": "VO2 max is the most oxygen your body can use per minute, and the heart's output is the main limiter. Four minutes is long enough to spend most of the interval near max heart rate, which is the signal that grows the heart's stroke volume. The airway warm-up exists because heavy, fast breathing dries and cools your airways, and short hard bursts first often leave them less reactive for a couple of hours. Cadence matters: shorter, quicker steps reduce braking forces every stride, so the same speed costs less oxygen.",
+    "swaps": {
+      "home": "Treadmill as prescribed. Use incline (2-6%) to hit HR at a lower speed if top speed is limited.",
+      "bodyweight": "Outdoor hill or flat-road run at the same HR targets; or, no space: 4 x 4 min of shadowboxing + jumping jacks + high knees at HR 172+ (harder to hit the HR, so check your Garmin)."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": [
+        "Stickland et al. 2012 (EIB warm-up)",
+        "Terry et al. 2012 (music)",
+        "Blanchfield et al. 2014 (self-talk)",
+        "Roberts et al. 2015 (cold after lifting)"
+      ],
+      "confidence": 75
+    }
+  }
+]

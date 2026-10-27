@@ -1,0 +1,784 @@
+[
+  {
+    "name": "Overhead Dumbbell Triceps Extension",
+    "aliases": ["ohte", "overhead triceps extension", "overhead extension", "french press", "skull crusher overhead", "db overhead extension", "seated overhead extension"],
+    "category": "isolation",
+    "muscles": ["triceps (long head bias)", "triceps lateral/medial heads"],
+    "equipment": ["dumbbell"],
+    "doThisNotThat": "Let the dumbbell sink until your hands touch your upper back and pause there 1 s, instead of bouncing at half depth: the bottom stretch is where the long head grows.",
+    "priorityNote": "Looks-driven lift; kept short (2-3 sets) so it never steals recovery from power work.",
+    "prescription": {
+      "sets": "3 working (1 warm-up at ~50%)",
+      "reps": "10-15",
+      "load": "Sets 1-2 at 1-2 RIR; last set to failure, then lengthened partials",
+      "rest": "90 s",
+      "tempo": "2-3 s down, 1 s pause in the stretch, max-intent up",
+      "slot": "Back + Triceps day, after rows/pulls; first triceps exercise",
+      "warmup": "1 x 12 at ~50% load, full stretch"
+    },
+    "setup": {
+      "steps": [
+        "Sit on a bench or chair with back support, or stand in a split stance. Hold one dumbbell vertically with both palms under the top plate (diamond grip).",
+        "Press it overhead, upper arms beside your ears, elbows pointing at the ceiling (not flared past 20-30 deg).",
+        "Lower behind your head until the forearms pass parallel to the floor and the bell touches your upper back. Pause 1 s. Drive back to lockout."
+      ],
+      "cues": ["Point your elbows at the ceiling", "Touch the bell to your upper back", "Punch the dumbbell to the ceiling"]
+    },
+    "biomechanics": {
+      "forceVector": "Gravity pulls straight down; the forearm rotates around the elbow, so resistance is the weight times the horizontal distance from elbow to bell.",
+      "jointAngles": "Shoulder flexed ~170-180 deg (arm overhead) stretches the long head across two joints; elbow goes from ~40 deg to full extension.",
+      "momentArm": "Moment arm peaks when forearm is horizontal (~90 deg elbow) and shrinks near lockout, so the bottom-to-middle range is the work zone.",
+      "kineticChain": "Ribs down, glutes squeezed: a flared rib cage lets the lumbar spine arch and turns it into a back extension.",
+      "grf": "Seated: minimal. Standing split stance: feet push the floor to stabilize the overhead load; no leg drive.",
+      "hardestPoint": "Coming out of the deep stretch, just as the forearm passes horizontal."
+    },
+    "neural": {
+      "intent": "Control the stretch, then extend as fast as you can. Speed of intent recruits high-threshold units even on light loads.",
+      "rfd": "Low-RFD isolation; value is hypertrophy and elbow-tendon capacity for punching and throwing.",
+      "powerPair": { "exercise": "Plyo push-up or clap push-up", "dose": "1 x 4-5 before the first triceps set", "rest": "~4-6 min until the next heavy push", "type": "none" }
+    },
+    "elastic": null,
+    "mobility": "Each rep loads the end range of shoulder flexion plus elbow flexion. That builds overhead ROM in a stiff thoracic spine/lats under control, which is what moves range: strength through full ROM roughly matches stretching for ROM (Afonso 2021).",
+    "footBase": "If standing: split stance, front foot screwed into the floor (rotate it outward without moving), tripod loaded. Seated: feet flat, same tripod pressure, so the brace starts from the ground.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Long head is ~the biggest triceps head and makes the back of the arm look full from the side and the back. More arm size than any curl.",
+      "lengthened": "The overhead position puts the long head at its longest length. On the last set, after failure, do 4-8 partials in the bottom half only (from stretch to forearm-horizontal)."
+    },
+    "sportTransfer": {
+      "sports": ["boxing", "MMA", "basketball", "volleyball", "baseball", "football"],
+      "mechanism": "Elbow extension finishes the punch, the overhead throw, the spike, and the jump-shot follow-through; tendon capacity at the elbow protects throwing volume.",
+      "combatNote": "The triceps snaps the jab and the cross out to full extension. A stronger long head helps you keep the guard up during long rounds."
+    },
+    "intensityTechnique": { "technique": "Lengthened partials after failure", "when": "Last set: hit failure, then 4-8 bottom-half partials" },
+    "tips": [
+      { "tip": "Overhead arm position grew all three triceps heads more than the same extension done with arms at the sides; the long head grew most. That comparison was overhead vs neutral-arm extension, not pushdowns.", "grade": "B", "source": "Maeo 2022" },
+      { "tip": "Overhead vs pushdown head-to-head: no significant difference, but the numbers leaned toward overhead. Use overhead as the default and pushdowns as the second movement.", "grade": "B-C", "source": "Stasinaki 2018" },
+      { "tip": "Going to true failure adds little growth over stopping 1-3 reps short. Save failure for this last set, where the injury and fatigue cost is low.", "grade": "A-B", "source": "Refalo 2023" },
+      { "tip": "If the elbows flare to ~45 deg, the lats and chest take over and the long-head stretch disappears. Use a lighter bell before letting the elbows drift.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Elbow aches? Switch to a single-arm version with a neutral wrist, cut the bottom 10 deg, and keep the stretch pause. Sharp joint-line pain means stop and swap.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "A muscle that crosses two joints gets longest when both joints open it up. The long head crosses the shoulder AND the elbow, so raising the arm overhead pre-stretches it before the elbow even bends. Tension at long lengths is a strong growth signal. Your nervous system also only lets you load a range it trusts, so slow, controlled stretch reps teach it that the overhead position is safe. That's the threat-suppression idea, applied to a stiff shoulder.",
+    "swaps": {
+      "home": "Two-hand light-dumbbell overhead extension, seated on a chair: 3 x 15-20, 3 s lowering, 2 s pause in the stretch (light DB = more reps and more time at length).",
+      "bodyweight": "Bodyweight triceps extension (sphinx-style or hands on a counter/table edge), lowering the forehead past the hands for the stretch: 3 x 8-15."
+    },
+    "evidence": { "grade": "B", "studies": ["Maeo 2022", "Stasinaki 2018", "Refalo 2023"], "confidence": 75 }
+  },
+  {
+    "name": "Triceps Pushdown",
+    "aliases": ["pushdown", "cable pushdown", "rope pushdown", "tricep pushdown", "triceps pressdown", "bar pushdown"],
+    "category": "isolation",
+    "muscles": ["triceps (lateral and medial heads bias)"],
+    "equipment": ["cable", "rope or straight bar"],
+    "doThisNotThat": "Lean forward ~15 deg with the elbows slightly in front of your ribs and let the hands rise to chin height on each rep, instead of chopping a half-range with elbows pinned behind your torso.",
+    "priorityNote": "Second triceps move; overhead extension takes priority for growth.",
+    "prescription": {
+      "sets": "2-3 working (1 warm-up)",
+      "reps": "10-15",
+      "load": "1-2 RIR on early sets; last set to failure + drop set",
+      "rest": "90 s",
+      "tempo": "2 s up (eccentric), max-intent down, 1 s squeeze at lockout",
+      "slot": "Back + Triceps day, after overhead extension",
+      "warmup": "1 x 15 at ~50%"
+    },
+    "setup": {
+      "steps": [
+        "Cable at top. Rope or bar. Step back half a step, staggered or split stance, hinge forward ~15 deg.",
+        "Elbows just in front of the ribs, upper arm angled slightly forward. Start with hands at chin height.",
+        "Push down to full lockout, spread the rope ends past your thighs, return under control to chin height."
+      ],
+      "cues": ["Spread the rope apart past your thighs", "Push the handle toward the floor", "Let the handle rise to your chin"]
+    },
+    "biomechanics": {
+      "forceVector": "The cable pulls up and slightly back toward the pulley; the elbow extends against it.",
+      "jointAngles": "Shoulder in slight flexion (~10-20 deg), elbow from ~30-40 deg flexion to full extension.",
+      "momentArm": "Cable tension stays roughly constant through the range, so the resistance curve is flatter than a dumbbell's. Lockout still has load, unlike a skull crusher.",
+      "kineticChain": "Brace, ribs down, hinge locked: if the torso pumps up and down, bodyweight is doing the rep.",
+      "grf": "Feet press the floor to anchor the lean; the stance resists the cable pulling you toward the stack.",
+      "hardestPoint": "Final 20 deg to lockout (short-length peak contraction)."
+    },
+    "neural": {
+      "intent": "Drive down hard, resist the climb.",
+      "rfd": "Low; this is hypertrophy and elbow extension endurance work.",
+      "powerPair": { "exercise": "None (isolation)", "dose": "-", "rest": "-", "type": "none" }
+    },
+    "elastic": null,
+    "mobility": "Minimal range gain. Keep the high starting point (hands at chin) so the elbow works through near-full flexion.",
+    "footBase": "Split stance: front foot tripod (big-toe ball, pinky ball, heel) screwed outward so the arch rises and the knee tracks over toes; that keeps the lean stable without rocking.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Lateral head gives the horseshoe shape from the side.",
+      "lengthened": "Start each rep with hands at chin height so the elbow is ~30 deg flexed; on the last set finish with partials in the top half (hands chin to chest)."
+    },
+    "sportTransfer": {
+      "sports": ["boxing", "MMA", "basketball", "volleyball"],
+      "mechanism": "Lockout strength and elbow-extension endurance for repeated punches and blocks.",
+      "combatNote": "Builds triceps endurance for long rounds of punching, where the arm has to snap back to the guard each time."
+    },
+    "intensityTechnique": { "technique": "Drop set (-30% load, to failure)", "when": "Last set only" },
+    "tips": [
+      { "tip": "Pushdowns trained the long head about the same as overhead extensions in the one direct trial, with numbers leaning overhead. Keep both in the week instead of choosing one.", "grade": "B-C", "source": "Stasinaki 2018" },
+      { "tip": "Rope lets you spread apart at the bottom, for slightly more elbow extension and a stronger peak squeeze than a straight bar; use a V-bar if the wrists complain.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Taking the hands to chin height at the top adds roughly 30-40 deg of stretch per rep compared with the common 'chest-to-thigh' range, at zero cost.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "A 90 s rest is enough for an isolation; save the 3-minute rests (Schoenfeld 2016) for compounds.", "grade": "B", "source": "Schoenfeld 2016" }
+    ],
+    "teachMe": "A cable keeps tension where a dumbbell drops it. At the bottom of a pushdown the cable still pulls the hand up, so the triceps works hardest when it's shortest. That's the opposite of the overhead extension, which loads the stretch. Training both ends of the length-tension curve covers the whole muscle. The nervous system learns lockouts as a unit, and that's the finish of every punch.",
+    "swaps": {
+      "home": "Single-arm dumbbell kickback with the torso hinged to parallel, from elbow fully bent to straight: 3 x 12-15, 1 s squeeze.",
+      "bodyweight": "Bench/chair dips with feet on the floor (keep shoulders below ~60 deg extension) or diamond push-ups: 3 x 10-15."
+    },
+    "evidence": { "grade": "B-C", "studies": ["Stasinaki 2018"], "confidence": 65 }
+  },
+  {
+    "name": "Close-Grip Push-Up",
+    "aliases": ["close grip push up", "diamond push-up", "triceps push-up", "narrow push-up", "close-grip pushup"],
+    "category": "compound",
+    "muscles": ["triceps", "chest (inner/upper)", "front delts", "serratus"],
+    "equipment": ["bodyweight"],
+    "doThisNotThat": "Hands just inside shoulder width, elbows brushing the ribs at ~20-30 deg, lower until the chest touches your fists, instead of a diamond with elbows flared that grinds the wrists and shoulders.",
+    "priorityNote": "Home staple for triceps + pressing strength; adds power if done explosively.",
+    "prescription": {
+      "sets": "3 working (1 warm-up set of 5 easy reps)",
+      "reps": "6-12 (add a backpack or raise feet when you get past 15)",
+      "load": "1-2 RIR; stop when rep speed visibly slows",
+      "rest": "2-2.5 min",
+      "tempo": "2-3 s down, explosive up",
+      "slot": "Back + Triceps day (home) or after the main press on Chest day",
+      "warmup": "1 x 5 at an easy incline (hands on a couch)"
+    },
+    "setup": {
+      "steps": [
+        "Hands under the shoulders or slightly inside, index fingers forward, fingers spread and gripping the floor.",
+        "Body straight from heels to head: squeeze glutes, ribs down, eyes on a spot ~30 cm ahead of your hands.",
+        "Lower with elbows skimming the ribs until the chest touches the hands, then shove the floor away."
+      ],
+      "cues": ["Shove the floor away", "Brush the elbows past the ribs", "Chest to the fists"]
+    },
+    "biomechanics": {
+      "forceVector": "You push the floor down and back; Newton's 3rd law sends your body up and slightly forward.",
+      "jointAngles": "Elbow ~90-100 deg flexion at the bottom, shoulder ~20-30 deg abduction, wrists stacked under shoulders.",
+      "momentArm": "Narrow hand placement puts the hands closer to the elbow line, increasing elbow flexion and triceps demand versus a wide push-up.",
+      "kineticChain": "Plank tension (glutes, abs, serratus) transmits force from hands to feet; you move as one lever, so a sagging hip is a power leak.",
+      "grf": "~65-70% of bodyweight through the hands in a standard push-up; feet elevated raises it.",
+      "hardestPoint": "First 5-8 cm off the floor, where elbow flexion is deepest."
+    },
+    "neural": {
+      "intent": "Control down, launch up as fast as possible on every rep, even if the hands don't leave the floor.",
+      "rfd": "Explosive intent trains rate of force development in the push pattern; hands-off-floor is plyometric.",
+      "powerPair": { "exercise": "Explosive push-up with hands leaving the floor", "dose": "3 x 3-5 between working sets", "rest": "30-45 s (contrast)", "type": "contrast" }
+    },
+    "elastic": "Optional: drop into a catch and immediately bounce up (depth push-up from 5-10 cm risers) to train the stretch-shortening cycle in the chest/triceps.",
+    "mobility": "The full-depth chest-to-fist bottom opens the front of the shoulder and elbow flexion under load.",
+    "footBase": null,
+    "sequencing": null,
+    "looks": {
+      "effect": "Triceps and inner/upper chest thickness; serratus definition if you push all the way through at the top.",
+      "lengthened": "Deficit: hands on two dumbbells or books so the chest sinks 5-8 cm below the hands for extra pec and triceps stretch."
+    },
+    "sportTransfer": {
+      "sports": ["boxing", "MMA", "football", "basketball", "wrestling"],
+      "mechanism": "Elbows-in pressing matches the straight-punch path and football hand strikes; the plank teaches the body to transmit force as one unit.",
+      "combatNote": "Elbows tight to ribs is the same path as a cross/straight punch: it protects the body and stops the force leaking out sideways."
+    },
+    "intensityTechnique": { "technique": "Rest-pause", "when": "Last set: to 1 RIR, rest 15 s, more reps to 1 RIR, x2" },
+    "tips": [
+      { "tip": "Low-load push-ups and bench press produced similar chest/triceps growth and strength gains when sets were taken close to failure; effort matters more than the implement.", "grade": "B", "source": "Kikuchi & Nakazato 2017" },
+      { "tip": "Velocity loss: stop the set when the rep visibly slows. Grinding the last 20% of velocity costs power for little extra muscle.", "grade": "B", "source": "Pareja-Blanco 2017" },
+      { "tip": "Spread fingers and 'screw' the hands outward into the floor (right hand clockwise, left counter): the shoulders externally rotate and the elbows lock onto the ribs automatically.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Elevating the feet ~30 cm adds load and shifts it toward the upper chest and front delts; use it before adding a backpack.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "A push-up is a moving plank. The floor pushes back exactly as hard as you push it, but force only gets to your body if every link between your hands and your feet is stiff. A loose core or sagging hips soak up force the way a flat tire soaks up a pothole. Tight elbows put the triceps and chest in a straight line behind the hand, which is the same thing you need to land a straight punch. Explosive intent on light reps teaches the motor cortex to recruit fast.",
+    "swaps": {
+      "home": "Feet-elevated close-grip push-up with hands on two dumbbells (deficit): 3 x 6-12.",
+      "bodyweight": "Standard close-grip push-up, then incline (hands on a couch) to finish extra reps."
+    },
+    "evidence": { "grade": "B", "studies": ["Kikuchi & Nakazato 2017", "Pareja-Blanco 2017"], "confidence": 70 }
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "aliases": ["lateral raise", "side raise", "lateral delt raise", "db lateral", "side lateral raise", "laterals"],
+    "category": "isolation",
+    "muscles": ["lateral deltoid", "upper traps (minimize)", "supraspinatus"],
+    "equipment": ["dumbbells"],
+    "doThisNotThat": "Lean ~15-20 deg toward the working side or hold a support, lead with the elbow to just above shoulder height, and move the dumbbell slightly in front of your body (scapular plane, ~30 deg forward), instead of swinging heavy bells straight out to the sides and shrugging.",
+    "priorityNote": "Top looks priority for the V-taper; low fatigue, so it fits on any day.",
+    "prescription": {
+      "sets": "3 working (1 warm-up)",
+      "reps": "12-20",
+      "load": "Light; 1-2 RIR sets 1-2; last set to failure + partials",
+      "rest": "60-90 s",
+      "tempo": "2 s up, 2-3 s down, no swing",
+      "slot": "End of Chest+Bi or Back+Tri day; also good as the 'pump on demand' finisher",
+      "warmup": "1 x 15 with the lightest bell"
+    },
+    "setup": {
+      "steps": [
+        "Stand with a slight forward lean (hinge ~10 deg), dumbbells beside the thighs, elbows bent ~15-20 deg.",
+        "Raise the arms in a line ~30 deg in front of the frontal plane (scapular plane) until the upper arm is just above parallel.",
+        "Lower slowly to about 15 deg from the thigh; don't let the bell rest."
+      ],
+      "cues": ["Push the dumbbells out to the walls", "Lead with the elbows", "Keep the bells just in front of your thighs"]
+    },
+    "biomechanics": {
+      "forceVector": "Gravity acts straight down on a lever that rotates about the shoulder; you abduct the arm against it.",
+      "jointAngles": "Shoulder abduction 0-~100 deg, elbow fixed at ~15-20 deg flexion, ~30 deg horizontal flexion (scapular plane).",
+      "momentArm": "Zero at the bottom, maximal at 90 deg abduction. A dumbbell under-loads the bottom; leaning toward the working side or using a cable shifts tension lower.",
+      "kineticChain": "Fixed torso, braced core. Any hip drive turns it into a front raise/swing and takes load off the delt.",
+      "grf": "Feet stable on a tripod base; no leg contribution.",
+      "hardestPoint": "Top 20 deg, near horizontal."
+    },
+    "neural": {
+      "intent": "Smooth and controlled; this is a hypertrophy isolation, not a power movement.",
+      "rfd": "Not relevant.",
+      "powerPair": { "exercise": "None", "dose": "-", "rest": "-", "type": "none" }
+    },
+    "elastic": null,
+    "mobility": "Mild; the scapular-plane path keeps the shoulder out of impingement and trains upward rotation of the shoulder blade.",
+    "footBase": "Feet hip-width, tripod loaded, light screw outward so the arch is up and the knees are soft (~10-15 deg). A stable base stops the body rocking to cheat the weight up.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Wider shoulders, more of a V-taper (shoulder-to-waist ratio), the most visible look change per minute of work.",
+      "lengthened": "Do the last set leaning out ~20 deg (holding a doorframe) or single-arm cross-body so the delt is loaded from the bottom; finish with bottom-half partials (0-45 deg)."
+    },
+    "sportTransfer": {
+      "sports": ["boxing", "MMA", "volleyball", "tennis", "baseball"],
+      "mechanism": "Shoulder endurance to hold the guard up, and supraspinatus/deltoid capacity for overhead sports.",
+      "combatNote": "Delts hold the guard; tired delts drop the hands. High-rep laterals build the endurance you need late in rounds."
+    },
+    "intensityTechnique": { "technique": "Mechanical drop set (strict reps to failure, then cheat-swing 5 reps controlling the negatives, then partials)", "when": "Last set" },
+    "tips": [
+      { "tip": "Light loads to near failure grow muscle about as well as heavy loads; for laterals, light and strict wins because heavy bells move the work to the traps.", "grade": "A-B", "source": "Schoenfeld 2017 (load meta-analysis)" },
+      { "tip": "The bottom 30 deg of a standing dumbbell raise has almost no resistance. A lean-away single-arm raise keeps the delt loaded in that range.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Pinky-up 'pouring' rotates the shoulder internally and pinches it. Keep the thumb slightly up or neutral.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Delts recover fast. 2-3 sessions a week of 3 sets fit easily within the 10-20 weekly hard-set target.", "grade": "B", "source": "grade B, volume dose-response literature" }
+    ],
+    "teachMe": "Shoulder width is mostly bone (the clavicle) plus the lateral delt sitting on top of it. You can't change the bone, but you can add thickness to the delt, which pushes the outline out and makes the waist look smaller by contrast. The trap tries to help on every heavy rep because the nervous system grabs the strongest available muscle. Light weight and an elbow-led path keep the lift on the target.",
+    "swaps": {
+      "home": "Light dumbbell lean-away single-arm lateral raise holding a doorframe: 3 x 15-25.",
+      "bodyweight": "Side-lying lateral raise with a water bottle, or wall-slide 'Y' raises: 3 x 15-20."
+    },
+    "evidence": { "grade": "B", "studies": ["Schoenfeld 2017"], "confidence": 70 }
+  },
+  {
+    "name": "Dumbbell Overhead Press",
+    "aliases": ["ohp", "db shoulder press", "overhead press", "shoulder press", "military press", "seated db press", "standing db press"],
+    "category": "compound",
+    "muscles": ["front & lateral delts", "triceps", "upper chest", "serratus", "core"],
+    "equipment": ["dumbbells"],
+    "doThisNotThat": "Press standing in a split stance with dumbbells on a slight forward path and the head moving 'through the window' at lockout, instead of seated and arching the low back with elbows flared straight out to the sides.",
+    "priorityNote": "Standing beats seated for athleticism; seated allowed if lower back is sore.",
+    "prescription": {
+      "sets": "3 working (1 warm-up)",
+      "reps": "6-10",
+      "load": "1-2 RIR; stop when bar speed visibly slows",
+      "rest": "2.5-3 min",
+      "tempo": "2-3 s down, max-intent press",
+      "slot": "Main press on an upper day, or second press after incline press",
+      "warmup": "1 x 8 at ~50%"
+    },
+    "setup": {
+      "steps": [
+        "Split stance (or feet hip-width), dumbbells at shoulder height, palms angled ~45 deg inward, elbows ~30 deg in front of the torso.",
+        "Squeeze glutes, ribs down. Press up and slightly in until the bells are over the middle of the foot, biceps by the ears.",
+        "Lower to the jaw/upper-chest line under control."
+      ],
+      "cues": ["Push the dumbbells through the ceiling", "Head through the window at the top", "Drive the floor away with the front foot"]
+    },
+    "biomechanics": {
+      "forceVector": "Straight up against gravity; the bells should finish stacked over the shoulder joint and midfoot.",
+      "jointAngles": "Shoulder from ~80-90 deg flexion/abduction to ~170 deg; elbow from ~70 deg to full extension.",
+      "momentArm": "Largest at the bottom when the bells are furthest in front of the shoulder; scapular-plane path (~30 deg forward) reduces shoulder stress.",
+      "kineticChain": "Feet -> glutes -> braced trunk -> scapula upward rotation (serratus/traps) -> humerus. A rib flare dumps force into the lumbar spine.",
+      "grf": "Load + bodyweight goes straight down through the feet; the screw keeps the arch up and stops the knees caving.",
+      "hardestPoint": "Just above forehead height (sticking point)."
+    },
+    "neural": {
+      "intent": "Every rep as fast as possible concentric; cut the set when speed visibly drops.",
+      "rfd": "Moderate. The standing version trains force transfer from ground to overhead, like a block or a rebound.",
+      "powerPair": { "exercise": "Dumbbell push press (dip-drive) or med-ball overhead throw", "dose": "2 x 3", "rest": "4-6 min after a heavy set if PAPE; 30-60 s if contrast", "type": "PAPE" }
+    },
+    "elastic": null,
+    "mobility": "Full lockout trains overhead shoulder flexion and thoracic extension, two areas where a flat-foot posture cascade usually locks up (rounded upper back).",
+    "footBase": "Tripod both feet, screw the feet outward until the glutes switch on; in a split stance, drive the front foot through the big-toe ball. That is the base the press goes through.",
+    "sequencing": "Strict press: no hip drive. Push press: ground -> knee dip 10-15 cm -> hips/legs drive -> trunk transmits -> shoulders -> arms finish. Legs first, arms last.",
+    "looks": {
+      "effect": "Front and side delt mass, upper-chest tie-in, triceps.",
+      "lengthened": "Lower to jaw level with the elbows slightly in front for the delt stretch; last set finish with bottom-half partials."
+    },
+    "sportTransfer": {
+      "sports": ["volleyball", "basketball", "football", "wrestling", "MMA", "baseball"],
+      "mechanism": "Overhead force transfer for blocks, rebounds, stiff-arms and posting in wrestling; shoulder capacity for throwing.",
+      "combatNote": "Builds frame strength for the clinch and shoulder endurance to hold the guard; push press teaches legs-first force, like a punch."
+    },
+    "intensityTechnique": { "technique": "Negatives (push press up, 3-4 s strict lowering)", "when": "Last set, 2-3 reps after strict failure" },
+    "tips": [
+      { "tip": "Standing presses demand more trunk muscle activity than seated; choose standing when athleticism is the goal.", "grade": "B-C", "source": "grade B-C, EMG studies" },
+      { "tip": "3-min rests produced more strength and leg growth than 1-min in trained men; give compounds the full rest.", "grade": "B", "source": "Schoenfeld 2016" },
+      { "tip": "A neutral/45 deg grip lowers the shoulder impingement risk vs palms forward and fits flat-foot posture (internally rotated shoulders).", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "If the low back arches at lockout, the overhead range is coming from the spine. Fix with half-kneeling presses until thoracic and lat range improves.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "Pressing overhead standing is a test of your whole chain: if the feet collapse, the knees cave, the pelvis tips, the ribs flare and the shoulder loses its anchor. Force follows the path of least stiffness, so a leak anywhere bleeds into the press. Screwing the feet in and bracing builds a rigid column so the dumbbell rides on a solid tower. That's the same column you need when you take a hit or punch.",
+    "swaps": {
+      "home": "Half-kneeling single-arm light dumbbell press, 3-s eccentric, 3 x 10-15 each arm.",
+      "bodyweight": "Pike push-up (feet on a chair for more load): 3 x 6-12."
+    },
+    "evidence": { "grade": "B", "studies": ["Schoenfeld 2016", "Pareja-Blanco 2017"], "confidence": 70 }
+  },
+  {
+    "name": "Face Pull",
+    "aliases": ["face pulls", "rope face pull", "cable face pull", "rear delt pull"],
+    "category": "isolation",
+    "muscles": ["rear delts", "external rotators (infraspinatus, teres minor)", "mid/lower traps", "rhomboids"],
+    "equipment": ["cable", "rope"],
+    "doThisNotThat": "Pull the rope to your eyes, then rotate your hands back so your knuckles point at the ceiling behind your head (double-biceps pose), instead of rowing to your chin with elbows down.",
+    "priorityNote": "Posture/shoulder health + looks; a cheap fix for flat-foot-driven rounded shoulders.",
+    "prescription": {
+      "sets": "2-3 working (1 warm-up)",
+      "reps": "12-20",
+      "load": "1-3 RIR; never ugly reps",
+      "rest": "60-90 s",
+      "tempo": "1 s pull, 2 s hold at the back, 2 s return",
+      "slot": "Warm-up for pressing days or finisher on Back + Triceps day",
+      "warmup": "1 x 15 light"
+    },
+    "setup": {
+      "steps": [
+        "Cable at forehead height or slightly higher, rope attachment, overhand thumbs-back grip.",
+        "Step back to tension, slight split stance, lean back ~5-10 deg.",
+        "Pull the rope apart toward your eyes, elbows high, rotate until fists are by your ears; return slowly."
+      ],
+      "cues": ["Pull the rope apart to your ears", "Show the knuckles to the ceiling behind you", "Finish in the double-biceps pose"]
+    },
+    "biomechanics": {
+      "forceVector": "Horizontal-to-slightly-downward cable pull toward the face.",
+      "jointAngles": "Shoulder horizontal abduction to ~0 deg (elbows in line with shoulders), external rotation ~70-90 deg at the end, elbow ~90 deg.",
+      "momentArm": "Cable keeps constant tension; rear delts and external rotators are most loaded at end range.",
+      "kineticChain": "Feet anchor -> core stops you being pulled forward -> scapulae retract and depress -> humerus externally rotates.",
+      "grf": "Feet push forward against the floor to resist the cable.",
+      "hardestPoint": "End position (full external rotation, elbows back)."
+    },
+    "neural": {
+      "intent": "Smooth; deliberate hold at the end.",
+      "rfd": "Not relevant; this is a positional/strength-endurance exercise.",
+      "powerPair": { "exercise": "None", "dose": "-", "rest": "-", "type": "none" }
+    },
+    "elastic": null,
+    "mobility": "Builds shoulder external rotation under load, the end range a desk/phone/flat-foot posture loses first; better posture between sessions.",
+    "footBase": "Split stance, tripod on the front foot, rear heel down if you can; the screw keeps the arch up while you lean back.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Rear-delt cap for a 3-D shoulder, upper back thickness, and shoulders pulled back so the chest looks bigger.",
+      "lengthened": "Let the arms reach fully forward on each rep so the rear delts and rotators stretch; last set, partials in the front half."
+    },
+    "sportTransfer": {
+      "sports": ["boxing", "MMA", "baseball", "tennis", "volleyball", "swimming-style overhead sports"],
+      "mechanism": "External rotators decelerate the arm after punches, throws and serves; balancing all the pressing protects the shoulder.",
+      "combatNote": "Pulling the arm back to the guard after every punch is a rear delt job. Strong decelerators also let the nervous system 'allow' faster punches because it trusts the brakes."
+    },
+    "intensityTechnique": { "technique": "Long iso hold at end range (5 s) on final 3 reps", "when": "Last set" },
+    "tips": [
+      { "tip": "The nervous system caps speed based on how well it can decelerate a limb; building the brakes (rear delts and rotators) is a performance move, not just prehab.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Keep the elbows at or above wrist height: if the elbows drop, it becomes a row and the external rotation disappears.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Do 1-2 light sets before pressing as part of the warm-up; it adds weekly rear-delt volume at almost no recovery cost.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "Your brain won't let you throw as hard as you could if it doesn't trust you can stop the arm safely. Every punch, throw and serve has to be braked, and the small muscles at the back of the shoulder do that. Training them is like putting better brakes on a car: you can drive faster because you can stop. It's also the strongest antidote to the rounded-forward posture flat feet push you into.",
+    "swaps": {
+      "home": "Prone (lying face-down on a bench or the floor) light-dumbbell 'Y-T-W' raises, 2-3 x 10 each letter.",
+      "bodyweight": "Prone floor 'W' and 'Y' raises with 2-s holds, or doorframe reverse snow angels: 3 x 15."
+    },
+    "evidence": { "grade": "C", "studies": [], "confidence": 60 }
+  },
+  {
+    "name": "Neck Training",
+    "aliases": ["neck curls", "neck extension", "neck flexion", "neck harness", "plate neck curl", "manual resistance neck", "neck work"],
+    "category": "isolation",
+    "muscles": ["sternocleidomastoid", "deep neck flexors", "upper traps", "splenius/neck extensors", "scalenes"],
+    "equipment": ["bodyweight", "hand resistance", "towel", "light plate (optional)"],
+    "doThisNotThat": "Do slow, moderate-rep manual-resistance or light-plate neck work in all four directions (flexion, extension, left, right) 2-3x a week, instead of bridging or heavy jerky reps.",
+    "priorityNote": "Athleticism (combat safety) first, looks second; never heavy or fast.",
+    "prescription": {
+      "sets": "2 per direction",
+      "reps": "15-25",
+      "load": "Light; 2-3 RIR. No failure, no jerking",
+      "rest": "30-60 s between directions",
+      "tempo": "2 s each direction, 1 s hold at end range",
+      "slot": "End of any session, or during the Fight Lab cooldown",
+      "warmup": "1 x 10 each direction unloaded through full range"
+    },
+    "setup": {
+      "steps": [
+        "Flexion: lie on your back on a bench, head off the edge, hand or a folded towel with a light plate on the forehead; tuck the chin and curl the head up.",
+        "Extension: lie face down with head off the edge, resistance on the back of the head; raise the head to neutral, not past it.",
+        "Lateral: side-lying with head off the edge, or seated with your own hand pressing against the side of your head; move ear toward shoulder against resistance.",
+        "Manual: your sibling or your own hand gives smooth, even resistance through each direction."
+      ],
+      "cues": ["Nod the chin toward the ceiling (flexion)", "Push the back of the head into the hand", "Move the ear toward the shoulder smoothly"]
+    },
+    "biomechanics": {
+      "forceVector": "Resistance against the head at varying angles; the cervical spine flexes/extends/laterally flexes around a stable base.",
+      "jointAngles": "Flexion ~0-45 deg, extension back to neutral (avoid hyperextension under load), lateral flexion ~0-30 deg.",
+      "momentArm": "Head-plus-load lever is short; small loads produce large torques at the cervical spine, so loads stay light.",
+      "kineticChain": "Neck muscles connect head to the shoulder girdle; stiff neck + braced traps = one block absorbing a hit.",
+      "grf": "Minimal; this is about absorbing external forces to the head.",
+      "hardestPoint": "End range of each direction."
+    },
+    "neural": {
+      "intent": "Smooth and controlled; build the reflex to brace, not speed.",
+      "rfd": "Low; the goal is stiffness and capacity, not speed.",
+      "powerPair": { "exercise": "None", "dose": "-", "rest": "-", "type": "none" }
+    },
+    "elastic": null,
+    "mobility": "Full controlled cervical ROM under light load helps a neck that's stiff 'everywhere equally'; it trains the range instead of just stretching it.",
+    "footBase": null,
+    "sequencing": null,
+    "looks": {
+      "effect": "Thicker neck that matches the shoulders and looks athletic; jawline appears sharper only through overall leanness and neck thickness, not structural jaw change.",
+      "lengthened": "Full range in each direction, with a pause at the stretched start position (e.g., head hanging back on flexion reps)."
+    },
+    "sportTransfer": {
+      "sports": ["boxing", "MMA", "wrestling", "BJJ", "football"],
+      "mechanism": "A stronger neck stiffens the head-neck system so impacts move the head less.",
+      "combatNote": "Every fighter trains neck: it helps you absorb punches and posture up under a front headlock or guillotine attempt. Never sparring-level contact with your sibling (levels 0-2)."
+    },
+    "intensityTechnique": { "technique": "None (keep it submaximal)", "when": "-" },
+    "tips": [
+      { "tip": "Neck strength gains with progressive training are reliable; how much it reduces concussion risk is still debated, so treat it as useful insurance, not a shield.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Never train the neck heavy, fast or to failure; the cervical spine doesn't tolerate jerky loading. Add 1-2 reps per week, then add load.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Chin-tuck flexion (deep neck flexors) fixes forward head posture, which often goes with flat feet and rounded shoulders.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Stop on any tingling, numbness, headache or sharp pain and swap to isometrics against your hand.", "grade": "C", "source": "grade C, safety" }
+    ],
+    "teachMe": "Your head is a heavy ball on a thin stick. When it's hit, the ball accelerates, and the brain moves inside it. A stronger, stiffer neck ties the head to the torso so the hit gets spread over more mass, which means less acceleration (F = ma). The neck also protects your posture in grappling, where people try to pull your head down to break your stance.",
+    "swaps": {
+      "home": "Light dumbbell on a towel across the forehead (flexion) / back of the head (extension), lying on a bed or bench: 2 x 15-20 each.",
+      "bodyweight": "Manual resistance with your own hand in 4 directions, 2 x 15 each, or 4-way isometric holds of 10 s."
+    },
+    "evidence": { "grade": "C", "studies": [], "confidence": 60 }
+  },
+  {
+    "name": "Farmer Carry",
+    "aliases": ["farmers walk", "farmer's carry", "loaded carry", "suitcase carry", "db carry"],
+    "category": "conditioning",
+    "muscles": ["forearms/grip", "traps", "core/obliques", "glutes", "feet/calves"],
+    "equipment": ["dumbbells or kettlebells"],
+    "doThisNotThat": "Walk with short, quick steps, ribs stacked over pelvis, each foot landing on its tripod, instead of slow shuffles leaning back with the shoulders rolled forward.",
+    "priorityNote": "Athleticism + functional strength; also a grip/forearm looks win.",
+    "prescription": {
+      "sets": "3-4 carries",
+      "reps": "20-40 m or 30-45 s each",
+      "load": "Heaviest you can walk with good posture (aim toward bodyweight total over time); suitcase carry 1 DB",
+      "rest": "60-90 s",
+      "tempo": "Quick, controlled steps",
+      "slot": "Finisher on any lifting day or conditioning circuit",
+      "warmup": "1 x 20 m with ~50% load"
+    },
+    "setup": {
+      "steps": [
+        "Deadlift the dumbbells from the floor (hinge, flat back), stand tall.",
+        "Shoulders back and down, ribs down, look 5 m ahead.",
+        "Walk heel-to-toe with short steps; each foot rolls over its tripod. Turn by pivoting slowly."
+      ],
+      "cues": ["Crush the handles", "Walk the floor back under you", "Tall like a string pulls your head up"]
+    },
+    "biomechanics": {
+      "forceVector": "Load pulls straight down through the shoulders; each stride sends ground reaction force up through a single leg.",
+      "jointAngles": "Neutral spine, shoulders depressed and slightly retracted, hips fully extended between steps.",
+      "momentArm": "Suitcase (one side) creates a lateral moment arm, so the obliques/QL of the opposite side fight lateral flexion.",
+      "kineticChain": "Foot -> ankle -> knee -> hip -> trunk -> shoulder girdle -> grip, all stiffened while moving.",
+      "grf": "Each step loads one leg with bodyweight + load; the foot arch has to hold under that.",
+      "hardestPoint": "Final 10 m when grip and posture fade."
+    },
+    "neural": {
+      "intent": "Stay tall and quick, no leaning; grip as hard as possible.",
+      "rfd": "Low; teaches stiffness under load during locomotion.",
+      "powerPair": { "exercise": "None (finisher)", "dose": "-", "rest": "-", "type": "none" }
+    },
+    "elastic": "Quick short steps keep some ankle stiffness; avoid heavy stomping.",
+    "mobility": "Loaded upright posture with depressed shoulders reinforces thoracic extension and grounds the foot arch under load.",
+    "footBase": "Every step: land on a full tripod (heel, big-toe ball, pinky ball), screw the foot outward just enough to keep the arch up and the knee from caving. Barefoot or flat shoes at home build the short-foot strength best.",
+    "sequencing": "Locomotion pattern: foot plants, hip extends, opposite arm/shoulder stays stacked. Let the body move as one block from the ground up; don't let the shoulders swing ahead of the legs.",
+    "looks": {
+      "effect": "Forearms, traps and grip visibly; core tightness; posture.",
+      "lengthened": "Not lengthened-biased; for traps add a 2-s shrug pause at the end of each carry."
+    },
+    "sportTransfer": {
+      "sports": ["wrestling", "BJJ", "MMA", "football", "baseball", "tennis"],
+      "mechanism": "Grip endurance, trunk stiffness while moving, and single-leg stability.",
+      "combatNote": "Grip and trunk stiffness for clinching, controlling wrists, and keeping posture when someone hangs on you."
+    },
+    "intensityTechnique": { "technique": "Mixed carry (farmer 20 m -> suitcase 20 m each side)", "when": "Last carry" },
+    "tips": [
+      { "tip": "Suitcase carries (one dumbbell) train anti-lateral-flexion: the core muscles opposite the weight do the work, a different stimulus to two-handed carries.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Carrying barefoot or in flat shoes is a time-efficient way to strengthen the intrinsic foot muscles alongside short-foot drills.", "grade": "B-C", "source": "grade B-C, foot intrinsic training literature" },
+      { "tip": "Grip fatigue cuts pulling performance; put carries at the end of a session, not before rows/pull-ups.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "With light home dumbbells, slow the walk (3-s steps) or carry for time (60 s+) to make it hard.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "A carry is a walking plank. Each step briefly puts the whole load on one leg, so the foot arch, knee, hip and trunk all have to stay stacked while you're moving. That's exactly what flat feet don't do automatically. You're training the foot to stay up when it's loaded, which is the base of all athletic movement. The grip work also fires up the shoulder stabilizers through a reflex called irradiation.",
+    "swaps": {
+      "home": "Light dumbbell suitcase carry for 60 s per side, slow controlled steps, or the heaviest bag you can carry around the house.",
+      "bodyweight": "Single-leg balance walks (step-and-stick 1 s every step) with a 5-s single-leg hold every 5 steps, 3 x 30 m."
+    },
+    "evidence": { "grade": "C", "studies": [], "confidence": 60 }
+  },
+  {
+    "name": "Med-Ball Rotational Throw",
+    "aliases": ["rotational med ball throw", "med ball scoop toss", "med ball side throw", "rotational throw", "med ball shot put", "scoop toss"],
+    "category": "power",
+    "muscles": ["obliques", "hips (glutes, adductors)", "core", "lats", "shoulders"],
+    "equipment": ["medicine ball (2-4 kg)", "wall"],
+    "doThisNotThat": "Load the BACK hip, then let the hips turn first and the arms come last like the end of a whip, instead of turning your shoulders and pushing the ball with your arms.",
+    "priorityNote": "Top athleticism priority: rotational power for every striking, throwing and racket sport.",
+    "prescription": {
+      "sets": "3-5 sets per side",
+      "reps": "3-5 throws per side",
+      "load": "2-4 kg ball (light enough to be FAST); full rest between sets",
+      "rest": "60-90 s between sides; 2 min between sets",
+      "tempo": "Max-intent explosive release",
+      "slot": "After CNS prime, before main lifts or right after them as the power move",
+      "warmup": "5 easy throws each side at ~50% effort"
+    },
+    "setup": {
+      "steps": [
+        "Stand side-on to a solid wall, ~1-2 m away, athletic stance (knees ~25 deg, hip hinge ~15 deg).",
+        "Ball at the back hip, weight on the back foot, chest over the back knee.",
+        "Drive the back foot into the ground, rotate the hips toward the wall, let the trunk follow, release the ball last with arms long. Catch off the bounce."
+      ],
+      "cues": ["Throw the ball through the wall", "Turn the back knee toward the wall first", "Let the ball be the last thing to move"]
+    },
+    "biomechanics": {
+      "forceVector": "Horizontal rotational force; the ground is pushed backward and outward by the back foot, reacting forward and around.",
+      "jointAngles": "Back hip internally rotates ~30-45 deg as you turn; trunk rotates ~60-90 deg; arms stay long but slightly flexed.",
+      "momentArm": "Ball held at ~arm's length from the axis of rotation; longer arm = more ball speed for the same angular velocity (v = ωr), but harder to accelerate.",
+      "kineticChain": "Ground -> back foot -> back hip -> pelvis -> trunk -> shoulders -> arms -> ball (proximal-to-distal).",
+      "grf": "Back foot pushes into the ground first (horizontal shear), then the front leg blocks to transfer momentum up.",
+      "hardestPoint": "The switch from back-hip load to rotation; that's where the timing usually fails."
+    },
+    "neural": {
+      "intent": "Maximum speed every rep; if a throw feels slower, stop the set.",
+      "rfd": "High-RFD rotational power; trains fast-twitch recruitment and intermuscular timing.",
+      "powerPair": { "exercise": "Pair with a heavy split squat or row as contrast", "dose": "3-5 throws/side after the heavy set", "rest": "~4 min after the heavy set if you want potentiation; 30-60 s if contrast", "type": "contrast" }
+    },
+    "elastic": "The loading 'wind-up' stretches the obliques and hip rotators; a quick countermovement into the throw uses the stretch-shortening cycle. Keep the switch quick (<0.3 s).",
+    "mobility": "Builds rotational range in the hips and thoracic spine under speed, where Jonah's all-over stiffness makes him rotate from the lower back instead.",
+    "footBase": "Back foot screws into the floor (rotating it outward without moving) to load the back glute; front foot lands on its tripod and 'blocks' so momentum flows up. A collapsed arch on the back foot leaks the force into the floor.",
+    "sequencing": "Ground -> back hip -> pelvis rotates first -> trunk follows ~50-80 ms later -> shoulders -> arms -> ball. The hips lead; the arms are just the whip's tip. If your arms move first, the throw is weak and random, the same fault as reaching for a ball in pickleball/tennis.",
+    "looks": {
+      "effect": "Athletic obliques and a tight, functional midsection.",
+      "lengthened": "Not a looks lift; the loaded wind-up does bias the obliques at length."
+    },
+    "sportTransfer": {
+      "sports": ["boxing", "MMA", "baseball", "tennis", "pickleball", "table tennis", "football", "volleyball"],
+      "mechanism": "Same proximal-to-distal sequence as a punch, a bat swing, a forehand/backhand, a throw and a spike.",
+      "combatNote": "The hook and cross are rotational throws without a ball. Rotational medicine-ball throw speed relates to punching force (grade C)."
+    },
+    "intensityTechnique": { "technique": "None (power work, never to fatigue)", "when": "-" },
+    "tips": [
+      { "tip": "Rotational med-ball throw velocity correlates with punch force; the punch is a ground-to-fist chain. Correlation, not proof of transfer.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Use the lightest ball that still challenges you (2-4 kg). Heavy balls slow the movement and turn power training into strength-endurance.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "External cues ('throw through the wall') produce faster, more powerful throws than internal cues ('rotate your hips').", "grade": "A", "source": "Wulf" },
+      { "tip": "Both sides every session, but start with your weaker side when you're freshest.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Stop the set when the throw slows. Like velocity-loss training, fatigue just teaches slow movement.", "grade": "B", "source": "Pareja-Blanco 2017" }
+    ],
+    "teachMe": "Your power comes from the ground, not your arms. Each segment (hip, trunk, shoulder, arm) speeds up and then brakes, and passes its momentum to the next one, like cracking a whip. That's why the tip moves so fast. If the arms go first, there's nothing behind them, which is your backwards sequencing problem. The ball gives you instant feedback: a good throw is loud and feels effortless.",
+    "swaps": {
+      "home": "Dumbbell rotational punch-throw: hold a light dumbbell at the back hip with both hands, rotate explosively and 'punch' it forward to full arm extension (DON'T release), 3 x 5 each side. Or throw a heavy pillow/rolled blanket against a wall.",
+      "bodyweight": "Hip snap drill: athletic stance, back hip loaded, snap the hips to face forward with arms loose and trailing, 3 x 8 each side; then rotational broad jumps 3 x 3 each side."
+    },
+    "evidence": { "grade": "C", "studies": ["Wulf"], "confidence": 65 }
+  },
+  {
+    "name": "Shadowboxing",
+    "aliases": ["shadow boxing", "shadow", "shadow work", "shadowbox", "shadow rounds"],
+    "category": "combat",
+    "muscles": ["whole body", "calves", "obliques", "shoulders"],
+    "equipment": ["bodyweight", "mirror (optional)", "timer"],
+    "doThisNotThat": "Shadowbox with intent at ~70% effort on a specific theme each round (e.g., jab + step), seeing an opponent in front of you, instead of flailing random combos at full speed.",
+    "priorityNote": "Boxing/MMA is the main love; skill work comes first, conditioning second. Contact ladder level 0.",
+    "prescription": {
+      "sets": "4-6 rounds",
+      "reps": "2-3 min rounds",
+      "load": "~70% effort (Zahabi); last round 85-90% as a 'finisher'",
+      "rest": "60 s between rounds",
+      "tempo": "Rhythm + bursts: 2-3 s of fast combinations every ~10 s, then reset",
+      "slot": "Warm-up before Fight Lab, standalone skill session, or the conditioning block on any day",
+      "warmup": "1 round at 50%: footwork only (stance, step-drag, pivots)"
+    },
+    "setup": {
+      "steps": [
+        "Stance: feet a bit wider than shoulder width, lead toe and rear heel on a line slightly offset, weight 50/50, knees soft ~25 deg, chin down, hands at cheekbones.",
+        "Round themes in order of the striking progression: R1 stance/guard + footwork, R2 jab, R3 cross, R4 lead hook, R5 defense (parry/slip) after each combo, R6 combos (1-2, 1-2-3, slip-2).",
+        "Return to guard after every punch; exhale sharply on each strike."
+      ],
+      "cues": ["Hit the target 10 cm behind the opponent's chin", "Bring your hand back to your cheek", "Turn the back heel like crushing a bug"]
+    },
+    "biomechanics": {
+      "forceVector": "Punch force starts as a horizontal push of the feet against the ground and leaves the fist as a straight-line projectile (jab/cross) or horizontal arc (hook).",
+      "jointAngles": "Cross: rear foot pivots ~45-90 deg, hip rotates ~45 deg, trunk ~45 deg further, shoulder turns to cover the chin, elbow extends to ~170 deg (never locked). Lead hook: elbow ~90 deg, forearm parallel to floor.",
+      "momentArm": "Straight punches use a short lever (fast); hooks use a longer lever from the rotating trunk (more momentum, slower).",
+      "kineticChain": "Foot -> knee -> hip -> torso -> shoulder -> elbow -> fist.",
+      "grf": "Rear foot drives horizontally into the floor on the cross; the lead leg blocks to stop the body moving forward and convert momentum to rotation.",
+      "hardestPoint": "Keeping the opposite hand on the chin at full extension, and resetting the stance after combinations."
+    },
+    "neural": {
+      "intent": "Relaxed and fast. Tension only at impact (snap), then back to loose.",
+      "rfd": "Very high RFD per punch; relax-contract-relax cycle trains fast muscle switching.",
+      "powerPair": { "exercise": "Med-ball rotational throws or plyo push-ups before rounds", "dose": "2 x 3-5 per side", "rest": "2-3 min, then shadowbox", "type": "contrast" }
+    },
+    "elastic": "Bouncy stance (on the balls of the feet) keeps the Achilles springs loaded so you can move in and out quickly.",
+    "mobility": "Rotation through the hips and thoracic spine on every punch, plus slips and rolls (lateral flexion and squat-level changes), rehearsed at speed; it trains range where you're stiffest.",
+    "footBase": "In stance, the screw cue on both feet (rotate them outward without moving) keeps the arches up and knees soft. On every cross, the rear foot pivots on the ball of the foot, not the heel.",
+    "sequencing": "Hips lead, arm whips: ground -> hip -> trunk -> shoulder -> arm -> fist. Punches start in the feet. Your 'arm first' habit means the fist arrives before the body's mass is behind it, so the punch has no weight. Install the order: feel the rear foot push, the hip turn, THEN the arm extends as the last link.",
+    "looks": {
+      "effect": "Lean, conditioned look; shoulder and core endurance.",
+      "lengthened": "N/A (skill/conditioning)."
+    },
+    "sportTransfer": {
+      "sports": ["boxing", "MMA", "wrestling", "basketball", "tennis"],
+      "mechanism": "Footwork, rotational sequencing, hand-eye timing, and conditioning that carries over to any reactive sport.",
+      "combatNote": "Contact ladder level 0 (no contact). Topuria-style: shadowbox daily, rotating emphasis blocks (striking-heavy weeks / grappling-heavy weeks). Zahabi: frequent rounds at ~70% beat rare all-out rounds. Danaher: go deep on 4-6 combos you'll actually use."
+    },
+    "intensityTechnique": { "technique": "Last-round finisher: 30 s straight punches (fast, light), 10 s rest x 3", "when": "Final round only" },
+    "tips": [
+      { "tip": "Visualize a specific opponent's head and body moving. Imagery-based training engages the same motor networks as real fighting and makes rounds more transferable.", "grade": "C", "source": "grade C, motor imagery literature" },
+      { "tip": "External focus ('hit through the target') beats internal ('extend your elbow') for both speed and learning.", "grade": "A", "source": "Wulf" },
+      { "tip": "Exhale sharply ('tss') on each punch: this braces the trunk and keeps you from breath-holding, important with EIB.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Use light 0.5-1 kg dumbbells only in slow technical rounds, never at speed; the extra weight changes timing and stresses the elbow at full extension.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Film one round a week from the side: check that the rear heel turns before the fist arrives.", "grade": "D", "source": "elite-coach practice" }
+    ],
+    "teachMe": "Your nervous system learns what you repeat, and shadowboxing is pure repetition with no fear of getting hit. That matters: with no threat, the brain lets you relax, and relaxed muscles move faster. You're installing the order (feet, hips, trunk, arm) at 70% so that when the speed and stress go up, the pattern holds. Seeing an imaginary opponent also trains your eyes to lead the movement.",
+    "swaps": {
+      "home": "Same drill in any room; use a mirror or your phone camera for feedback. With sibling: pad work at contact ladder level 1 (pads/mitts) only.",
+      "bodyweight": "Footwork ladder (step-drag, pivot, in-out) for 2-min rounds, plus slip-squat drill with a string across a doorway."
+    },
+    "evidence": { "grade": "C", "studies": ["Wulf"], "confidence": 65 }
+  },
+  {
+    "name": "Dead Bug",
+    "aliases": ["deadbug", "dead bugs", "dead-bug", "anti-extension core"],
+    "category": "core",
+    "muscles": ["deep core (transverse abdominis)", "rectus abdominis", "obliques", "hip flexors"],
+    "equipment": ["bodyweight", "light dumbbell (optional)"],
+    "doThisNotThat": "Keep your low back glued to the floor and exhale fully as the opposite arm and leg reach out slowly, instead of flailing limbs while your back arches off the ground.",
+    "priorityNote": "Athleticism: teaches the trunk to stay stiff while the limbs move, the base of sequencing.",
+    "prescription": {
+      "sets": "2-3",
+      "reps": "6-10 per side",
+      "load": "Bodyweight; add a light dumbbell held overhead or a 3-5 s hold at full reach as it gets easy",
+      "rest": "45-60 s",
+      "tempo": "3 s reach, 1 s pause, 2 s return; full exhale on every reach",
+      "slot": "CNS prime / warm-up before lifts, or core finisher",
+      "warmup": "None needed"
+    },
+    "setup": {
+      "steps": [
+        "Lie on your back, arms straight up toward the ceiling, hips and knees at 90 deg.",
+        "Exhale fully until your ribs drop and your lower back presses into the floor.",
+        "Slowly reach one arm overhead and the opposite leg out straight, hovering 5-10 cm off the floor; return and switch."
+      ],
+      "cues": ["Push your low back into the floor", "Reach the heel to the far wall", "Blow out all the air like a balloon"]
+    },
+    "biomechanics": {
+      "forceVector": "Gravity on the extended leg and arm creates a torque that tries to arch the lumbar spine (anti-extension).",
+      "jointAngles": "Hips extend from 90 deg to ~170 deg, shoulder flexes 90 to 180 deg, spine neutral-to-slightly flexed.",
+      "momentArm": "Longest when the leg is straight and low; bending the knee shortens it (easier version).",
+      "kineticChain": "Core stiffness keeps the pelvis still while the limbs move; it's the 'stable center, moving limbs' principle of every sport.",
+      "grf": "Lumbar spine presses into the floor; the floor is your feedback.",
+      "hardestPoint": "Full reach with the leg 5-10 cm off the floor."
+    },
+    "neural": {
+      "intent": "Slow and controlled; the drill is trunk stiffness, not speed.",
+      "rfd": "Not relevant.",
+      "powerPair": { "exercise": "None", "dose": "-", "rest": "-", "type": "none" }
+    },
+    "elastic": null,
+    "mobility": "Teaches shoulder flexion and hip extension without the lumbar spine taking over, which is how stiff athletes 'fake' range.",
+    "footBase": null,
+    "sequencing": "Contralateral pattern (opposite arm and leg) is the same cross-body linkage as running, punching and throwing: the trunk is the anchor that lets opposite limbs work together.",
+    "looks": {
+      "effect": "Flat, tight midsection by improving deep-core control (a smaller-looking waist when you stand braced).",
+      "lengthened": "Add the overhead reach with a light dumbbell for a stretched-position rectus abdominis load."
+    },
+    "sportTransfer": {
+      "sports": ["boxing", "MMA", "basketball", "soccer", "sprinting", "tennis", "football"],
+      "mechanism": "Trunk stays stiff while the limbs move fast and in opposition, the basis of punching, sprinting and cutting.",
+      "combatNote": "A stiff trunk on every punch means force isn't lost in the midsection, and body shots hurt less when the core is braced on the exhale."
+    },
+    "intensityTechnique": { "technique": "Long isometric hold at full reach (5-10 s) on the last 2 reps each side", "when": "Last set" },
+    "tips": [
+      { "tip": "The full exhale is the key detail: it pulls the ribs down and sets the deep core; without it, it's just limb waving.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "If the back lifts off the floor, shorten the lever (bend the knee) rather than speed up.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Pair with 90/90 breathing as a downshift drill before sessions; a calmer nervous system releases range.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "Your arms and legs can only be as fast and powerful as the platform they attach to. If the middle bends every time a limb moves, force leaks out of the chain. The dead bug trains your trunk to stay a solid block while your opposite arm and leg move, which is exactly what has to happen in a punch or a sprint stride. The exhale tells your nervous system to brace, and it also downshifts out of the threat state.",
+    "swaps": {
+      "home": "Dead bug holding a light dumbbell in both hands overhead (arms only move), 3 x 8 slow leg reaches each side.",
+      "bodyweight": "Standard dead bug; regress to bent-knee heel taps if the back lifts."
+    },
+    "evidence": { "grade": "C", "studies": [], "confidence": 60 }
+  },
+  {
+    "name": "Hip Thrust",
+    "aliases": ["barbell hip thrust", "glute bridge", "hip thrusts", "bench hip thrust", "db hip thrust", "single-leg hip thrust"],
+    "category": "compound",
+    "muscles": ["glutes (max)", "hamstrings", "adductors", "quads (minor)"],
+    "equipment": ["bench", "barbell or dumbbell", "pad"],
+    "doThisNotThat": "Tuck your chin, keep your ribs down and finish with a posterior pelvic tilt (hips under, not back arched), instead of hyperextending the lower back to push the hips higher.",
+    "priorityNote": "Athleticism (hip extension for sprinting/jumping/punching) and looks.",
+    "prescription": {
+      "sets": "3 working (1 warm-up)",
+      "reps": "6-10 heavy, or 12-20 single-leg/home",
+      "load": "1-2 RIR",
+      "rest": "2-2.5 min",
+      "tempo": "Explode up, 1-2 s hold at top, 2 s down",
+      "slot": "Legs day, after squats/RDLs",
+      "warmup": "1 x 10 at ~50%"
+    },
+    "setup": {
+      "steps": [
+        "Upper back on a bench edge (bottom of shoulder blades), barbell or dumbbell in the hip crease with a pad.",
+        "Feet flat, shins vertical at the top position, feet ~hip-width.",
+        "Drive through heels to full hip extension, chin tucked, ribs down; lower until the hips are ~10 cm off the floor."
+      ],
+      "cues": ["Drive the floor away with your heels", "Push the bar to the ceiling", "Keep your eyes on the wall in front"]
+    },
+    "biomechanics": {
+      "forceVector": "Horizontal (anteroposterior) force relative to your body, the same direction as the propulsive push in sprint acceleration.",
+      "jointAngles": "Hips from ~90 deg flexion to 0 deg (full extension), knees ~90 deg at lockout.",
+      "momentArm": "Greatest at full hip extension (the load is furthest behind the hip axis), so glutes work hardest at their shortest.",
+      "kineticChain": "Feet -> knees -> hips; the upper back on the bench is the pivot.",
+      "grf": "Heels push down and slightly forward; the screw cue stops the knees caving.",
+      "hardestPoint": "Lockout (top 15 deg of hip extension)."
+    },
+    "neural": {
+      "intent": "Explosive hip extension each rep; control the descent.",
+      "rfd": "Moderate; trains the glute to contract hard at full hip extension, the finish of a sprint push-off.",
+      "powerPair": { "exercise": "Broad jump or sprint start (3-5 s)", "dose": "3 x 2-3", "rest": "4-6 min if PAPE; 30-60 s if contrast", "type": "contrast" }
+    },
+    "elastic": null,
+    "mobility": "Full hip extension under load opens the front of the hip (hip flexors), which is often tight with a flat-foot posture and anterior pelvic tilt.",
+    "footBase": "Feet flat, screw them into the floor (rotate outward without moving) to fire glutes and keep knees out over the 2nd-3rd toes; press through the tripod so the arch stays up.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Glute size and shape; better posture and pelvis position.",
+      "lengthened": "Glutes are short at the top; add deep-range work elsewhere (RDLs, Bulgarian split squats) for the lengthened stimulus. Hip thrusts are the short-range complement."
+    },
+    "sportTransfer": {
+      "sports": ["sprinting", "football", "basketball", "soccer", "baseball", "boxing", "MMA"],
+      "mechanism": "Hip extension powers acceleration, jumping and rotation; strong glutes stabilize the knee against valgus.",
+      "combatNote": "Hip drive is what puts weight behind a punch and powers wrestling bridges and shots."
+    },
+    "intensityTechnique": { "technique": "Rest-pause or 3-s top holds on the final reps", "when": "Last set" },
+    "tips": [
+      { "tip": "Hip thrusts grew the glutes similarly to squats in a 2023 RCT, but squats also grew the quads and adductors. Use hip thrusts as an add-on, not a replacement.", "grade": "B", "source": "Plotkin 2023" },
+      { "tip": "Hip thrust training improved horizontal force in some studies, but its transfer to sprint speed is inconsistent; treat it as supportive, not the main speed driver.", "grade": "B-C", "source": "grade B-C, mixed trials" },
+      { "tip": "Chin tucked keeps the ribs down and prevents lumbar extension from 'faking' the lockout.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Single-leg version with light dumbbells is a strong home option and adds a hip stability challenge.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "Your glutes are the biggest muscle in your body and the main engine of hip extension: sprinting, jumping and putting your hips into a punch. Flat feet make the knees cave and the glutes switch off because the hip rotates in. Screwing your feet outward turns them back on. The hip thrust loads the glutes hardest at full extension, which is the exact position where you push off in sprinting.",
+    "swaps": {
+      "home": "Single-leg hip thrust on a couch with a light dumbbell on the hip, 3 x 10-15 each, 2-s hold at top.",
+      "bodyweight": "Single-leg glute bridge or shoulders-elevated single-leg hip thrust, 3 x 12-20 each."
+    },
+    "evidence": { "grade": "B", "studies": ["Plotkin 2023"], "confidence": 70 }
+  }
+]

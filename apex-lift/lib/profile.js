@@ -1,0 +1,12 @@
+// Default athlete profile (editable in Settings; the client sends its copy with each request).
+export const DEFAULT_PROFILE = `Name: Jonah. Male, 10th grade, ~15-16, still growing. Great Neck, NY. 5'8"-5'9", ~125-135 lb, lean, fast build, very fast metabolism.
+Goal: recomposition at maintenance or surplus. Scale holds or goes UP. Track waist, photos, strength — never bodyweight loss.
+Sports: basketball, baseball, football, soccer, tennis, pickleball, sprinting, volleyball, MMA, wrestling, boxing, BJJ, table tennis, cross country (school). Mostly pickup; game days unpredictable.
+Main love: boxing/MMA (studies elite fighters, e.g. Ilia Topuria). Takes boxing lessons. Trains at home with a younger sibling as partner. Prefers athletic/fight work over lifting; lifting is a tool.
+Diagnosis: flat feet → flat-foot cascade (arch collapses → ankle rolls in → knee caves → hip rotates wrong → spine/shoulders compensate). Stiff everywhere equally since birth (poor ROM, wobbly walk). Sequencing fires backwards: arm goes first, body late → no power, random contact, reaching/lunging instead of moving feet, freezing then reacting late. Threat state: slow reactions, fear of the ball, feels disconnected. Weak hand-eye, balance, fine skills. Not naturally strong or explosive.
+Conditioning: asthma / EIB (post-run wheezing). XC baseline ~8:22/mile at ~173 avg HR. Est. max HR ~200-205. Naturally high HR. Wears a Garmin.
+Training: on-and-off, no structure before. Split: Chest+Biceps / Back+Triceps / Legs, ideally 2x/week. One warm-up set per exercise, 2-3 working sets of 6-10, double progression. CNS prime before; PAP/contrast power finisher after main lifts; rest-pause/drop sets/negatives on last sets.
+Equipment: mostly home — light dumbbells, treadmill, bodyweight (no pull-up bar, bands, or heavy bag). Sometimes a basic gym (dumbbells, barbells, cables). Always offer a home swap.
+Daily add-ons: Morning 5 mobility (5 min, barefoot), optional nightly mobility, daily vision + skill drills.
+Psychology: won't stick with slow/results-free; will stick with fun + feeling more athletic fast. Every session needs a visible win.
+Communication: blunt, dense, no preamble/filler, no "consult a professional" boilerplate. Exact numbers. "Deeper" = more biomechanics/neurology/physics, not more length.`;

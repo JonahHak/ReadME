@@ -1,0 +1,1009 @@
+[
+  {
+    "name": "Barbell Back Squat",
+    "aliases": ["back squat", "squat", "barbell squat", "high bar squat", "bb squat"],
+    "category": "compound",
+    "muscles": ["quads", "glutes", "adductors", "spinal erectors"],
+    "equipment": ["barbell", "squat rack"],
+    "doThisNotThat": "Screw your feet into the floor and drive the floor away fast out of the hole — don't sit back, collapse the arches, and grind slow reps to failure.",
+    "priorityNote": "Athleticism > looks: reps stop when bar speed visibly drops, even if you could grind 2 more for size.",
+    "prescription": {
+      "sets": "3 working (after 1 warm-up)",
+      "reps": "4-6",
+      "load": "1-2 RIR; end the set when a rep visibly slows (~20% velocity loss)",
+      "rest": "3 min",
+      "tempo": "2-3 s down, 0 s pause, max-intent up",
+      "slot": "Main lift #1 on Legs day, after CNS prime",
+      "warmup": "1 set x 5 at ~50-60% of working load, same max-intent speed"
+    },
+    "setup": {
+      "steps": [
+        "Safeties set 2-3 cm below your bottom position — non-negotiable if you train alone.",
+        "Bar on upper traps, hands just outside shoulders, elbows under the bar, not flared back.",
+        "Feet shoulder-width, toes out 15-30°. Tripod down (big toe, pinky toe, heel), then screw the feet out until the arches rise.",
+        "Big breath into the belly and sides, brace like you're about to take a body shot, unrack, 2 steps back."
+      ],
+      "cues": ["Spread the floor apart", "Push the floor through the ceiling", "Knees track over the 2nd-3rd toe"]
+    },
+    "biomechanics": {
+      "forceVector": "Vertical. The bar path should stay over mid-foot; any drift forward turns it into a good-morning and loads the back instead of the legs.",
+      "jointAngles": "Depth: hip crease at or just below knee top. Knee flexion ~110-125°, trunk lean ~30-45° from vertical (high-bar), shin angle ~30-35° forward.",
+      "momentArm": "Hip moment arm grows with trunk lean; knee moment arm grows as knees travel forward. Knees forward past toes is fine — it shifts load to quads, which is what you want for jumping.",
+      "kineticChain": "Foot → ankle → knee → hip → trunk brace → bar. Arch collapse at the bottom lets the knee cave, which leaks force sideways before it reaches the hip.",
+      "grf": "Newton's 3rd: push the earth down and it pushes you up with equal force. Push straight down through the whole tripod and the force travels up the chain; push through the inner edge of the foot and it bends the knee inward.",
+      "hardestPoint": "Just above parallel (the sticking region) where the quad's leverage is worst and the knee moment arm is near its maximum."
+    },
+    "neural": {
+      "intent": "Control the descent for 2-3 s, then try to throw the bar off your back on every rep even when it moves slowly. Intent recruits high-threshold motor units.",
+      "rfd": "Rate of force development comes from how fast you reverse at the bottom. A relaxed but tight bounce out of the hole (no stopping dead) uses the stretch reflex.",
+      "powerPair": {
+        "exercise": "Broad Jump (stick the landing)",
+        "dose": "3 jumps",
+        "rest": "Do the jumps 4-6 min after the last heavy set (PAPE window); 2 min between jumps",
+        "type": "PAPE"
+      }
+    },
+    "elastic": null,
+    "mobility": "A full-depth squat under load is a loaded ankle-dorsiflexion and hip-flexion stretch. Doing 2-3 s controlled descents teaches your nervous system that the bottom position is safe, so it stops guarding and you gain depth over weeks. Full-ROM strength training improves ROM about as well as stretching (Afonso 2021).",
+    "footBase": "Flat feet are the main leak. Tripod first, then the Screw: rotate both feet outward against the floor without letting them move. The arch lifts, glutes switch on, knees line up. If your arch collapses at the bottom, the load is too heavy for your base. Drop 10% until it holds.",
+    "sequencing": "Out of the hole, hips and chest rise together at the same rate. If the hips shoot up first, the quads quit and the back takes over.",
+    "looks": {
+      "effect": "Quads (especially vastus lateralis/medialis) and glutes: fuller legs that match the upper body.",
+      "lengthened": "The quads are most stretched in the deepest third. Full depth plus 2-3 bottom-half partials after the last full rep biases distal quad growth (Pedrosa 2022)."
+    },
+    "sportTransfer": {
+      "sports": ["sprinting", "basketball", "football", "volleyball", "wrestling", "cross country"],
+      "mechanism": "Bigger maximal leg force raises the ceiling for jump and sprint force. Heavy strength work plus plyos improves running economy for XC (Balsalobre-Fernández 2016).",
+      "combatNote": "The squat's bottom position is your level change for a double leg. A strong, stable bottom means you can drop and drive without your knees caving."
+    },
+    "intensityTechnique": {
+      "technique": "None on heavy sets. Failure costs speed and recovery. Optional: 1 back-off set of 8 at -15% with 2-3 bottom-half lengthened partials.",
+      "when": "Back-off set only, and only if you have no game within 48 h"
+    },
+    "tips": [
+      { "tip": "Stop the set when rep speed visibly drops. In Pareja-Blanco 2017, sets stopped at 20% velocity loss improved CMJ 9.5% vs 3.5% for 40% velocity loss, despite 40% fewer reps.", "grade": "B", "source": "Pareja-Blanco 2017" },
+      { "tip": "Rest the full 3 min. In trained men, 3 min rest built more strength and quad thickness than 1 min.", "grade": "B", "source": "Schoenfeld 2016" },
+      { "tip": "Squatting doesn't spike hormones that grow your arms. That old claim is not supported. Squat for legs, jumping, and sprinting.", "grade": "B", "source": "grade B, acute hormone research" },
+      { "tip": "Film one set from the side each week. If the bar drifts forward of mid-foot at the bottom, your ankles are limiting you. Use 1-2 cm heel plates temporarily while dorsiflexion improves.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Exhale only after passing the sticking point. Letting your air out at the bottom collapses the brace and the spine absorbs the force.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "Your brain sets a speed limit based on how stable it thinks you are. When your arches collapse and your knees wobble, it detects instability and slows down the rate it fires muscle. Screwing the feet into the floor gives the brain a solid base, so it releases more force. Think of the squat as a way to push the earth away, not as lifting a bar.",
+    "swaps": {
+      "home": "Goblet or front-rack DB Bulgarian split squat, 3 s down, 1 s pause in the hole, 6-10 reps per leg. Split stance doubles the load per leg with light DBs.",
+      "bodyweight": "Heels-elevated slow squat (4 s down, 2 s pause) for 12-20, then 1-2 jump squats per set to keep the power."
+    },
+    "evidence": {
+      "grade": "A-B",
+      "studies": ["Pareja-Blanco 2017", "Schoenfeld 2016", "Pedrosa 2022", "Balsalobre-Fernández 2016", "Afonso 2021"],
+      "confidence": 85
+    }
+  },
+  {
+    "name": "Goblet Squat",
+    "aliases": ["goblet squat", "db goblet squat", "kb goblet squat", "dumbbell squat"],
+    "category": "compound",
+    "muscles": ["quads", "glutes", "adductors", "core"],
+    "equipment": ["dumbbell", "kettlebell"],
+    "doThisNotThat": "Use the weight as a counterbalance to sit deep and upright with a 3 s descent and a 2 s pause. Don't rush shallow reps with a weight too light to matter.",
+    "priorityNote": "Mobility and position quality first; this is a base-building tool, not a max-strength lift.",
+    "prescription": {
+      "sets": "3 working (after 1 warm-up)",
+      "reps": "8-12 (light DBs: 12-15 with a 2 s pause)",
+      "load": "1-2 RIR",
+      "rest": "2 min",
+      "tempo": "3 s down, 2 s pause at the bottom, fast up",
+      "slot": "Main lift on home Legs day, or a warm-up primer before back squats",
+      "warmup": "1 x 8 bodyweight with a 3 s pause at the bottom, elbows pushing knees out"
+    },
+    "setup": {
+      "steps": [
+        "Hold one DB vertically at the chest, hands cupping the top head, elbows pointing down.",
+        "Feet slightly wider than shoulders, toes out 20-30°.",
+        "Tripod down, screw the feet out, breathe and brace, then descend between your heels."
+      ],
+      "cues": ["Elbows slide inside the knees", "Sit between your heels", "Chest stays facing the wall in front"]
+    },
+    "biomechanics": {
+      "forceVector": "Vertical. The front load moves your centre of mass forward, so you can stay upright and reach depth with less ankle demand.",
+      "jointAngles": "Trunk ~15-25° from vertical, full knee flexion ~130°+, hips below knees.",
+      "momentArm": "Upright trunk keeps the hip moment arm short and moves the work to the knees. That makes it quad-dominant and easier on the back.",
+      "kineticChain": "Foot tripod → knee over toes → hip → braced trunk → arms holding the bell close.",
+      "grf": "Push the floor away evenly through all three foot points. Feel the pressure move from mid-foot toward the whole foot as you stand.",
+      "hardestPoint": "The bottom 10 cm out of the pause, where the stretch reflex has gone."
+    },
+    "neural": {
+      "intent": "Slow descent to teach the position, then stand up as fast as possible.",
+      "rfd": "Pausing removes the bounce, so the drive is pure concentric starting strength. That builds your first-step burst from a dead stop.",
+      "powerPair": {
+        "exercise": "Squat jump (hands on hips, stick the landing)",
+        "dose": "3 x 3",
+        "rest": "20-30 s after each goblet set",
+        "type": "contrast"
+      }
+    },
+    "elastic": null,
+    "mobility": "The best tool in the program for your stiffness. A 2 s pause at full depth with the elbows prying the knees out is a loaded hip-opener and ankle stretch. Add 20-30 s of rocking in the bottom on the last set.",
+    "footBase": "Watch your feet in the bottom. Flat feet will roll the arch in and drop the knees. Keep the big-toe ball heavy and screw outward, and you'll feel the glutes switch on and the arch rise. Do it barefoot at home for extra foot muscle work.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Quads and adductors; good volume builder when you only have light dumbbells.",
+      "lengthened": "The deep pause puts the quads and adductors under load at long length, the most growth-friendly part of the range."
+    },
+    "sportTransfer": {
+      "sports": ["basketball", "wrestling", "BJJ", "soccer", "tennis", "pickleball"],
+      "mechanism": "Owning a deep, upright, braced position transfers to staying low on defense, low volleys in pickleball and tennis, and getting your hips under you.",
+      "combatNote": "A deep upright squat is the wrestling stance under load. If you can hold it with the arches up, your shots and sprawls come from a stable base."
+    },
+    "intensityTechnique": {
+      "technique": "1½ reps (down, halfway up, back down, then up) on the last set",
+      "when": "Last set only; with light home DBs, use it on all sets"
+    },
+    "tips": [
+      { "tip": "With light DBs, make the set hard through time and range: 3 s down plus a 2 s pause. Growth is similar across a wide band of loads when you finish close to failure.", "grade": "B", "source": "Refalo 2023" },
+      { "tip": "Rep duration between 0.5 and 8 s grows muscle similarly. Pauses here are for position and stability, not as a hypertrophy trick.", "grade": "B", "source": "Schoenfeld 2015" },
+      { "tip": "Strength training through full range improves ROM about as well as stretching. This counts as mobility work.", "grade": "A-B", "source": "Afonso 2021" },
+      { "tip": "Do it barefoot at home. Without a cushioned shoe your foot muscles have to hold the arch, which is the short-foot work your flat feet need under real load.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "Your nervous system protects positions it doesn't trust by tightening the muscles around them. A slow, loaded pause at the bottom shows your brain that this range is safe, so it stops guarding and lets you go deeper. Your mobility improves because your nervous system relaxes, not because tissue stretches like a rubber band.",
+    "swaps": {
+      "home": "This is the home swap. Use the heaviest DB you have; if it's too light, switch to heels-elevated goblet with a 3 s down and 3 s pause.",
+      "bodyweight": "Pause squat with a 4 s descent and a 3 s pause, hands in prayer and elbows prying the knees, 15-20 reps."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": ["Refalo 2023", "Schoenfeld 2015", "Afonso 2021"],
+      "confidence": 80
+    }
+  },
+  {
+    "name": "Romanian Deadlift",
+    "aliases": ["rdl", "romanian deadlift", "db rdl", "stiff leg deadlift", "barbell rdl"],
+    "category": "compound",
+    "muscles": ["hamstrings", "glutes", "adductor magnus", "spinal erectors"],
+    "equipment": ["barbell", "dumbbells"],
+    "doThisNotThat": "Push your hips back to a wall behind you until the hamstrings are loaded, keeping a long spine. Don't bend at the waist and chase the floor with the bar.",
+    "priorityNote": "Athleticism first: the hinge is the engine of sprinting and jumping. Lengthened hamstrings work also protects the streak.",
+    "prescription": {
+      "sets": "3 working (after 1 warm-up)",
+      "reps": "6-8",
+      "load": "1-2 RIR; stop when the descent stops being controlled",
+      "rest": "2.5-3 min",
+      "tempo": "3 s down, 0 s pause, hips snap forward",
+      "slot": "Main lift #2 on Legs day",
+      "warmup": "1 x 8 at ~50% with a 3 s descent"
+    },
+    "setup": {
+      "steps": [
+        "Feet hip-width, bar or DBs in front of thighs, soft knees (~15-20° bend) that stay soft.",
+        "Tripod and screw the feet. Shoulders pulled down to the back pockets.",
+        "Push the hips straight back. The bar slides down the thighs, staying close.",
+        "Stop when the hips stop moving back (usually mid-shin). Then drive the hips forward."
+      ],
+      "cues": ["Hips reach back to touch the wall", "Bar drags down your thighs", "Push the floor away to stand"]
+    },
+    "biomechanics": {
+      "forceVector": "Mostly horizontal at the hip: you swing the torso around the hip joint.",
+      "jointAngles": "Knees fixed at ~15-20° flexion. Hip flexion ~70-90° at the bottom. Neutral spine throughout.",
+      "momentArm": "The farther the bar drifts from your legs, the longer the lower-back moment arm. Keep it within 2-3 cm of the legs.",
+      "kineticChain": "Foot tripod → fixed knee → hamstrings and glutes (hip extensors) → braced trunk → arms as hooks.",
+      "grf": "Push down and slightly back through the heels and mid-foot. Too much weight on the toes means you're squatting it.",
+      "hardestPoint": "The bottom, where the hamstrings are longest and the hip moment arm is greatest."
+    },
+    "neural": {
+      "intent": "Slow, controlled stretch on the way down, then a fast hip snap on the way up, like the start of a jump.",
+      "rfd": "Hip extension speed is the engine of sprinting and jumping. The snap teaches fast hip extension from a loaded stretch.",
+      "powerPair": {
+        "exercise": "DB or med-ball hip-hinge throw (or broad jump)",
+        "dose": "3 x 3",
+        "rest": "20-30 s after each RDL set",
+        "type": "contrast"
+      }
+    },
+    "elastic": null,
+    "mobility": "Loaded hamstring stretch in every rep. Your all-over stiffness includes the hamstrings, and loaded lengthening is a direct fix: you gain range you can actually control.",
+    "footBase": "Heavy RDLs tempt the feet to roll in. Keep the tripod, and screw the feet outward as you push the hips back; you'll feel the glutes engage and your balance improve.",
+    "sequencing": "Hips lead, torso follows. On the way up, the hips drive forward and the shoulders come along; don't pull with the lower back.",
+    "looks": {
+      "effect": "Hamstrings and glutes: the back of the legs, which fills out side profile and posture.",
+      "lengthened": "The hamstrings are loaded at long length at the bottom, the most growth-friendly part. Add 2-3 bottom-half partials after the last full rep."
+    },
+    "sportTransfer": {
+      "sports": ["sprinting", "football", "soccer", "basketball", "baseball", "cross country"],
+      "mechanism": "Hip extension drives sprint acceleration and jump height, and loaded long-length hamstring work protects against hamstring strains in sprint sports.",
+      "combatNote": "Strong hinging builds the posterior chain for lifting and finishing takedowns, and a strong back line for clinch posture."
+    },
+    "intensityTechnique": {
+      "technique": "2-3 lengthened partials (bottom half only) after the last full rep",
+      "when": "Last set"
+    },
+    "tips": [
+      { "tip": "Finish the last set with bottom-half partials. Partials at long muscle length have trended as well as or better than full range in some studies, but recent trials show rough parity. Use them as an extra, not a replacement.", "grade": "B-C", "source": "Wolf 2023; Wolf 2025" },
+      { "tip": "End the set when the descent stops being smooth or the back rounds, not when you can't lift it. Near-failure grows similarly to failure.", "grade": "B", "source": "Refalo 2023" },
+      { "tip": "Use straps on heavy sets if grip limits you. Letting grip end the set means the hamstrings never got the stimulus.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Pair with Nordics in the week, not the same day at max volume. Both hammer the hamstrings eccentrically, and doing both hard on one day can leave you sore for sprinting and games.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "Your hamstrings act like springs across the hip and knee. In sprinting they fight to stop your leg at the end of the swing, which is exactly when strains happen. The RDL teaches them to produce force while lengthening under control, so your nervous system lets you sprint at full speed without it pulling the handbrake.",
+    "swaps": {
+      "home": "Single-leg DB RDL, 3 s down, 6-10 per leg. One leg doubles the load on the hamstring with light DBs and trains the foot arch and balance too.",
+      "bodyweight": "Single-leg RDL with a 4 s descent, reaching the opposite hand to the floor, 10-12 per leg. Add a slider hamstring curl after."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": ["Refalo 2023", "Wolf 2023", "Wolf 2025"],
+      "confidence": 80
+    }
+  },
+  {
+    "name": "Trap-Bar / Conventional Deadlift",
+    "aliases": ["deadlift", "trap bar deadlift", "hex bar deadlift", "conventional deadlift", "dl"],
+    "category": "compound",
+    "muscles": ["glutes", "hamstrings", "quads", "spinal erectors", "traps", "grip"],
+    "equipment": ["trap bar", "barbell"],
+    "doThisNotThat": "Use the trap bar and push the floor away like a jump, tight before the bar moves. Don't yank a conventional bar off the floor with a rounded back.",
+    "priorityNote": "Trap bar wins: it's more jump-like and safer for a growing spine, which beats the bigger conventional number.",
+    "prescription": {
+      "sets": "3 working (after 1 warm-up)",
+      "reps": "3-5",
+      "load": "1-2 RIR; stop if the bar slows sharply or the back rounds",
+      "rest": "3 min",
+      "tempo": "Controlled 2 s lowering, fast pull, reset each rep (no bouncing)",
+      "slot": "Main lift #1 on a lower-power day (alternate weeks with squats)",
+      "warmup": "1 x 5 at ~50% moved as fast as possible"
+    },
+    "setup": {
+      "steps": [
+        "Stand centred in the trap bar, feet hip-width. Tripod and screw the feet.",
+        "Hinge and squat down to grip the handles. Shins near-vertical, hips above knees, shoulders above the hips.",
+        "Pull the slack out of the bar (arms straight, lats tight) until it clicks, breathe and brace.",
+        "Push the floor away and stand tall. Lower with control."
+      ],
+      "cues": ["Push the floor away", "Bend the bar handles toward your hips", "Stand tall into the ceiling"]
+    },
+    "biomechanics": {
+      "forceVector": "Vertical. The trap bar keeps the load in line with your centre of mass, unlike the conventional bar which sits in front.",
+      "jointAngles": "Start: knee flexion ~60-80°, hip flexion ~80-100°, trunk ~40-50° from vertical.",
+      "momentArm": "The trap bar shortens the lower-back moment arm compared to conventional, so more work goes to legs and less to spine.",
+      "kineticChain": "Foot tripod → knee and hip extension together → braced trunk transmits force → arms are hooks.",
+      "grf": "Push straight down. Imagine leg-pressing the floor away. The bar rises because the earth pushes you up.",
+      "hardestPoint": "Off the floor, where the hip and knee moment arms are longest and nothing has momentum."
+    },
+    "neural": {
+      "intent": "Every rep at maximum intended speed, even near-max weights. Pull the slack before you pull the bar.",
+      "rfd": "Taking the slack out first means force builds before the bar moves. That rapid tension rise is RFD — the same skill as exploding off the line.",
+      "powerPair": {
+        "exercise": "Vertical jump or broad jump",
+        "dose": "3 jumps",
+        "rest": "4-6 min after the last heavy set",
+        "type": "PAPE"
+      }
+    },
+    "elastic": null,
+    "mobility": "Hip-hinge positions under load grow the hamstring and hip range you can control. Lowering slowly through full range acts as loaded mobility.",
+    "footBase": "Heavy loads expose flat feet. Tripod and screw before you pull. If the arches cave as the bar leaves the floor, it's too heavy.",
+    "sequencing": "Knees and hips extend together. If the hips rise first, the back ends up doing the work.",
+    "looks": {
+      "effect": "Total posterior chain, traps, and grip: thicker upper back, glutes, and forearms.",
+      "lengthened": "Minimal lengthened stretch; this is a strength and power lift, not a growth driver. Get lengthened work from RDLs and split squats."
+    },
+    "sportTransfer": {
+      "sports": ["football", "wrestling", "sprinting", "basketball", "volleyball"],
+      "mechanism": "Trains whole-body force through triple extension (ankle, knee, hip), the same pattern as the jump and the sprint start.",
+      "combatNote": "Lifting from the floor with a braced spine is the pattern for picking up and finishing a double-leg takedown safely."
+    },
+    "intensityTechnique": {
+      "technique": "None. No failure, no drop sets. Cluster sets (e.g., 2+2+2 with 15 s rest) if you want more quality reps.",
+      "when": "Optional cluster on the last set"
+    },
+    "tips": [
+      { "tip": "Stopping at ~20% velocity loss preserves explosive gains and costs less recovery than grinding (CMJ +9.5% vs +3.5% with 40% fewer reps).", "grade": "B", "source": "Pareja-Blanco 2017" },
+      { "tip": "Reset every rep. Touch-and-go reps use the bounce, so you don't train starting strength off the floor.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Use an external cue ('push the floor away') rather than 'squeeze the glutes'. External focus improves performance and learning.", "grade": "A", "source": "Wulf" },
+      { "tip": "Never heavy deadlifts within 48 h of a game. They tax the nervous system and back more than squats for the same effort.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "Before the bar moves, your nervous system needs to know your body is locked tight. Taking the slack out tells it the joints are stable, so it fires harder. A loose start means your brain hesitates and the bar stalls off the floor.",
+    "swaps": {
+      "home": "DB suitcase or sumo DB deadlift with a 2 s pause just off the floor, 8-12 reps. Or single-leg DB RDL for heavier per-leg load.",
+      "bodyweight": "Single-leg hip thrust (6 s hold at top) plus broad jumps for the power."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": ["Pareja-Blanco 2017", "Wulf"],
+      "confidence": 75
+    }
+  },
+  {
+    "name": "Bulgarian Split Squat",
+    "aliases": ["bss", "bulgarian split squat", "rear foot elevated split squat", "rfess", "split squat"],
+    "category": "compound",
+    "muscles": ["quads", "glutes", "adductors", "hip flexors (back leg)"],
+    "equipment": ["dumbbells", "bench"],
+    "doThisNotThat": "Lean the torso slightly forward and drop the back knee straight down, front foot screwed in. Don't stand bolt upright with a short stance and wobble side to side.",
+    "priorityNote": "Athleticism wins: the single-leg version is the most sport-specific way to load your legs at home.",
+    "prescription": {
+      "sets": "3 working per leg (after 1 warm-up)",
+      "reps": "6-10 per leg",
+      "load": "1-2 RIR",
+      "rest": "2 min between legs, 2.5 min between rounds",
+      "tempo": "3 s down, 1 s pause at the bottom, fast up",
+      "slot": "Main lift #1 at home, or #2 on gym Legs day",
+      "warmup": "1 x 6 per leg bodyweight with a 2 s pause"
+    },
+    "setup": {
+      "steps": [
+        "Back foot laces down on a bench or couch, ~2 shoe lengths in front.",
+        "Front foot: tripod and screw. Knee over the 2nd-3rd toe.",
+        "DBs in hands (or goblet). Slight forward lean from the hips (~15-20°).",
+        "Drop the back knee straight down to an inch above the floor, pause, drive up."
+      ],
+      "cues": ["Drop the back knee straight down", "Push the floor away with the front foot", "Stay level like a table"]
+    },
+    "biomechanics": {
+      "forceVector": "Vertical through the front foot. About 80-90% of the load goes through the front leg.",
+      "jointAngles": "Front knee ~90-110° at the bottom; front hip ~90°; back hip in extension (stretching the hip flexor).",
+      "momentArm": "More forward lean lengthens the hip moment arm (more glute). Upright with the knee forward shortens it (more quad).",
+      "kineticChain": "Front foot tripod → knee → hip → pelvis held level by the glute medius → braced trunk.",
+      "grf": "Push down through the front foot. Feel the pressure across the whole foot, not the inner edge where the flat foot collapses.",
+      "hardestPoint": "The bottom, where front-leg quads and glutes are longest and balance is hardest."
+    },
+    "neural": {
+      "intent": "Controlled down; stand up explosively.",
+      "rfd": "Single-leg force with a stable pelvis is how sprinting, cutting, and punching actually load the leg.",
+      "powerPair": {
+        "exercise": "Split-stance jump switches or single-leg box jump",
+        "dose": "3 x 3 per leg",
+        "rest": "20-30 s after each set",
+        "type": "contrast"
+      }
+    },
+    "elastic": null,
+    "mobility": "Two at once: a deep front-leg hip/knee range and a loaded hip-flexor stretch on the back leg. Hip flexors are the main thing locked up in your stiffness pattern.",
+    "footBase": "Single-leg is where flat feet fail most visibly. Tripod and screw the front foot; if the knee dives in, the arch collapsed. Fix it: lighter load, slower descent, and big-toe ball pressing down.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Quads and glutes; balances leg size left to right.",
+      "lengthened": "The bottom range loads the glutes and quads at long lengths. Add 3-4 bottom-half partials after the last full rep."
+    },
+    "sportTransfer": {
+      "sports": ["sprinting", "soccer", "basketball", "tennis", "pickleball", "football", "cross country"],
+      "mechanism": "Most athletic movement happens on one leg. Building single-leg force with a stable pelvis and arch transfers to cutting, sprinting, and stride efficiency.",
+      "combatNote": "Split stance is your fighting stance. Strong single-leg drive and a stable lead foot make your punches land with your weight behind them, and your penetration step stronger."
+    },
+    "intensityTechnique": {
+      "technique": "Lengthened partials (bottom half) to failure after the last full rep",
+      "when": "Last set"
+    },
+    "tips": [
+      { "tip": "Bottom-half partials after the last full rep add stimulus at long muscle lengths. Use them as a finisher, not a replacement.", "grade": "B-C", "source": "Pedrosa 2022; Wolf 2025" },
+      { "tip": "Light DBs at home: slow the descent to 3 s and pause 1 s. Ending the set close to failure grows similar muscle across a wide range of loads.", "grade": "B", "source": "Refalo 2023" },
+      { "tip": "Start with your weaker leg and match reps on the stronger leg. That evens out imbalances over time.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Too short a stance makes the front heel rise and stresses the knee. Too long a stance stretches the back hip flexor too far. Find the spot where the front shin is ~vertical at the bottom for glute bias.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "On one leg your pelvis wants to drop on the unsupported side, and your arch wants to collapse. Your nervous system must coordinate the foot, knee, and hip at the same time. Training this teaches your brain to stabilize your leg automatically during sprints and cuts, so force goes into the ground instead of leaking sideways.",
+    "swaps": {
+      "home": "This is the best home leg exercise. Use the heaviest DBs, 3 s down, 1 s pause. If too easy, add a 1½ rep.",
+      "bodyweight": "Bodyweight BSS 4 s down, 2 s pause, 12-20 per leg; or skater squats."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": ["Pedrosa 2022", "Wolf 2025", "Refalo 2023"],
+      "confidence": 80
+    }
+  },
+  {
+    "name": "Walking Lunge",
+    "aliases": ["walking lunge", "lunge", "db lunge", "forward lunge", "reverse lunge"],
+    "category": "compound",
+    "muscles": ["quads", "glutes", "adductors"],
+    "equipment": ["dumbbells"],
+    "doThisNotThat": "Land each step heel-to-tripod and pull yourself forward over the foot. Don't fall into each step on your toes with the knee collapsing in.",
+    "priorityNote": "Athleticism: the deceleration and stability you build here is the main point, not the volume.",
+    "prescription": {
+      "sets": "2-3 working (after 1 warm-up)",
+      "reps": "8-12 per leg",
+      "load": "1-2 RIR",
+      "rest": "2 min",
+      "tempo": "Controlled landing (stick 1 s), fast drive through",
+      "slot": "Accessory after the main lift, or a conditioning finisher",
+      "warmup": "1 x 6 per leg bodyweight"
+    },
+    "setup": {
+      "steps": [
+        "DBs at your sides, tall posture.",
+        "Step forward ~1 stride length. Land heel then whole foot; screw it in.",
+        "Drop the back knee toward the floor; front knee over the toes.",
+        "Drive through the front foot and pull into the next step."
+      ],
+      "cues": ["Land quiet, stick it", "Push the floor behind you", "Head stays level, no bobbing"]
+    },
+    "biomechanics": {
+      "forceVector": "Mix of vertical and horizontal braking on landing, then horizontal propulsion.",
+      "jointAngles": "Front knee ~90°, front hip ~90°, back knee near the floor.",
+      "momentArm": "Longer step = more hip/glute; shorter step = more knee/quad.",
+      "kineticChain": "Landing foot tripod → absorbing knee → hip → trunk stays stacked over the pelvis.",
+      "grf": "On landing the ground pushes back hard; absorb it through the whole foot so the arch, not the knee, takes the impact.",
+      "hardestPoint": "The landing and the first push out of the bottom."
+    },
+    "neural": {
+      "intent": "Soft, controlled landing; powerful drive.",
+      "rfd": "Deceleration control: how fast you can absorb force is the base for cutting and changing direction.",
+      "powerPair": {
+        "exercise": "Lateral bounds (stick 1 s)",
+        "dose": "2 x 4 per side",
+        "rest": "20-30 s after each lunge set",
+        "type": "contrast"
+      }
+    },
+    "elastic": null,
+    "mobility": "Each step stretches the back leg's hip flexor under load and takes the front hip through deep flexion. Moving mobility for a stiff body.",
+    "footBase": "Every step is a single-leg landing. Land and screw: tripod, rotate outward, arch up. Your knee won't cave if the arch holds.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Quads and glutes: legs that look athletic.",
+      "lengthened": "Use long steps and a deep bottom for glutes at long length."
+    },
+    "sportTransfer": {
+      "sports": ["soccer", "tennis", "pickleball", "basketball", "football", "volleyball"],
+      "mechanism": "Lunging is a sport pattern: reaching volleys, defensive slides, decelerating to cut. Strong, controlled lunges mean you can reach without losing balance.",
+      "combatNote": "Lunge mechanics are the penetration step for a double leg; a stable lead knee keeps you from overextending."
+    },
+    "intensityTechnique": {
+      "technique": "Mechanical drop set: weighted lunges to near-failure, drop DBs, continue bodyweight",
+      "when": "Last set (skip within 48 h of a game)"
+    },
+    "tips": [
+      { "tip": "Stick the landing for 1 s. This installs balance — the 'Step-and-Stick' drill under load.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Reverse lunges are kinder on the knees and easier to balance; walking lunges add more deceleration. Use reverse if your knees ache.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Use an external focus ('push the floor behind you') for better performance and learning.", "grade": "A", "source": "Wulf" }
+    ],
+    "teachMe": "When you lunge, your brain predicts the impact and sets up stiffness in the leg before the foot lands. Practicing controlled landings teaches it to pre-tense the right muscles at the right time, which is why your balance gets better on the court.",
+    "swaps": {
+      "home": "DB reverse lunges from a 5-10 cm deficit (front foot on a step), 3 s down, 8-12 per leg.",
+      "bodyweight": "Walking lunges with a 2 s pause at the bottom, or jumping lunges for power (3 x 6 per leg)."
+    },
+    "evidence": {
+      "grade": "B-C",
+      "studies": ["Wulf"],
+      "confidence": 70
+    }
+  },
+  {
+    "name": "Nordic Hamstring Curl",
+    "aliases": ["nordic", "nordics", "nordic curl", "nordic hamstring", "nhe"],
+    "category": "isolation",
+    "muscles": ["hamstrings"],
+    "equipment": ["bodyweight", "anchor for feet"],
+    "doThisNotThat": "Lower yourself as slowly as you can with hips extended, then catch with your hands and push back up. Don't bend at the hips to cheat the lowering.",
+    "priorityNote": "Injury-proofing protects the streak, which keeps the athleticism progressing.",
+    "prescription": {
+      "sets": "2-3 working (after 1 warm-up)",
+      "reps": "3-6",
+      "load": "Bodyweight; progress by lowering further before catching",
+      "rest": "2 min",
+      "tempo": "4-6 s lowering, catch with hands, push back up",
+      "slot": "Accessory on Legs day, or 1-2x per week standalone",
+      "warmup": "1 x 3 partial-range Nordics"
+    },
+    "setup": {
+      "steps": [
+        "Kneel on a pad. Anchor the heels under a couch, heavy DB, or a partner (sibling sits on your calves).",
+        "Body straight from knees to head, hips locked out, arms ready in front of the chest.",
+        "Lower forward as slowly as possible, keeping the hips extended.",
+        "Catch yourself in a push-up, push back up to the start."
+      ],
+      "cues": ["Fall like a tree", "Shoulders stay in line with knees and hips", "Push the heels into the anchor"]
+    },
+    "biomechanics": {
+      "forceVector": "Gravity pulls your torso forward; the hamstrings brake the knee extension eccentrically.",
+      "jointAngles": "Hips fixed at 0° (extended); knee goes from 90° to as close to 0° as you can control.",
+      "momentArm": "The moment arm grows as you fall forward, so the load climbs toward the bottom.",
+      "kineticChain": "Anchored heel → knee joint → hamstrings → hips locked by the glutes → trunk straight.",
+      "grf": "Here you push into the anchor, not the ground. The harder you drive the heels back, the more hamstring you recruit.",
+      "hardestPoint": "The final 30-45° before you catch, where the moment arm is longest."
+    },
+    "neural": {
+      "intent": "Fight the floor every millimetre of the way down.",
+      "rfd": "Eccentric strength in the hamstrings is what stops your leg during the late swing of a sprint, when strains happen.",
+      "powerPair": {
+        "exercise": "None (don't pair power with a high-eccentric injury-prevention exercise)",
+        "dose": "-",
+        "rest": "-",
+        "type": "none"
+      }
+    },
+    "elastic": null,
+    "mobility": "Eccentric loading at long length can increase the fascicle length of the hamstrings, which is linked to better range and resilience.",
+    "footBase": "Not standing, but the foot matters: point the toes into the floor and drive the heels up into the anchor to create tension through the whole posterior chain.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Hamstring size, especially in the lower part near the knee.",
+      "lengthened": "Heavy eccentric load with the knee extending: built-in long-length stimulus."
+    },
+    "sportTransfer": {
+      "sports": ["sprinting", "soccer", "football", "basketball", "baseball", "tennis"],
+      "mechanism": "Protects against hamstring strains during max-speed sprinting and kicking.",
+      "combatNote": "Strong hamstrings help in the guard (BJJ heel hooks into the hips) and in powering through double legs."
+    },
+    "intensityTechnique": {
+      "technique": "None. Pure eccentric quality.",
+      "when": "-"
+    },
+    "tips": [
+      { "tip": "Programs that include Nordics reduced hamstring injuries by up to ~51% (van Dyk 2019). A later reappraisal found the effect less certain, but it's still among the best-supported prevention tools.", "grade": "A-B", "source": "van Dyk 2019" },
+      { "tip": "Low volume works: 2-3 sets of 3-6, once or twice a week. You don't need more for protection.", "grade": "B", "source": "grade B, injury-prevention programs" },
+      { "tip": "Expect big soreness the first 2 sessions. Start with 2 x 3 and do them 3+ days before a game.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "No eccentric-heavy work within 48 h of a game or fight. Nordics are the main one to skip.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "At top speed your hamstrings act like brakes, slowing your lower leg before your foot strikes. If they can't produce enough force while lengthening, they tear. Nordics train exactly that: force while lengthening. Your nervous system learns the brake can handle the load, so it stops cutting your stride short.",
+    "swaps": {
+      "home": "This is a home exercise. Anchor under the couch or have your sibling hold your heels.",
+      "bodyweight": "Same. Too hard: use a band-free assist by pushing off a chair seat; or do slider leg curls with a 4 s lowering."
+    },
+    "evidence": {
+      "grade": "A-B",
+      "studies": ["van Dyk 2019"],
+      "confidence": 80
+    }
+  },
+  {
+    "name": "Standing Calf Raise",
+    "aliases": ["calf raise", "calf raises", "standing calf raise", "single leg calf raise", "heel raise"],
+    "category": "isolation",
+    "muscles": ["gastrocnemius", "soleus", "foot intrinsics"],
+    "equipment": ["step", "dumbbell"],
+    "doThisNotThat": "Drop deep below the step with a 2 s stretch pause, then rise onto the big-toe ball. Don't bounce through the top half on the outside of the foot.",
+    "priorityNote": "Athleticism and looks align: Achilles stiffness for sprint/jump, and calves for proportion.",
+    "prescription": {
+      "sets": "3 working (after 1 warm-up)",
+      "reps": "8-15 (single-leg with DB)",
+      "load": "Last set to failure",
+      "rest": "90 s",
+      "tempo": "2 s down, 2 s pause in the stretch, 1 s up, 1 s squeeze",
+      "slot": "Accessory/finisher on Legs day",
+      "warmup": "1 x 15 double-leg bodyweight"
+    },
+    "setup": {
+      "steps": [
+        "Ball of the foot on a step edge. Hold a wall with one hand, DB in the other.",
+        "Knee straight but not locked (gastrocnemius bias).",
+        "Lower until the heel is as low as it goes, pause 2 s.",
+        "Rise up onto the big-toe ball as high as possible."
+      ],
+      "cues": ["Push the step down with the big toe", "Heel drops toward the floor", "Grow tall at the top"]
+    },
+    "biomechanics": {
+      "forceVector": "Vertical through the ball of the foot.",
+      "jointAngles": "Ankle dorsiflexion ~15-25° at the bottom to plantarflexion ~40-50° at the top.",
+      "momentArm": "The foot is a lever: the ball of the foot is the pivot, the Achilles the force arm.",
+      "kineticChain": "Big toe → arch → ankle → Achilles → calf muscles.",
+      "grf": "Push down through the big-toe ball. Rolling to the outside (pinky toe) lets the arch collapse and weakens the push.",
+      "hardestPoint": "The stretched bottom, where the calf is longest."
+    },
+    "neural": {
+      "intent": "Control the stretch, then push up hard.",
+      "rfd": "Fast ankle extension powers sprint push-off and jumps.",
+      "powerPair": {
+        "exercise": "Pogo hops",
+        "dose": "2 x 10",
+        "rest": "20-30 s after each set",
+        "type": "contrast"
+      }
+    },
+    "elastic": "Your Achilles is your spring. Heavy, slow calf loading increases its stiffness, so it stores and returns more energy each step. Pair with pogos to teach the spring to fire fast.",
+    "mobility": "The deep stretch pause at the bottom works ankle dorsiflexion, which limits your squat depth and running mechanics.",
+    "footBase": "Rise onto the big-toe ball and keep the arch lifted. That's short-foot work under load and directly trains the muscles that hold your arch up.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Calves: lower-leg proportion that matches your quads.",
+      "lengthened": "Partial reps in the bottom half grew the medial gastrocnemius more than top-half work (Kassiano 2023). Finish sets with bottom partials."
+    },
+    "sportTransfer": {
+      "sports": ["sprinting", "basketball", "volleyball", "cross country", "tennis", "boxing"],
+      "mechanism": "Achilles stiffness and calf strength drive sprint push-off and jumping, and lower the energy cost of running (economy) for XC.",
+      "combatNote": "Boxers live on the balls of their feet. Calf endurance and stiffness keep footwork bouncy through late rounds."
+    },
+    "intensityTechnique": {
+      "technique": "Lengthened partials to failure",
+      "when": "Last set, after full-range failure"
+    },
+    "tips": [
+      { "tip": "Partials in the stretched (bottom) half grew the medial gastrocnemius more than full or top-half reps.", "grade": "B", "source": "Kassiano 2023" },
+      { "tip": "Straight knee targets the gastrocnemius; bent knee (seated) shifts to the soleus, which is critical for running.", "grade": "B", "source": "grade B, anatomy-based" },
+      { "tip": "Pause 2 s at the bottom to kill the bounce. Otherwise the Achilles does the work and the muscle doesn't.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Do them barefoot. The foot has to stabilize itself, which trains the arch.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "Your Achilles stores elastic energy like a spring when it's stretched, then snaps it back. Heavy calf work stiffens the spring so it returns more energy with each step. That's why strong calves make sprinting and jumping feel free and why runners get more economical with strength work.",
+    "swaps": {
+      "home": "Single-leg calf raise on a stair with a DB, 2 s stretch pause, to failure.",
+      "bodyweight": "Single-leg calf raise on a stair, 3 s down, 2 s pause; 15-25 reps to failure, then partials."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": ["Kassiano 2023"],
+      "confidence": 75
+    }
+  },
+  {
+    "name": "Leg Press",
+    "aliases": ["leg press", "45 degree leg press", "sled leg press"],
+    "category": "compound",
+    "muscles": ["quads", "glutes", "adductors"],
+    "equipment": ["leg press machine"],
+    "doThisNotThat": "Go deep with the lower back pinned and feet screwed into the plate. Don't load the stack and do quarter reps with the hips peeling off the pad.",
+    "priorityNote": "Looks wins here: it's a hypertrophy tool that lets you train quads hard without the balance/back fatigue.",
+    "prescription": {
+      "sets": "2-3 working (after 1 warm-up)",
+      "reps": "8-12",
+      "load": "Last set to failure (it's a machine, safe to fail)",
+      "rest": "2 min",
+      "tempo": "3 s down, no pause, fast up (don't lock out hard)",
+      "slot": "Accessory after squats or BSS",
+      "warmup": "1 x 10 at ~50%"
+    },
+    "setup": {
+      "steps": [
+        "Sit with the lower back flat on the pad.",
+        "Feet shoulder-width, middle of the plate. Lower placement = more quad; higher = more glute/hamstring.",
+        "Screw the feet into the plate (tripod down, rotate out).",
+        "Lower until the knees reach ~90° or just before the lower back lifts."
+      ],
+      "cues": ["Push the plate through the wall", "Lower back stays glued to the pad", "Knees track toward the pinky toes"]
+    },
+    "biomechanics": {
+      "forceVector": "Along the line of the sled; fixed path, no balance needed.",
+      "jointAngles": "Knee flexion ~90-110° at the bottom; hip flexion depends on seat angle.",
+      "momentArm": "Lower foot position lengthens the knee moment arm (quad bias).",
+      "kineticChain": "Foot → knee → hip; trunk supported by the pad, so the legs are the limit.",
+      "grf": "The plate is your ground. Push through the whole foot.",
+      "hardestPoint": "Deepest point, where the quads are lengthened."
+    },
+    "neural": {
+      "intent": "Controlled down, powerful up.",
+      "rfd": "Lower RFD value than free weights since balance is removed, but good for building quad size.",
+      "powerPair": {
+        "exercise": "None (accessory, focus on growth)",
+        "dose": "-",
+        "rest": "-",
+        "type": "none"
+      }
+    },
+    "elastic": null,
+    "mobility": "Deep knee and hip flexion with the back supported is a safe way to load full range.",
+    "footBase": "Even on a machine, screw the feet into the plate. It teaches the arch-up habit and keeps the knees aligned.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Quads, especially the outer and inner heads.",
+      "lengthened": "Spend time in the deep part. Lengthened partials in the bottom half after full reps."
+    },
+    "sportTransfer": {
+      "sports": ["football", "sprinting", "volleyball", "basketball"],
+      "mechanism": "Builds quad size and strength without balance demands; supports the free-weight lifts.",
+      "combatNote": null
+    },
+    "intensityTechnique": {
+      "technique": "Drop set: failure, drop 30%, failure again",
+      "when": "Last set (not within 48 h of a game)"
+    },
+    "tips": [
+      { "tip": "Failure on machines is lower risk. True failure on isolations and machines is fine; save the free weights for 1-2 RIR.", "grade": "B", "source": "Refalo 2023" },
+      { "tip": "Bottom-half partials target the quads at long length, which may help growth.", "grade": "B-C", "source": "Pedrosa 2022" },
+      { "tip": "If the lower back rounds off the pad, you've gone too deep for your hip mobility. Stop just before that point.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "The leg press removes balance from the equation. Your nervous system doesn't need to stabilize, so it can send all its drive to the legs. Use it to build size; use squats and split squats to teach the body to use that size.",
+    "swaps": {
+      "home": "Heels-elevated DB goblet squat or BSS with a 3 s descent.",
+      "bodyweight": "Sissy squat or heels-elevated slow squat, 15-25 reps."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": ["Refalo 2023", "Pedrosa 2022"],
+      "confidence": 75
+    }
+  },
+  {
+    "name": "Pogo Hops",
+    "aliases": ["pogo", "pogos", "pogo jumps", "ankle hops", "pogo hops"],
+    "category": "plyo",
+    "muscles": ["calves", "Achilles tendon", "foot intrinsics"],
+    "equipment": ["bodyweight"],
+    "doThisNotThat": "Bounce off the floor like it's hot — stiff ankles, minimal knee bend, under 0.2 s contact. Don't do slow, deep jumps with soft knees.",
+    "priorityNote": "Athleticism: elasticity and stiffness are what make you look and move fast.",
+    "prescription": {
+      "sets": "3",
+      "reps": "10-20 contacts",
+      "load": "Bodyweight",
+      "rest": "60-90 s",
+      "tempo": "Fast as possible, minimal ground contact",
+      "slot": "CNS prime or before runs",
+      "warmup": "1 x 10 low hops"
+    },
+    "setup": {
+      "steps": [
+        "Stand tall, feet hip-width. Tripod.",
+        "Lock the ankles slightly upward (toes pulled up toward shins).",
+        "Bounce off the balls of the feet with minimal knee bend.",
+        "Arms can swing small to help rhythm."
+      ],
+      "cues": ["The floor is hot", "Bounce like a basketball", "Quiet, quick contacts"]
+    },
+    "biomechanics": {
+      "forceVector": "Vertical.",
+      "jointAngles": "Knee flexion <20°; ankle near neutral on contact.",
+      "momentArm": "The foot lever; the Achilles stores and releases the energy.",
+      "kineticChain": "Foot → ankle stiffness → Achilles → calves; knee and hip stay stiff.",
+      "grf": "Large, brief impact forces. Short contacts mean the force comes fast, which trains the tendon to be springy.",
+      "hardestPoint": "Contact: the faster you leave the ground, the better."
+    },
+    "neural": {
+      "intent": "Stiff, fast, reactive.",
+      "rfd": "Reactive strength: how fast you turn landing into takeoff.",
+      "powerPair": {
+        "exercise": "None (it's already the power move)",
+        "dose": "-",
+        "rest": "-",
+        "type": "none"
+      }
+    },
+    "elastic": "The Achilles is a spring. On contact it stretches, storing energy; a stiff ankle snaps it back. Shorter ground contacts (<0.2 s) use the stretch-shortening cycle best.",
+    "mobility": "Low mobility demand. But fast ankle bounce teaches the joint to be stable and quick at the same time.",
+    "footBase": "Bounce off the big-toe ball with the arch up. If your arch collapses on each landing, cut the height and reps.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Minimal hypertrophy. This is an athleticism tool.",
+      "lengthened": "N/A."
+    },
+    "sportTransfer": {
+      "sports": ["basketball", "volleyball", "sprinting", "cross country", "boxing", "tennis"],
+      "mechanism": "Stiffer, faster ankles improve elastic return in sprinting and jumping, and lower the energy cost of running.",
+      "combatNote": "Light, bouncy footwork in boxing comes from reactive ankles. Pogos are the foundation."
+    },
+    "intensityTechnique": {
+      "technique": "None. Quality over quantity.",
+      "when": "-"
+    },
+    "tips": [
+      { "tip": "Do them before runs. They prime the Achilles spring and make your stride bouncier.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Stop the set when contacts get loud or slow. Fatigue kills the elastic effect.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Heavy calf work plus plyos improves running economy.", "grade": "A-B", "source": "Balsalobre-Fernández 2016" }
+    ],
+    "teachMe": "When your foot hits the ground, the Achilles stretches and stores elastic energy. If your nervous system stiffens the ankle at the right time, that energy snaps back and pushes you up for free. Pogos teach your brain the timing of that spring. More spring means less muscle effort for the same speed.",
+    "swaps": {
+      "home": "Same, on any hard floor or outside.",
+      "bodyweight": "Same."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": ["Balsalobre-Fernández 2016"],
+      "confidence": 75
+    }
+  },
+  {
+    "name": "Broad Jump",
+    "aliases": ["broad jump", "standing long jump", "long jump", "standing broad jump"],
+    "category": "plyo",
+    "muscles": ["glutes", "hamstrings", "quads", "calves"],
+    "equipment": ["bodyweight"],
+    "doThisNotThat": "Load the hips, swing the arms back hard, then explode out at ~45° and stick the landing for 1 s. Don't jump without the arm swing and land stumbling.",
+    "priorityNote": "Athleticism: horizontal power and landing control in one move.",
+    "prescription": {
+      "sets": "3-4",
+      "reps": "3",
+      "load": "Bodyweight",
+      "rest": "60-90 s between jumps, 2 min between sets",
+      "tempo": "Max effort",
+      "slot": "Power block or PAPE pair after squats/deadlifts",
+      "warmup": "2 sub-max jumps"
+    },
+    "setup": {
+      "steps": [
+        "Feet hip-width, tripod and screw.",
+        "Swing arms back while hinging the hips (like an RDL).",
+        "Explode forward: arms swing forward and up, hips extend.",
+        "Land feet hip-width, knees soft, stick for 1 s."
+      ],
+      "cues": ["Throw your hips to the far line", "Arms reach for the horizon", "Land quiet and freeze"]
+    },
+    "biomechanics": {
+      "forceVector": "45° forward and up.",
+      "jointAngles": "Hip hinge ~60-90°, knee ~90-110° at the loading position.",
+      "momentArm": "Arm swing adds momentum; the hip hinge loads the glutes and hamstrings.",
+      "kineticChain": "Arm swing → hip hinge → knee → ankle extension → takeoff.",
+      "grf": "Push the ground down and back. The angle of push determines the angle of flight.",
+      "hardestPoint": "Transition from hinge to takeoff, and the landing."
+    },
+    "neural": {
+      "intent": "Max intent every jump.",
+      "rfd": "Fast hip extension; the countermovement uses the stretch-shortening cycle.",
+      "powerPair": {
+        "exercise": "None (it's the power move)",
+        "dose": "-",
+        "rest": "-",
+        "type": "none"
+      }
+    },
+    "elastic": "The quick countermovement (hinge then jump) stores elastic energy in the hamstrings, glutes, and Achilles. A fast, smooth reversal (not pausing) maximizes it.",
+    "mobility": "The hip hinge loads the hamstrings and glutes at length.",
+    "footBase": "Tripod on takeoff, and land in the tripod. If your knees collapse on landing, your arch did too. Shorten the jump until landing is clean.",
+    "sequencing": "Arms and hips work together. Arms swing back as the hips load, then swing forward as the hips extend. That synchronized whip adds real distance over a no-arm jump (grade B, jump biomechanics).",
+    "looks": {
+      "effect": "None directly. This is athleticism.",
+      "lengthened": "N/A."
+    },
+    "sportTransfer": {
+      "sports": ["sprinting", "football", "basketball", "soccer", "wrestling"],
+      "mechanism": "Horizontal force production is the base of sprint acceleration and first-step quickness.",
+      "combatNote": "Horizontal hip drive is the penetration step on a double leg and blitzing forward in striking."
+    },
+    "intensityTechnique": {
+      "technique": "None.",
+      "when": "-"
+    },
+    "tips": [
+      { "tip": "Track your best jump each week. It's one of your athleticism score tests; aim for small, steady PRs.", "grade": "C", "source": "grade C, coaching practice" },
+      { "tip": "Doing 3 broad jumps 4-6 minutes after a heavy squat set can boost them (PAPE). Short rest (20-30 s) is contrast training, a different effect.", "grade": "B", "source": "grade B, PAPE literature" },
+      { "tip": "Stick every landing for 1 s. That's the Step-and-Stick drill: it installs landing control.", "grade": "C", "source": "grade C, mechanism-based" }
+    ],
+    "teachMe": "Jump distance is all about how fast you can push the ground. The faster you reverse from the hinge, the more elastic energy you use. The arm swing adds momentum and sets the timing. The landing teaches your brain to absorb force safely, so it lets you jump harder next time.",
+    "swaps": {
+      "home": "Same, outside or on a long hallway rug.",
+      "bodyweight": "Same."
+    },
+    "evidence": {
+      "grade": "B-C",
+      "studies": [],
+      "confidence": 70
+    }
+  },
+  {
+    "name": "Box Jump",
+    "aliases": ["box jump", "box jumps", "plyo box jump", "jump to box"],
+    "category": "plyo",
+    "muscles": ["glutes", "quads", "calves"],
+    "equipment": ["plyo box", "sturdy bench"],
+    "doThisNotThat": "Jump as high as possible and land softly on a box at hip height or below, then step down. Don't jump onto a box so high you have to tuck your knees to your chest.",
+    "priorityNote": "Athleticism: vertical power with a low landing impact.",
+    "prescription": {
+      "sets": "3-4",
+      "reps": "3",
+      "load": "Bodyweight",
+      "rest": "60 s between jumps, 2 min between sets",
+      "tempo": "Max effort",
+      "slot": "Power block or PAPE pair",
+      "warmup": "2 jumps to a low box"
+    },
+    "setup": {
+      "steps": [
+        "Stand 30 cm from the box, tripod and screw.",
+        "Swing arms back while hinging and bending the knees.",
+        "Explode up; arms drive up.",
+        "Land softly on the box in the same position you took off; step down."
+      ],
+      "cues": ["Jump to the ceiling", "Land like a cat", "Step down, never jump down"]
+    },
+    "biomechanics": {
+      "forceVector": "Vertical.",
+      "jointAngles": "Loading: hip ~60-90°, knee ~90°. Landing: knee ~90° (same as takeoff).",
+      "momentArm": "Arm swing adds momentum.",
+      "kineticChain": "Arm swing → hip → knee → ankle → takeoff.",
+      "grf": "Push straight down. The box lowers the landing impact.",
+      "hardestPoint": "Takeoff."
+    },
+    "neural": {
+      "intent": "Max intent jump; soft landing.",
+      "rfd": "Vertical power through fast triple extension.",
+      "powerPair": {
+        "exercise": "None (it's the power move)",
+        "dose": "-",
+        "rest": "-",
+        "type": "none"
+      }
+    },
+    "elastic": "The countermovement uses the stretch-shortening cycle. A fast drop and reversal stores more elastic energy.",
+    "mobility": "Low demand.",
+    "footBase": "Take off and land in the tripod. Knees collapsing on the box means the arch collapsed. Keep the box low until landings are clean.",
+    "sequencing": "Arms and hips sync. Arms swing back as the hips load, then explode upward together.",
+    "looks": {
+      "effect": "None.",
+      "lengthened": "N/A."
+    },
+    "sportTransfer": {
+      "sports": ["basketball", "volleyball", "football", "soccer"],
+      "mechanism": "Vertical power for rebounding, blocking, heading.",
+      "combatNote": null
+    },
+    "intensityTechnique": {
+      "technique": "None.",
+      "when": "-"
+    },
+    "tips": [
+      { "tip": "Step down from the box. Jumping down adds landing stress without benefit here.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "The box measures your hip flexibility, not your jump. A higher box with a tucked landing doesn't mean you jumped higher.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Use an external focus ('jump to the ceiling') to boost performance.", "grade": "A", "source": "Wulf" }
+    ],
+    "teachMe": "A box jump lets you jump high without the hard landing. That means your nervous system feels safe and lets you jump all-out. Use it to practice max power with low risk.",
+    "swaps": {
+      "home": "Jump onto a sturdy step, couch edge, or just do vertical jumps with a soft landing.",
+      "bodyweight": "Vertical jump with stick landing."
+    },
+    "evidence": {
+      "grade": "B-C",
+      "studies": ["Wulf"],
+      "confidence": 70
+    }
+  },
+  {
+    "name": "Copenhagen Plank",
+    "aliases": ["copenhagen", "copenhagen plank", "copenhagen adduction", "adductor plank"],
+    "category": "core",
+    "muscles": ["adductors", "obliques", "glute medius"],
+    "equipment": ["bench"],
+    "doThisNotThat": "Top leg on a bench, body straight, push the bench down with the inner thigh. Don't sag the hips or bend the top knee to make it easy.",
+    "priorityNote": "Injury-proofing: groin health keeps you cutting, kicking, and sprawling.",
+    "prescription": {
+      "sets": "2-3 per side",
+      "reps": "15-30 s hold or 6-10 reps",
+      "load": "Bodyweight",
+      "rest": "60 s",
+      "tempo": "Hold or 2 s up, 2 s down",
+      "slot": "Accessory on Legs day, or 1-3x per week standalone",
+      "warmup": "1 x 10 s short-lever (knee on bench)"
+    },
+    "setup": {
+      "steps": [
+        "Side plank with the top leg on a bench (inner ankle/knee on top).",
+        "Bottom leg hangs or rests below.",
+        "Lift your hips so the body is straight. Hold or pulse."
+      ],
+      "cues": ["Push the bench down with your top leg", "Hips stay high", "Body straight like a board"]
+    },
+    "biomechanics": {
+      "forceVector": "Lateral; the top adductor pulls you toward the bench.",
+      "jointAngles": "Hip neutral, knee straight (long lever) or bent (short lever).",
+      "momentArm": "Long lever (ankle on bench) is much harder than short lever (knee on bench).",
+      "kineticChain": "Top-leg adductors → pelvis → obliques → shoulder support.",
+      "grf": "Push down into the bench; it pushes you up.",
+      "hardestPoint": "Holding the hips high."
+    },
+    "neural": {
+      "intent": "Steady tension.",
+      "rfd": "Low; strength-endurance focus.",
+      "powerPair": {
+        "exercise": "None",
+        "dose": "-",
+        "rest": "-",
+        "type": "none"
+      }
+    },
+    "elastic": null,
+    "mobility": "Loads the adductors at moderate length.",
+    "footBase": "The bottom foot can push into the floor (if touching) for stability. Not a standing lift, but keep the top foot active.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Inner thigh and obliques.",
+      "lengthened": "N/A."
+    },
+    "sportTransfer": {
+      "sports": ["soccer", "football", "tennis", "pickleball", "basketball"],
+      "mechanism": "Strong adductors protect against groin strains when cutting, kicking, and changing direction.",
+      "combatNote": "Adductor strength helps in the clinch, closing guard in BJJ, and squeezing in wrestling."
+    },
+    "intensityTechnique": {
+      "technique": "None.",
+      "when": "-"
+    },
+    "tips": [
+      { "tip": "A Copenhagen-only program reduced groin problems in soccer players (odds ratio 0.59, about 41% lower odds).", "grade": "A-B", "source": "Harøy 2019" },
+      { "tip": "Use the short lever (knee on bench) until you can hold 30 s with perfect form.", "grade": "C", "source": "grade C, mechanism-based" },
+      { "tip": "Low dose works. One exercise, 3x per week in preseason and 1x per week in season.", "grade": "B", "source": "Harøy 2019" }
+    ],
+    "teachMe": "When you cut or kick, the groin muscles fire to control the leg. If they're weak, they tear. Copenhagens build strength in exactly that position. Your brain gets a stronger, safer muscle there, so it lets you cut harder.",
+    "swaps": {
+      "home": "Same: use a couch or chair.",
+      "bodyweight": "Same."
+    },
+    "evidence": {
+      "grade": "A-B",
+      "studies": ["Harøy 2019"],
+      "confidence": 85
+    }
+  }
+]

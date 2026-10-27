@@ -1,0 +1,1960 @@
+[
+  {
+    "id": "chest-bi-gym",
+    "match": [
+      "chest",
+      "biceps",
+      "bis",
+      "chest and bis",
+      "chest and biceps",
+      "push",
+      "chest day"
+    ],
+    "equipment": [
+      "gym"
+    ],
+    "minutes": 60,
+    "session": {
+      "title": "Chest + Biceps — Gym",
+      "programMode": "split",
+      "priorityNote": "Athleticism over looks: plyo push-ups go right after the main press while you are fresh, before the pump work.",
+      "durationMin": 60,
+      "equipment": "Full gym",
+      "win": {
+        "metric": "Plyo push-up: hands leave the floor higher (or clap count) vs last session",
+        "why": "Upper-body rate of force development is what turns a push into a punch — strength you can express fast."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            },
+            {
+              "name": "Med-Ball Chest Pass",
+              "dose": "1 × 3 light, max-speed throws into a wall",
+              "expandable": true,
+              "rest": "30 s",
+              "note": "Wake the fast fibers with a light, max-intent rep."
+            }
+          ]
+        },
+        {
+          "phase": "Main",
+          "items": [
+            {
+              "name": "Incline Dumbbell Press",
+              "dose": "1 warm-up × 8 @ ~50%, then 3 × 6–10 @ 1–2 RIR",
+              "expandable": true,
+              "rest": "2.5–3 min",
+              "note": "30° bench. Lower 2–3 s, drive up max intent. Stop when rep speed visibly slows. Tripod foot: big-toe ball, pinky-toe ball, heel all loaded."
+            },
+            {
+              "name": "Barbell Bench Press",
+              "dose": "1 warm-up × 6, then 2 × 4–8 @ 1–2 RIR",
+              "expandable": true,
+              "rest": "2.5–3 min",
+              "note": "Safeties set or spotter — true failure only with safeties. Leg drive: feet screwed into floor."
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Plyo Push-Up",
+              "dose": "3 × 4 explosive, full reset each rep",
+              "expandable": true,
+              "rest": "60–90 s (contrast)",
+              "note": "Contrast pairing (short rest) after the press — NOT peak PAPE. Reps stay fast or the set ends."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Cable Fly",
+              "dose": "1 warm-up × 12, then 2 × 10–15, last set to failure + lengthened partials",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Stretch the pec at the bottom — the lengthened position is the growth zone."
+            },
+            {
+              "name": "Incline Dumbbell Curl",
+              "dose": "1 warm-up × 10, then 3 × 8–12, last set to failure + lengthened partials",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Arms hang behind the torso: biceps loaded long."
+            },
+            {
+              "name": "Hammer Curl",
+              "dose": "2 × 10–12, last set rest-pause (10 s, 3 more reps)",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Brachioradialis + forearm thickness — looks and grip for grappling."
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Deficit Push-Up",
+              "dose": "1 × AMRAP @ 0–1 RIR, hands on DBs",
+              "expandable": true,
+              "note": "Deep stretch at the bottom, crisp lockout."
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Doorway Pec Stretch",
+              "dose": "2 × 30 s per side (after the power work, never before)",
+              "expandable": false,
+              "note": "Static stretch goes after power, not before."
+            },
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Double progression: hit the top of the rep range on all working sets → add 2.5–5 lb next time; otherwise add a rep.",
+        "One warm-up set per exercise — the CNS prime already did the rest.",
+        "No ice bath after this session (Roberts 2015: post-lift cold blunted gains)."
+      ],
+      "nextTarget": "Incline DB Press: add 1 rep to the first working set, or +5 lb if all 3 sets hit 10."
+    }
+  },
+  {
+    "id": "chest-bi-home",
+    "match": [
+      "chest",
+      "biceps",
+      "bis",
+      "chest and bis",
+      "home chest",
+      "push",
+      "dumbbells"
+    ],
+    "equipment": [
+      "home",
+      "bodyweight"
+    ],
+    "minutes": 40,
+    "session": {
+      "title": "Chest + Biceps — Home (light DBs)",
+      "programMode": "split",
+      "priorityNote": "Light dumbbells can’t give heavy load, so we buy stimulus with range, tempo-controlled lowering and near-failure — not by going slower on every rep.",
+      "durationMin": 40,
+      "equipment": "Home: light dumbbells + bodyweight",
+      "win": {
+        "metric": "Total deficit push-up reps across 3 sets (beat last session by ≥2)",
+        "why": "Rep PRs at a fixed hard variation prove your pressing strength is climbing without a gym."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            }
+          ]
+        },
+        {
+          "phase": "Main",
+          "items": [
+            {
+              "name": "Deficit Push-Up",
+              "dose": "1 warm-up × 8 (knees or elevated), then 3 × 6–12 @ 1 RIR",
+              "expandable": true,
+              "rest": "2–2.5 min",
+              "note": "Hands on DBs or books. Lower 2–3 s, explode up. Elevate feet when you clear 12."
+            },
+            {
+              "name": "Incline Dumbbell Press",
+              "dose": "3 × 10–15 on a couch-back/pillow incline @ 1 RIR",
+              "expandable": true,
+              "rest": "2 min",
+              "note": "Light DBs → high reps; stop when speed dies."
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Plyo Push-Up",
+              "dose": "3 × 4 (from knees if needed)",
+              "expandable": true,
+              "rest": "60 s (contrast)",
+              "note": "Contrast pairing. Hands leave the floor — push the floor away like a punch."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Dumbbell Fly",
+              "dose": "2 × 12–20 on floor or bench, last set to failure + lengthened partials",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Floor limits bottom range — use a bench/couch edge if possible."
+            },
+            {
+              "name": "Incline Dumbbell Curl",
+              "dose": "3 × 10–15 lying back on an incline, last set to failure",
+              "expandable": true,
+              "rest": "90 s"
+            },
+            {
+              "name": "Hammer Curl",
+              "dose": "2 × 12–15, last set drop to slower 3 s lowering for 3 extra reps",
+              "expandable": true,
+              "rest": "60–90 s"
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Push-Up",
+              "dose": "1 × max reps in 40 s, then 20 s dead-hang-free rest, 1 more 20 s burst",
+              "expandable": true,
+              "note": "Pump on demand for chest/triceps."
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Light DBs: progress reps first (to 15–20), then harder variations (feet elevated, pauses), then slower 3 s lowering.",
+        "Last set of isolations to true failure; compounds stay at 1 RIR."
+      ],
+      "nextTarget": "Deficit Push-Up: +1 rep on set 1; when all sets hit 12, elevate feet."
+    }
+  },
+  {
+    "id": "back-tri-gym",
+    "match": [
+      "back",
+      "triceps",
+      "tris",
+      "back and tris",
+      "back and triceps",
+      "pull",
+      "back day"
+    ],
+    "equipment": [
+      "gym"
+    ],
+    "minutes": 60,
+    "session": {
+      "title": "Back + Triceps — Gym",
+      "programMode": "split",
+      "priorityNote": "Athleticism first: the rotational throw rides right after the main pull while the CNS is fresh; triceps pump work comes last.",
+      "durationMin": 60,
+      "equipment": "Full gym",
+      "win": {
+        "metric": "Pull-up: +1 rep on set 1 (or 5 lb added to lat pulldown at the same reps)",
+        "why": "Relative pulling strength = V-taper and the anchor of every clinch, frame and takedown finish."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            },
+            {
+              "name": "Band Pull-Apart",
+              "dose": "1 × 15 fast",
+              "expandable": true,
+              "rest": "30 s",
+              "note": "Wakes rear delts/scap retractors so the lats can work from a stable base."
+            }
+          ]
+        },
+        {
+          "phase": "Main",
+          "items": [
+            {
+              "name": "Pull-Up",
+              "dose": "1 warm-up × 3–5 (band/assisted), then 3 × 4–8 @ 1–2 RIR",
+              "expandable": true,
+              "rest": "2.5–3 min",
+              "note": "Full dead hang each rep (lats loaded long). Drive elbows to back pockets."
+            },
+            {
+              "name": "Barbell Row",
+              "dose": "1 warm-up × 8, then 2 × 6–10 @ 1–2 RIR",
+              "expandable": true,
+              "rest": "2.5 min",
+              "note": "Hinge ~45°. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe. Bar to lower ribs."
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Med-Ball Rotational Throw",
+              "dose": "3 × 4 per side into a wall",
+              "expandable": true,
+              "rest": "60–90 s (contrast)",
+              "note": "Hips lead, arm whips: ground → hips → core → shoulder → ball. Contrast pairing, not peak PAPE."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "One-Arm Dumbbell Row",
+              "dose": "2 × 8–12 per side, last set lengthened partials",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Let the scap reach forward at the bottom — full stretch."
+            },
+            {
+              "name": "Overhead Dumbbell Triceps Extension",
+              "dose": "1 warm-up × 12, then 3 × 8–12, last set to failure + lengthened partials",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Overhead loads the long head in its stretched position (Maeo 2022: overhead > neutral-arm extensions for triceps growth)."
+            },
+            {
+              "name": "Triceps Pushdown",
+              "dose": "2 × 10–15, last set drop set",
+              "expandable": true,
+              "rest": "60–90 s"
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Face Pull",
+              "dose": "2 × 15–20, short rest",
+              "expandable": true,
+              "rest": "45 s",
+              "note": "Posture + shoulder health for all the pressing and punching."
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Dead Hang",
+              "dose": "2 × 20–30 s",
+              "expandable": false,
+              "note": "Decompresses spine, opens lats/shoulders — loaded mobility."
+            },
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Pull-ups: when 3 × 8 is clean, add 2.5–5 lb; otherwise add a rep per set.",
+        "Stop the set when rep speed visibly slows (~20% velocity loss) — keeps fast fibers fresh (Pareja-Blanco 2017)."
+      ],
+      "nextTarget": "Pull-Up: +1 rep on set 1. Barbell Row: +5 lb if both sets hit 10."
+    }
+  },
+  {
+    "id": "back-tri-home",
+    "match": [
+      "back",
+      "triceps",
+      "tris",
+      "back and tris",
+      "home back",
+      "pull",
+      "dumbbells",
+      "no pull-up bar"
+    ],
+    "equipment": [
+      "home",
+      "bodyweight"
+    ],
+    "minutes": 40,
+    "session": {
+      "title": "Back + Triceps — Home (no pull-up bar)",
+      "programMode": "split",
+      "priorityNote": "No bar or bands: rows and table rows replace vertical pulling; we chase lat stretch and reps.",
+      "durationMin": 40,
+      "equipment": "Home: light dumbbells + sturdy table",
+      "win": {
+        "metric": "Inverted table row: total reps across 3 sets (+2 vs last time)",
+        "why": "Bodyweight pulling strength transfers to pull-ups the day you get a bar — and to clinch control."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            }
+          ]
+        },
+        {
+          "phase": "Main",
+          "items": [
+            {
+              "name": "Inverted Row",
+              "dose": "1 warm-up × 5 (bent knees), then 3 × 6–12 @ 1 RIR under a sturdy table",
+              "expandable": true,
+              "rest": "2 min",
+              "note": "Body in a straight plank; pull chest to the edge. Straighten legs to make harder."
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "dose": "3 × 10–15 per side, 2 s pause at the top",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Light DB → high reps + pause. Full stretch at the bottom."
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Med-Ball Rotational Throw",
+              "dose": "3 × 4 per side (use a DB rotational swing or towel-snap if no ball)",
+              "expandable": true,
+              "rest": "60 s (contrast)",
+              "note": "Hips lead, arm whips. Screw the back foot into the floor before you rotate."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Dumbbell Pullover",
+              "dose": "2 × 12–15 lying on floor/bench",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Long-range lat stretch — the closest home sub for a pulldown stretch."
+            },
+            {
+              "name": "Overhead Dumbbell Triceps Extension",
+              "dose": "3 × 10–15, last set to failure + lengthened partials",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Overhead position loads the long head long."
+            },
+            {
+              "name": "Close-Grip Push-Up",
+              "dose": "2 × AMRAP @ 0–1 RIR",
+              "expandable": true,
+              "rest": "90 s"
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Prone Y-T-W Raise",
+              "dose": "2 × 8 each letter, thumbs up",
+              "expandable": true,
+              "rest": "45 s",
+              "note": "Lower traps + rear delts for posture."
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Progress table rows by straightening legs, then elevating feet, then 3 s lowering."
+      ],
+      "nextTarget": "Inverted Row: +1 rep per set; when 3 × 12 is easy, elevate feet on a chair."
+    }
+  },
+  {
+    "id": "legs-gym",
+    "match": [
+      "legs",
+      "leg day",
+      "lower",
+      "squat",
+      "lower body"
+    ],
+    "equipment": [
+      "gym"
+    ],
+    "minutes": 60,
+    "session": {
+      "title": "Legs — Gym",
+      "programMode": "split",
+      "priorityNote": "Athleticism over looks: broad jumps are a PAPE pairing after the heavy squat (true potentiation rest), and Nordics stay because hamstring armor protects the streak.",
+      "durationMin": 60,
+      "equipment": "Full gym",
+      "win": {
+        "metric": "Broad jump distance (best of 3) vs last session",
+        "why": "Horizontal jump is the most direct gym readout of sprint and first-step power."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            },
+            {
+              "name": "Pogo Hops",
+              "dose": "2 × 10 fast ground contacts",
+              "expandable": true,
+              "rest": "30 s",
+              "note": "Stiff ankles, bounce off the balls of the feet — Achilles as a spring."
+            }
+          ]
+        },
+        {
+          "phase": "Main",
+          "items": [
+            {
+              "name": "Back Squat",
+              "dose": "1 warm-up × 5 @ ~50%, then 3 × 4–8 @ 1–2 RIR",
+              "expandable": true,
+              "rest": "3 min",
+              "note": "Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe. Safeties set. Lower 2–3 s, stand up max intent; stop when bar speed visibly slows."
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Broad Jump",
+              "dose": "3 × 2, full reset, stick the landing 1 s",
+              "expandable": true,
+              "rest": "4–6 min after the last squat set (PAPE)",
+              "note": "Acute potentiation needs minutes, not seconds. Swing arms back, hips load, explode out. Step-and-Stick on landing."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Romanian Deadlift",
+              "dose": "1 warm-up × 8, then 2 × 6–10 @ 1–2 RIR",
+              "expandable": true,
+              "rest": "2.5 min",
+              "note": "Hinge until hamstrings are long; tripod feet. Loaded range = hamstring mobility."
+            },
+            {
+              "name": "Bulgarian Split Squat",
+              "dose": "2 × 8–12 per side @ 1 RIR",
+              "expandable": true,
+              "rest": "90 s–2 min",
+              "note": "Front foot screwed in; knee tracks over 2nd toe — kills the valgus cascade."
+            },
+            {
+              "name": "Nordic Hamstring Curl",
+              "dose": "2 × 3–6 slow lowering, push back up with hands",
+              "expandable": true,
+              "rest": "2 min",
+              "note": "Programs including Nordics cut hamstring injuries up to ~51% (van Dyk 2019; later reappraisal less certain)."
+            },
+            {
+              "name": "Standing Calf Raise",
+              "dose": "2 × 10–15, 2 s pause in the bottom stretch, last set lengthened partials",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Lengthened partials favored for calves (Kassiano 2023)."
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Copenhagen Plank",
+              "dose": "2 × 15–25 s per side",
+              "expandable": true,
+              "rest": "45 s",
+              "note": "Adductor armor for cutting sports (Harøy 2019: ~41% lower odds of groin problems)."
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Couch Stretch",
+              "dose": "2 × 45 s per side",
+              "expandable": false,
+              "note": "Hip flexors open after the power work is done."
+            },
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Squat: when 3 × 8 is clean at 1–2 RIR, add 5–10 lb.",
+        "Game within 48 h → drop Nordics and RDL lowering emphasis, keep squat at 2 × 3 crisp + jumps.",
+        "No ice bath after lifting legs; cold is for after games/conditioning only."
+      ],
+      "nextTarget": "Back Squat: +1 rep on set 1 or +5 lb if all sets hit 8. Broad Jump: +2 inches."
+    }
+  },
+  {
+    "id": "legs-home-30",
+    "match": [
+      "legs",
+      "leg day",
+      "home",
+      "30 min",
+      "lower",
+      "dumbbells",
+      "leg day home"
+    ],
+    "equipment": [
+      "home",
+      "bodyweight"
+    ],
+    "minutes": 30,
+    "session": {
+      "title": "Legs — Home, 30 min",
+      "programMode": "split",
+      "priorityNote": "Light DBs can’t load bilateral squats hard enough, so single-leg work does the heavy lifting; jumps keep it athletic.",
+      "durationMin": 30,
+      "equipment": "Home: light dumbbells + bodyweight",
+      "win": {
+        "metric": "Single-leg balance eyes closed: seconds per side (beat last time)",
+        "why": "Balance with eyes closed means your feet and inner ear — not your eyes — are running stability, which frees your eyes for the ball."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            },
+            {
+              "name": "Pogo Hops",
+              "dose": "2 × 10 barefoot",
+              "expandable": true,
+              "rest": "20 s",
+              "note": "Achilles spring on; elastic return primes the jumps."
+            }
+          ]
+        },
+        {
+          "phase": "Main",
+          "items": [
+            {
+              "name": "Bulgarian Split Squat",
+              "dose": "1 warm-up × 6/side, then 3 × 8–15 per side @ 1 RIR holding DBs",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Front foot: Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe. Lower 2–3 s; drive up hard."
+            },
+            {
+              "name": "Goblet Squat",
+              "dose": "2 × 12–20 heels flat, 2 s pause at the bottom",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Deep pause = loaded ankle/hip mobility."
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Broad Jump",
+              "dose": "3 × 2, stick each landing 1 s",
+              "expandable": true,
+              "rest": "60–90 s (contrast)",
+              "note": "Contrast pairing after the split squats. Step-and-Stick installs balanced landings."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Single-Leg Romanian Deadlift",
+              "dose": "2 × 8–10 per side holding a DB",
+              "expandable": true,
+              "rest": "60 s",
+              "note": "Tripod foot; hips square. Balance + hamstring length."
+            },
+            {
+              "name": "Nordic Hamstring Curl",
+              "dose": "2 × 3–5 (feet under a couch, partner/sibling holds ankles)",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Slow lowering; catch with hands."
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Standing Calf Raise",
+              "dose": "2 × 15–25 single-leg on a stair, 2 s bottom stretch, last set lengthened partials",
+              "expandable": true,
+              "rest": "45 s"
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Short-Foot Hold",
+              "dose": "2 × 5 × 5 s per foot, barefoot",
+              "expandable": false,
+              "note": "Shorten the foot (pull ball toward heel without curling toes) — builds the arch the flat-foot cascade starts from."
+            },
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "When 3 × 15 per leg is easy, slow the lowering to 3 s or add a 1 s bottom pause — then add DB weight when available."
+      ],
+      "nextTarget": "Bulgarian Split Squat: +1 rep per side on set 1; balance test +3 s."
+    }
+  },
+  {
+    "id": "boxing-conditioning",
+    "match": [
+      "boxing",
+      "boxing conditioning",
+      "fight conditioning",
+      "mma conditioning",
+      "rounds",
+      "conditioning",
+      "shadowboxing"
+    ],
+    "equipment": [
+      "home",
+      "bodyweight",
+      "gym"
+    ],
+    "minutes": 40,
+    "session": {
+      "title": "Boxing Conditioning",
+      "programMode": "combat",
+      "priorityNote": "Zahabi rule: ~70% sustainable effort. This builds the engine; it is not a max day — don’t pair it with heavy lifting on the same day.",
+      "durationMin": 40,
+      "equipment": "Bodyweight (+ treadmill optional)",
+      "win": {
+        "metric": "Punch count in round 5 of shadowboxing ≥ round 1 (or HR recovery in 60 s ≥ 25 bpm)",
+        "why": "Holding output late is what conditioning means in a fight; HR recovery is your engine’s readout."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            },
+            {
+              "name": "Interval Warm-Up (EIB)",
+              "dose": "6 × 30 s hard / 30 s easy jog or skip (HR up to ~175)",
+              "expandable": false,
+              "note": "Variable-intensity warm-up reduces post-exercise airway narrowing (Stickland 2012) — ~2–4 h protection. Bring your inhaler per your doctor’s plan."
+            }
+          ]
+        },
+        {
+          "phase": "Skill",
+          "items": [
+            {
+              "name": "Shadowboxing",
+              "dose": "3 × 2 min technical, 60 s rest",
+              "expandable": true,
+              "rest": "60 s",
+              "note": "Stance: Screw both feet. Jab–cross: back foot pivots, hips lead, fist arrives last like a whip."
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Med-Ball Rotational Throw",
+              "dose": "3 × 3 per side max intent",
+              "expandable": true,
+              "rest": "60 s (contrast)",
+              "note": "Ground → hips → core → shoulder → ball. Same chain as the cross."
+            }
+          ]
+        },
+        {
+          "phase": "Conditioning",
+          "items": [
+            {
+              "name": "Shadowboxing",
+              "dose": "5 × 3 min rounds @ ~70–80% effort, 1 min rest; last 20 s of each round all-out punches",
+              "expandable": true,
+              "rest": "60 s",
+              "note": "Target HR ~165–185 in work, under ~140 by end of rest."
+            },
+            {
+              "name": "Sprawl",
+              "dose": "2 × 10 between rounds 2 and 4 (in the rest minute only if HR < 150)",
+              "expandable": true,
+              "note": "Wrestling defense + hip snap."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Neck Isometrics",
+              "dose": "2 × 15 s each direction (front/back/sides), hand resistance",
+              "expandable": true,
+              "rest": "30 s",
+              "note": "Neck strength = chin durability + looks."
+            },
+            {
+              "name": "Dead Bug",
+              "dose": "2 × 8 per side, slow, exhale fully",
+              "expandable": true,
+              "rest": "45 s",
+              "note": "Brace that transmits rotation instead of leaking it."
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Treadmill Sprint",
+              "dose": "4 × 10 s @ fast, 50 s walk (or hill sprints outside)",
+              "expandable": true,
+              "rest": "50 s",
+              "note": "Topuria: engine = roadwork + sprints."
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Contact ladder with sibling: levels 0–2 only (shadow, pads, cooperative drilling).",
+        "Cold shower/ice is fine after this session — it’s conditioning, not lifting."
+      ],
+      "nextTarget": "Add a 6th round, or raise the all-out burst to 25 s per round."
+    }
+  },
+  {
+    "id": "boxing-fight-week",
+    "match": [
+      "fight saturday",
+      "fight week",
+      "fight",
+      "boxing fight",
+      "before a fight",
+      "fight in",
+      "boxing conditioning fight"
+    ],
+    "equipment": [
+      "home",
+      "bodyweight",
+      "gym"
+    ],
+    "minutes": 25,
+    "session": {
+      "title": "Boxing Conditioning — Fight Within 48 h",
+      "programMode": "combat",
+      "priorityNote": "Fight in ≤48 h: freshness beats fitness. No new exercises, no eccentric-heavy work, no lower-body failure — only low-volume, crisp speed.",
+      "durationMin": 25,
+      "equipment": "Bodyweight",
+      "win": {
+        "metric": "Fastest 10-punch combo time / crispest round (feel: snappy, not tired)",
+        "why": "You can’t build fitness in 48 h, but you can arrive sharp. Speed rehearsal primes timing without fatigue."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            },
+            {
+              "name": "Interval Warm-Up (EIB)",
+              "dose": "5 × 20 s brisk / 40 s easy",
+              "expandable": false,
+              "note": "Airway-protecting warm-up; keep it short."
+            }
+          ]
+        },
+        {
+          "phase": "Skill",
+          "items": [
+            {
+              "name": "Shadowboxing",
+              "dose": "3 × 2 min — rehearse your 3 best combos only, ~60% effort",
+              "expandable": true,
+              "rest": "60 s",
+              "note": "Install, don’t learn: same patterns you already own."
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Med-Ball Rotational Throw",
+              "dose": "2 × 3 per side, light ball, max speed",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Speed, not fatigue. Hips lead, fist/ball last."
+            }
+          ]
+        },
+        {
+          "phase": "Conditioning",
+          "items": [
+            {
+              "name": "Shadowboxing",
+              "dose": "2 × 1 min of 10 s max-speed bursts / 10 s bounce",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Short, sharp. Stop well before you feel cooked."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Pogo Hops",
+              "dose": "2 × 10",
+              "expandable": true,
+              "rest": "60 s",
+              "note": "Keeps the ankles springy for footwork — no soreness risk."
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds 4-4-4-4",
+              "expandable": false,
+              "note": "Rehearse the calm you’ll use between rounds."
+            },
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "No lifting to failure, no Nordics, no new drills.",
+        "Sleep 9 h both nights; eat normally — no weight cutting.",
+        "Sibling drilling: level 0–1 only this week."
+      ],
+      "nextTarget": "After the fight: log what felt fast, then resume normal conditioning 48 h later."
+    }
+  },
+  {
+    "id": "vo2-day",
+    "match": [
+      "vo2",
+      "vo2 day",
+      "vo2max",
+      "4x4",
+      "norwegian",
+      "intervals",
+      "cardio",
+      "xc",
+      "cross country"
+    ],
+    "equipment": [
+      "home",
+      "gym"
+    ],
+    "minutes": 45,
+    "session": {
+      "title": "VO2 Day — Norwegian 4×4",
+      "programMode": "conditioning",
+      "priorityNote": "Athleticism (engine for XC + fights) is the whole point today; no lifting after.",
+      "durationMin": 45,
+      "equipment": "Treadmill",
+      "win": {
+        "metric": "Same HR zone at a faster treadmill speed (or same speed at lower HR) in interval 4",
+        "why": "More speed for the same heart rate is VO2/economy improving — the core of XC race pace."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            },
+            {
+              "name": "Interval Warm-Up (EIB)",
+              "dose": "10 min: 5 min easy + 5 × 30 s hard / 30 s easy, HR peaks ~170–180",
+              "expandable": false,
+              "note": "High-intensity interval warm-ups reduced the post-exercise FEV1 drop most consistently (Stickland 2012). Use your inhaler per your doctor’s plan."
+            }
+          ]
+        },
+        {
+          "phase": "Main",
+          "items": [
+            {
+              "name": "Norwegian 4×4 Intervals",
+              "dose": "4 × 4 min @ 85–95% HRmax ≈ 172–195 bpm, 3 min active recovery @ ~60–70% (≈120–140 bpm)",
+              "expandable": true,
+              "rest": "3 min active",
+              "note": "Treadmill incline 2–5% if speed is maxed. Reach the zone by ~minute 2 of each interval."
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Pogo Hops",
+              "dose": "2 × 15 between interval 2 and 3 (during the recovery walk start)",
+              "expandable": true,
+              "note": "Keeps ankle stiffness = running economy."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Treadmill Cadence Drill",
+              "dose": "3 × 1 min at 175–180 steps/min (beat-synced music)",
+              "expandable": true,
+              "rest": "1 min",
+              "note": "Higher cadence shortens ground contact and overstride."
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Nasal Breathing Walk",
+              "dose": "5 min, nasal only",
+              "expandable": false,
+              "note": "Downshift; trains CO2 tolerance gently."
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Calf + Hip Flexor Stretch",
+              "dose": "2 × 30 s each",
+              "expandable": false,
+              "note": "Post-run only."
+            },
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Once per week. Max HR estimated ~200–205.",
+        "Cold shower afterward is fine (conditioning day).",
+        "If HRV well below 7-day average → swap for Zone 2."
+      ],
+      "nextTarget": "Interval 4: +0.2 mph at the same HR, or hold the zone for the full 4 min."
+    }
+  },
+  {
+    "id": "zone2-recovery",
+    "match": [
+      "zone 2",
+      "zone2",
+      "recovery",
+      "easy run",
+      "cooked",
+      "rest day",
+      "active recovery"
+    ],
+    "equipment": [
+      "home",
+      "gym",
+      "bodyweight"
+    ],
+    "minutes": 40,
+    "session": {
+      "title": "Zone 2 + Recovery",
+      "programMode": "conditioning",
+      "priorityNote": "Recovery over volume today — this builds the aerobic base that lets you repeat sprints in games.",
+      "durationMin": 40,
+      "equipment": "Treadmill or outside",
+      "win": {
+        "metric": "Faster pace at the same nasal-only HR (~130–145 bpm) than last time",
+        "why": "Aerobic base rising = faster recovery between points, rounds and sprints."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            }
+          ]
+        },
+        {
+          "phase": "Conditioning",
+          "items": [
+            {
+              "name": "Zone 2 Run",
+              "dose": "25–30 min at nasal-breathing pace (~65–72% HRmax ≈ 130–145 bpm)",
+              "expandable": true,
+              "note": "If you must mouth-breathe, slow down. Cadence 170–180."
+            }
+          ]
+        },
+        {
+          "phase": "Skill",
+          "items": [
+            {
+              "name": "Juggling",
+              "dose": "3 min (2 or 3 balls)",
+              "expandable": false,
+              "note": "Hand-eye + rhythm on a low-stress day."
+            },
+            {
+              "name": "Single-Leg Stand Eyes Closed",
+              "dose": "3 × 20 s per side, barefoot",
+              "expandable": false,
+              "note": "Foot/vestibular balance; feel the tripod."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Short-Foot Hold",
+              "dose": "3 × 5 × 5 s per foot",
+              "expandable": false,
+              "note": "Arch strength for the flat-foot cascade."
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Morning 5 Mobility",
+              "dose": "5 min barefoot flow",
+              "expandable": false,
+              "note": "Full-ROM floor time; static stretches fine here."
+            },
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "No intensity today. Talk-test pace.",
+        "Box breathing before bed helps sleep."
+      ],
+      "nextTarget": "Add 5 min, or same time at +0.1 mph within the nasal HR cap."
+    }
+  },
+  {
+    "id": "hotel-15",
+    "match": [
+      "hotel",
+      "15 min",
+      "hotel room",
+      "quick",
+      "no equipment",
+      "travel",
+      "bodyweight"
+    ],
+    "equipment": [
+      "hotel",
+      "bodyweight"
+    ],
+    "minutes": 15,
+    "session": {
+      "title": "15-Min Hotel Room",
+      "programMode": "custom",
+      "priorityNote": "Short on time: power + one hard set per pattern beats more half-effort sets.",
+      "durationMin": 15,
+      "equipment": "Bodyweight only",
+      "win": {
+        "metric": "Total push-ups + split-squat reps in the circuit (beat last hotel session)",
+        "why": "A visible win keeps the streak alive on travel days."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Broad Jump",
+              "dose": "2 × 3 (or squat jump if no space), stick landing",
+              "expandable": true,
+              "rest": "45 s",
+              "note": "Step-and-Stick. Do power first while fresh."
+            }
+          ]
+        },
+        {
+          "phase": "Main",
+          "items": [
+            {
+              "name": "Bulgarian Split Squat",
+              "dose": "2 × 10–15 per side, rear foot on bed",
+              "expandable": true,
+              "rest": "45 s",
+              "note": "Screw front foot in; knee over 2nd toe."
+            },
+            {
+              "name": "Push-Up",
+              "dose": "2 × AMRAP @ 1 RIR (feet on bed to make harder)",
+              "expandable": true,
+              "rest": "45 s"
+            },
+            {
+              "name": "Inverted Row",
+              "dose": "2 × 8–12 under a sturdy desk (or towel door row)",
+              "expandable": true,
+              "rest": "45 s",
+              "note": "Only if the desk is stable."
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Shadowboxing",
+              "dose": "2 × 1 min fast",
+              "expandable": true,
+              "rest": "20 s",
+              "note": "Hips lead, arm whips."
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Circuit style; move between exercises with ~45 s rest."
+      ],
+      "nextTarget": "+2 total reps per exercise next hotel session."
+    }
+  },
+  {
+    "id": "db-full-body-45",
+    "match": [
+      "dumbbells",
+      "only dumbbells",
+      "i only have dumbbells",
+      "full body",
+      "dumbbell only",
+      "db only"
+    ],
+    "equipment": [
+      "home",
+      "gym"
+    ],
+    "minutes": 45,
+    "session": {
+      "title": "Dumbbells-Only Full Body",
+      "programMode": "custom",
+      "priorityNote": "Full body hits each muscle while jumps and throws keep the session athletic first.",
+      "durationMin": 45,
+      "equipment": "Dumbbells",
+      "win": {
+        "metric": "Total reps on Goblet Squat + DB Press at the same weights (+3 vs last time)",
+        "why": "Rep PRs at fixed load = strength + muscle climbing without heavier DBs."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            },
+            {
+              "name": "Pogo Hops",
+              "dose": "2 × 10",
+              "expandable": true,
+              "rest": "20 s"
+            }
+          ]
+        },
+        {
+          "phase": "Main",
+          "items": [
+            {
+              "name": "Goblet Squat",
+              "dose": "1 warm-up × 8, then 3 × 8–15 @ 1 RIR",
+              "expandable": true,
+              "rest": "2 min",
+              "note": "Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            },
+            {
+              "name": "Dumbbell Bench Press",
+              "dose": "1 warm-up × 8, then 3 × 8–12 @ 1 RIR (floor press if no bench)",
+              "expandable": true,
+              "rest": "2 min"
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "dose": "3 × 8–12 per side",
+              "expandable": true,
+              "rest": "90 s"
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Broad Jump",
+              "dose": "3 × 2 stick landing",
+              "expandable": true,
+              "rest": "60–90 s (contrast)"
+            },
+            {
+              "name": "Med-Ball Rotational Throw",
+              "dose": "2 × 4 per side (or DB rotational swing)",
+              "expandable": true,
+              "rest": "60 s",
+              "note": "Hips lead, arm whips."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Romanian Deadlift",
+              "dose": "2 × 10–15 with DBs, 2 s lowering",
+              "expandable": true,
+              "rest": "90 s"
+            },
+            {
+              "name": "Dumbbell Lateral Raise",
+              "dose": "2 × 12–20, last set to failure + lengthened partials",
+              "expandable": true,
+              "rest": "60 s",
+              "note": "V-taper."
+            },
+            {
+              "name": "Incline Dumbbell Curl",
+              "dose": "2 × 10–15",
+              "expandable": true,
+              "rest": "60 s"
+            },
+            {
+              "name": "Overhead Dumbbell Triceps Extension",
+              "dose": "2 × 10–15",
+              "expandable": true,
+              "rest": "60 s"
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Farmer Carry",
+              "dose": "2 × 30–40 m heavy DBs",
+              "expandable": true,
+              "rest": "60 s",
+              "note": "Grip, posture, trunk stiffness."
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Supersets allowed for accessories (curl + extension) to save time."
+      ],
+      "nextTarget": "Goblet Squat: +1 rep each set; DB Press: +1 rep set 1."
+    }
+  },
+  {
+    "id": "triphasic-block",
+    "match": [
+      "triphasic",
+      "eccentric",
+      "isometric",
+      "french contrast",
+      "block",
+      "phase"
+    ],
+    "equipment": [
+      "gym",
+      "home"
+    ],
+    "minutes": 55,
+    "session": {
+      "title": "Triphasic Block (4 phases) — Representative Lower Day",
+      "programMode": "triphasic",
+      "priorityNote": "Triphasic exists to build force absorption → transfer → expression for sport speed; it beats pure hypertrophy for athleticism.",
+      "durationMin": 55,
+      "equipment": "Gym (home: DB/bodyweight swaps)",
+      "win": {
+        "metric": "Squat jump height or broad jump distance at end of each phase",
+        "why": "Each phase should show up as a better jump — proof the strength is turning into speed."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            }
+          ]
+        },
+        {
+          "phase": "Main",
+          "items": [
+            {
+              "name": "Back Squat",
+              "dose": "Phase 1 Eccentric: 3 × 4 with 4–5 s lowering @ ~70%; Phase 2 Isometric: 3 × 4 with 2–3 s pause at parallel; Phase 3 Concentric: 3 × 3 max intent @ ~80%",
+              "expandable": true,
+              "rest": "3 min",
+              "note": "Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe. Eccentric emphasis only in phase 1 — not on every rep year-round."
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Box Jump",
+              "dose": "Phase 1–3: 3 × 3 step down, after each squat set (PAPE ~4 min)",
+              "expandable": true,
+              "rest": "4 min",
+              "note": "Land soft, stick 1 s."
+            },
+            {
+              "name": "Pogo Hops",
+              "dose": "Phase 4 French Contrast: heavy squat 1 × 3 → squat jump × 5 → weighted jump × 5 → pogo hops × 10; 3 rounds",
+              "expandable": true,
+              "rest": "3–4 min between rounds",
+              "note": "French contrast: heavy, plyo, loaded-plyo, assisted/fast — rests short within, long between."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Bulgarian Split Squat",
+              "dose": "2 × 6–8 per side, phase tempo applied",
+              "expandable": true,
+              "rest": "2 min"
+            },
+            {
+              "name": "Nordic Hamstring Curl",
+              "dose": "2 × 4 (phases 1–2 only)",
+              "expandable": true,
+              "rest": "2 min"
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Copenhagen Plank",
+              "dose": "2 × 20 s per side",
+              "expandable": true,
+              "rest": "45 s"
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Phase 1 — Eccentric (2–3 wk): slow 4–5 s lowerings on the main lift only.",
+        "Phase 2 — Isometric (2 wk): 2–3 s pauses at the sticking point.",
+        "Phase 3 — Concentric/Explosive (2 wk): normal lowering, max-intent up, lighter-ish loads.",
+        "Phase 4 — French Contrast (2–3 wk): heavy → plyo → loaded plyo → fast plyo.",
+        "Deload a week between blocks or when a game-dense week hits."
+      ],
+      "nextTarget": "Move to the next phase after 2–3 weeks if jump numbers held or rose."
+    }
+  },
+  {
+    "id": "six-day-template",
+    "match": [
+      "6 day",
+      "six day",
+      "6-day",
+      "lower power",
+      "upper horizontal",
+      "upper vertical",
+      "lower volume",
+      "template"
+    ],
+    "equipment": [
+      "gym",
+      "home"
+    ],
+    "minutes": 55,
+    "session": {
+      "title": "6-Day Template — Day 1: Lower Power",
+      "programMode": "six-day",
+      "priorityNote": "Athletic power day first in the week while fresh; volume days come later.",
+      "durationMin": 55,
+      "equipment": "Gym (home swaps on each card)",
+      "win": {
+        "metric": "Best broad jump / vertical of the week",
+        "why": "Lower Power sets the speed ceiling for the whole week."
+      },
+      "blocks": [
+        {
+          "phase": "CNS Prime",
+          "items": [
+            {
+              "name": "Box Breathing",
+              "dose": "4 rounds of 4-4-4-4 s (in-hold-out-hold), seated",
+              "expandable": false,
+              "note": "Downshifts threat state before load; nasal only."
+            },
+            {
+              "name": "Saccade Drill",
+              "dose": "2 × 20 s — eyes jump between two targets ~1 m apart, head still",
+              "expandable": false,
+              "rest": "15 s",
+              "note": "Eyes are link #1 of the chain: fast eyes, fast everything."
+            },
+            {
+              "name": "Wall Push Isometric",
+              "dose": "2 × 6 s max-intent push into a wall, athletic stance",
+              "expandable": false,
+              "rest": "30 s",
+              "note": "Release the brake: max intent recruits high-threshold units before power work. Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe."
+            },
+            {
+              "name": "Pogo Hops",
+              "dose": "2 × 10",
+              "expandable": true,
+              "rest": "20 s"
+            }
+          ]
+        },
+        {
+          "phase": "Power",
+          "items": [
+            {
+              "name": "Box Jump",
+              "dose": "4 × 3, full reset",
+              "expandable": true,
+              "rest": "90 s",
+              "note": "Jumps first while CNS is fresh."
+            },
+            {
+              "name": "Med-Ball Rotational Throw",
+              "dose": "3 × 3 per side",
+              "expandable": true,
+              "rest": "60 s",
+              "note": "Hips lead, arm whips."
+            }
+          ]
+        },
+        {
+          "phase": "Main",
+          "items": [
+            {
+              "name": "Back Squat",
+              "dose": "1 warm-up, then 3 × 3–5 @ 2 RIR, max intent",
+              "expandable": true,
+              "rest": "3 min",
+              "note": "Screw: feet rooted, twist them outward into the floor without moving — arch pops, glutes on, knees track over 2nd–3rd toe. Stop at visible speed loss."
+            }
+          ]
+        },
+        {
+          "phase": "Accessory",
+          "items": [
+            {
+              "name": "Romanian Deadlift",
+              "dose": "2 × 6–8",
+              "expandable": true,
+              "rest": "2.5 min"
+            },
+            {
+              "name": "Copenhagen Plank",
+              "dose": "2 × 20 s per side",
+              "expandable": true,
+              "rest": "45 s"
+            }
+          ]
+        },
+        {
+          "phase": "Finisher",
+          "items": [
+            {
+              "name": "Broad Jump",
+              "dose": "2 × 2, 4–6 min after last squat set (PAPE)",
+              "expandable": true
+            }
+          ]
+        },
+        {
+          "phase": "Cooldown",
+          "items": [
+            {
+              "name": "Nasal Walk + Downshift Breathing",
+              "dose": "3 min easy walk, nasal, 4 s in / 6 s out",
+              "expandable": false,
+              "note": "Long exhales shift the system back to rest-and-digest; recovery starts here."
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Day 1 Lower Power — jumps, throws, heavy-ish squat at low reps.",
+        "Day 2 Upper Horizontal — bench/push-up + rows, plyo push-ups.",
+        "Day 3 Recovery + Zone 2 — 30 min nasal Zone 2, mobility, skills.",
+        "Day 4 Lower Volume — RDL, Bulgarian split squat, Nordics, calves, 8–12 reps.",
+        "Day 5 Upper Vertical — pull-ups/rows, overhead press, lateral raises, triceps overhead.",
+        "Day 6 VO2 — Norwegian 4×4.",
+        "Day 7 off (Morning 5 only). Pickup games replace a day — never stack a game on Lower Power."
+      ],
+      "nextTarget": "Back Squat: same load, faster reps; or +5 lb if 3 × 5 moved fast."
+    }
+  }
+]

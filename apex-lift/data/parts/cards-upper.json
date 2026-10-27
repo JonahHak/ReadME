@@ -1,0 +1,1496 @@
+[
+  {
+    "name": "Incline Dumbbell Press",
+    "aliases": [
+      "incline db press",
+      "incline dumbbell bench",
+      "incline bench dumbbell",
+      "incline press",
+      "incline db bench"
+    ],
+    "category": "compound",
+    "muscles": [
+      "upper chest (clavicular pec)",
+      "front delts",
+      "triceps"
+    ],
+    "equipment": [
+      "dumbbells",
+      "adjustable bench"
+    ],
+    "doThisNotThat": "Set the bench at 30°, not 45°+ — past ~45° the front delt takes over and your upper chest loses the job.",
+    "priorityNote": "Looks (upper chest for the V-taper) leads here, but every rep is pressed with max intent so it still feeds punching power.",
+    "prescription": {
+      "sets": "3 working",
+      "reps": "6-10 (double progression)",
+      "load": "1-2 RIR; stop the set when rep speed visibly slows",
+      "rest": "2.5-3 min",
+      "tempo": "2-3 s controlled lower, 1 s soft pause at the stretch, explode up",
+      "slot": "Chest + Biceps day, first main lift after CNS prime",
+      "warmup": "1 set x 8 at ~50% of working weight, same tempo"
+    },
+    "setup": {
+      "steps": [
+        "Bench at 30° (2nd or 3rd notch on most benches).",
+        "Kick the dumbbells up off your knees as you lie back — one at a time.",
+        "Shoulder blades pinched down and back like they're in your back pockets; small natural arch, butt stays on the bench.",
+        "Feet flat and slightly behind the knees; screw them into the floor.",
+        "Dumbbells start over your upper chest, forearms vertical, elbows ~45-60° from your torso (not flared to 90°)."
+      ],
+      "cues": [
+        "Push yourself away from the dumbbells into the bench.",
+        "Drive the floor away with your feet before each rep.",
+        "Bring the dumbbells down to the edges of your chest, then punch them to the ceiling."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Gravity pulls straight down; at 30° incline the press path is aimed at the clavicular fibers' line of pull (shoulder flexion + horizontal adduction).",
+      "jointAngles": "Bench 30°; upper arm ~45-60° from torso at the bottom; forearms vertical over the wrist the whole rep.",
+      "momentArm": "Longest shoulder moment arm at the bottom when the elbows are deepest; forearm vertical keeps the elbow moment arm near zero so the chest and delt, not the triceps, own the bottom.",
+      "kineticChain": "Feet → glutes → braced trunk → scapulae pinned → humerus → dumbbell. A pinned scapula is the stable base the pec pulls from; if it shrugs, force leaks.",
+      "grf": "Leg drive creates a horizontal ground reaction force that pins your upper back into the bench, stiffening the base you press off (Newton's 3rd law).",
+      "hardestPoint": "First 5-8 cm off the chest — longest moment arm, most stretch, least mechanical advantage."
+    },
+    "neural": {
+      "intent": "Control down 2-3 s, then try to throw the dumbbells through the ceiling on every rep, even when they move slowly.",
+      "rfd": "Max-intent concentric trains rate of force development — the speed you reach high force, which is what a punch actually uses.",
+      "powerPair": {
+        "exercise": "Plyometric push-up (hands leave the floor) or med-ball chest pass into a wall",
+        "dose": "3 x 3-4 explosive reps",
+        "rest": "Do it ~4-6 min after your top set, then 90 s between power sets",
+        "type": "PAPE"
+      }
+    },
+    "elastic": "The 1 s pause at the bottom kills the bounce on working sets so the chest does the work; on the power pairing you do the opposite — fast stretch-shortening cycle.",
+    "mobility": "Every rep is a loaded stretch of the pecs and front delts at the bottom; with your all-over stiffness this builds usable shoulder extension range — loaded full-ROM work improves ROM about as well as stretching (Afonso 2021).",
+    "footBase": "Tripod foot (big-toe ball, pinky-toe ball, heel) flat on the floor, then screw both feet outward without moving them — glutes fire, knees stop caving, and your flat-foot arches stop collapsing into the drive.",
+    "sequencing": "Feet drive first, then the press — legs → trunk → arms. Same ground-up order as a cross; never let the arms start alone.",
+    "looks": {
+      "effect": "Upper chest fills the gap under the collarbone — the shelf that makes the chest look full in a T-shirt and widens the V-taper visually.",
+      "lengthened": "Get the dumbbells slightly below chest level with the upper arm just past the torso line at the bottom; that stretched position is where most of the growth stimulus sits. On the last set add 3-5 bottom-half partials."
+    },
+    "sportTransfer": {
+      "sports": [
+        "boxing",
+        "MMA",
+        "football",
+        "basketball",
+        "volleyball"
+      ],
+      "mechanism": "Upward-angled horizontal pushing force: stiff-arm and blocking in football, finishing through contact in basketball, and the upper-chest/front-delt contribution to an uppercut or a cross thrown at a taller opponent.",
+      "combatNote": "Upper chest + front delt are part of the end of the punch chain. The press builds the force capacity; the plyo push-up teaches you to release it fast."
+    },
+    "intensityTechnique": {
+      "technique": "Rest-pause: hit 1 RIR, rack on knees 15 s, 2-3 more reps; then 3-5 lengthened partials",
+      "when": "Last working set only"
+    },
+    "tips": [
+      {
+        "tip": "Rest the full 2.5-3 min. Rushing to 1 min cuts reps and growth on compounds.",
+        "grade": "B",
+        "source": "Schoenfeld 2016"
+      },
+      {
+        "tip": "Stop 1-2 reps short; true failure on a heavy dumbbell press costs power and buys almost no extra growth.",
+        "grade": "A-B",
+        "source": "Refalo 2023"
+      },
+      {
+        "tip": "Turn the dumbbells to a ~30° angle (pinky slightly in) instead of a straight barbell line — shoulders sit in a safer groove and you can press heavier.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Keep elbows under the wrists at the bottom — when the elbow drifts outside the wrist, the triceps take the load and the chest stimulus drops.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "When you can do 10 clean reps on every set, go up to the next dumbbell — even if it's a big jump with light home dumbbells, drop back to 6 reps and climb again.",
+        "grade": "B",
+        "source": "grade B, double-progression consensus"
+      }
+    ],
+    "teachMe": "Your nervous system only lets you push as hard as your base feels stable. Pin the shoulder blades and drive the floor and the brain senses a solid platform, so it releases more motor units into the pec. Physics: force has to go through something stiff to move a load, so a loose base means leaked force and a weaker press. The 30° angle just lines up the force direction with the upper-chest fibers.",
+    "swaps": {
+      "home": "Floor-to-couch incline: hips on the floor, upper back on a couch cushion wedge, light DBs at slow 3-s lowers + 1-s pause, 12-20 reps to near failure.",
+      "bodyweight": "Feet-elevated push-up (feet on a chair, ~30-45° decline body angle = incline press angle), hands slightly wider than shoulders, 8-20 reps."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": [
+        "Schoenfeld 2016 (rest intervals)",
+        "Refalo 2023 (proximity to failure)",
+        "Afonso 2021 (strength training vs stretching for ROM)"
+      ],
+      "confidence": 80
+    }
+  },
+  {
+    "name": "Dumbbell Bench Press",
+    "aliases": [
+      "db bench",
+      "db bench press",
+      "flat dumbbell press",
+      "flat db press",
+      "dumbbell chest press"
+    ],
+    "category": "compound",
+    "muscles": [
+      "mid/lower chest",
+      "front delts",
+      "triceps"
+    ],
+    "equipment": [
+      "dumbbells",
+      "flat bench"
+    ],
+    "doThisNotThat": "Let the dumbbells sink a few cm below chest level each rep — don't stop where a barbell would; that extra stretch is the whole reason to use dumbbells.",
+    "priorityNote": "Looks + strength; kept as the second press so the incline (higher-priority upper chest) gets your freshest sets.",
+    "prescription": {
+      "sets": "2-3 working",
+      "reps": "6-10",
+      "load": "1-2 RIR",
+      "rest": "2.5-3 min",
+      "tempo": "2-3 s lower, 1 s pause at the stretch, explode up",
+      "slot": "Chest + Biceps day, second press",
+      "warmup": "1 set x 8 at ~50%"
+    },
+    "setup": {
+      "steps": [
+        "Flat bench, dumbbells kicked up off the knees.",
+        "Shoulder blades pinched down and back; keep the arch small and your butt on the bench.",
+        "Feet flat, slightly behind the knees, screwed into the floor.",
+        "Elbows ~45-60° from the torso; forearms vertical."
+      ],
+      "cues": [
+        "Bend the handles into a 'V' as you press.",
+        "Push the floor away with your feet.",
+        "Punch the dumbbells up and together, stopping just before they touch."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Vertical press against gravity; the arm path is horizontal adduction + shoulder flexion — the sternal pec fibers' main line of pull.",
+      "jointAngles": "Upper arm 45-60° from the torso; elbow ~90° at the bottom; wrists stacked over the elbows.",
+      "momentArm": "The shoulder moment arm peaks at the bottom when the elbows are deepest; freedom of the dumbbells lets each arm find its strongest path.",
+      "kineticChain": "Floor → legs → glutes → braced trunk → pinned scapulae → humerus → dumbbell.",
+      "grf": "Pushing the floor horizontally pins your upper back into the bench — that's your stable anchor.",
+      "hardestPoint": "Bottom third, where the dumbbells are deepest and the pec is most stretched."
+    },
+    "neural": {
+      "intent": "Controlled lowering, max-intent press. Each arm has to stabilize its own dumbbell — extra coordination demand that wakes up the shoulder stabilizers.",
+      "rfd": "Exploding off the pause trains starting strength — force from a dead stop, like throwing a punch from a set guard.",
+      "powerPair": {
+        "exercise": "Med-ball chest pass into a wall (or explosive clap push-up)",
+        "dose": "3 x 4",
+        "rest": "~4-6 min after the top press set",
+        "type": "PAPE"
+      }
+    },
+    "elastic": null,
+    "mobility": "The dumbbells let you go deeper than a barbell, so every rep loads the pec and anterior shoulder at a longer length — expands your horizontal-abduction range under control.",
+    "footBase": "Tripod foot planted, screw outward — this is what gives you a real leg drive and stops your flat-foot arch from collapsing into a weak, wobbly base.",
+    "sequencing": "Legs drive → trunk braces → arms press. Feet move first, every rep.",
+    "looks": {
+      "effect": "Thickens the mid and lower chest so the pecs look full from the front, not just the top.",
+      "lengthened": "Hold 1 s at the bottom with the dumbbells just below chest level and the upper arms slightly past the torso line; on the last set add 3-5 bottom-half partials."
+    },
+    "sportTransfer": {
+      "sports": [
+        "boxing",
+        "MMA",
+        "wrestling",
+        "football",
+        "BJJ"
+      ],
+      "mechanism": "Horizontal push strength: framing and creating space from bottom position in BJJ, hand fighting and posting in wrestling, blocking in football.",
+      "combatNote": "Builds the push base for the cross and for framing off an opponent on your back. The pause rep mimics pushing from a dead stop."
+    },
+    "intensityTechnique": {
+      "technique": "Drop set: at 1 RIR drop ~30% weight and go to 1 RIR again",
+      "when": "Last set only"
+    },
+    "tips": [
+      {
+        "tip": "Rep duration from 0.5-8 s grows muscle similarly — so lower under control, but don't waste effort on super-slow reps. Intent on the way up matters more.",
+        "grade": "B",
+        "source": "Schoenfeld 2015"
+      },
+      {
+        "tip": "If one arm reaches failure first, end the set there — grinding the weak side with a twisted torso just teaches asymmetry.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Don't clang the dumbbells together at the top — stop ~5 cm apart; tension stays on the chest and the lockout doesn't turn into a rest.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Two to three hard sets of near-failure training here is plenty for growth; extra failure sets cut into recovery for your sport and gain little.",
+        "grade": "A-B",
+        "source": "Refalo 2023"
+      }
+    ],
+    "teachMe": "Two separate dumbbells force each shoulder to stabilize itself — the rotator cuff and serratus have to fire in order, which trains the stability your shoulder needs to punch hard without leaking force. The deeper bottom also stretches the pec more under load, and muscles under tension at long lengths are a strong growth signal.",
+    "swaps": {
+      "home": "Floor press with light DBs: elbows touch the floor, 1-s pause, then explode up; 12-20 reps to near failure.",
+      "bodyweight": "Deficit push-up between two chairs or stacks of books, chest below hand level, 8-20 reps."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": [
+        "Schoenfeld 2015 (repetition duration meta-analysis)",
+        "Refalo 2023 (proximity to failure)"
+      ],
+      "confidence": 78
+    }
+  },
+  {
+    "name": "Barbell Bench Press",
+    "aliases": [
+      "bench press",
+      "bench",
+      "flat bench",
+      "bb bench",
+      "barbell bench"
+    ],
+    "category": "compound",
+    "muscles": [
+      "chest",
+      "front delts",
+      "triceps"
+    ],
+    "equipment": [
+      "barbell",
+      "bench with rack/safeties"
+    ],
+    "doThisNotThat": "Touch the bar to your lower chest/sternum with elbows ~45-60° tucked — not to your neck with elbows flared to 90°.",
+    "priorityNote": "Functional strength + looks. Kept to 4-6 reps at 1-2 RIR so it doesn't eat power for sport.",
+    "prescription": {
+      "sets": "2-3 working",
+      "reps": "4-8",
+      "load": "1-2 RIR; true failure only with safeties set or a spotter",
+      "rest": "3 min",
+      "tempo": "2 s lower, touch, explode",
+      "slot": "Chest + Biceps day (gym), main lift",
+      "warmup": "Bar x 10, then 1 set x 5 at ~60%"
+    },
+    "setup": {
+      "steps": [
+        "Eyes under the bar. Grip ~1.5x shoulder width, bar in the heel of the palm, wrist stacked.",
+        "Pinch shoulder blades down and back, small arch, upper back and glutes on the bench.",
+        "Feet flat, slightly behind knees, screwed outward.",
+        "Set safeties just below chest height. Unrack with straight arms, bar over your shoulders."
+      ],
+      "cues": [
+        "Bend the bar into a U.",
+        "Push yourself away from the bar into the bench.",
+        "Drive the floor away and press the bar back toward the rack."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Bar path is a slight J: down to the sternum, then up and back over the shoulders.",
+      "jointAngles": "Elbows ~45-60° from the torso at the bottom; forearms vertical when viewed from the side.",
+      "momentArm": "Tucking the elbows shortens the shoulder moment arm and keeps the bar over the elbow, so less shear on the shoulder and more force into the bar.",
+      "kineticChain": "Floor → legs → glutes → braced trunk → scapulae → humerus → bar.",
+      "grf": "Leg drive is horizontal force that drives your upper back into the bench; it raises force output without the hips leaving the bench.",
+      "hardestPoint": "Just off the chest to mid-range (the 'sticking point' a few cm up)."
+    },
+    "neural": {
+      "intent": "Control down, then try to accelerate the bar the entire way up.",
+      "rfd": "Moving heavy loads with max intent teaches you to recruit high-threshold motor units fast.",
+      "powerPair": {
+        "exercise": "Plyo push-up",
+        "dose": "3 x 3",
+        "rest": "5-7 min after the top set, then go",
+        "type": "PAPE"
+      }
+    },
+    "elastic": null,
+    "mobility": "Full touch-and-press range loads the pec and anterior shoulder at length — builds shoulder extension and thoracic extension under control.",
+    "footBase": "Tripod foot on the floor, then screw the feet outward without moving them. Glutes fire, your knees stop collapsing in, and the leg drive actually reaches the bar instead of leaking through soft, flat arches.",
+    "sequencing": "Leg drive starts before the bar leaves the chest: feet → glutes → trunk → bar.",
+    "looks": {
+      "effect": "Full chest, front delt and triceps thickness — the general 'built' look.",
+      "lengthened": "Touch the chest every rep with no bounce; don't cut range to lift more."
+    },
+    "sportTransfer": {
+      "sports": [
+        "football",
+        "wrestling",
+        "MMA",
+        "boxing",
+        "BJJ"
+      ],
+      "mechanism": "Max horizontal push strength: line play, stiff-arms, pushing off an opponent in the clinch, framing.",
+      "combatNote": "Raises your force ceiling. Pair with plyo push-ups or the strength won't show up in punches."
+    },
+    "intensityTechnique": {
+      "technique": "None on heavy sets; optional 1 back-off set of 8-10 at -20%, last rep at 1 RIR",
+      "when": "After the main working sets"
+    },
+    "tips": [
+      {
+        "tip": "Stop sets at ~20% rep-speed loss instead of grinding — the slow grinding reps hurt power more than they help strength.",
+        "grade": "B",
+        "source": "Pareja-Blanco 2017"
+      },
+      {
+        "tip": "Rest 3 min between heavy sets; shorter rest cuts load and strength gains.",
+        "grade": "B",
+        "source": "Schoenfeld 2016"
+      },
+      {
+        "tip": "Never bench to failure without safeties or a spotter; otherwise leave 1 RIR.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Don't ice/cold-water after this session — post-lifting cold water blunted long-term muscle and strength gains.",
+        "grade": "B",
+        "source": "Roberts 2015"
+      }
+    ],
+    "teachMe": "The bench is a full-body lift disguised as an upper-body lift. Your nervous system scales output to how stable the base feels — loose feet and shoulder blades make your brain hold back. Physics: pressing force has to travel through a stiff chain from floor to bar. Any loose link absorbs force instead of passing it on.",
+    "swaps": {
+      "home": "Dumbbell floor press with a 1-s pause on the floor, 12-20 reps with your light DBs.",
+      "bodyweight": "Weighted-backpack push-up or deficit push-up, 6-15 reps."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": [
+        "Pareja-Blanco 2017 (velocity loss)",
+        "Schoenfeld 2016 (rest)",
+        "Roberts 2015 (cold water immersion)"
+      ],
+      "confidence": 80
+    }
+  },
+  {
+    "name": "Deficit Push-Up",
+    "aliases": [
+      "deficit push up",
+      "deficit pushup",
+      "deep push-up",
+      "push-up on handles",
+      "push up",
+      "pushup",
+      "push-up"
+    ],
+    "category": "compound",
+    "muscles": [
+      "chest",
+      "front delts",
+      "triceps",
+      "serratus anterior",
+      "core"
+    ],
+    "equipment": [
+      "bodyweight",
+      "2 dumbbells or books/chairs for the deficit"
+    ],
+    "doThisNotThat": "Put your hands on dumbbells or books so your chest sinks below your hands — a normal push-up stops before the pecs get the deep stretch.",
+    "priorityNote": "Home staple: hits looks (chest) and athleticism (serratus, trunk stiffness) with zero equipment.",
+    "prescription": {
+      "sets": "3 working",
+      "reps": "8-20 (to 1-2 RIR); add a backpack load when you pass 20",
+      "load": "Bodyweight; 1-2 RIR, last set to failure",
+      "rest": "2 min",
+      "tempo": "2-3 s down, 1 s pause at the bottom, push explosively",
+      "slot": "Chest + Biceps day (home main press) or finisher at the gym",
+      "warmup": "1 set x 8 regular push-ups"
+    },
+    "setup": {
+      "steps": [
+        "Hands on two dumbbells (neutral grip) or book stacks 8-15 cm high, slightly wider than shoulders.",
+        "Body in a straight line: squeeze glutes, ribs down, chin tucked.",
+        "Elbows ~45° from the torso, not flared.",
+        "Lower until your chest is level with or below your hands."
+      ],
+      "cues": [
+        "Push the floor away from you.",
+        "Spread the floor apart with your hands.",
+        "Keep your body a rigid plank from head to heels."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "You push the floor; reaction force goes up through your hands. ~65-70% of bodyweight is on your hands in a standard push-up.",
+      "jointAngles": "Elbows ~45° from torso; body straight; shoulders over or just behind the hands at the bottom.",
+      "momentArm": "Deeper range = bigger shoulder horizontal-abduction angle = more pec stretch under load.",
+      "kineticChain": "Hands → serratus/scapula → trunk (anti-extension) → glutes → feet. The trunk has to be a stiff beam.",
+      "grf": "Push the floor down and slightly back; the reaction force drives you up and forward.",
+      "hardestPoint": "The bottom 5 cm below hand level."
+    },
+    "neural": {
+      "intent": "Slow down, explode up — push hard enough that you almost leave the handles.",
+      "rfd": "Explosive intent recruits fast-twitch fibers and trains you to apply force fast.",
+      "powerPair": {
+        "exercise": "Plyometric push-up (hands leave the floor)",
+        "dose": "3 x 3-5",
+        "rest": "Directly after each set, 15-20 s",
+        "type": "contrast"
+      }
+    },
+    "elastic": "Working sets: pause at the bottom to kill the bounce. Power pairing: quick drop and rebound uses the stretch-shortening cycle.",
+    "mobility": "The deficit loads the pecs and front shoulders at long lengths — direct ROM work for your tight chest and shoulders.",
+    "footBase": null,
+    "sequencing": "Push with the whole body — glutes and trunk locked so your hips rise at the same speed as your shoulders.",
+    "looks": {
+      "effect": "Builds chest, front delts and triceps while the full plank keeps the core tight.",
+      "lengthened": "Spend 1 s at the deepest point; on the last set, 5 partials in the bottom half."
+    },
+    "sportTransfer": {
+      "sports": [
+        "boxing",
+        "MMA",
+        "football",
+        "wrestling",
+        "BJJ",
+        "basketball"
+      ],
+      "mechanism": "Closed-chain push with trunk stiffness: getting up off the mat, posting, sprawl recovery, contact in football.",
+      "combatNote": "Serratus anterior protracts the shoulder blade — the last few cm of a straight punch. Finish each rep by pushing the floor an extra centimeter away."
+    },
+    "intensityTechnique": {
+      "technique": "Mechanical drop set: deficit to failure → regular push-up → knee push-up",
+      "when": "Last set"
+    },
+    "tips": [
+      {
+        "tip": "Finish every rep with an extra push at the top (protraction) — that's serratus work, and serratus sets the shoulder blade for straight punches.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Near-failure bodyweight sets grow muscle similarly to heavier lifting when effort is high.",
+        "grade": "A-B",
+        "source": "Refalo 2023"
+      },
+      {
+        "tip": "A backpack with books is a real loading tool — add weight when you pass 20 reps.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Neutral-grip handles (dumbbells) reduce wrist extension stress, letting you train deeper without wrist pain.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      }
+    ],
+    "teachMe": "Your body can only push with what your trunk can transfer — a sagging hip is a broken link, and force leaks out of it. That's the same chain as a punch: ground to fist through a stiff body. The deficit adds range, which loads the pec where it's stretched, and that's a strong growth signal.",
+    "swaps": {
+      "home": "Backpack-loaded deficit push-up on dumbbells.",
+      "bodyweight": "Deficit push-up between two chairs; regress to incline push-up if needed."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": [
+        "Refalo 2023 (proximity to failure)"
+      ],
+      "confidence": 72
+    }
+  },
+  {
+    "name": "Plyometric Push-Up",
+    "aliases": [
+      "plyo push-up",
+      "plyo pushup",
+      "clap push-up",
+      "clap push up",
+      "explosive push-up",
+      "plyo push up"
+    ],
+    "category": "power",
+    "muscles": [
+      "chest",
+      "triceps",
+      "front delts",
+      "serratus"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "doThisNotThat": "Stop each set the moment you don't leave the floor — sloppy, slow plyo reps train slowness.",
+    "priorityNote": "Athleticism first: this is the upper-body power transfer for punching.",
+    "prescription": {
+      "sets": "3-4",
+      "reps": "3-5",
+      "load": "Bodyweight; every rep max height; end the set when height drops",
+      "rest": "60-90 s (full recovery, this is about speed)",
+      "tempo": "Quick dip, explode",
+      "slot": "Power pairing after the main press, or start of Chest day",
+      "warmup": "1 set x 5 fast regular push-ups"
+    },
+    "setup": {
+      "steps": [
+        "Push-up position, hands slightly wider than shoulders.",
+        "Brace glutes and trunk — rigid plank.",
+        "Drop a few cm fast and push hard enough to leave the floor.",
+        "Land softly with bent elbows and go straight into the next rep."
+      ],
+      "cues": [
+        "Punch the floor away.",
+        "Get as high off the floor as possible.",
+        "Land quiet."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Vertical push; to leave the floor, force must exceed body-weight share on the hands.",
+      "jointAngles": "Elbows ~45° from torso; shallow dip (~1/3 depth) for faster ground contact.",
+      "momentArm": "Shorter dip = shorter shoulder moment arm = faster turnaround.",
+      "kineticChain": "Floor → hands → shoulders → trunk → glutes. Sagging hips absorb force.",
+      "grf": "Bigger, faster push = bigger reaction force = more airtime.",
+      "hardestPoint": "The transition from lowering to pushing (the amortization phase)."
+    },
+    "neural": {
+      "intent": "Maximal speed on every rep.",
+      "rfd": "Pure RFD work: how fast you hit peak force, the same quality as punch snap.",
+      "powerPair": {
+        "exercise": "This IS the power pairing (pair after incline/bench press)",
+        "dose": "3 x 3-5",
+        "rest": "Do it ~4-6 min after the heavy set",
+        "type": "PAPE"
+      }
+    },
+    "elastic": "Fast drop → fast push = stretch-shortening cycle; the pec and anterior shoulder tendons store and return energy. Short ground contact is the goal.",
+    "mobility": "Minor — ROM here is shallow on purpose. Your mobility work comes from the deep presses.",
+    "footBase": null,
+    "sequencing": "Rigid trunk, glutes squeezed, so the push travels into the floor and back up as one piece.",
+    "looks": {
+      "effect": "Small direct effect; trains fast-twitch fibers, which have the most growth potential.",
+      "lengthened": "Not applicable — power drill."
+    },
+    "sportTransfer": {
+      "sports": [
+        "boxing",
+        "MMA",
+        "football",
+        "basketball",
+        "volleyball"
+      ],
+      "mechanism": "Upper-body rate of force development: punches, stiff-arms, chest passes.",
+      "combatNote": "Punch snap is RFD, not max strength. This is the drill that turns bench strength into punching power."
+    },
+    "intensityTechnique": {
+      "technique": "None — quality only",
+      "when": "Never to failure"
+    },
+    "tips": [
+      {
+        "tip": "End the set when you slow down — velocity-loss caps protect power adaptations.",
+        "grade": "B",
+        "source": "Pareja-Blanco 2017"
+      },
+      {
+        "tip": "Pair with a heavy press: power expression usually peaks several minutes after the heavy set, not seconds after.",
+        "grade": "B",
+        "source": "grade B, PAPE meta-analyses"
+      },
+      {
+        "tip": "External focus (\"push the floor away\") beats internal (\"use your chest\") for speed.",
+        "grade": "A",
+        "source": "Wulf"
+      },
+      {
+        "tip": "Skip the clap until you reliably land softly — wrists and face take the hit from bad landings.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      }
+    ],
+    "teachMe": "Strength is how much force you can make; power is how fast. Your nervous system learns speed only when you practice speed — every slow rep teaches it to be slow. Short, explosive sets teach the brain to recruit fast fibers all at once.",
+    "swaps": {
+      "home": "Same — bodyweight only.",
+      "bodyweight": "Incline plyo push-up on a couch arm if you can't leave the floor yet."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": [
+        "Pareja-Blanco 2017",
+        "Wulf (external focus)"
+      ],
+      "confidence": 75
+    }
+  },
+  {
+    "name": "Cable / Dumbbell Fly",
+    "aliases": [
+      "cable fly",
+      "dumbbell fly",
+      "db fly",
+      "chest fly",
+      "pec fly",
+      "cable crossover",
+      "fly"
+    ],
+    "category": "isolation",
+    "muscles": [
+      "chest"
+    ],
+    "equipment": [
+      "cable station or dumbbells + bench"
+    ],
+    "doThisNotThat": "Use cables (or low-incline DBs) and stretch deep with a soft elbow — don't do heavy DB flys where the top is dead tension and you can't control the stretch.",
+    "priorityNote": "Looks priority — chest growth at long lengths. Kept low volume so it doesn't steal from power work.",
+    "prescription": {
+      "sets": "2-3",
+      "reps": "10-15",
+      "load": "Last set to failure",
+      "rest": "90 s",
+      "tempo": "2-3 s lower into the stretch, 1 s pause, squeeze up",
+      "slot": "Chest + Biceps day, accessory after presses",
+      "warmup": "1 set x 12 light"
+    },
+    "setup": {
+      "steps": [
+        "Cables at shoulder height (or slightly above), one step forward, split stance.",
+        "Slight elbow bend locked (~15-20°).",
+        "Open arms until you feel a strong chest stretch with hands slightly behind the torso line.",
+        "Bring hands together in front of the lower chest."
+      ],
+      "cues": [
+        "Hug a big tree.",
+        "Lead with your elbows, not the handles.",
+        "Drive your back foot into the floor."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Cables pull back and out, so tension stays on through the whole arc; dumbbells pull straight down, so tension disappears at the top.",
+      "jointAngles": "Elbow fixed ~15-20°; shoulder horizontal abduction to just past the torso line.",
+      "momentArm": "Long arm = long moment arm on the shoulder, so light weights feel heavy. Max moment arm with DBs is at the bottom.",
+      "kineticChain": "Split stance → braced trunk → scapulae pinned → humerus.",
+      "grf": "Back foot pushes into the floor; that stabilizes the trunk against the cable pull.",
+      "hardestPoint": "The stretched (wide) position."
+    },
+    "neural": {
+      "intent": "Controlled stretch, then drive the hands together hard.",
+      "rfd": "Low priority here — it's a growth exercise.",
+      "powerPair": {
+        "exercise": "None — accessory",
+        "dose": "-",
+        "rest": "-",
+        "type": "none"
+      }
+    },
+    "elastic": null,
+    "mobility": "Direct loaded stretch for tight pecs/anterior shoulder — improves your shoulder opening (horizontal abduction), useful for your all-over stiffness.",
+    "footBase": "Split stance with the front foot in a tripod and both feet screwed into the floor; your arches stay up and the trunk doesn't rotate with the cable.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Inner and mid chest fullness.",
+      "lengthened": "The deep stretch is the money position: last set, 5-8 partials in the stretched half."
+    },
+    "sportTransfer": {
+      "sports": [
+        "wrestling",
+        "BJJ",
+        "MMA"
+      ],
+      "mechanism": "Horizontal adduction strength: bear-hugs, body locks, pulling an opponent in.",
+      "combatNote": "Body lock and clinch squeeze use this pattern; the punching chain needs the pressing work instead."
+    },
+    "intensityTechnique": {
+      "technique": "Lengthened partials",
+      "when": "Last set, after failure on full reps"
+    },
+    "tips": [
+      {
+        "tip": "Lengthened partials are at least as good as full reps for growth; add them after full-ROM failure for extra stimulus.",
+        "grade": "B-C",
+        "source": "Wolf 2023 meta; Wolf 2025"
+      },
+      {
+        "tip": "Cables keep tension on at the top — DB flys lose tension when the arms are vertical.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Low-incline DB flys (15-30°) put more tension on the upper chest.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      }
+    ],
+    "teachMe": "A long lever arm makes light weights heavy, so flys need to be light and controlled. The stretched position is where the pec is under the most tension at long length, and that's a big growth signal. Don't chase heavy weight here — chase stretch and control.",
+    "swaps": {
+      "home": "Floor DB fly (elbows touch the floor = safe stretch limit) with light DBs, 12-20 reps.",
+      "bodyweight": "Towel or sliding push-up fly on a smooth floor, partial range."
+    },
+    "evidence": {
+      "grade": "B-C",
+      "studies": [
+        "Wolf 2023 meta-analysis (partial ROM)",
+        "Wolf 2025 (PeerJ)"
+      ],
+      "confidence": 65
+    }
+  },
+  {
+    "name": "Incline Dumbbell Curl",
+    "aliases": [
+      "incline curl",
+      "incline db curl",
+      "incline bicep curl",
+      "incline biceps curl",
+      "bicep curl",
+      "biceps curl",
+      "dumbbell curl",
+      "db curl",
+      "curl"
+    ],
+    "category": "isolation",
+    "muscles": [
+      "biceps (long head bias)",
+      "biceps short head",
+      "brachialis"
+    ],
+    "equipment": [
+      "dumbbells",
+      "incline bench"
+    ],
+    "doThisNotThat": "Curl lying back on a 45-60° incline with the arms hanging BEHIND the torso and the elbow pinned in space. Most people stand, swing, and let the elbow drift forward, which shortens the long head before the rep even starts.",
+    "priorityNote": "Looks wins here (arm size); athleticism comes from the press/pull and power work, so this stays a 2-3 set accessory, never a priority lift.",
+    "prescription": {
+      "sets": "2-3 working (last set to failure)",
+      "reps": "8-12 (double progression: hit 12 on all sets → +5 lb or slower lowering)",
+      "load": "1-2 RIR on sets 1-2, failure on the last set. Light home DBs are enough: the stretched start makes 10-20 lb hard.",
+      "rest": "90 s",
+      "tempo": "2-3 s lower, 1 s dead-stop at full stretch, max-intent curl up (no swing)",
+      "slot": "Chest + Biceps day, accessory after presses and power work",
+      "warmup": "1 set x 10 at ~50%"
+    },
+    "setup": {
+      "steps": [
+        "Bench at 45-60° (lower = more stretch; start at 60° if your shoulders are stiff).",
+        "Upper back and head on the pad, feet flat in a tripod, ribs down.",
+        "Arms hang straight down, slightly behind the torso line, palms forward.",
+        "Curl by moving only the forearm; the elbow stays at the same spot in space for the whole rep.",
+        "Lower to a fully straight elbow with the shoulder still back; pause 1 s, then curl."
+      ],
+      "cues": [
+        "Point your elbows at the floor the whole rep.",
+        "Bring the pinky edge of the bell up toward the ceiling at the top.",
+        "Let the bells hang to the floor at the bottom until the arm is dead straight."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Gravity pulls the DB straight down; the biceps flexes the elbow against it. Because the torso is reclined, the start of the rep is easy-ish and the loaded range shifts toward mid-range and the top.",
+      "jointAngles": "Shoulder extended ~20-30° behind the torso; elbow from 0° (straight) to ~130°. The long head crosses the shoulder, so shoulder extension + straight elbow = its longest length.",
+      "momentArm": "Torque = DB weight × horizontal distance from elbow to hand. Peak when the forearm is horizontal; near zero at the very bottom and top. Elbow drifting forward shortens the moment arm and steals tension.",
+      "kineticChain": "Pad pins the scapula → humerus fixed → only the elbow moves. Zero leg drive or torso swing is possible, which is the point: pure elbow-flexor demand.",
+      "grf": "Minimal. Feet in a tripod just stop you sliding; the bench is the base.",
+      "hardestPoint": "Forearm horizontal (max moment arm), with the long head still fairly long. The bottom is the stretch, not the hardest point."
+    },
+    "neural": {
+      "intent": "Control the lowering, then curl up as fast as the load allows. Intent to accelerate recruits high-threshold motor units even when the bar moves slowly.",
+      "rfd": "Low priority. This is a looks lift; the power work for the day is the plyo push-up or med-ball throw.",
+      "powerPair": {
+        "exercise": "None (accessory slot)",
+        "dose": "—",
+        "rest": "—",
+        "type": "none"
+      }
+    },
+    "elastic": null,
+    "mobility": "Loaded shoulder extension with a straight elbow stretches the front of the shoulder and the long head. This is the stiff range that pulls your shoulders forward. Full-ROM loading builds range about as well as stretching (Afonso 2021), so every rep is mobility work.",
+    "footBase": "Seated, but feet still matter: tripod feet flat and light Screw pressure into the floor. That pins the pelvis so the lower back doesn't arch and the shoulders stay on the pad.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Biceps peak and fullness from the front; arms look bigger in a T-shirt when the long head (outer biceps) fills out.",
+      "lengthened": "Bottom position: shoulder behind the body + elbow fully straight = long head at its longest. Last set: after failure, 5-6 partials in the bottom third only."
+    },
+    "sportTransfer": {
+      "sports": [
+        "wrestling",
+        "BJJ",
+        "MMA",
+        "baseball",
+        "tennis"
+      ],
+      "mechanism": "Elbow flexors decelerate the arm after throws, serves and swings (eccentric braking), and they power pulling and gripping. A stronger long head also helps the front of the shoulder resist the stretch it takes at full layback.",
+      "combatNote": "Collar ties, underhooks pulling in, and finishing a rear-naked choke all need elbow flexion under load. It does NOT add punch power. Punches are elbow extension driven by the hips, so this stays an accessory."
+    },
+    "intensityTechnique": {
+      "technique": "Lengthened partials after failure (5-6 bottom-third reps)",
+      "when": "Last set only"
+    },
+    "tips": [
+      {
+        "tip": "Shoulder extension pre-stretches the long head because it crosses the shoulder. Training at long muscle lengths grew muscle as much as or more than short-range training in several trials; recent work points to parity with full ROM, so take the stretch as a free bonus.",
+        "grade": "B-C",
+        "source": "Pedrosa 2022; Wolf 2023 meta; Wolf 2025"
+      },
+      {
+        "tip": "Stop the rep when the elbow starts moving forward. That movement is the front delt taking over and shortening the long head, so the \"extra\" rep doesn't count.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Rotate the pinky up at the top. The biceps is a forearm supinator as well as an elbow flexor, so full supination gives full contraction. A neutral grip shifts the load to the brachialis (hammer curl).",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Failure on the last set only. Being 1-3 reps from failure grows muscle about as well (Refalo 2023), and grinding every set wrecks the next day's pulling.",
+        "grade": "A-B",
+        "source": "Refalo 2023"
+      },
+      {
+        "tip": "0.5-8 s reps grow similarly (Schoenfeld 2015). The 1-s pause at the bottom is there to kill bounce from the stretch, not to make the rep slower for its own sake.",
+        "grade": "B",
+        "source": "Schoenfeld 2015"
+      }
+    ],
+    "teachMe": "The long head of the biceps starts above the shoulder joint, so when your arm sits behind your body the muscle is already stretched before the elbow bends. That is a position the nervous system rarely gets loaded in, so the brain treats it as unsafe and tenses up. Slow, controlled reps there teach it the range is safe, and it gives back some of the shoulder range your posture took. The physics: torque is weight × horizontal distance, so the elbow must stay still. Let it drift forward and you shorten the lever, cut the tension, and turn the lift into a front-delt raise.",
+    "swaps": {
+      "home": "Floor or couch-edge incline curl: lie back on the couch arm or a pile of cushions at ~45° with arms hanging behind the torso. Same light DBs, 3-s lowering + pause; if you get 15+ easy reps, add bottom-third partials.",
+      "bodyweight": "Towel door-handle curl: towel around a sturdy door handle (door closed, you on the hinge side), lean back with straight arms behind the line of the body, curl yourself up. Walk your feet forward to make it harder."
+    },
+    "evidence": {
+      "grade": "B-C",
+      "studies": [
+        "Pedrosa et al. 2022 (long-length partial ROM)",
+        "Wolf et al. 2023 meta-analysis",
+        "Wolf et al. 2025 (PeerJ)",
+        "Refalo et al. 2023",
+        "Schoenfeld et al. 2015"
+      ],
+      "confidence": 65
+    }
+  },
+  {
+    "name": "Hammer Curl",
+    "aliases": [
+      "hammer curls",
+      "db hammer curl",
+      "dumbbell hammer curl",
+      "neutral grip curl",
+      "cross body hammer curl",
+      "rope curl"
+    ],
+    "category": "isolation",
+    "muscles": [
+      "brachialis",
+      "brachioradialis",
+      "biceps",
+      "forearm/grip"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "doThisNotThat": "Keep a dead-neutral wrist (thumb up, knuckles in line with the forearm) and the elbow pinned at your side. Most people curl with a bent wrist and swing the elbow forward, which turns it into a sloppy front-raise.",
+    "priorityNote": "Looks first (forearm thickness and arm width from the front), then grip and clinch strength. Accessory volume only; it never replaces power or main-lift work.",
+    "prescription": {
+      "sets": "2-3 working (last set to failure)",
+      "reps": "8-15 (double progression: 15 on all sets → +5 lb, or 3-s lowering if DBs are maxed)",
+      "load": "1-2 RIR, last set to failure. Usually 5-10 lb heavier than your supinated curl.",
+      "rest": "90 s (superset with incline curl: 60 s between the two, 90 s after the pair)",
+      "tempo": "2 s lower, no pause, max-intent up; no swing",
+      "slot": "Chest + Biceps day, last accessory (or the Back + Triceps day for grip)",
+      "warmup": "1 set x 10 at ~50%"
+    },
+    "setup": {
+      "steps": [
+        "Stand with tripod feet hip-width, light Screw into the floor, knees soft, ribs stacked over the pelvis.",
+        "DBs at your sides, palms facing the thighs (thumbs forward). Squeeze the handle hard.",
+        "Curl until the top end of the DB reaches shoulder height while the elbow stays beside the ribs.",
+        "Lower to a fully straight elbow without letting the wrist bend or the shoulders roll forward."
+      ],
+      "cues": [
+        "Lead with the thumb end of the dumbbell toward the ceiling.",
+        "Elbows stay glued to your sides like they're pinned to your ribs.",
+        "Crush the handle like you're wringing water out of it."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Gravity pulls straight down; the elbow flexes against it. The neutral forearm puts the brachioradialis at its best leverage, and the brachialis (pure elbow flexor, attaches to the ulna) works hard regardless of grip.",
+      "jointAngles": "Elbow 0° → ~130°, forearm neutral (mid-pronation), wrist neutral, shoulder at ~0° (beside the torso).",
+      "momentArm": "Torque = DB weight × horizontal distance from elbow to hand; peak at a horizontal forearm. Elbow drifting forward or a bent wrist shortens the lever and leaks force, so the same DB gives less stimulus.",
+      "kineticChain": "Feet in a tripod → glutes and brace lock the pelvis → shoulder packed → the elbow is the only joint moving. Any hip swing means force from the legs is doing the curl.",
+      "grf": "Standing: push the floor evenly through big toe, pinky toe and heel. If the arch collapses, the knees cave and the torso sways, which turns into a cheat swing.",
+      "hardestPoint": "Forearm horizontal (90° elbow)."
+    },
+    "neural": {
+      "intent": "Max-intent up, controlled down. A hard grip squeeze recruits more motor units in the forearm and elbow flexors (irradiation), so the curl and the grip train together.",
+      "rfd": "Low priority. Grip RFD matters for grabbing a wrist or collar fast, but it comes from fight drills; this lift builds the base strength.",
+      "powerPair": {
+        "exercise": "None (accessory slot)",
+        "dose": "—",
+        "rest": "—",
+        "type": "none"
+      }
+    },
+    "elastic": null,
+    "mobility": "Full elbow extension at the bottom under load keeps the elbow from losing its last few degrees (common in lifters who only half-rep). Standing tall with ribs down trains posture under load.",
+    "footBase": "Tripod foot + the Screw: rotate the planted feet outward without moving them. The arch appears, glutes switch on, and the pelvis locks, so the swing disappears and the arms get the work.",
+    "sequencing": null,
+    "looks": {
+      "effect": "Thicker forearms and brachialis. The brachialis sits under the biceps and pushes it up, so the arm looks wider from the front and side. Forearms are on show in every T-shirt.",
+      "lengthened": "Fully straight elbow at the bottom, shoulders back (not rolled forward). Last set: 5-6 bottom-half partials, or finish with a 20-30 s dead-hang-style DB hold at your side for grip."
+    },
+    "sportTransfer": {
+      "sports": [
+        "wrestling",
+        "BJJ",
+        "MMA",
+        "baseball",
+        "tennis",
+        "pickleball",
+        "football"
+      ],
+      "mechanism": "The neutral-grip elbow flexion is the same line as holding a bat, racket or paddle and pulling an opponent. Grip and brachioradialis strength steady the wrist at contact, so fewer mishits come from the racket twisting in your hand.",
+      "combatNote": "Clinch, collar ties, two-on-one, and gripping a wrist all use thumb-up elbow flexion plus a crushing grip. Thicker forearms and stronger grip control mean you hold positions longer before forearm pump. It does not add punch power."
+    },
+    "intensityTechnique": {
+      "technique": "Mechanical drop set: hammer curl to failure → immediately cross-body hammer curls → bottom-half partials",
+      "when": "Last set only"
+    },
+    "tips": [
+      {
+        "tip": "The brachialis is a pure elbow flexor. It works in every grip, so hammer curls hit it with whatever load you can handle, and a bigger brachialis makes the arm look wider.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Cross-body variation (DB toward the opposite pec) keeps tension on the brachialis and lets you go slightly heavier without swinging. Alternate it week to week with standard hammers.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "A hard grip squeeze makes the whole arm work harder (irradiation), so grip is trained for free. No extra wrist-roller work needed for a fighter at your level.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Last set to failure only; 1-3 RIR on the others grows the same (Refalo 2023) and saves forearm recovery for fight drills and pulling.",
+        "grade": "A-B",
+        "source": "Refalo 2023"
+      },
+      {
+        "tip": "Rest 90 s even on arms. Longer rest let trained lifters do more work and showed more growth (Schoenfeld 2016); supersetting biceps work doesn't change that for this lift.",
+        "grade": "B",
+        "source": "Schoenfeld 2016"
+      }
+    ],
+    "teachMe": "The forearm has two bones, and the grip decides which elbow flexor is in the best position: palms up favors the biceps, thumbs up gives the brachioradialis its best leverage, and the brachialis works in every grip. That is why the hammer curl builds forearm and arm thickness the regular curl misses. A crushing grip spreads the nervous system's drive into the nearby muscles (irradiation), so the whole chain from hand to shoulder fires as one unit. That is the same unit you use to hold a collar tie or a racket at contact.",
+    "swaps": {
+      "home": "Same lift with light home DBs. When 15 reps gets easy, use a 3-s lowering, add the cross-body version, or do a mechanical drop set (standard → cross-body → partials).",
+      "bodyweight": "Towel hammer curl: loop a towel around a door handle, hold both ends with thumbs up, lean back and curl yourself in. Or towel isometric holds: hold the bottom of the towel with a foot and pull up against it at 90° for 3 x 20 s."
+    },
+    "evidence": {
+      "grade": "C",
+      "studies": [
+        "Refalo et al. 2023 (proximity to failure)",
+        "Schoenfeld et al. 2016 (rest intervals)",
+        "grade C, mechanism-based (grip/muscle leverage)"
+      ],
+      "confidence": 60
+    }
+  },
+  {
+    "name": "Pull-Up",
+    "aliases": [
+      "pull up",
+      "pullup",
+      "pull-ups",
+      "chin up",
+      "chin-up",
+      "chinup",
+      "chins",
+      "weighted pull-up"
+    ],
+    "category": "compound",
+    "muscles": [
+      "lats",
+      "teres major",
+      "mid/lower traps",
+      "biceps",
+      "brachialis",
+      "core (anti-extension)"
+    ],
+    "equipment": [
+      "pull-up bar"
+    ],
+    "doThisNotThat": "Start every rep from a true dead hang and pull the shoulder blades down BEFORE the elbows bend — half-reps from bent arms skip the stretch and turn it into a biceps exercise.",
+    "priorityNote": "Athleticism + looks tie: relative strength (your bodyweight) and lat width both win, so this leads Back day when a bar is available.",
+    "prescription": {
+      "sets": "3 working",
+      "reps": "4-8; at 3 x 8 add 2.5-5 lb in a backpack",
+      "load": "Bodyweight to weighted; 1-2 RIR, end the set when the chin stops clearing at full speed",
+      "rest": "2.5-3 min",
+      "tempo": "2-3 s lower to a full dead hang, 1 s hang, explode up",
+      "slot": "Back + Triceps day, first main lift after CNS prime",
+      "warmup": "1 set x 3-5 jumping negatives or chin-ups at an easy RIR 4"
+    },
+    "setup": {
+      "steps": [
+        "Grip just outside shoulder width, palms forward (palms toward you = chin-up, more biceps, also fine).",
+        "Dead hang, then pull the shoulder blades down ~3-5 cm without bending the arms — a 'scap pull'.",
+        "Ribs down, glutes tight, legs straight and slightly in front — a hollow body, no swinging.",
+        "Pull until the chin clears the bar; lower all the way to a straight-arm hang."
+      ],
+      "cues": [
+        "Drive your elbows down into your back pockets.",
+        "Pull the bar down to your collarbone.",
+        "Try to bend the bar into a U."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Pure vertical: you lift 100% of bodyweight (~125-135 lb) straight up against gravity. Every lb of fat or loose swing is extra load.",
+      "jointAngles": "Shoulder travels from ~170-180° flexion (overhead) to ~0-20°; elbows from straight to ~120° flexion. Torso tilts back only ~10-20° at the top.",
+      "momentArm": "The lats have their worst leverage at the dead hang (arm overhead) and best as the elbow passes the ribs — which is why the bottom feels hardest and why people cheat it.",
+      "kineticChain": "Hands → forearms → elbow flexors → lats/teres → scapulae (depress + retract) → hollow trunk → legs. A kip or arched back breaks the chain at the trunk.",
+      "grf": "No ground: the bar is your 'floor'. Squeezing the bar hard (irradiation) stiffens the whole arm so force from the lats isn't lost at the hand.",
+      "hardestPoint": "First third off the dead hang, where the lats are longest and leverage is worst."
+    },
+    "neural": {
+      "intent": "Controlled 2-3 s lowering, then try to fly over the bar — accelerate the whole way up.",
+      "rfd": "Max-intent pulling recruits high-threshold motor units in the lats; speed of the pull is the athletic quality you keep.",
+      "powerPair": {
+        "exercise": "Bodyweight sprawl-to-jump (or med-ball overhead slam at the gym)",
+        "dose": "3 x 3-5, every rep max speed",
+        "rest": "Start ~4-6 min after your top set; 60-90 s between power sets",
+        "type": "PAPE"
+      }
+    },
+    "elastic": null,
+    "mobility": "The 1 s dead hang is a loaded overhead stretch for lats, pecs and the thoracic spine — exactly where your 'stiff everywhere' shows up overhead. Loaded full-ROM work builds ROM about as well as static stretching (Afonso 2021).",
+    "footBase": null,
+    "sequencing": "Scap first, elbows second: shoulder blades depress, THEN the arms pull. Same proximal-to-distal order as every throw and punch — big muscles near the trunk start, the arm finishes.",
+    "looks": {
+      "effect": "Lat width is the V in V-taper; the pull-up also thickens the lower traps and arms.",
+      "lengthened": "Hang 1 s at the bottom with arms fully straight and shoulders elevated; on the last set add 3-5 bottom-half partials (dead hang to forehead height) after failure."
+    },
+    "sportTransfer": {
+      "sports": [
+        "wrestling",
+        "BJJ",
+        "MMA",
+        "volleyball",
+        "football",
+        "baseball"
+      ],
+      "mechanism": "Vertical pulling strength and bodyweight control: pulling yourself to an opponent, climbing to the back in BJJ, the lat-driven downswing of a volleyball spike and baseball throw deceleration.",
+      "combatNote": "Lats pull the elbow back to your side — the punch retraction that resets your guard. Strong lats also mean you can drag an opponent's head down in the clinch."
+    },
+    "intensityTechnique": {
+      "technique": "Negatives: after the last full rep, jump to the top and lower over 3-5 s, 2-3 times",
+      "when": "Last working set only"
+    },
+    "tips": [
+      {
+        "tip": "Can't do 4 strict reps yet? Jumping negatives (3-5 s lower) build the strength fastest; skip band assistance — you don't own bands anyway.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Rest the full 2.5-3 min; your second and third set will have ~1-3 more reps than with 1-min rest.",
+        "grade": "B",
+        "source": "Schoenfeld 2016"
+      },
+      {
+        "tip": "Stop when the chin stops clearing at full speed — grinding to 40% velocity loss gave smaller jump gains than stopping at 20% in squats; same logic for pulling power.",
+        "grade": "B-C",
+        "source": "Pareja-Blanco 2017 (squat data, extrapolated)"
+      },
+      {
+        "tip": "Thinking 'elbows to pockets' (external) beats 'squeeze your lats' (internal) for performance.",
+        "grade": "A",
+        "source": "Wulf"
+      },
+      {
+        "tip": "Light bodyweight is an advantage here — at ~130 lb, relative strength builds fast; aim for 10 strict reps, then load it.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      }
+    ],
+    "teachMe": "Your brain decides how hard you're allowed to pull based on how safe the joint feels. Starting from a dead hang with the shoulder blades set tells it the shoulder is locked in, so it releases more of the lat. Physics: at the bottom the lat's line of pull is nearly parallel to the arm, so it has terrible leverage — that's why the first few cm are hardest and why owning them builds the most strength.",
+    "swaps": {
+      "home": "No bar at home: one-arm DB row with a 3 s lower + 1 s stretch, 10-15 reps per side, plus doorway or table rows.",
+      "bodyweight": "Table inverted row: lie under a sturdy table, grip the edge, body straight, pull your chest to the table; elevate feet on a chair to make it harder."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": [
+        "Schoenfeld 2016 (rest intervals)",
+        "Afonso 2021 (strength training vs stretching for ROM)",
+        "Wulf (external focus)"
+      ],
+      "confidence": 75
+    }
+  },
+  {
+    "name": "One-Arm Dumbbell Row",
+    "aliases": [
+      "one arm db row",
+      "one-arm db row",
+      "single arm row",
+      "single-arm dumbbell row",
+      "db row",
+      "dumbbell row",
+      "one-arm row",
+      "1 arm row",
+      "kroc row"
+    ],
+    "category": "compound",
+    "muscles": [
+      "lats",
+      "mid traps",
+      "rhomboids",
+      "rear delts",
+      "biceps",
+      "obliques (anti-rotation)"
+    ],
+    "equipment": [
+      "dumbbell",
+      "bench or couch"
+    ],
+    "doThisNotThat": "Pull the dumbbell in an arc toward your hip, not straight up to your armpit — the hip path trains the lats; the armpit path turns it into a shrug.",
+    "priorityNote": "Athleticism + looks: the anti-rotation demand is fight-relevant and it's your best home back builder.",
+    "prescription": {
+      "sets": "3 working per side",
+      "reps": "6-12 per side (light home DBs: 12-20 with the 3 s lower)",
+      "load": "1-2 RIR; stop when your torso starts twisting to finish the rep",
+      "rest": "2 min per side cycle (work side A, rest ~60 s, side B, rest ~60 s)",
+      "tempo": "2-3 s lower, 1 s full stretch at the bottom, explode up",
+      "slot": "Back + Triceps day: main lift at home, second pull at the gym",
+      "warmup": "1 set x 8 per side at ~50%"
+    },
+    "setup": {
+      "steps": [
+        "Same-side hand and knee on a bench (home: one hand on the couch arm, staggered stance, front knee bent).",
+        "Spine flat, hips and shoulders square to the floor.",
+        "Let the DB hang straight down so the shoulder blade slides forward — full stretch.",
+        "Pull the elbow back toward the hip, close to the ribs."
+      ],
+      "cues": [
+        "Drive your elbow back toward your back pocket.",
+        "Push the bench away with your support hand.",
+        "Keep your belt buckle pointing at the floor."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "Gravity pulls the DB straight down; you pull back and up along an arc toward the hip, which matches the lat fibers' line of pull (shoulder extension).",
+      "jointAngles": "Torso ~parallel to the floor (0-15°); elbow ~20-30° from the torso; the humerus moves from ~90° flexion to just past the torso line.",
+      "momentArm": "With the torso flat, gravity acts perpendicular to the upper arm through mid-range, so the lats get max torque around shoulder extension; the free side creates a rotational torque your trunk has to resist.",
+      "kineticChain": "Support hand + feet → anti-rotation trunk (obliques) → scapula (retract/depress) → humerus → elbow → DB.",
+      "grf": "Support hand pushes into the bench and feet drive the floor — that ground force is what keeps the trunk from rotating toward the DB.",
+      "hardestPoint": "Top contraction, elbow just past the torso, where the moment arm is longest and the rhomboids/lats are shortest."
+    },
+    "neural": {
+      "intent": "Controlled lower into a stretch, then rip the elbow back as fast as possible.",
+      "rfd": "Explosive single-arm pulls train fast rear-chain recruitment on one side while the trunk stays still — the punch-retraction pattern.",
+      "powerPair": {
+        "exercise": "Rotational DB high-pull or shadowbox 3 x 5 max-speed rear-hand retractions",
+        "dose": "3 x 5 per side",
+        "rest": "Done ~4-6 min after the top set",
+        "type": "PAPE"
+      }
+    },
+    "elastic": null,
+    "mobility": "The 1 s bottom stretch pulls the shoulder blade around the rib cage and lengthens the lat — direct work against your stiff shoulders and upper back.",
+    "footBase": "Staggered home version: front foot in a tripod (big-toe ball, pinky-toe ball, heel), both feet screwed outward so the arch stays up and the hips stay square.",
+    "sequencing": "Shoulder blade starts, elbow finishes — trunk stays still. That still trunk is the base every punch and pull needs.",
+    "looks": {
+      "effect": "Lat thickness and width + mid-back density — the back looks 3D from the side and wide from behind.",
+      "lengthened": "Let the shoulder blade fully protract at the bottom (DB hangs a few cm lower than you'd think); last set, 4-6 bottom-half partials after failure."
+    },
+    "sportTransfer": {
+      "sports": [
+        "boxing",
+        "MMA",
+        "wrestling",
+        "BJJ",
+        "baseball",
+        "tennis",
+        "pickleball"
+      ],
+      "mechanism": "Single-arm pulling with anti-rotation: retracting a punch, the backswing of a racket or paddle, pulling an opponent one-handed while staying square.",
+      "combatNote": "A fast-retracting punch closes the gap in your guard. Lats + rear delts pull it back; train them as hard as the push."
+    },
+    "intensityTechnique": {
+      "technique": "Lengthened partials (bottom half) after failure on full reps",
+      "when": "Last set"
+    },
+    "tips": [
+      {
+        "tip": "Pull toward the hip, not the chest — moving the path down shifts the work to the lat.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Light home DBs: slow the lower to 3 s and add a 1 s top squeeze — rep durations of 0.5-8 s grow muscle similarly, so slow tempo is a valid way to make light weights work.",
+        "grade": "B",
+        "source": "Schoenfeld 2015"
+      },
+      {
+        "tip": "Near-failure (1-3 RIR) is about as good as failure for growth — save failure for the last set.",
+        "grade": "A-B",
+        "source": "Refalo 2023"
+      },
+      {
+        "tip": "If your torso twists to finish a rep, the set is over — that's your anti-rotation core failing, not your lats.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      }
+    ],
+    "teachMe": "One arm at a time puts the weight off-center, so gravity tries to twist you. Your obliques have to resist that twist — that's the same anti-rotation stiffness that lets force travel from your hips to your fist instead of leaking out. Pulling toward the hip lines the arm up with the lat's fibers, so the force goes into the muscle you're trying to grow.",
+    "swaps": {
+      "home": "Same exercise with home DBs braced on a couch; add the 3 s lower and top pause.",
+      "bodyweight": "Table inverted row (feet elevated to progress) or single-arm towel row on a door."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": [
+        "Schoenfeld 2015 (repetition duration meta)",
+        "Refalo 2023 (proximity to failure)"
+      ],
+      "confidence": 72
+    }
+  },
+  {
+    "name": "Lat Pulldown",
+    "aliases": [
+      "lat pull down",
+      "lat pulldown",
+      "pulldown",
+      "pull-down",
+      "lat pull",
+      "cable pulldown",
+      "wide grip pulldown",
+      "lat machine"
+    ],
+    "category": "compound",
+    "muscles": [
+      "lats",
+      "teres major",
+      "lower traps",
+      "biceps"
+    ],
+    "equipment": [
+      "cable pulldown machine"
+    ],
+    "doThisNotThat": "Let the weight pull your arms fully overhead (shoulders shrug up) at the top every rep and lean back only ~10-15° — don't swing back to 45° and stop the bar halfway up.",
+    "priorityNote": "Looks leads (lat width) — use it when pull-ups can't be loaded or for extra back volume.",
+    "prescription": {
+      "sets": "2-3 working",
+      "reps": "8-12",
+      "load": "1-2 RIR on sets 1-2, last set to failure",
+      "rest": "2 min",
+      "tempo": "2-3 s up into a full stretch, 1 s at the top, pull fast",
+      "slot": "Back + Triceps day (gym), after the main pull or row",
+      "warmup": "1 set x 10 at ~50%"
+    },
+    "setup": {
+      "steps": [
+        "Thigh pad snug so your knees can't lift.",
+        "Grip ~1.2-1.5x shoulder width, overhand (or neutral handle).",
+        "Torso back ~10-15°, chest up, ribs down.",
+        "Pull the bar to the top of your chest; let it go all the way back up."
+      ],
+      "cues": [
+        "Pull your elbows down into your back pockets.",
+        "Bring the bar to your collarbone.",
+        "Let the bar stretch you tall at the top."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "The cable pulls up and slightly forward; you pull down and back, mostly shoulder adduction/extension.",
+      "jointAngles": "Shoulder from ~170° flexion to ~20°; elbow from straight to ~100-120° flexion; torso lean 10-15°.",
+      "momentArm": "The cable keeps tension near-constant, but the lats' leverage is worst overhead — so the top stretch is where light weight feels heavy.",
+      "kineticChain": "Feet → thigh pad → braced trunk → scapulae (depress) → lats → elbows → hands.",
+      "grf": "Feet flat and pushing into the floor pin the thighs under the pad — a stable base means the pull goes into the bar, not your hips lifting.",
+      "hardestPoint": "Bottom contraction (bar at the chest) for strength; top stretch for control."
+    },
+    "neural": {
+      "intent": "Controlled up, then pull the bar down as fast as you can.",
+      "rfd": "Moderate; it's an accessory, so intent matters more than speed tracking.",
+      "powerPair": {
+        "exercise": "None — accessory lift",
+        "dose": "-",
+        "rest": "-",
+        "type": "none"
+      }
+    },
+    "elastic": null,
+    "mobility": "The full overhead stretch lengthens the lats, which are one of the main things that block your overhead reach (a big contributor to the stiff feeling in your shoulders).",
+    "footBase": "Feet flat in a tripod and screwed outward — the push into the floor locks the thighs under the pad and stops your arches from collapsing.",
+    "sequencing": "Shoulder blades drop first, then the elbows pull. Proximal before distal, every rep.",
+    "looks": {
+      "effect": "Lat width = the V in the V-taper.",
+      "lengthened": "Hold 1 s with arms fully straight and shoulders up at the top; last set, 5-8 top-half partials after failure."
+    },
+    "sportTransfer": {
+      "sports": [
+        "wrestling",
+        "BJJ",
+        "MMA",
+        "volleyball",
+        "baseball"
+      ],
+      "mechanism": "Vertical pulling strength with a stable trunk: dragging an opponent's head down, the downstroke of a spike, the lat contribution to throwing.",
+      "combatNote": "Lats pull the elbow to the ribs — the same motion that keeps your elbows tight to block body shots and drags a collar tie down."
+    },
+    "intensityTechnique": {
+      "technique": "Drop set (~30% off) then top-half lengthened partials",
+      "when": "Last set"
+    },
+    "tips": [
+      {
+        "tip": "Pause at the top stretch — training at long muscle lengths tends to grow as well as or better than short ranges.",
+        "grade": "B-C",
+        "source": "Wolf 2023 meta"
+      },
+      {
+        "tip": "Thumbless grip (thumb on the same side as the fingers) often reduces forearm fatigue so the lats fail first.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Cue 'elbows to pockets', not 'squeeze the lats' — external focus improves performance.",
+        "grade": "A",
+        "source": "Wulf"
+      },
+      {
+        "tip": "Rest 2 min; shorter rest reduces reps on later sets.",
+        "grade": "B",
+        "source": "Schoenfeld 2016"
+      }
+    ],
+    "teachMe": "Your lats run from your upper arm all the way down to your pelvis. When your arm goes fully overhead they're stretched along their whole length, which is a strong growth signal and teaches the nervous system the overhead range is safe. The more range it trusts, the less it grips — that's how strength work loosens you up.",
+    "swaps": {
+      "home": "One-arm DB row (3 s lower) + floor DB pullover, 12-20 reps.",
+      "bodyweight": "Table inverted row, feet elevated."
+    },
+    "evidence": {
+      "grade": "B-C",
+      "studies": [
+        "Wolf 2023 meta-analysis (partial ROM)",
+        "Schoenfeld 2016 (rest)",
+        "Wulf (external focus)"
+      ],
+      "confidence": 65
+    }
+  },
+  {
+    "name": "Barbell Row",
+    "aliases": [
+      "bent over row",
+      "bent-over row",
+      "bb row",
+      "pendlay row",
+      "barbell bent over row",
+      "bent row"
+    ],
+    "category": "compound",
+    "muscles": [
+      "mid/upper back",
+      "lats",
+      "rear delts",
+      "spinal erectors",
+      "hamstrings (isometric)"
+    ],
+    "equipment": [
+      "barbell"
+    ],
+    "doThisNotThat": "Hold the hinge at ~30-45° and pull to the belly button — don't stand taller every rep until it turns into a shrug.",
+    "priorityNote": "Functional strength + posture; athleticism through the isometric hip hinge.",
+    "prescription": {
+      "sets": "2-3 working",
+      "reps": "6-10",
+      "load": "1-2 RIR; set ends when the torso angle changes",
+      "rest": "2.5-3 min",
+      "tempo": "2 s lower, pull explosively",
+      "slot": "Back + Triceps day (gym), main lift",
+      "warmup": "1 set x 8 at ~50%"
+    },
+    "setup": {
+      "steps": [
+        "Feet hip-width, overhand grip just outside the shins.",
+        "Hinge to a 30-45° torso angle, knees soft (~20°).",
+        "Brace: big breath into the belly, ribs down, spine neutral.",
+        "Bar hangs under the shoulders; pull it to the lower ribs/belly button."
+      ],
+      "cues": [
+        "Drive your elbows to the ceiling behind you.",
+        "Pull the bar into your belly button.",
+        "Root your feet into the floor."
+      ]
+    },
+    "biomechanics": {
+      "forceVector": "You pull vertically while the hinge is held; gravity also tries to round your spine forward (flexion moment).",
+      "jointAngles": "Torso 30-45° above the floor; knees ~20°; elbows ~45° from the torso.",
+      "momentArm": "The bar's distance in front of the hips is a long moment arm, so the spinal erectors and hamstrings work isometrically every rep.",
+      "kineticChain": "Feet → hamstrings/glutes (isometric) → braced spine → scapulae → elbows → bar.",
+      "grf": "Feet push the floor to hold the hinge; that's what stops your hips from popping up.",
+      "hardestPoint": "Top contraction, bar at the belly."
+    },
+    "neural": {
+      "intent": "Rip the bar up fast; control it down.",
+      "rfd": "Training the pull from a held hinge builds posterior-chain stiffness and fast upper-back recruitment.",
+      "powerPair": {
+        "exercise": "Broad jump (or med-ball scoop toss)",
+        "dose": "3 x 3",
+        "rest": "~4-6 min after the top set",
+        "type": "PAPE"
+      }
+    },
+    "elastic": null,
+    "mobility": "The held hinge loads the hamstrings at length — builds hip-hinge range, a key fix for your all-over stiffness.",
+    "footBase": "Tripod foot and screw outward — essential to hold the hinge without your flat arches collapsing and knees drifting in.",
+    "sequencing": "Hinge set first; then the shoulder blades retract, then the elbows pull.",
+    "looks": {
+      "effect": "Back thickness and posture — shoulders sit back, chest looks bigger.",
+      "lengthened": "Let the shoulder blades protract at the bottom of each rep."
+    },
+    "sportTransfer": {
+      "sports": [
+        "wrestling",
+        "football",
+        "BJJ",
+        "MMA",
+        "baseball"
+      ],
+      "mechanism": "Pulling from a hinged, athletic position — the same posture as a wrestling stance, a lineman's hand fight, or a front headlock.",
+      "combatNote": "Hinged pulling strength for front headlocks and snapping an opponent's head down."
+    },
+    "intensityTechnique": {
+      "technique": "None on heavy sets; optional back-off set of 10-12 at -20%",
+      "when": "After working sets"
+    },
+    "tips": [
+      {
+        "tip": "The set is over when your torso angle changes — that's the hinge failing, not the back.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      },
+      {
+        "tip": "Rest 2.5-3 min on heavy rows; short rest cuts load.",
+        "grade": "B",
+        "source": "Schoenfeld 2016"
+      },
+      {
+        "tip": "Stop around 20% velocity loss for better power transfer.",
+        "grade": "B",
+        "source": "Pareja-Blanco 2017"
+      },
+      {
+        "tip": "Bracing with a big belly breath creates intra-abdominal pressure that stiffens the spine — hold it through the pull.",
+        "grade": "C",
+        "source": "grade C, mechanism-based"
+      }
+    ],
+    "teachMe": "The barbell row teaches your back to pull while your hips and spine hold an athletic hinge — the position you're in for almost every sport. Physics: the bar out in front creates a long lever on your lower back, so your brain has to learn to hold the trunk stiff while the arms move. That stiff-trunk, moving-limbs pattern is the core of every athletic movement.",
+    "swaps": {
+      "home": "One-arm DB row or two-DB chest-supported row on an incline.",
+      "bodyweight": "Table inverted row."
+    },
+    "evidence": {
+      "grade": "B",
+      "studies": [
+        "Schoenfeld 2016 (rest)",
+        "Pareja-Blanco 2017 (velocity loss)"
+      ],
+      "confidence": 70
+    }
+  }
+]

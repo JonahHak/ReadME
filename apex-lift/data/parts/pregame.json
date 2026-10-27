@@ -1,0 +1,247 @@
+[
+  {
+    "sport": "Basketball",
+    "aliases": ["hoops", "pickup", "pickup basketball", "basketball game", "bball", "run", "5v5", "3v3"],
+    "totalMin": 8,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Box breathing 4-4-4-4, then wall push isometric 'release the brake'", "dose": "3 breath cycles, then 2 × 6 s max-intent wall push in an athletic split stance", "why": "The slow exhale downshifts the threat state that makes you freeze then react late. The 6 s max push tells the nervous system that high force is safe, so more fast-twitch units come online for the first sprint." },
+      { "phase": "Visual Priming", "drill": "Near-far shifts + object-approach tracking", "dose": "20 s near-far (thumb → rim), then 10 tosses of the ball toward your face that you catch at chest", "why": "Eyes are the first link in the chain. A ball coming straight at you is the threat cue; catching 10 easy ones teaches the brain it's safe, so it stops flinching and grabbing on passes." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw into ready position + pogos", "dose": "3 × 5 s Screw holds (feet planted, rotate outward into the floor), then 2 × 15 pogos", "why": "Flat feet let the arch collapse, ankle roll in and knee cave. The Screw torques the arch up and fires glutes; pogos then stiffen the Achilles spring so the first step bounces instead of sinks." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Step-and-Stick closeouts + defensive slides", "dose": "6 closeouts (sprint 3 steps, chop, land and freeze 1 s in ready position: knees ~25°, hips hinged ~15°), 2 × 4 slides each way", "why": "Freezing 1 s on every landing burns a balanced stop into the motor map, so you stop reaching and lunging and your feet are under you on defense without thinking." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Hip-led form shooting", "dose": "10 one-hand shots from 3 ft, then 10 from the elbow: legs push, ball leaves at the top", "why": "Your sequencing fires arm-first. Close shots where the legs clearly start the motion re-order the chain: ground → hips → shoulder → wrist, so the release is the last link of the whip." },
+      { "phase": "Progressive Loading", "drill": "Build-up sprints + max-intent jumps", "dose": "3 × baseline-to-half-court at 60/80/95%, then 3 two-foot rebound jumps touching as high as possible", "why": "Ramping intensity gives a variable-intensity warm-up (airways) and recruits high-threshold motor units so the first possession isn't your slowest." }
+    ],
+    "anchorCue": "Between possessions: two quick bounces, land in ready.",
+    "airwayNote": "Basketball is stop-start high intensity, a classic EIB trigger. The build-up sprints double as a variable-intensity warm-up, which reduced the post-exercise lung-function drop in a systematic review (Stickland 2012, grade B); protection lasts roughly 1-2 h for many people (some see up to ~2-4 h). Keep sprints short: aim for HR ~170-185 (≈85-90% of max ~200-205) for brief bursts, then walk. Use your prescribed pre-exercise inhaler as your doctor set it up.",
+    "avoid": ["Long static stretches (>30 s per muscle) right before playing", "Heavy lifting or max-rep jumps before the game", "Thinking about form during play: the patterns are installed now"],
+    "teachMe": "Speed on the court is mostly perception plus a stiff, well-aligned base. Your eyes set how early you can act and your feet set how fast you can push. This protocol primes both: it calms the threat response so vision opens up, then lines up the foot-knee-hip stack so ground reaction force goes straight up the chain instead of leaking through a collapsed arch."
+  },
+  {
+    "sport": "Baseball",
+    "aliases": ["softball", "baseball game", "batting practice", "bp", "catch", "fielding"],
+    "totalMin": 8,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Downshift breathing + wall push isometric", "dose": "3 slow breaths (4 s in nose, 6 s out), then 2 × 6 s wall push", "why": "A long exhale turns off the gripping, protective tension that makes swings stiff. The isometric primes maximal recruitment without fatigue." },
+      { "phase": "Visual Priming", "drill": "Saccades + object-approach tracking", "dose": "20 s fast eye jumps between two targets ~1 m apart, then 10 underhand tosses toward your face from a partner/wall that you track to the glove", "why": "Hitting and fielding fail on the eyes first. Tracking an approaching ball all the way in teaches the brain the ball is safe, which kills the flinch that makes contact random." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw in batting stance + tripod rock", "dose": "3 × 5 s Screw holds in stance, 5 slow rocks onto back-leg tripod (big toe, pinky toe, heel)", "why": "A flat back foot rolls in and dumps the load before the swing starts. Screwing the feet into the ground loads the back hip so rotation can start from the floor." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Hip Snap drill → dry swings", "dose": "8 Hip Snaps (bat across shoulders, load back hip, snap hips to face the pitcher, hands stay back), then 8 dry swings at 70%", "why": "Your arm fires first and the body catches up late. Hip Snaps with the hands locked force the order ground → hips → trunk → arms, so the bat becomes the last, fastest link of the whip." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Three Contact Points + Step-and-Stick fielding", "dose": "3 dry swings each at low / middle / high contact, then 6 ground-ball shuffles to the side, stick 1 s, throw", "why": "Swinging through three reference heights calibrates bat path, so you're not guessing. Sticking the field-and-set position teaches feet-before-arm on the throw." },
+      { "phase": "Progressive Loading", "drill": "Throwing ramp + 2 sprints", "dose": "10 throws building 50 → 90% distance, then 2 × 20 m sprints at 80/95%", "why": "Arm tissues and the shoulder need graded load before max throws, and short sprints wake up the fast-twitch fibers for base running." }
+    ],
+    "anchorCue": "Between pitches: feel both feet screw into the dirt.",
+    "airwayNote": null,
+    "avoid": ["Max-effort throws or swings in the first minute", "Long static stretching of the shoulder or hamstrings right before", "Weighted-bat donut swings as a warm-up: they temporarily distort bat-speed feel"],
+    "teachMe": "A swing is a ground-to-bat energy transfer. Each link (feet, hips, trunk, arms) speeds up and then brakes so the next link goes faster, like cracking a whip. If the arm leads, the big engines (legs, hips) never get to contribute and contact is random. You're installing the order now so the game doesn't need you to think."
+  },
+  {
+    "sport": "Football",
+    "aliases": ["flag football", "touch football", "tackle football", "american football", "7v7"],
+    "totalMin": 8,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Box breathing + wall push isometric", "dose": "3 cycles 4-4-4-4, then 2 × 6 s wall push from a 3-point-style lean", "why": "Down-regulates the threat state so you read plays instead of freezing. The lean isometric rehearses the exact body angle of a drive." },
+      { "phase": "Visual Priming", "drill": "Object-approach tracking + peripheral catch", "dose": "10 tosses toward your face caught at chest, then 6 catches where you stare at a fixed point and catch a ball tossed from the side", "why": "Catching starts with letting the ball come to you without a flinch. Peripheral catches train the wide-field vision you use for reading defenders." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw + pogos + A-skips", "dose": "3 × 5 s Screw, 2 × 15 pogos, 2 × 10 m A-skips", "why": "Your arch collapses under load. The Screw sets a stiff tripod and the pogos stiffen the ankle spring, so the first step drives instead of sinking." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Step-and-Stick cuts", "dose": "6 cuts (3 each way): 5 m jog, plant, freeze 1 s with knee over the 2nd toe, go", "why": "Freezing the plant installs knee-over-foot alignment, which counters valgus caused by flat feet and makes cuts sharper and safer." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Hip-led throws (if QB/throwing) or route stems", "dose": "8 throws at 60% stepping toward the target with hips opening first, or 4 routes at 70%", "why": "Hips-then-arm sequencing adds distance with less arm stress; route stems groove deceleration mechanics before game speed." },
+      { "phase": "Progressive Loading", "drill": "Build-up sprints", "dose": "3 × 20 m at 70/85/95%, walk back", "why": "Graded speed recruits high-threshold motor units and doubles as an interval-style warm-up for your airways." }
+    ],
+    "anchorCue": "In your stance: tripod feet, then go.",
+    "airwayNote": "Repeated sprints are a common EIB trigger. Short build-up sprints act as an interval-style warm-up, which cut the post-exercise drop in lung function in a systematic review (Stickland 2012, grade B), with protection lasting roughly 1-2 h. Brief bursts to HR ~170-185, then walk. Use your prescribed pre-exercise inhaler as your doctor set it up.",
+    "avoid": ["Long static stretches before", "Full-contact drills as a warm-up", "New tackling technique on game day"],
+    "teachMe": "Acceleration is a force-angle problem: you need to push the ground backward and down while leaning forward, and a collapsing foot wastes that push sideways. Priming the foot and the eyes first means the push goes straight through the chain and the read happens earlier."
+  },
+  {
+    "sport": "Soccer",
+    "aliases": ["football (soccer)", "futbol", "pickup soccer", "futsal", "small-sided"],
+    "totalMin": 8,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Downshift breathing + wall push isometric", "dose": "3 breaths (4 s nose in, 6 s out), then 2 × 6 s wall push", "why": "Lowers threat arousal so your touch is soft, and recruits more muscle for the first sprint." },
+      { "phase": "Visual Priming", "drill": "Scanning saccades + near-far", "dose": "20 s quick head-and-eye scans left-right, 20 s near-far (ball at feet → far goal)", "why": "Good players scan before receiving. Fast eye shifts wake up the visual system so you see pressure early instead of reacting late." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw + single-leg tripod balance + pogos", "dose": "3 × 5 s Screw, 20 s per leg on tripod foot, 2 × 15 pogos", "why": "Every pass and shot is on one leg. A stable tripod on the plant foot stops the ankle rolling in, so energy goes into the ball instead of into wobble." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Step-and-Stick plants + wall passes", "dose": "6 plant-and-freeze (1 s) cuts, then 20 one-touch wall passes alternating feet", "why": "Freezing on the plant installs a balanced base; one-touch passes groove the plant-foot-next-to-ball pattern so touches stop being random." },
+      { "phase": "Progressive Loading", "drill": "Build-up runs + 3 shots", "dose": "3 × 30 m at 60/80/95%, then 3 shots at 80% with hips leading the swing", "why": "Graded intensity primes sprint speed and the hip-first striking chain, and protects the airways." }
+    ],
+    "anchorCue": "Before the ball comes: check your shoulder, then show your tripod.",
+    "airwayNote": "Continuous running in cool air is a strong EIB trigger. The variable-intensity build-up runs are your airway warm-up (Stickland 2012 systematic review, grade B; protection roughly 1-2 h). Keep HR ~160-185 in short bursts, walk between. Use your prescribed pre-exercise inhaler as your doctor set it up.",
+    "avoid": ["Long static stretches before", "Hard shooting before the legs are warm", "Full-speed sprints in the first 2 minutes"],
+    "teachMe": "Soccer is a balance sport disguised as a running sport: the plant leg decides how cleanly force reaches the ball. Your flat feet make the plant leg wobble, so the drills set the arch and lock the knee over the foot before any ball work."
+  },
+  {
+    "sport": "Tennis",
+    "aliases": ["tennis match", "hitting", "rally"],
+    "totalMin": 8,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Box breathing + wall push isometric", "dose": "3 cycles 4-4-4-4, then 2 × 6 s wall push", "why": "Calms the grip-everything threat response so strokes stay loose, and primes recruitment for the first explosive step." },
+      { "phase": "Visual Priming", "drill": "Object-approach tracking + smooth pursuit", "dose": "10 tossed balls tracked to the strings of a racket held still, then 20 s following a moving ball with eyes only", "why": "Fear of the ball shows up as eyes leaving early. Watching easy balls all the way onto the strings teaches the brain the ball is safe." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw + split-step pogos", "dose": "3 × 5 s Screw, 3 × 8 split-step pogos landing in ready (knees ~25°, hips ~15°)", "why": "The split-step is an elastic pre-load. Stiff ankles plus an arched foot mean the push-off happens instantly instead of after a sag." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Hip Snap drill → shadow forehands/backhands", "dose": "8 Hip Snaps with racket across chest, then 8 shadow strokes each side: hips turn first, racket last", "why": "Your arm fires first. Hip Snaps install ground → hips → trunk → arm so the racket head is the fastest link, which fixes balls flying long or into the net." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Three Contact Points + Step-and-Stick", "dose": "3 shadow swings each at low / waist / high contact, then 6 lateral shuffles, stick 1 s, swing", "why": "Reference swings calibrate contact height; sticking each set-up position replaces reaching and lunging with moving the feet first." },
+      { "phase": "Progressive Loading", "drill": "Mini-tennis → baseline rally ramp", "dose": "1 min mini-tennis, 2 min baseline at 70 → 90%", "why": "Gradual ramp maps the installed pattern onto real balls before points count." }
+    ],
+    "anchorCue": "Between points: split-step bounce, eyes on the opponent's strings.",
+    "airwayNote": "Tennis is intermittent high intensity, which suits an interval-style warm-up: the split-step pogos and rally ramp provide it (Stickland 2012 systematic review, grade B; protection roughly 1-2 h). Short bursts to HR ~165-180. Use your prescribed pre-exercise inhaler as your doctor set it up.",
+    "avoid": ["Long static shoulder or hamstring stretches before", "Max-effort serves in the first 3 minutes", "Changing grip or technique on match day"],
+    "teachMe": "A groundstroke is a rotation transfer from the floor to the racket. Each body segment accelerates and then brakes so the next one goes faster. If the arm starts it, contact gets random because the arm is doing a job the hips should do. Installing hip-first now means you don't have to think about it during the match."
+  },
+  {
+    "sport": "Pickleball",
+    "aliases": ["pickle", "pickleball game", "dinking", "paddle"],
+    "totalMin": 6,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Downshift breathing + wall push isometric", "dose": "3 breaths (4 s in, 6 s out), then 2 × 6 s wall push", "why": "Pickleball punishes tension: a gripping body pops the ball up. The exhale releases the brake; the isometric wakes up recruitment for fast hands." },
+      { "phase": "Visual Priming", "drill": "Object-approach tracking with paddle", "dose": "10 soft tosses toward your face that you block with a still paddle, then 20 s near-far (paddle face → far baseline)", "why": "Hands battles at the kitchen trigger the flinch. Blocking easy balls teaches the brain an incoming ball is safe, which speeds up reactions." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw + ready-position lock", "dose": "3 × 5 s Screw, then hold ready position 60 s (knees ~25°, hip hinge ~15°, paddle up, weight slightly forward)", "why": "Holding the exact ready angles for 60 s installs the position so you default to it instead of standing tall and reaching." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Three Contact Points + Step-and-Stick", "dose": "3 shadow strokes each at low (dink), chest (block), overhead; then 6 side shuffles to a dink, stick 1 s", "why": "Reference strokes calibrate paddle angle per height. Sticking each shuffle installs feet-first instead of lunging." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Hip Snap drill → shadow drives", "dose": "6 Hip Snaps, then 6 shadow drives with hips leading", "why": "Drives and overheads go long when the arm leads. Hip-first turns the paddle into the end of a whip." },
+      { "phase": "Progressive Loading", "drill": "Dink rally → drive rally", "dose": "1 min dinks, 1 min drives at 70 → 90%", "why": "Puts real balls on the installed pattern before points count." }
+    ],
+    "anchorCue": "Between points: paddle up, sit into ready.",
+    "airwayNote": null,
+    "avoid": ["Static stretching before", "Smashing at 100% in the first minute"],
+    "teachMe": "At the kitchen, the winner is usually whoever is already in position. Ready position puts your center of mass over a wide, arched base so the first move needs no wind-up. Eyes that aren't afraid of the ball pick up the opponent's paddle angle earlier, which buys you time you don't feel but you'll see."
+  },
+  {
+    "sport": "Sprinting",
+    "aliases": ["track", "100m", "200m", "40 yard", "40", "sprint", "race", "dash", "sprints"],
+    "totalMin": 10,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Box breathing + wall push isometric (acceleration lean)", "dose": "3 cycles 4-4-4-4, then 2 × 6 s wall push in a 45° sprint lean, one knee driven up", "why": "The lean isometric rehearses the exact acceleration angle and recruits more high-threshold units." },
+      { "phase": "Visual Priming", "drill": "Fixed focus point + near-far", "dose": "20 s near-far, then pick one point at the finish and lock eyes on it for 3 breaths", "why": "A steady gaze keeps the head still, which keeps the trunk still, which keeps force going straight back into the track." },
+      { "phase": "Kinetic-Chain Activation", "drill": "Pogos + A-skips + the Screw", "dose": "3 × 5 s Screw, 2 × 20 pogos, 2 × 15 m A-skips", "why": "Sprinting is elastic: short ground contacts depend on a stiff Achilles and an arch that doesn't collapse. Pogos tune that spring right before you need it." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Wall drill + falling starts", "dose": "3 × 5 wall-drill switches, 3 falling starts into 10 m", "why": "Grooves the push-back-and-down force direction of acceleration so the first three steps aren't wasted upward." },
+      { "phase": "Progressive Loading", "drill": "Build-up sprints", "dose": "3 × 30-40 m at 70/85/95%, full walk-back rest", "why": "Ramps the nervous system to race speed and acts as an interval warm-up for the airways." }
+    ],
+    "anchorCue": "In the blocks or stance: push the ground away.",
+    "airwayNote": "Short sprints are less of an EIB trigger than long runs, but the warm-up still matters: interval/variable-intensity warm-ups reduced post-exercise lung-function drop (Stickland 2012 systematic review, grade B), protection roughly 1-2 h. Use your prescribed pre-exercise inhaler as your doctor set it up.",
+    "avoid": ["Static stretching before", "Max sprints before a full warm-up", "Heavy lifting earlier the same day"],
+    "teachMe": "Sprint speed = how much force you can put into the ground during a very short contact, and in which direction. A flat foot lengthens contact time because the arch has to sag before it can push. The pogos and Screw shorten that window so more of each contact becomes forward propulsion."
+  },
+  {
+    "sport": "Volleyball",
+    "aliases": ["volleyball game", "beach volleyball", "vball"],
+    "totalMin": 7,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Downshift breathing + wall push isometric", "dose": "3 breaths, then 2 × 6 s wall push", "why": "Lowers threat arousal so passing arms stay quiet instead of swinging at the ball." },
+      { "phase": "Visual Priming", "drill": "Object-approach tracking onto platform", "dose": "10 tosses toward your chest received on still forearms", "why": "Watching the ball onto a still platform kills the flinch that sends passes everywhere." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw + pogos + ready lock", "dose": "3 × 5 s Screw, 2 × 15 pogos, 30 s ready position (knees ~25°, hips ~15°, weight forward)", "why": "Sets an arched, stiff base so the first move to the ball is instant." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Approach Step-and-Stick + Hip Snap arm swing", "dose": "4 approaches landing two-footed and freezing 1 s, then 6 standing arm swings where the hips open before the arm", "why": "Freezing the landing installs safe knee alignment for flat feet; hip-first arm swings make hits harder and less random." },
+      { "phase": "Progressive Loading", "drill": "Approach jumps + light hitting", "dose": "3 approach jumps at 70/85/95%, then 5 hits at 80%", "why": "Ramps elastic loading and the hitting chain before game speed." }
+    ],
+    "anchorCue": "Before the serve: bounce once, land in ready.",
+    "airwayNote": null,
+    "avoid": ["Static stretching before", "Max jumps or full-speed spikes in the first minutes"],
+    "teachMe": "A spike is a vertical jump plus a whip. The jump depends on an elastic, stiff base, and the hit depends on the order the segments fire. Get the foot and the order right before the first point, so the game just runs the pattern."
+  },
+  {
+    "sport": "MMA",
+    "aliases": ["mma class", "mixed martial arts", "fight", "sparring", "mma sparring", "cage", "mma training"],
+    "totalMin": 8,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Box breathing + wall push isometric", "dose": "3 cycles 4-4-4-4, then 2 × 6 s wall push in fight stance", "why": "Threat state shows up as freezing under strikes. A long, controlled breath tells the nervous system the situation is safe enough to see clearly; the isometric primes full recruitment." },
+      { "phase": "Visual Priming", "drill": "Object-approach tracking (glove taps) + peripheral awareness", "dose": "10 slow glove/hand pushes toward your face that you watch and parry (sibling or wall), then 20 s soft-focus on the chest while noticing hands at the edges", "why": "Eyes closing or turning away on incoming strikes is the core fear response. Slow, safe approaches recalibrate it before contact." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw in stance + level-change pogos", "dose": "3 × 5 s Screw in stance, 2 × 10 pogos into a sprawl-ready level change", "why": "A rooted, arched stance stops the knee caving and lets force travel from the floor into punches and shots." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Hip Snap → jab-cross shadow + Step-and-Stick level change", "dose": "6 Hip Snaps, 1 round (60 s) shadow jab-cross with hips leading, 4 penetration steps freezing 1 s at the bottom", "why": "Installs ground → hips → shoulder → fist and a balanced shot entry, so your arm stops punching alone." },
+      { "phase": "Progressive Loading", "drill": "Pad or shadow ramp + 2 sprawls", "dose": "2 × 30 s at 70% → 90% (mitts with sibling at contact-ladder level 1, or shadow), 2 sprawls", "why": "Ramps intensity without fatigue. At home with your younger sibling stay on contact-ladder levels 0-2: shadow, pads, cooperative drilling." }
+    ],
+    "anchorCue": "Between exchanges: exhale through the nose, chin down, tripod feet.",
+    "airwayNote": "Rounds are interval efforts, so the ramp above doubles as a variable-intensity airway warm-up (Stickland 2012 systematic review, grade B; protection roughly 1-2 h). Bursts to HR ~170-190, recover between. Use your prescribed pre-exercise inhaler as your doctor set it up.",
+    "avoid": ["Hard sparring as a warm-up", "Static stretching before", "Learning a brand-new technique right before live rounds", "Above contact-ladder level 2 with your younger sibling"],
+    "teachMe": "Power in a strike is not arm strength: it's how fast and in what order you transfer force from the floor. Each link speeds up then brakes to fling the next. Fear narrows vision and makes you grip, which slows every link. Calm eyes plus a rooted foot is the fastest path to a harder, cleaner punch."
+  },
+  {
+    "sport": "Wrestling",
+    "aliases": ["wrestling practice", "wrestling match", "takedowns", "grappling"],
+    "totalMin": 8,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Downshift breathing + wall push isometric (shot angle)", "dose": "3 breaths (4 s in, 6 s out), then 2 × 6 s wall push in a low penetration-step angle", "why": "Rehearses the drive angle at max intent and calms the gripping response that makes you stiff in ties." },
+      { "phase": "Visual Priming", "drill": "Peripheral awareness on hips", "dose": "30 s: eyes soft on a partner's (or imagined) hips while tracking hand movement in peripheral vision", "why": "Hips don't fake; watching them with a wide field lets you react to level changes earlier." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw in stance + level-change pogos", "dose": "3 × 5 s Screw in stance, 2 × 10 small hops dropping into stance on landing", "why": "Sets an arched foot and stiff ankles so the shot leaves from the floor instead of from bent-over arms." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Step-and-Stick penetration steps + hip escapes", "dose": "6 penetration steps freezing 1 s at the bottom, 6 hip escapes (shrimps) each way", "why": "Freezing at the bottom installs head-up, hips-under alignment; shrimps groove the escape pattern with no thought needed." },
+      { "phase": "Progressive Loading", "drill": "Shot ramp + sprawls", "dose": "3 shots at 70/85/95% speed, 3 sprawls", "why": "Ramps to match speed and doubles as an interval warm-up. With your younger sibling stay on contact-ladder levels 0-2." }
+    ],
+    "anchorCue": "Reset in stance: tripod feet, hips under.",
+    "airwayNote": "Wrestling is anaerobic intervals with hard breathing, an EIB trigger. The shot/sprawl ramp is your variable-intensity warm-up (Stickland 2012 systematic review, grade B; protection roughly 1-2 h). Bursts to HR ~175-190. Use your prescribed pre-exercise inhaler as your doctor set it up.",
+    "avoid": ["Live goes as a warm-up", "Static stretching before", "Neck bridges at max load before matches"],
+    "teachMe": "A takedown wins at the floor: the drive comes from feet pushing back so the hips go forward. A collapsing arch angles that push sideways. Lock the base, then rehearse the shape at full speed once, so the match just replays it."
+  },
+  {
+    "sport": "Boxing",
+    "aliases": ["boxing class", "boxing lesson", "sparring", "pad work", "mitts", "boxing session", "boxing"],
+    "totalMin": 8,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Box breathing + wall push isometric in stance", "dose": "3 cycles 4-4-4-4, then 2 × 6 s wall push from your boxing stance (rear hand)", "why": "A long exhale turns off the flinch/freeze reflex; the max isometric from stance primes the exact chain you'll punch with." },
+      { "phase": "Visual Priming", "drill": "Object-approach tracking + slip-and-see", "dose": "10 slow glove/hand pushes toward your face (sibling or wall partner) that you watch until the last moment and parry, then 6 slow slips keeping eyes open", "why": "Blinking or looking away on punches is the threat response. Slow, safe approaches teach the brain to keep the eyes open, which is the start of all defense." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw in stance + pogos in stance", "dose": "3 × 5 s Screw, 2 × 15 small bounce pogos in stance", "why": "Arched feet and a springy ankle let you push off for footwork and drive the ground into the punch." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Hip Snap → jab-cross shadow with Step-and-Stick", "dose": "6 Hip Snaps, then 1 round (90 s) shadow: step in, jab-cross, stick 1 s balanced, step out", "why": "Installs ground → hips → shoulder → fist; the 1 s freeze makes sure you finish every combo on balance instead of falling in." },
+      { "phase": "Progressive Loading", "drill": "Shadow or pad ramp", "dose": "2 × 45 s at 70% → 90% (pads with sibling at contact-ladder level 1, or shadow)", "why": "Ramps speed and heart rate without fatigue. At home with your younger sibling: contact-ladder levels 0-2 only." }
+    ],
+    "anchorCue": "Between rounds: long exhale, chin down, bounce.",
+    "airwayNote": "Rounds are interval efforts; this ramp doubles as a variable-intensity airway warm-up (Stickland 2012 systematic review, grade B; protection roughly 1-2 h). Bursts to HR ~170-190, recover between. Use your prescribed pre-exercise inhaler as your doctor set it up.",
+    "avoid": ["Hard sparring as a warm-up", "Static stretches before", "Max-power bag work before technique", "Above contact-ladder level 2 with your younger sibling"],
+    "teachMe": "A cross is a chain: the back foot pushes the floor, the hip turns, the trunk turns, the shoulder fires and the fist lands last. Each link has to brake to hand speed to the next one. If the arm starts first, the big engines never contribute. Calm eyes give you the time to throw it right."
+  },
+  {
+    "sport": "BJJ",
+    "aliases": ["jiu jitsu", "jiu-jitsu", "bjj class", "rolling", "grappling class", "no-gi", "gi"],
+    "totalMin": 7,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Downshift breathing + isometric", "dose": "3 breaths (4 s in, 6 s out), then 2 × 6 s max-intent bridge press against the floor", "why": "BJJ rewards calm. A long exhale prevents the panic-grip that burns your arms out in the first roll." },
+      { "phase": "Visual Priming", "drill": "Peripheral awareness + eyes-closed body sense", "dose": "20 s soft gaze noticing the whole room, then 20 s eyes closed doing slow shrimps", "why": "Grappling relies on feel as much as sight; eyes-closed movement sharpens body position sense (proprioception)." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw + bridge and shrimp", "dose": "3 × 5 s Screw, 6 bridges, 6 shrimps each side", "why": "Hip-driven movement starts from the feet. Setting the foot tripod makes bridges and escapes powerful instead of arm-pushes." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Technical stand-up + hip escape Step-and-Stick", "dose": "4 technical stand-ups each side, 4 hip escapes freezing 1 s on the frame", "why": "Freezing at the end of each escape installs the frame-then-hip order." },
+      { "phase": "Progressive Loading", "drill": "Flow roll or positional ramp", "dose": "2 × 60 s at 50% → 80% (cooperative; with sibling stay at contact-ladder levels 0-2)", "why": "Gradually loads grip and breathing before live rounds." }
+    ],
+    "anchorCue": "When stuck: exhale and frame.",
+    "airwayNote": "Long rolls can trigger EIB. The flow-roll ramp is a variable-intensity warm-up (Stickland 2012 systematic review, grade B; protection roughly 1-2 h). Use your prescribed pre-exercise inhaler as your doctor set it up.",
+    "avoid": ["Max-effort rolls as a warm-up", "Neck cranks or heavy neck bridges before rolling", "Above contact-ladder level 2 with your younger sibling; tap early"],
+    "teachMe": "In grappling, the panicked body grips everything and tires in minutes. Exhaling resets the threat signal so you can feel pressure and move your hips instead of pushing with arms. Hips win; arms only frame."
+  },
+  {
+    "sport": "Table Tennis",
+    "aliases": ["ping pong", "ping-pong", "table tennis match"],
+    "totalMin": 6,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Downshift breathing + wall push isometric", "dose": "3 breaths (4 s in, 6 s out), then 2 × 6 s wall push", "why": "Lowers tension so the wrist and forearm stay loose for touch." },
+      { "phase": "Visual Priming", "drill": "Saccades + smooth pursuit + near-far", "dose": "20 s saccades, 20 s pursuit of a moving ball, 20 s near-far", "why": "Table tennis has the shortest reaction windows of your sports. Fast eyes buy milliseconds you can't get anywhere else." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw + ready lock", "dose": "3 × 5 s Screw, hold ready position 45 s (knees ~25°, hips ~15°, weight forward)", "why": "A low, arched base lets you shift weight side to side without standing up." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Hip Snap → shadow forehand + Three Contact Points", "dose": "6 Hip Snaps, 10 shadow forehands with hips turning first, 3 shadows each at low / middle / high", "why": "Even small strokes start from the hips. Installing this order stops arm-only flicks that fly long." },
+      { "phase": "Progressive Loading", "drill": "Rally ramp", "dose": "1 min controlled rally, 1 min at game speed", "why": "Maps the pattern onto real balls before the score counts." }
+    ],
+    "anchorCue": "Between points: bounce, sit low.",
+    "airwayNote": null,
+    "avoid": ["Static stretching before", "Smashing at 100% before you've rallied"],
+    "teachMe": "In table tennis, vision and timing are almost everything. Priming the eyes and a stable, low base lets you see spin earlier and hit with the body instead of chasing with the arm."
+  },
+  {
+    "sport": "Cross Country",
+    "aliases": ["xc", "2 mile", "2-mile", "5k", "cross country race", "xc race", "3 mile", "running race", "race"],
+    "totalMin": 12,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Box breathing + nasal-breathing jog", "dose": "3 cycles 4-4-4-4, then 3 min easy jog nasal-breathing only (HR ~120-140)", "why": "Controlled breathing lowers pre-race nerves; nasal-only pace keeps the start easy on the airways." },
+      { "phase": "Visual Priming", "drill": "Fixed gaze + course preview", "dose": "30 s looking ~20 m ahead at a steady point; mentally run the first 400 m", "why": "Steady gaze keeps the head and trunk quiet, which saves energy every stride." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw + pogos + A-skips", "dose": "3 × 5 s Screw, 2 × 20 pogos, 2 × 15 m A-skips", "why": "Your flat feet sag on each step, wasting energy. Pogos stiffen the Achilles spring so more of each landing comes back as push-off." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Cadence strides to music or count", "dose": "2 × 20 s at goal race pace, targeting 170-180 steps/min", "why": "Higher cadence shortens ground contact and reduces overstriding; locking it in now means you don't have to count during the race." },
+      { "phase": "Progressive Loading", "drill": "Interval airway warm-up", "dose": "4 × 30 s fast (HR ~170-185) / 30 s walk, finish 10-15 min before the gun", "why": "Interval/variable-intensity warm-ups reduced exercise-induced bronchoconstriction (Stickland 2012 systematic review), which matters for your post-run wheezing." }
+    ],
+    "anchorCue": "When it hurts: 'quick feet, strong arms.'",
+    "airwayNote": "This is your highest-risk sport for EIB. The 4 × 30 s interval block is the airway warm-up (Stickland 2012 systematic review, grade B). Many people get a protective 'refractory' window of roughly 1-2 h, some up to ~2-4 h, and about half of asthmatics respond (Mickleborough 2007). Finish it ~10-15 min before the start. Use your prescribed pre-exercise inhaler as your doctor set it up. Your baseline: ~8:22/mile at ~173 avg HR; max HR ~200-205.",
+    "avoid": ["Long static stretching", "Going out faster than your goal pace in the first 400 m", "New shoes or a new breakfast on race day"],
+    "teachMe": "Running economy is how much oxygen each step costs. Stiff, springy ankles return energy; collapsing arches absorb it. The pogos and Screw tune the spring, cadence keeps contacts short, and the interval warm-up protects your airways so you can actually breathe at race pace."
+  },
+  {
+    "sport": "First-Time / Any New Sport",
+    "aliases": ["golf", "first time", "new sport", "first time golfing", "any sport", "frisbee", "ultimate", "badminton", "squash", "hockey", "lacrosse", "skating", "climbing", "generic"],
+    "totalMin": 7,
+    "steps": [
+      { "phase": "CNS Prime", "drill": "Box breathing + wall push isometric", "dose": "3 cycles 4-4-4-4, then 2 × 6 s wall push", "why": "New sports trigger threat (unfamiliar = unsafe to the brain). Slow exhales lower it so you can learn instead of freezing." },
+      { "phase": "Visual Priming", "drill": "Saccades + near-far + object-approach tracking", "dose": "20 s saccades, 20 s near-far, 10 tosses toward you that you catch", "why": "Opens up vision before you need it and reduces flinch to a moving object." },
+      { "phase": "Kinetic-Chain Activation", "drill": "The Screw + tripod + pogos", "dose": "3 × 5 s Screw, 20 s single-leg tripod balance each side, 2 × 15 pogos", "why": "Universal base for any sport: arched foot, aligned knee, stiff ankle." },
+      { "phase": "Motor-Pattern Grooving", "drill": "Hip Snap drill + slow-motion sport movement", "dose": "6 Hip Snaps, then 6 slow-motion reps of the sport's main move (golf swing, throw, stroke) with hips leading", "why": "Almost every hitting or throwing sport uses ground → hips → trunk → arm. Slow reps of the new move with that order give the brain a clean first map." },
+      { "phase": "Progressive Loading", "drill": "Speed ramp of the main move", "dose": "3 reps each at 50 / 70 / 90% speed", "why": "Brings the new pattern up to speed gradually so it holds under real tempo." }
+    ],
+    "anchorCue": "Before each rep: tripod feet, hips start it.",
+    "airwayNote": null,
+    "avoid": ["Static stretching before", "Swinging at 100% on the first try", "Overloading on tips: pick one install, then play"],
+    "teachMe": "The first session in a new sport writes the brain's first draft of the movement. If that draft is arm-first and fearful, it's harder to rewrite later. A calm, hip-first, rooted first draft is the shortcut to looking like you've played before."
+  }
+]

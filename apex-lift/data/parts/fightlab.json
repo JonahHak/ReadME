@@ -1,0 +1,86 @@
+{
+  "philosophy": [
+    { "name": "Zahabi", "rule": "~70% sustainable effort, more often, beats occasional maxing. Don't max lifting and skill on the same day.", "apply": "Most rounds at a pace you could repeat tomorrow. Heavy lift day ≠ hard sparring/drilling day." },
+    { "name": "Danaher", "rule": "Systemize. Go deep on a few high-percentage families, not a thousand techniques.", "apply": "Striking: jab-cross-hook family + slip/parry. Grappling: double leg → top control → back → RNC. Master the chain before adding branches." },
+    { "name": "GSP", "rule": "Integrate disciplines until switching between them is automatic.", "apply": "Every striking round ends with a level change; every grappling round starts from a striking stance." },
+    { "name": "Daru Strong", "rule": "As skill volume rises, S&C volume drops. Fix dysfunction (feet, mobility) before loading it.", "apply": "Boxing lesson weeks → lift 2x not 3x. Short-foot + Screw work before heavy single-leg loading." },
+    { "name": "Topuria", "rule": "Train striking and grappling together, rotate weekly emphasis blocks, build the engine with roadwork plus sprints.", "apply": "4-week rotation below; 2 roadwork/sprint sessions per week." }
+  ],
+  "contactLadder": [
+    { "level": 0, "name": "Shadow", "rules": ["Solo, full technique, any speed.", "Mirror or phone video for feedback."], "siblingOK": true },
+    { "level": 1, "name": "Pads / Mitts", "rules": ["Partner holds, you hit. Light-to-medium power.", "Holder keeps elbows soft and pads close to the face line — no slapping into punches.", "Gloves on both people."], "siblingOK": true },
+    { "level": 2, "name": "Cooperative Drilling", "rules": ["Pre-agreed attack + defense (e.g. partner jabs slowly, you slip and counter to the body).", "~20% speed, zero head contact on the sibling.", "Grappling: drill entries and positions with no resistance."], "siblingOK": true },
+    { "level": 3, "name": "Light Live Grappling", "rules": ["Positional rounds only (e.g. start in side control), 1–2 min.", "Tap early, tap often. No neck cranks, no slams, no heel hooks.", "Adult supervision if the partner is younger/smaller."], "siblingOK": false },
+    { "level": 4, "name": "Controlled Sparring", "rules": ["Headgear, mouthguard, 16 oz gloves, 20–30% power.", "Rare — at the boxing gym with a coach, not at home.", "Never with a younger/smaller sibling."], "siblingOK": false }
+  ],
+  "striking": [
+    { "step": 1, "name": "Stance & Guard", "drills": [
+      { "name": "Stance Lock", "dose": "3 × 60 s holding stance, bouncing lightly", "cue": "Screw both feet into the floor — knees soft ~25°, chin down, hands at the cheekbones." },
+      { "name": "Step-and-Stick", "dose": "3 × 10 steps (forward/back/left/right), freeze 1 s on each", "cue": "Land balanced, feet same width every time." }
+    ] },
+    { "step": 2, "name": "Jab", "drills": [
+      { "name": "Jab from Stance", "dose": "3 × 2 min shadow", "cue": "Front foot pushes the floor, fist turns over at the end — snap it back to the cheek." },
+      { "name": "Jab on Mitts", "dose": "3 × 20 (Level 1)", "cue": "Hit through the pad by 2 inches, then return faster than you went out." }
+    ] },
+    { "step": 3, "name": "Cross", "drills": [
+      { "name": "Hip Snap Cross", "dose": "3 × 10 per round, 3 rounds", "cue": "Back heel turns out, hip turns first, fist arrives last — like cracking a whip." },
+      { "name": "Med-Ball Rotational Throw", "dose": "3 × 4 per side", "cue": "Same chain as the cross: ground → hips → core → shoulder → ball." }
+    ] },
+    { "step": 4, "name": "Lead Hook", "drills": [
+      { "name": "Hook off the Pivot", "dose": "3 × 10 shadow, then 3 × 10 mitts", "cue": "Pivot the front foot, elbow stays at shoulder height, body turns the punch — the arm is just the hook." }
+    ] },
+    { "step": 5, "name": "Footwork", "drills": [
+      { "name": "Push-Step Box", "dose": "4 × 1 min", "cue": "Push off the opposite foot; never cross feet." },
+      { "name": "Pivot Out", "dose": "3 × 10 per side after a jab-cross", "cue": "Turn on the lead ball of the foot to step off the line." }
+    ] },
+    { "step": 6, "name": "Defense — Parry & Slip", "drills": [
+      { "name": "Slip Line", "dose": "3 × 1 min under a string or partner slow jabs (Level 2)", "cue": "Bend at the knees and turn the shoulders — eyes stay on the chest." },
+      { "name": "Parry Drill", "dose": "3 × 20 slow jabs from partner (Level 2)", "cue": "Small hand movement — redirect, don't reach." },
+      { "name": "Object-Approach Tracking", "dose": "2 × 20 soft ball tosses toward the face, catch or slip", "cue": "Watch it all the way in — teaches your brain incoming objects are safe (threat suppression)." }
+    ] },
+    { "step": 7, "name": "Combos", "drills": [
+      { "name": "1-2-3", "dose": "5 × 2 min shadow / mitts", "cue": "Weight shifts back-front-back; each punch loads the next." },
+      { "name": "Jab-Cross-Slip-Cross", "dose": "3 × 2 min", "cue": "The slip loads the hips for the counter." },
+      { "name": "1-2 to Level Change", "dose": "3 × 8 (GSP integration)", "cue": "Punches raise their guard; the shot goes under it." }
+    ] }
+  ],
+  "grappling": [
+    { "step": 1, "name": "Stance & Level Change", "drills": [
+      { "name": "Level-Change Reps", "dose": "3 × 10", "cue": "Drop the hips, not the head — chest up, Screw feet." },
+      { "name": "Sprawl", "dose": "3 × 8", "cue": "Hips slam to the floor, legs back, chest heavy." }
+    ] },
+    { "step": 2, "name": "Double Leg", "drills": [
+      { "name": "Penetration Step", "dose": "3 × 10 per side (solo or on a mat)", "cue": "Knee lands between their feet, head up, drive off the back foot." },
+      { "name": "Double-Leg Entry on Partner", "dose": "3 × 6 (Level 2, no finish/slam)", "cue": "Ear on hip, hands behind knees, turn the corner." }
+    ] },
+    { "step": 3, "name": "Top Hierarchy (Back > Mount > Side > Half)", "drills": [
+      { "name": "Position Climb", "dose": "4 × 1 min (Level 2–3 with appropriate partner)", "cue": "Half → side → mount → back: each step, heavy hips, chest-to-chest." }
+    ] },
+    { "step": 4, "name": "Hip Escape (Shrimp)", "drills": [
+      { "name": "Shrimp Lanes", "dose": "3 × length of the room", "cue": "Bridge into them, then push your hips away with your feet." }
+    ] },
+    { "step": 5, "name": "Rear-Naked Choke", "drills": [
+      { "name": "RNC Mechanics", "dose": "3 × 5 per side (Level 2: set up only, no squeeze on sibling)", "cue": "Elbow under chin, hand to bicep, other hand behind their head — squeeze elbows, don't crank the neck." }
+    ] }
+  ],
+  "weeklyBlocks": [
+    { "week": 1, "emphasis": "Striking", "notes": "3 striking skill days, 1 grappling day. Lift 2x. Roadwork 2x." },
+    { "week": 2, "emphasis": "Grappling", "notes": "3 grappling days (drilling, positional), 1 striking day. Lift 2x." },
+    { "week": 3, "emphasis": "Integration", "notes": "Every session mixes: strike → level change → top control. Lift 2x, lower volume." },
+    { "week": 4, "emphasis": "Engine + Deload", "notes": "Skill at 70%, Norwegian 4×4 + sprints, lifting reduced to 1–2 crisp sessions." }
+  ],
+  "conditioning": [
+    { "name": "Interval Warm-Up (EIB)", "dose": "6 × 30 s hard / 30 s easy before every hard round session", "why": "High-intensity interval and variable warm-ups reduced post-exercise FEV1 drop (Stickland 2012).", "grade": "B" },
+    { "name": "Roadwork", "dose": "2 × week, 25–35 min Zone 2 nasal pace", "why": "Aerobic base speeds recovery between rounds.", "grade": "B" },
+    { "name": "Sprints", "dose": "6–8 × 10–15 s hill or treadmill, full walk-back recovery", "why": "Top-end speed and repeat-effort capacity (Topuria-style engine).", "grade": "C" },
+    { "name": "Shadowboxing Rounds", "dose": "5 × 3 min @ ~70–80%, last 20 s all-out", "why": "Sport-specific conditioning; holds technique under fatigue.", "grade": "C" },
+    { "name": "Norwegian 4×4", "dose": "Weekly, 4 × 4 min @ 172–195 bpm, 3 min recovery", "why": "Efficient VO2max stimulus.", "grade": "B" }
+  ],
+  "safety": [
+    "Default with younger sibling: levels 0–2 only.",
+    "Mouthguard for anything with contact; gloves on both people for pads.",
+    "Tap early; any neck pain, headache, or dizziness = stop for the day and tell a parent.",
+    "No head contact at home. Body-only targets in cooperative drills.",
+    "Sharp or joint-line pain mid-drill: stop and swap the drill."
+  ]
+}

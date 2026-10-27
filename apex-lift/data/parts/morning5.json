@@ -1,0 +1,19 @@
+{
+  "name": "Morning 5",
+  "minutes": 5,
+  "rules": [
+    "Barefoot, every morning, right after waking. Half-hearted counts.",
+    "No pain, no forcing end range: move to a comfortable stretch, breathe, come back.",
+    "If you only have 2 minutes: do steps 1, 3 and 6."
+  ],
+  "steps": [
+    { "drill": "Short-foot holds", "dose": "5 × 5 s per foot, seated or standing", "why": "Pull the ball of the foot toward the heel without curling the toes, lifting the arch. Directly trains the small arch muscles that flat feet underuse. Meta-analysis shows a real but small effect on navicular drop.", "grade": "B-C" },
+    { "drill": "Toe yoga", "dose": "10 reps: big toe up / others down, then switch", "why": "Restores independent toe control, which the tripod foot needs to grip the ground.", "grade": "C" },
+    { "drill": "The Screw hold in ready position", "dose": "3 × 10 s", "why": "Rotate both feet outward into the floor without moving them: the arch rises, glutes fire, knees line up. Installs the flat-foot correction you'll use in every standing lift and sport.", "grade": "C" },
+    { "drill": "Knee-to-wall ankle rocks", "dose": "10 per side, slow", "why": "Ankle dorsiflexion is usually limited with flat feet and causes knees to cave. Rocking the knee over the 2nd toe toward the wall restores range under control.", "grade": "C" },
+    { "drill": "90/90 hip switches", "dose": "8 switches, hands behind you", "why": "Rotates both hips through internal and external rotation; moving actively through the range builds ROM similarly to stretching (Afonso 2021).", "grade": "B" },
+    { "drill": "Open-book T-spine rotation", "dose": "5 per side, breathe out as you open", "why": "A stiff upper back forces the shoulders and arm to rotate alone, feeding arm-first sequencing. Opening the thoracic spine lets the trunk rotate as one link in the chain.", "grade": "C" },
+    { "drill": "Downshift breathing", "dose": "5 breaths: 4 s in through nose, 6-8 s out", "why": "Long exhales shift the nervous system out of the protective, grip-everything state, which is part of why you feel stiff everywhere.", "grade": "B-C" }
+  ],
+  "teachMe": "Your stiffness is partly protection: the brain limits range when it doesn't trust the base (collapsed arches) or senses threat. These 5 minutes give it a stable foot, a reminder that each joint can move safely, and a calm breath, so it gradually loosens the brake. Strength through full range builds mobility about as well as stretching (Afonso 2021), so your loaded lifts keep this going all day."
+}

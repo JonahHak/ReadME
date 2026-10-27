@@ -1,0 +1,204 @@
+{
+  "verified": "2026-10-27",
+  "note": "Each tip was checked by web search during the build. 'correction' explains where the original claim was adjusted.",
+  "tips": [
+    {
+      "id": "lengthened-bias",
+      "category": "Growth / Looks",
+      "title": "Bias the stretched position",
+      "tip": "Overhead triceps extensions grew all three triceps heads more than the same extension done with the arm at your side (long head most). Lengthened partials matched or slightly beat full ROM for quads and calves in some trials. Add 3-6 lengthened partials after the last full rep of your final set.",
+      "grade": "B",
+      "sources": ["Maeo et al. 2022 (Eur J Sport Sci)", "Stasinaki et al. 2018", "Pedrosa et al. 2022", "Kassiano et al. 2023", "Wolf et al. 2023 meta", "Wolf et al. 2025 (PeerJ)"],
+      "correction": "Maeo compared overhead vs NEUTRAL-ARM extensions, not pushdowns. The overhead vs pushdown study (Stasinaki 2018) found no significant difference, only a lean. 2025 trials show lengthened partials ≈ full ROM for whole-muscle growth, so treat them as a free add-on, not magic."
+    },
+    {
+      "id": "near-failure",
+      "category": "Growth / Looks",
+      "title": "1-3 reps in reserve ≈ failure for growth",
+      "tip": "Going to momentary failure added little or nothing over stopping just short. Save true failure for isolations on the last set; keep compounds at 1-2 RIR so power and technique stay crisp.",
+      "grade": "A-B",
+      "sources": ["Refalo et al. 2023 (Sports Med)"],
+      "correction": "Pooled effect of failure vs non-failure was trivial (ES 0.19); for momentary failure specifically, no clear advantage (ES 0.12)."
+    },
+    {
+      "id": "rest-3min",
+      "category": "Growth / Looks",
+      "title": "Rest ~3 min on compounds",
+      "tip": "3-min rests beat 1-min rests for squat/bench strength and thigh muscle thickness in trained men. Rest 2.5-3 min on compounds, 90 s-2 min on isolations.",
+      "grade": "B",
+      "sources": ["Schoenfeld et al. 2016 (JSCR)"],
+      "correction": "Single 8-week trial; triceps difference was only a trend. Viral '93% more growth' numbers are not from the paper."
+    },
+    {
+      "id": "rep-duration",
+      "category": "Growth / Looks",
+      "title": "Intent beats slow tempo",
+      "tip": "Reps from ~0.5 to 8 s produce similar growth. Use a controlled 2-3 s lowering and a max-intent lift. Slow negatives on every rep cost power for no extra muscle.",
+      "grade": "B",
+      "sources": ["Schoenfeld et al. 2015 (Sports Med meta)"]
+    },
+    {
+      "id": "protein",
+      "category": "Growth / Looks",
+      "title": "~1.6 g/kg/day protein, spread out",
+      "tip": "Gains plateau around 1.6 g/kg/day (upper CI ~2.2). At 125-135 lb that's ≈ 90-100 g/day, in 3-5 meals. Total beats timing, but don't leave a long gap after training. Food first.",
+      "grade": "A",
+      "sources": ["Morton et al. 2018 (BJSM)"]
+    },
+    {
+      "id": "cold-after-lifting",
+      "category": "Growth / Looks",
+      "title": "No ice bath after lifting",
+      "tip": "10 min of cold water after each session for 12 weeks blunted muscle and strength gains vs active recovery. Cold is fine after games or conditioning, not after lifting days.",
+      "grade": "B",
+      "sources": ["Roberts et al. 2015 (J Physiol)"],
+      "correction": "Authors note the effect may not apply after endurance-focused work."
+    },
+    {
+      "id": "velocity-loss",
+      "category": "Athleticism / Power",
+      "title": "Stop the set when the bar slows",
+      "tip": "Squat training stopped at 20% velocity loss improved countermovement jump more (+9.5% vs +3.5%) than grinding to 40%, with 40% fewer reps and similar strength gains. When a rep visibly slows, rack it. Youth VBT trials (2024-2026) point the same way: lower velocity-loss thresholds favored jump and sprint.",
+      "grade": "B",
+      "sources": ["Pareja-Blanco et al. 2017 (Scand J Med Sci Sports)", "Youth VBT trials in soccer players (2024) and adolescent sprinters (2026)"]
+    },
+    {
+      "id": "pape-timing",
+      "category": "Athleticism / Power",
+      "title": "Potentiation peaks in minutes, not seconds",
+      "tip": "After a heavy set, performance drops in the first 0-3 min (fatigue) and peaks somewhere around 4-12 min depending on the athlete. If you jump 20-30 s after a heavy set, call it contrast training. For true PAPE, rest ~4-8 min.",
+      "grade": "B",
+      "sources": ["Wilson et al. 2013", "Seitz & Haff 2016", "Rest-interval meta-analyses 2013 and 2023"],
+      "correction": "Results are mixed across studies; stronger athletes potentiate sooner. Treat the window as individual."
+    },
+    {
+      "id": "external-focus",
+      "category": "Athleticism / Power",
+      "title": "Cue the world, not your muscles",
+      "tip": "'Push the floor away' beats 'squeeze your glutes'. External focus improves performance and learning, which is why every card caps at 3 external cues.",
+      "grade": "A",
+      "sources": ["Wulf (review of external-focus research, 2013)"]
+    },
+    {
+      "id": "running-economy",
+      "category": "Athleticism / Power",
+      "title": "Heavy legs make XC cheaper",
+      "tip": "Strength + plyo training improved running economy with a large effect in distance runners (2-3x/week for 8-12 weeks). Your leg days are XC training.",
+      "grade": "A-B",
+      "sources": ["Balsalobre-Fernández et al. 2016 (JSCR meta)"],
+      "correction": "The meta used high-level runners (VO2max > 60); the direction should hold for you, but the effect size may differ."
+    },
+    {
+      "id": "pogos",
+      "category": "Athleticism / Power",
+      "title": "Pogos tune the Achilles spring",
+      "tip": "Short, stiff ground contacts teach the ankle to store and return elastic energy. Do 2-3 x 10-20 quiet, quick pogos before runs and jump work.",
+      "grade": "B",
+      "sources": ["grade B, plyometric and tendon-stiffness literature"]
+    },
+    {
+      "id": "rotational-power",
+      "category": "Athleticism / Power",
+      "title": "The punch is a ground-to-fist chain",
+      "tip": "Rotational med-ball or DB throws train hips-before-shoulders sequencing, which relates to punch force. Train it as a throw: hips lead, arm whips.",
+      "grade": "C",
+      "sources": ["grade C, mechanism-based"]
+    },
+    {
+      "id": "sleep-extension",
+      "category": "Athleticism / Power",
+      "title": "Sleep is a training variable",
+      "tip": "Stanford basketball players who aimed for 10 h in bed sprinted faster (16.2 → 15.5 s) and shot about 9% better on free throws. Target 9 h.",
+      "grade": "B",
+      "sources": ["Mah et al. 2011 (Sleep)"],
+      "correction": "n = 11, no control group. Drop the old 'sleep loss cuts gains 30-40%' number."
+    },
+    {
+      "id": "music",
+      "category": "Athleticism / Power",
+      "title": "Beat-synced music",
+      "tip": "Running in time to music lowered oxygen cost and extended time to exhaustion by about 18-20% in elite triathletes. Neutral music worked as well as motivational music. Pick tracks at 170-180 BPM to lock cadence.",
+      "grade": "B",
+      "sources": ["Terry et al. 2012 (J Sci Med Sport)"],
+      "correction": "n = 11; the exact VO2 drop is reported inconsistently, so no number is claimed here."
+    },
+    {
+      "id": "self-talk",
+      "category": "Athleticism / Power",
+      "title": "Script your self-talk",
+      "tip": "Two weeks of motivational self-talk training lowered effort ratings and extended cycling time to exhaustion (637 → 750 s). Write 3 lines for the last mile and rehearse them.",
+      "grade": "B",
+      "sources": ["Blanchfield et al. 2014 (MSSE)"]
+    },
+    {
+      "id": "nordics",
+      "category": "Injury-proofing",
+      "title": "Nordic hamstring curls",
+      "tip": "Programs that include Nordics cut hamstring injuries by up to ~51% (~45% when high-bias studies are removed). Low dose works: 2 x 4-6, 1-2x/week.",
+      "grade": "A-B",
+      "sources": ["van Dyk et al. 2019 (BJSM meta, 8,459 athletes)"],
+      "correction": "A later reappraisal called the effect less certain, so this is A-B, not A. The 51% is an upper bound."
+    },
+    {
+      "id": "copenhagen",
+      "category": "Injury-proofing",
+      "title": "Copenhagen adduction",
+      "tip": "One Copenhagen exercise 3x/week preseason and 1x/week in season gave 41% lower odds of groin problems (13.5% vs 21.3% prevalence) in footballers.",
+      "grade": "A-B",
+      "sources": ["Harøy et al. 2019 (BJSM cluster RCT)"],
+      "correction": "41% is an odds ratio (0.59); the absolute gap was ~8 percentage points."
+    },
+    {
+      "id": "flat-feet",
+      "category": "Injury-proofing",
+      "title": "Short-foot, barefoot, Screw",
+      "tip": "Short-foot exercise reduces navicular drop slightly (pooled ~0.2 mm) and builds intrinsic foot muscle. The real payoff is control: use the Screw and tripod cues under load every session, and spend barefoot time daily.",
+      "grade": "B-C",
+      "sources": ["Short-foot exercise meta-analysis (ACFAS)", "Zarali et al. 2024 RCT (BMC Sports Sci Med Rehabil)"],
+      "correction": "Structural change is small; don't expect an arch to appear. Expect better control."
+    },
+    {
+      "id": "eib-warmup",
+      "category": "Injury-proofing",
+      "title": "Interval warm-up for your lungs",
+      "tip": "High-intensity interval and variable-intensity warm-ups reduced the post-exercise lung function drop (FEV1) in EIB. Continuous easy jogging didn't reliably help. About half of asthmatics get a refractory window of ~1-2 h (some data up to 2-4 h). Example: 8 x 30 s hard / 30 s easy, 15-30 min before the main effort.",
+      "grade": "B",
+      "sources": ["Stickland et al. 2012 (MSSE systematic review)", "Mickleborough et al. 2007"],
+      "correction": "Only 7 RCTs pooled. Use alongside, never instead of, your prescribed inhaler plan."
+    },
+    {
+      "id": "rom-strength",
+      "category": "Mobility",
+      "title": "Full-ROM lifting ≈ stretching for ROM",
+      "tip": "Strength training through full range improved ROM about as much as stretching (11 RCTs, no difference). Every card has a loaded-range note for this reason. Static stretching goes after power work, not before.",
+      "grade": "A-B",
+      "sources": ["Afonso et al. 2021 (Healthcare meta)"],
+      "correction": "Loaded stretching is roughly comparable to static stretching, not '3x better'."
+    },
+    {
+      "id": "mobility-habits",
+      "category": "Mobility",
+      "title": "Heat, sliders, floor, barefoot",
+      "tip": "Hot shower before mobility, nerve sliders for tight hamstrings and neck, floor time (sit and get up without hands), and barefoot time daily. These lower protective tone so the nervous system lets go of range.",
+      "grade": "C",
+      "sources": ["grade C, mechanism-based"]
+    },
+    {
+      "id": "vision-transfer",
+      "category": "Vision",
+      "title": "Make vision training sport-shaped",
+      "tip": "Perceptual-cognitive training transferred to real games (ES 0.65), but much less than to lab tests (ES 1.51). Generic 'brain games' show no far transfer. Use a real ball, real distances, and real reaction decisions.",
+      "grade": "B-C",
+      "sources": ["Zhu et al. 2024 (Behav Sci meta)", "Fransen 2024 (Sports Med opinion)"]
+    },
+    {
+      "id": "breathing-retraining",
+      "category": "Lungs",
+      "title": "Breathing retraining is an adjunct",
+      "tip": "Breathing exercises probably improve quality of life and hyperventilation symptoms in asthma, but they don't change lung function much. Buteyko has only a few small trials. Use nasal breathing and slow exhales as an adjunct, never in place of medication.",
+      "grade": "B-C",
+      "sources": ["Cochrane review CD001277 (2020)", "Australian Natural Therapies Review 2024"],
+      "correction": "The old claim of '60-80% less asthma medication' is not supported at that size."
+    }
+  ]
+}

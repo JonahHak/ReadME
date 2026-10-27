@@ -1,0 +1,6 @@
+**/node_modules
+client
+server
+.git
+apex-lift/test
+apex-lift/data/parts

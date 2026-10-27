@@ -1,0 +1,185 @@
+{
+  "lungs": [
+    {
+      "title": "EIB Interval Warm-Up",
+      "grade": "B",
+      "summary": "High-intensity interval and variable-intensity warm-ups reduced the post-exercise FEV1 fall most consistently; continuous warm-ups didn't reach significance (Stickland 2012 SR, 7 RCTs). About half of asthmatics get a refractory period (Mickleborough 2007). Protection window ~2–4 h. It's an adjunct — keep using your inhaler per your doctor's plan.",
+      "items": [
+        { "name": "Interval Warm-Up", "dose": "5 min easy + 6 × 30 s hard / 30 s easy (HR peaks ~170–180), 10–20 min before the main effort", "why": "Triggers a mild, controlled airway response early so the main effort hits a refractory window.", "grade": "B" },
+        { "name": "Cold/Dry Air Buffer", "dose": "Neck gaiter over mouth/nose on cold days", "why": "EIB is driven by airway drying/cooling; warmer, wetter air reduces the trigger.", "grade": "C" }
+      ]
+    },
+    {
+      "title": "Norwegian 4×4 (weekly)",
+      "grade": "B",
+      "summary": "One session per week. Max HR estimated ~200–205.",
+      "items": [
+        { "name": "4 × 4 min intervals", "dose": "85–95% HRmax ≈ 172–195 bpm; 3 min active recovery ≈ 120–140 bpm", "why": "Time at high heart rate is the VO2max stimulus; 4-min bouts give ~2–3 min in-zone each.", "grade": "B" }
+      ]
+    },
+    {
+      "title": "Zone 2 + Nasal Breathing",
+      "grade": "B-C",
+      "summary": "Zone 2 builds aerobic base; nasal-only breathing is a simple pace governor and warms/humidifies air.",
+      "items": [
+        { "name": "Zone 2", "dose": "1–2 × week, 25–40 min @ ~65–72% HRmax ≈ 130–145 bpm", "why": "Mitochondrial/aerobic base → faster recovery between sprints, points, rounds.", "grade": "B" },
+        { "name": "Nasal breathing at low intensity", "dose": "All easy runs, walks, cooldowns", "why": "If you can't stay nasal, you're above Zone 2. Nose conditions air before it hits the lungs.", "grade": "C" }
+      ]
+    },
+    {
+      "title": "Box Breathing (pre-session)",
+      "grade": "C",
+      "summary": "Downshifts the threat state before training so the nervous system releases range and speed.",
+      "items": [
+        { "name": "Box Breathing", "dose": "4 rounds of 4 s in / 4 s hold / 4 s out / 4 s hold, seated", "why": "Slow breathing raises vagal tone; calmer system = less protective gripping.", "grade": "C" }
+      ]
+    },
+    {
+      "title": "Breathing Retraining",
+      "grade": "B-C",
+      "summary": "Cochrane (2020, 22 studies): breathing exercises probably improve quality of life and hyperventilation symptoms, with little effect on lung function. Buteyko-specific evidence is a handful of small trials → adjunct only, never a replacement for medication. No mouth taping (asthma). Breath holds only seated or walking — never in water, while lifting, or driving.",
+      "items": [
+        { "name": "Reduced-Volume Nasal Breathing", "dose": "5 min daily, seated: breathe in and out through the nose, slightly less air than you want", "why": "Reduces over-breathing pattern linked to symptoms.", "grade": "B-C" },
+        { "name": "Control Pause (seated)", "dose": "After a normal exhale, hold until first urge to breathe; log seconds weekly", "why": "Simple trend marker of breathing comfort; stop at first urge, never strain.", "grade": "C" }
+      ]
+    }
+  ],
+  "vision": [
+    {
+      "title": "Why vision training (honest grade)",
+      "grade": "B-C",
+      "summary": "Zhu 2024 meta (22 studies): perceptual-cognitive training effect in real games 0.65 vs 1.51 in the lab — transfer is real but smaller. Generic 'brain games' show no far transfer (Fransen 2024). So: keep drills short and sport-specific — use real balls, real distances, real reactions.",
+      "items": []
+    },
+    {
+      "title": "Daily Eye Drills (3–5 min)",
+      "grade": "C",
+      "summary": "Eyes are the first link of the kinetic chain. Slow eyes, slow everything.",
+      "items": [
+        { "name": "Saccades", "dose": "3 × 20 s jumping eyes between two targets ~1 m apart, head still", "why": "Faster target acquisition — reading a jab or a serve.", "grade": "C" },
+        { "name": "Smooth Pursuit", "dose": "2 × 30 s tracking a moving pen/ball in a figure-8, head still", "why": "Keeps the ball locked in on long flights (baseball, tennis).", "grade": "C" },
+        { "name": "Peripheral Awareness", "dose": "2 × 30 s: stare at a fixed point, call out fingers held at the edges", "why": "Seeing the hook coming, the cutter, the open teammate.", "grade": "C" },
+        { "name": "Near-Far Shifts", "dose": "2 × 20 shifts between a card at arm's length and a far wall target", "why": "Fast refocus between paddle distance and the opponent.", "grade": "C" }
+      ]
+    },
+    {
+      "title": "Object-Approach Tracking (fear of the ball)",
+      "grade": "C",
+      "summary": "Threat suppression: the brain must learn incoming objects are safe before it releases speed and range. Progress safe → hard.",
+      "items": [
+        { "name": "Soft Ball Toss to Face Line", "dose": "2 × 20 — partner tosses a soft/foam ball at your face line; watch it all the way, catch it", "why": "Repeated safe exposures downshift the flinch.", "grade": "C" },
+        { "name": "Progression", "dose": "Foam → tennis ball → closer distance → faster; move up only when you stay relaxed", "why": "Graded exposure keeps the nervous system out of threat mode.", "grade": "C" }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "Daily Skill Rotation (5–10 min, pick 2–3)",
+      "grade": "C",
+      "summary": "Short, daily, varied. Builds hand-eye, balance and fine coordination you never developed.",
+      "items": [
+        { "name": "Juggling", "dose": "3–5 min (2 balls one hand → 3 balls)", "why": "Hand-eye timing and peripheral tracking.", "grade": "C" },
+        { "name": "Wall-Ball", "dose": "3 × 30 s: switch hands each catch; then one eye closed", "why": "Bilateral hand-eye + depth judgement under challenge.", "grade": "C" },
+        { "name": "Single-Leg Stand Eyes Closed", "dose": "3 × 20–30 s per side, barefoot", "why": "Forces foot/vestibular balance; feel the tripod foot. Weekly test metric.", "grade": "C" },
+        { "name": "Reaction Ball", "dose": "3 × 30 s off a wall", "why": "Unpredictable bounces train fast reactions without fear.", "grade": "C" },
+        { "name": "Cross-Body Coordination", "dose": "2 × 30 s opposite hand-to-knee taps, then skips", "why": "Contralateral rhythm underpins running, punching, throwing.", "grade": "C" },
+        { "name": "Slow-Motion Sport Movements", "dose": "2 × 5 reps (swing, punch, throw) at 10% speed", "why": "Lets your brain map the hips-lead sequence before you speed it up.", "grade": "C" },
+        { "name": "Eyes-Closed Walking", "dose": "2 × 10 steps on a line (clear space)", "why": "Proprioception + smooth gait without visual crutch.", "grade": "C-D" }
+      ]
+    }
+  ],
+  "recovery": [
+    {
+      "title": "Sleep",
+      "grade": "B",
+      "summary": "Sleep is a training variable. Mah 2011: extending sleep improved sprint time and shooting in college basketball players (n=11 — small, so grade B).",
+      "items": [
+        { "name": "9 h target", "dose": "Same bedtime ±30 min; screens off 30 min before", "why": "Growth, recovery, reaction time and mood all ride on it.", "grade": "B" },
+        { "name": "Morning daylight", "dose": "5–10 min outside within an hour of waking", "why": "Anchors circadian rhythm → easier sleep at night.", "grade": "C" }
+      ]
+    },
+    {
+      "title": "Food (recomp, never a cut)",
+      "grade": "A",
+      "summary": "Eat at maintenance or above. Track waist, photos and strength — not scale loss.",
+      "items": [
+        { "name": "Protein", "dose": "~1.6 g/kg/day (Morton 2018) ≈ 90–100 g/day at 125–135 lb, across 3–5 meals", "why": "Captures most of the muscle-building benefit; total matters more than exact timing.", "grade": "A" },
+        { "name": "Close the post-training gap", "dose": "A protein meal within a couple of hours after training", "why": "Avoids a long gap; not a magic window.", "grade": "B" },
+        { "name": "Enough dietary fat + carbs", "dose": "Don't undereat; fast metabolism means extra snacks", "why": "Fuel for training and normal hormone production.", "grade": "B" }
+      ]
+    },
+    {
+      "title": "Natural Hormones — Lifestyle Only",
+      "grade": "B",
+      "summary": "Sleep, eat enough, adequate dietary fat, stay out of extreme leanness. No 'T boosters', no supplement stacks.",
+      "items": [
+        { "name": "Supplements", "dose": "None by default. Creatine has the strongest evidence base of any sports supplement — decide with a parent/doctor.", "why": "You're a minor; food and sleep first.", "grade": "A" }
+      ]
+    },
+    {
+      "title": "HRV-Guided Intensity (Garmin)",
+      "grade": "B-C",
+      "summary": "If HRV is well below your 7-day average (or sleep was short), the app auto-switches to 'Cooked': lower volume, keep power crisp.",
+      "items": [
+        { "name": "Morning check", "dose": "Paste resting HR, HRV, sleep into the app daily", "why": "Adjusts load to readiness instead of guessing.", "grade": "B-C" }
+      ]
+    },
+    {
+      "title": "Cold Exposure Timing",
+      "grade": "B",
+      "summary": "Cold water right after lifting blunted long-term muscle and strength gains (Roberts 2015). Fine after games or conditioning.",
+      "items": [
+        { "name": "Rule", "dose": "No ice baths after lifting days; OK after games/conditioning", "why": "Inflammation after lifting is part of the growth signal.", "grade": "B" }
+      ]
+    }
+  ],
+  "running": [
+    {
+      "title": "XC Running Economy",
+      "grade": "B",
+      "summary": "Baseline ~8:22/mile @ ~173 bpm avg. Goal: same HR, faster pace.",
+      "items": [
+        { "name": "Cadence 170–180", "dose": "Use a metronome or beat-matched playlist", "why": "Shorter ground contacts, less overstriding and braking.", "grade": "C" },
+        { "name": "Beat-Synced Music", "dose": "Playlist at your cadence BPM", "why": "Synchronous music lowered oxygen cost and extended time to exhaustion in elite triathletes (Terry 2012).", "grade": "B" },
+        { "name": "Scripted Self-Talk", "dose": "3 phrases you say at hard moments ('drive the arms', 'you've done this', 'smooth and fast')", "why": "Motivational self-talk extended endurance ~18% and lowered RPE (Blanchfield 2014).", "grade": "B" },
+        { "name": "Interval Warm-Up for Airways", "dose": "6 × 30 s hard / 30 s easy before races and hard runs", "why": "EIB protection window (Stickland 2012).", "grade": "B" },
+        { "name": "Pogo Hops Before Runs", "dose": "2 × 15", "why": "Primes ankle stiffness → better elastic return per stride.", "grade": "B-C" },
+        { "name": "Heavy Legs + Plyos", "dose": "2 × week strength + jumps", "why": "Strength + plyometrics improved running economy (Balsalobre-Fernández 2016).", "grade": "A-B" }
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "title": "V-Taper & Proportion",
+      "grade": "B",
+      "summary": "Recomp at maintenance or surplus. Wider lats + lateral delts + upper chest = V-taper. Track waist, photos, strength — not scale loss.",
+      "items": [
+        { "name": "Lats", "dose": "Pull-ups/rows 10–14 hard sets/week", "why": "Width from behind and front.", "grade": "B" },
+        { "name": "Lateral Delts", "dose": "Lateral raises 8–12 sets/week, last set lengthened partials", "why": "Shoulder width — biggest V-taper lever.", "grade": "B" },
+        { "name": "Upper Chest", "dose": "Incline press 30°, 6–9 sets/week", "why": "Fills the upper chest line.", "grade": "B" }
+      ]
+    },
+    {
+      "title": "Neck, Forearms, Calves, Posture",
+      "grade": "B-C",
+      "summary": "Small areas that make a lean build look strong — and neck matters for boxing.",
+      "items": [
+        { "name": "Neck", "dose": "2–3 × week: isometrics 2 × 15 s each direction, progress to light resisted curls", "why": "Thicker neck + chin durability.", "grade": "C" },
+        { "name": "Forearms", "dose": "Hammer curls + farmer carries", "why": "Grip for grappling, forearm thickness.", "grade": "B-C" },
+        { "name": "Calves", "dose": "2 × week, 10–15 reps, bottom stretch pause + lengthened partials", "why": "Lengthened partials favored for gastrocnemius (Kassiano 2023).", "grade": "B" },
+        { "name": "Posture", "dose": "Face pulls + Y-T-W 2 × week", "why": "Shoulders back = looks wider and taller.", "grade": "C" }
+      ]
+    },
+    {
+      "title": "Pump on Demand (10 min)",
+      "grade": "C",
+      "summary": "Metabolite sets right before you want to look pumped. Arms down after (don't hold them up) to keep blood in.",
+      "items": [
+        { "name": "Push-Ups", "dose": "3 × 15–20, 30 s rest", "why": "Chest, triceps, front delts fill fast.", "grade": "C" },
+        { "name": "Lateral Raises", "dose": "3 × 15–20 light, 20 s rest", "why": "Shoulder width pops.", "grade": "C" },
+        { "name": "Curls", "dose": "3 × 15–20 light, 20 s rest", "why": "Arm size.", "grade": "C" },
+        { "name": "Finish", "dose": "Drink water, arms hang relaxed", "why": "Fluid + gravity hold the pump.", "grade": "C-D" }
+      ]
+    }
+  ]
+}

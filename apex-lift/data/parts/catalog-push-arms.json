@@ -1,0 +1,3452 @@
+[
+ {
+  "name": "Barbell Bench Press",
+  "aliases": [
+   "bench press",
+   "bench",
+   "flat bench",
+   "bb bench",
+   "barbell bench"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "anterior deltoid",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Touch the bar to the lower chest with forearms vertical, not the neck with elbows flared to 90°.",
+  "steps": [
+   "Eyes under the bar, feet flat and slightly behind knees.",
+   "Grip ~1.5x shoulder width so forearms are vertical at the bottom.",
+   "Pinch shoulder blades down and back, small arch, butt on the bench.",
+   "Unrack to over the shoulders, lower 2-3 s to the sternum/nipple line with elbows ~45-60° from the torso.",
+   "Drive up and slightly back toward the rack line."
+  ],
+  "cues": [
+   "Bend the bar into a U.",
+   "Push yourself away from the bar into the bench.",
+   "Drive the floor away with your feet."
+  ],
+  "homeSwap": "Deficit push-up between two dumbbells, 3-s lowering, 1-s pause in the stretch; add a backpack when 15+ reps is easy.",
+  "note": "Leg drive is a ground-up force lesson: screw the feet into the floor before unracking and the press gets a stable base, the same chain you need for a straight punch.",
+  "noteGrade": "C",
+  "hardestPoint": "Just off the chest (longest pec/delt moment arm)."
+ },
+ {
+  "name": "Incline Barbell Bench Press",
+  "aliases": [
+   "incline bench",
+   "incline bench press",
+   "incline barbell press"
+  ],
+  "pattern": "incline-press",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "upper pectoralis",
+   "anterior deltoid",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Use a 30° bench, not 45°+, so the upper chest does the work instead of the front delts.",
+  "steps": [
+   "Set the bench to 30° (2nd-3rd notch).",
+   "Grip slightly narrower than flat bench; forearms vertical at the bottom.",
+   "Shoulder blades down and back, chest up to the bar.",
+   "Lower to the upper chest just below the collarbones.",
+   "Press up and slightly back over the shoulders."
+  ],
+  "cues": [
+   "Push the bar toward the ceiling, not the rack.",
+   "Keep your chest tall to the bar."
+  ],
+  "homeSwap": "Feet-elevated (decline) push-up on a chair, 3-s lowering; or floor-incline DB press with hips bridged.",
+  "note": "Upper chest is the V-taper shelf; 30° gives most of the clavicular-head bias without turning it into a shoulder press.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Decline Bench Press",
+  "aliases": [
+   "decline bench",
+   "decline barbell press",
+   "decline press"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "lower pectoralis",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Use a mild 15-20° decline and touch the lower chest; steeper declines just shorten the range.",
+  "steps": [
+   "Hook feet under the pads, set a 15-20° decline.",
+   "Grip ~1.5x shoulder width.",
+   "Lower 2-3 s to the bottom of the sternum.",
+   "Press straight up over the shoulders."
+  ],
+  "cues": [
+   "Push the bar to the ceiling.",
+   "Bend the bar apart."
+  ],
+  "homeSwap": "Push-up with hands on two dumbbells (neutral height) and feet on floor, 3-s lowering.",
+  "note": "Shorter range than flat; treat it as a variation for elbows/shoulders that feel cranky on flat, not a main lift.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Close-Grip Bench Press",
+  "aliases": [
+   "close grip bench",
+   "cgbp",
+   "close-grip bench"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "triceps",
+   "pectoralis major",
+   "anterior deltoid"
+  ],
+  "standing": false,
+  "doThisNotThat": "Grip at shoulder width, not hands touching; too narrow wrecks the wrists and shortens triceps range.",
+  "steps": [
+   "Grip at shoulder width (index fingers about on the smooth/knurl edge).",
+   "Tuck elbows to ~30° from the torso.",
+   "Lower 2-3 s to the lower sternum.",
+   "Press up, locking out hard."
+  ],
+  "cues": [
+   "Drive the bar off your chest like a punch.",
+   "Snap the bar to lockout."
+  ],
+  "homeSwap": "Diamond or close-grip push-up, 3-s lowering, feet elevated to add load.",
+  "note": "Lockout strength is a straight-punch finish; finish every rep with a hard elbow extension.",
+  "noteGrade": "C",
+  "hardestPoint": "Mid-range as triceps take over (~90° elbow)."
+ },
+ {
+  "name": "Paused Bench Press",
+  "aliases": [
+   "pause bench",
+   "paused bench",
+   "competition pause bench"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "anterior deltoid",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Pause 1-2 s on the chest without sinking the bar in; stay tight and press from a dead stop.",
+  "steps": [
+   "Set up like a flat bench.",
+   "Lower 2 s, pause 1-2 s motionless on the chest.",
+   "Keep shoulder blades pinned and legs tight through the pause.",
+   "Press explosively from the pause."
+  ],
+  "cues": [
+   "Freeze the bar on your chest.",
+   "Explode off the chest."
+  ],
+  "homeSwap": "Paused deficit push-up: 2-s pause 1 inch off the floor.",
+  "note": "Pauses kill the stretch reflex, so you learn to produce force from zero; useful for the arm-first sequencing problem because you must stay braced.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Spoto Press",
+  "aliases": [
+   "spoto",
+   "spoto bench"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "anterior deltoid",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Stop 1-2 inches above the chest and hold 1 s, staying tight; don't let the bar drift toward the face.",
+  "steps": [
+   "Bench setup as normal.",
+   "Lower 2-3 s and stop an inch above the chest.",
+   "Hold 1 s with lats tight.",
+   "Press from the hover."
+  ],
+  "cues": [
+   "Hover the bar over your shirt.",
+   "Push yourself into the bench."
+  ],
+  "homeSwap": "Push-up with a 1-s hover one inch off the floor.",
+  "note": "Builds control in the bottom position where flat feet and loose bracing usually leak force.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Larsen Press",
+  "aliases": [
+   "larsen bench",
+   "feet up bench",
+   "larsen"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "anterior deltoid",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Feet off the floor and legs straight; it trains upper-body stability, so use ~10-15% less than your bench.",
+  "steps": [
+   "Lie on a flat bench, legs extended and feet hovering.",
+   "Grip as normal bench.",
+   "Lower 2-3 s to the chest staying centered.",
+   "Press without wobbling side to side."
+  ],
+  "cues": [
+   "Keep the bar level like a tray.",
+   "Press yourself into the bench."
+  ],
+  "homeSwap": "Floor press with a light DB, legs extended.",
+  "note": "No leg drive means no hiding; reveals left/right imbalances quickly.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Barbell Floor Press",
+  "aliases": [
+   "floor press",
+   "bb floor press"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "triceps",
+   "pectoralis major"
+  ],
+  "standing": false,
+  "doThisNotThat": "Let the upper arm rest on the floor for a full stop, then press; no bouncing elbows off the floor.",
+  "steps": [
+   "Lie on the floor under the bar in a rack at ~arm-length height.",
+   "Knees bent, feet flat.",
+   "Lower until triceps touch the floor, pause 1 s.",
+   "Press to lockout."
+  ],
+  "cues": [
+   "Push the bar to the ceiling.",
+   "Snap to lockout."
+  ],
+  "homeSwap": "DB floor press with the heaviest dumbbells you have, 3-s lowering.",
+  "note": "Shoulder-friendly lockout work; great on days your shoulder feels beat up from sparring.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Flat Dumbbell Bench Press",
+  "aliases": [
+   "db bench",
+   "dumbbell press flat",
+   "flat db press",
+   "dumbbell chest press"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "anterior deltoid",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lower until the dumbbells are level with the chest for a deep stretch, then press up and slightly in.",
+  "steps": [
+   "Kick the dumbbells up from the knees as you lie back.",
+   "Shoulder blades pinched, feet planted.",
+   "Dumbbells at a ~30° angle (pinkies slightly in), elbows ~45-60°.",
+   "Lower 2-3 s to chest level.",
+   "Press up and slightly together."
+  ],
+  "cues": [
+   "Push the dumbbells toward the ceiling.",
+   "Drive the floor away."
+  ],
+  "homeSwap": "Deficit push-up between two dumbbells, 3-s lowering, 1-s pause in the stretch; add a backpack when 15+ reps is easy.",
+  "note": "Dumbbells let each arm work alone, which exposes the side that fires late; lead with the weaker arm's rep count.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Incline Dumbbell Bench Press",
+  "aliases": [
+   "incline db bench",
+   "incline dumbbell bench"
+  ],
+  "pattern": "incline-press",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "upper pectoralis",
+   "anterior deltoid",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Set 30°, not 45°; press up over the upper chest, not out in front of the face.",
+  "steps": [
+   "Bench at 30°.",
+   "Dumbbells start at the upper chest, forearms vertical.",
+   "Shoulder blades down, chest up.",
+   "Lower 2-3 s to a deep stretch, then press."
+  ],
+  "cues": [
+   "Push yourself into the bench.",
+   "Punch the dumbbells to the ceiling."
+  ],
+  "homeSwap": "Feet-elevated (decline) push-up on a chair, 3-s lowering; or floor-incline DB press with hips bridged.",
+  "note": "Upper-chest growth for the V-taper; the deep stretch is where most of the growth stimulus is.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Decline Dumbbell Press",
+  "aliases": [
+   "decline db press",
+   "decline dumbbell bench"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "lower pectoralis",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Mild decline (~15°) and a full stretch; don't go so steep that blood rushes to your head.",
+  "steps": [
+   "Set a 15° decline and anchor the feet.",
+   "Kick the dumbbells up carefully.",
+   "Lower 2-3 s to chest level.",
+   "Press up and slightly in."
+  ],
+  "cues": [
+   "Push the dumbbells to the ceiling."
+  ],
+  "homeSwap": "Push-up on dumbbells with hands slightly below shoulder level.",
+  "note": "Optional variation; keep it if it feels better on the shoulders than flat.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Neutral-Grip Dumbbell Press",
+  "aliases": [
+   "neutral grip db press",
+   "hammer grip press",
+   "neutral grip bench"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "triceps",
+   "anterior deltoid"
+  ],
+  "standing": false,
+  "doThisNotThat": "Palms facing each other and elbows tucked ~30°; it's the most shoulder-friendly press, use it when shoulders are sore.",
+  "steps": [
+   "Lie on a flat bench, palms facing each other.",
+   "Elbows tucked to ~30° from the torso.",
+   "Lower 2-3 s until DBs touch the chest sides.",
+   "Press straight up."
+  ],
+  "cues": [
+   "Punch the dumbbells up.",
+   "Push the floor away."
+  ],
+  "homeSwap": "Neutral-grip push-up on dumbbells, 3-s lowering.",
+  "note": "The tucked elbow path matches a straight punch more closely than a flared bench.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Single-Arm Dumbbell Bench Press",
+  "aliases": [
+   "one arm db press",
+   "single arm bench",
+   "unilateral db press"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "triceps",
+   "obliques"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep both shoulders on the bench and resist the twist; it's an anti-rotation core drill plus a press.",
+  "steps": [
+   "One DB in one hand, other hand holds the bench edge or rests on the hip.",
+   "Feet wide and screwed into the floor.",
+   "Lower 2-3 s, press without rolling toward the weight."
+  ],
+  "cues": [
+   "Keep your chest square to the ceiling.",
+   "Drive the floor away."
+  ],
+  "homeSwap": "Single-arm push-up negatives from the knees.",
+  "note": "Anti-rotation under load is the same trunk job as staying square when punching with one hand.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Machine Chest Press",
+  "aliases": [
+   "chest press machine",
+   "seated chest press",
+   "hammer strength chest press"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "anterior deltoid",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Set the seat so handles line up with mid-chest, and take a deep stretch; machines let you push near failure safely.",
+  "steps": [
+   "Adjust the seat so handles are at mid-chest height.",
+   "Back flat on the pad, shoulder blades back.",
+   "Press out, lower 2-3 s to a full stretch."
+  ],
+  "cues": [
+   "Push the handles away from you.",
+   "Keep your back glued to the pad."
+  ],
+  "homeSwap": "Deficit push-up between two dumbbells, 3-s lowering, 1-s pause in the stretch; add a backpack when 15+ reps is easy.",
+  "note": "Stable path = safe to take the last set to failure, good for the looks side without risking the shoulder.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "8-12"
+  }
+ },
+ {
+  "name": "Smith Machine Bench Press",
+  "aliases": [
+   "smith bench",
+   "smith press"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "smith machine",
+   "bench"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "anterior deltoid",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Position the bench so the bar touches the lower chest on a vertical line.",
+  "steps": [
+   "Place bench so the bar path hits lower chest.",
+   "Grip ~1.5x shoulder width.",
+   "Lower 2-3 s, press."
+  ],
+  "cues": [
+   "Push yourself into the bench."
+  ],
+  "homeSwap": "Deficit push-up between two dumbbells, 3-s lowering, 1-s pause in the stretch; add a backpack when 15+ reps is easy.",
+  "note": "Fixed path removes stability demand; use it for hypertrophy volume, not for athletic carryover.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Smith Machine Incline Press",
+  "aliases": [
+   "smith incline",
+   "incline smith press"
+  ],
+  "pattern": "incline-press",
+  "equipment": [
+   "smith machine",
+   "bench"
+  ],
+  "muscles": [
+   "upper pectoralis",
+   "anterior deltoid"
+  ],
+  "standing": false,
+  "doThisNotThat": "Bench at 30° and positioned so the bar hits the upper chest, not the neck.",
+  "steps": [
+   "Set bench to 30° under the bar.",
+   "Check the bar meets upper chest at bottom.",
+   "Lower 2-3 s, press."
+  ],
+  "cues": [
+   "Push the bar toward the ceiling."
+  ],
+  "homeSwap": "Feet-elevated (decline) push-up on a chair, 3-s lowering; or floor-incline DB press with hips bridged.",
+  "note": "Easy to push near failure safely for upper-chest volume.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Push-Up",
+  "aliases": [
+   "push up",
+   "pushups",
+   "press up"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "triceps",
+   "anterior deltoid",
+   "serratus anterior",
+   "core"
+  ],
+  "standing": false,
+  "doThisNotThat": "Body in one straight plank and elbows ~45° with a full lockout and protraction at the top, not a sagging hips half-rep.",
+  "steps": [
+   "Hands just outside shoulder width, fingers spread.",
+   "Squeeze glutes, ribs down: straight line head to heels.",
+   "Lower 2-3 s until chest is a fist from the floor.",
+   "Push the floor away and reach the shoulder blades apart at the top."
+  ],
+  "cues": [
+   "Push the floor away.",
+   "Screw your hands into the floor."
+  ],
+  "homeSwap": "Already home-ready; load it with a backpack or slow it to 4-s lowering.",
+  "note": "Serratus \"push-up plus\" at the top builds the shoulder blade stability a punch needs.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "8-20"
+  }
+ },
+ {
+  "name": "Incline Push-Up",
+  "aliases": [
+   "incline pushup",
+   "elevated push up"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "bodyweight",
+   "bench"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "triceps",
+   "anterior deltoid",
+   "serratus anterior",
+   "core"
+  ],
+  "standing": false,
+  "doThisNotThat": "Use the incline to get full range with perfect form, not to do sloppy fast reps.",
+  "steps": [
+   "Hands on a bench or counter.",
+   "Straight line head to heels.",
+   "Lower chest to the edge, 2-3 s.",
+   "Push away."
+  ],
+  "cues": [
+   "Push the bench away."
+  ],
+  "homeSwap": "Hands on a couch or counter.",
+  "note": "Good fatigued finisher; lower the surface as you get stronger.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "10-20"
+  }
+ },
+ {
+  "name": "Decline Push-Up",
+  "aliases": [
+   "feet elevated push up",
+   "decline pushup"
+  ],
+  "pattern": "incline-press",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "upper pectoralis",
+   "anterior deltoid",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Feet on a chair 30-45 cm high; keep the plank rigid and touch the chest, not the face.",
+  "steps": [
+   "Feet on a chair or bench, hands on the floor.",
+   "Squeeze glutes, ribs down.",
+   "Lower 2-3 s, chest to the floor line.",
+   "Push away fully."
+  ],
+  "cues": [
+   "Push the floor away."
+  ],
+  "homeSwap": "Already home-ready; add a backpack.",
+  "note": "Home substitute for incline pressing; upper chest for the V-taper.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "8-15"
+  }
+ },
+ {
+  "name": "Diamond Push-Up",
+  "aliases": [
+   "diamond pushup",
+   "triangle push up",
+   "close grip push up"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "triceps",
+   "pectoralis major"
+  ],
+  "standing": false,
+  "doThisNotThat": "Hands under the sternum and elbows tucked back; flared elbows turn it into a wrist and elbow ache.",
+  "steps": [
+   "Hands together forming a diamond under the sternum.",
+   "Plank tight.",
+   "Lower 2-3 s, elbows brushing the ribs.",
+   "Press to a hard lockout."
+  ],
+  "cues": [
+   "Push the floor away.",
+   "Snap the elbows straight."
+  ],
+  "homeSwap": "Already home-ready; elevate feet to load more.",
+  "note": "Home triceps builder; lockout snap carries to punch extension.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "8-15"
+  }
+ },
+ {
+  "name": "Archer Push-Up",
+  "aliases": [
+   "archer pushup",
+   "side to side push up"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "triceps",
+   "anterior deltoid",
+   "serratus anterior",
+   "core"
+  ],
+  "standing": false,
+  "doThisNotThat": "Shift weight onto the bending arm while the other stays straight; it's a progression toward a one-arm push-up.",
+  "steps": [
+   "Hands ~2x shoulder width.",
+   "Lower toward one hand, other arm straight.",
+   "Press back to center, alternate."
+  ],
+  "cues": [
+   "Push the floor away with the bent arm."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Unilateral loading at home when dumbbells are too light.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "5-10 per side"
+  }
+ },
+ {
+  "name": "Wide Push-Up",
+  "aliases": [
+   "wide grip push up",
+   "wide pushup"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "anterior deltoid"
+  ],
+  "standing": false,
+  "doThisNotThat": "Hands only ~1.5x shoulder width; super-wide stresses the shoulder more than it builds the chest.",
+  "steps": [
+   "Hands 1.5x shoulder width.",
+   "Plank tight.",
+   "Lower 2-3 s, press."
+  ],
+  "cues": [
+   "Push the floor away."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Slightly more pec stretch; keep elbows under ~60°.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "10-20"
+  }
+ },
+ {
+  "name": "Pseudo-Planche Push-Up",
+  "aliases": [
+   "pseudo planche push up",
+   "ppp",
+   "planche push up"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "pectoralis major",
+   "biceps",
+   "serratus anterior"
+  ],
+  "standing": false,
+  "doThisNotThat": "Hands by the hips with fingers turned out and shoulders leaning well past the hands.",
+  "steps": [
+   "Hands at waist level, fingers out.",
+   "Lean shoulders forward past the wrists.",
+   "Lower 2-3 s keeping the lean.",
+   "Press, staying protracted."
+  ],
+  "cues": [
+   "Lean your shoulders past your hands.",
+   "Push the floor away."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Hard bodyweight overload for the front delts when dumbbells are light; build up wrist tolerance first.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "5-10"
+  }
+ },
+ {
+  "name": "Ring Push-Up",
+  "aliases": [
+   "ring pushup",
+   "trx push up",
+   "suspension push up"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "rings"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "triceps",
+   "anterior deltoid",
+   "serratus anterior",
+   "core"
+  ],
+  "standing": false,
+  "doThisNotThat": "Turn rings out at the top (RTO) and keep them close to the body at the bottom.",
+  "steps": [
+   "Rings 5-10 cm off the floor.",
+   "Plank tight.",
+   "Lower 2-3 s, rings by the ribs.",
+   "Press and turn the rings out at the top."
+  ],
+  "cues": [
+   "Turn the rings out at the top."
+  ],
+  "homeSwap": "Push-up with hands on two towels on a smooth floor (slow, controlled).",
+  "note": "Instability trains shoulder stabilizers; good for combat.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "8-15"
+  }
+ },
+ {
+  "name": "Weighted Push-Up",
+  "aliases": [
+   "backpack push up",
+   "loaded push up",
+   "plate push up"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "bodyweight",
+   "plate"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "triceps",
+   "anterior deltoid",
+   "serratus anterior",
+   "core"
+  ],
+  "standing": false,
+  "doThisNotThat": "Load until 6-12 reps is hard; a heavy backpack turns push-ups into a real strength lift.",
+  "steps": [
+   "Backpack with books or a plate on the upper back.",
+   "Plank tight.",
+   "Lower 2-3 s, press."
+  ],
+  "cues": [
+   "Push the floor away."
+  ],
+  "homeSwap": "Backpack loaded with books or water bottles.",
+  "note": "Best home chest overload with light dumbbells.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "6-12"
+  }
+ },
+ {
+  "name": "Pike Push-Up",
+  "aliases": [
+   "pike pushup",
+   "pike press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Hips high and head travels in front of the hands, making a tripod; not a sloppy push-up with hips raised.",
+  "steps": [
+   "Hands shoulder-width, hips high in an inverted V.",
+   "Lower 2-3 s, head forward of hands.",
+   "Press back to the V."
+  ],
+  "cues": [
+   "Push the floor away.",
+   "Head through at the top."
+  ],
+  "homeSwap": "Already home-ready; elevate feet on a chair to progress.",
+  "note": "Home overhead pressing; build toward handstand push-ups.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "6-12"
+  }
+ },
+ {
+  "name": "Handstand Push-Up",
+  "aliases": [
+   "hspu",
+   "wall handstand push up"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Start with partials or negatives against a wall; full reps only once you can do 12+ elevated pike push-ups.",
+  "steps": [
+   "Kick up to a wall handstand, hands 15-20 cm from the wall.",
+   "Lower 3 s to a pad under the head.",
+   "Press up hard."
+  ],
+  "cues": [
+   "Push the floor away."
+  ],
+  "homeSwap": "Feet-elevated pike push-up.",
+  "note": "Requires control upside down; skip if neck or wrists hurt.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "3-8"
+  }
+ },
+ {
+  "name": "Barbell Overhead Press",
+  "aliases": [
+   "ohp",
+   "military press",
+   "standing press",
+   "overhead press",
+   "strict press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": true,
+  "doThisNotThat": "Squeeze glutes and move the head back then through, pressing straight up; no lean-back into a standing incline press.",
+  "steps": [
+   "Bar on front delts, grip just outside shoulders, forearms vertical.",
+   "Feet hip-width, screw the feet, squeeze glutes.",
+   "Press the bar up, moving the head back just enough.",
+   "Head through at lockout, bar over the mid-foot."
+  ],
+  "cues": [
+   "Push yourself away from the bar.",
+   "Drive the bar to the ceiling."
+  ],
+  "homeSwap": "Standing single-arm DB press or pike push-up.",
+  "note": "Ribs down and glutes on keeps the spine stacked so pressing power isn't lost through a banana back.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Push Press",
+  "aliases": [
+   "push press",
+   "bb push press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": true,
+  "doThisNotThat": "Dip 10-15 cm straight down and drive through the legs; the arms only finish what the legs start.",
+  "steps": [
+   "Bar in front rack.",
+   "Dip straight down, knees forward, torso upright.",
+   "Drive up explosively, then press.",
+   "Lower under control."
+  ],
+  "cues": [
+   "Drive the floor away.",
+   "Throw the bar to the ceiling."
+  ],
+  "homeSwap": "DB push press with the heaviest dumbbells.",
+  "note": "Teaches legs-first sequencing: hips and legs lead, arms finish. That's the fix for your arm-first habit.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "3-6"
+  }
+ },
+ {
+  "name": "Seated Dumbbell Shoulder Press",
+  "aliases": [
+   "seated db press",
+   "seated shoulder press",
+   "db shoulder press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Bench at 80-85°, not 90°, and lower to ear level with elbows slightly in front of the body.",
+  "steps": [
+   "Bench nearly upright.",
+   "DBs at shoulder height, elbows ~30° in front.",
+   "Press up and slightly together.",
+   "Lower 2-3 s to ear level."
+  ],
+  "cues": [
+   "Push the dumbbells to the ceiling."
+  ],
+  "homeSwap": "Already home-ready; pike push-ups if dumbbells are too light.",
+  "note": "Shoulder size adds to the V-taper.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Standing Dumbbell Shoulder Press",
+  "aliases": [
+   "standing db press",
+   "standing shoulder press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": true,
+  "doThisNotThat": "Screw the feet, squeeze the glutes, and press without leaning back.",
+  "steps": [
+   "Feet hip-width, tripod foot.",
+   "DBs at shoulder height.",
+   "Press up and slightly in.",
+   "Lower 2-3 s."
+  ],
+  "cues": [
+   "Push the dumbbells to the ceiling."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Standing version adds core and foot stability.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Single-Arm Dumbbell Overhead Press",
+  "aliases": [
+   "one arm shoulder press",
+   "single arm ohp",
+   "unilateral press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stay square and don't lean away from the dumbbell; the trunk resists the side bend.",
+  "steps": [
+   "Stand tall, one DB at the shoulder.",
+   "Other arm out for balance.",
+   "Press up without shifting the hips."
+  ],
+  "cues": [
+   "Push the dumbbell to the ceiling.",
+   "Stay tall."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Light dumbbells feel heavier one at a time; useful home overload.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Arnold Press",
+  "aliases": [
+   "arnold press",
+   "arnold dumbbell press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Rotate the palms out as you press, not after; a smooth turn hits front and side delts together.",
+  "steps": [
+   "Start DBs at chin height, palms facing you.",
+   "As you press, rotate palms to face forward.",
+   "Reverse on the way down."
+  ],
+  "cues": [
+   "Turn and push the dumbbells to the ceiling."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "More time under tension with light dumbbells.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Landmine Press",
+  "aliases": [
+   "landmine press",
+   "single arm landmine press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "landmine",
+   "barbell"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "upper pectoralis",
+   "serratus anterior",
+   "triceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Press up and forward along the arc and reach at the top; it's the best press for cranky shoulders.",
+  "steps": [
+   "Bar end at shoulder height, staggered stance.",
+   "Press up and forward to lockout.",
+   "Reach the shoulder blade forward at the top.",
+   "Lower 2-3 s."
+  ],
+  "cues": [
+   "Drive the bar to the ceiling and forward.",
+   "Push the floor away."
+  ],
+  "homeSwap": "Half-kneeling single-arm DB press at a 45° angle.",
+  "note": "The angle matches the line of a punch; add a hip turn and it becomes a landmine punch.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Z Press",
+  "aliases": [
+   "z-press",
+   "seated floor press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "barbell",
+   "dumbbell"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Sit on the floor, legs straight; without the backrest you must press from a stacked trunk.",
+  "steps": [
+   "Sit on the floor, legs straight.",
+   "Bar or DBs at shoulders.",
+   "Press straight up, no lean."
+  ],
+  "cues": [
+   "Push the weight to the ceiling."
+  ],
+  "homeSwap": "DB Z-press at home.",
+  "note": "Exposes stiff hips and thoracic spine; good test of overhead mobility.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Machine Shoulder Press",
+  "aliases": [
+   "shoulder press machine",
+   "seated shoulder press machine"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Seat set so handles start at ear level; full range and controlled lowering.",
+  "steps": [
+   "Adjust seat so handles are at ear height.",
+   "Back flat on the pad.",
+   "Press, lower 2-3 s."
+  ],
+  "cues": [
+   "Push the handles up."
+  ],
+  "homeSwap": "Seated DB press.",
+  "note": "Safe to take near failure for hypertrophy.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "8-12"
+  }
+ },
+ {
+  "name": "Behind-the-Neck Press",
+  "aliases": [
+   "behind the neck press",
+   "btn press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Skip it unless your shoulder mobility is excellent; front press gives the same gains with less risk.",
+  "steps": [
+   "Only if you can raise arms overhead without arching.",
+   "Lower bar just to ear level behind the head.",
+   "Press up."
+  ],
+  "cues": [
+   "Push the bar up."
+  ],
+  "homeSwap": "Seated DB press.",
+  "note": "With your all-over stiffness, this is not recommended; use a front press.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Dumbbell Fly",
+  "aliases": [
+   "db fly",
+   "flat fly",
+   "chest fly",
+   "dumbbell flye"
+  ],
+  "pattern": "chest-fly",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "anterior deltoid"
+  ],
+  "standing": false,
+  "doThisNotThat": "Elbows slightly bent and locked, lower to a deep stretch, then hug a tree; not a press.",
+  "steps": [
+   "Lie flat, DBs above chest, palms facing.",
+   "Slight bend in the elbows.",
+   "Lower 3 s in an arc to chest level.",
+   "Hug back up."
+  ],
+  "cues": [
+   "Hug a big tree."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Stretch position under load is the growth trigger; finish with lengthened partials.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Incline Dumbbell Fly",
+  "aliases": [
+   "incline fly",
+   "incline db fly"
+  ],
+  "pattern": "chest-fly",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "upper pectoralis",
+   "anterior deltoid"
+  ],
+  "standing": false,
+  "doThisNotThat": "Bench at 30° and arc out to a stretch level with the chest.",
+  "steps": [
+   "Bench 30°.",
+   "DBs above upper chest.",
+   "Lower in an arc 3 s.",
+   "Bring up."
+  ],
+  "cues": [
+   "Hug a tree."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Upper-chest isolation for the V-taper.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Cable Crossover (High-to-Low)",
+  "aliases": [
+   "high cable fly",
+   "high to low cable fly",
+   "cable crossover"
+  ],
+  "pattern": "chest-fly",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "lower pectoralis",
+   "pectoralis major"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pulleys high, step forward, and sweep down to hip height so the lower pecs do the work.",
+  "steps": [
+   "Pulleys at top setting.",
+   "Staggered stance, slight forward lean.",
+   "Arms out with soft elbows.",
+   "Sweep down and in to meet at hip level."
+  ],
+  "cues": [
+   "Bring your hands together in front of your belly button."
+  ],
+  "homeSwap": "DB fly on a slight decline (feet elevated floor fly).",
+  "note": "Tension through full range where DB flies drop off at the top.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Cable Fly (Mid)",
+  "aliases": [
+   "mid cable fly",
+   "chest height cable fly",
+   "cable chest fly"
+  ],
+  "pattern": "chest-fly",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "pectoralis major"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pulleys at chest height; meet hands at sternum and pause 1 s.",
+  "steps": [
+   "Pulleys at shoulder height.",
+   "Staggered stance.",
+   "Sweep forward, hands meet at sternum.",
+   "Return 3 s to full stretch."
+  ],
+  "cues": [
+   "Hug the tree."
+  ],
+  "homeSwap": "Flat DB fly.",
+  "note": "Full-range tension builds pec size.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Low-to-High Cable Fly",
+  "aliases": [
+   "low cable fly",
+   "low to high fly",
+   "upward cable fly"
+  ],
+  "pattern": "chest-fly",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "upper pectoralis",
+   "anterior deltoid"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pulleys low, sweep up to eye height to hit upper chest.",
+  "steps": [
+   "Pulleys at the bottom.",
+   "Staggered stance.",
+   "Sweep up and in to eye level.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Scoop your hands up to eye level."
+  ],
+  "homeSwap": "Incline DB fly.",
+  "note": "Upper chest focus.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Pec Deck",
+  "aliases": [
+   "pec deck",
+   "machine fly",
+   "butterfly machine"
+  ],
+  "pattern": "chest-fly",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "pectoralis major"
+  ],
+  "standing": false,
+  "doThisNotThat": "Set the seat so handles are at chest height and control a deep stretch.",
+  "steps": [
+   "Seat so handles are at mid-chest.",
+   "Back flat, shoulder blades back.",
+   "Squeeze handles together, pause 1 s.",
+   "Return 3 s to stretch."
+  ],
+  "cues": [
+   "Bring your hands together in front of you."
+  ],
+  "homeSwap": "DB fly.",
+  "note": "Easy and safe to push to failure.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "10-15"
+  }
+ },
+ {
+  "name": "Svend Press",
+  "aliases": [
+   "svend press",
+   "plate squeeze press"
+  ],
+  "pattern": "chest-fly",
+  "equipment": [
+   "plate",
+   "dumbbell"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "anterior deltoid"
+  ],
+  "standing": true,
+  "doThisNotThat": "Crush the plates together the whole set; squeeze hard, not heavy weight.",
+  "steps": [
+   "Stand, squeeze two plates or a DB between palms at the chest.",
+   "Press forward to arms' length, keep squeezing.",
+   "Return."
+  ],
+  "cues": [
+   "Crush the plates together."
+  ],
+  "homeSwap": "Squeeze one dumbbell between palms.",
+  "note": "Low-equipment pump finisher.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "12-20"
+  }
+ },
+ {
+  "name": "Chest Dip",
+  "aliases": [
+   "dips",
+   "chest dips",
+   "parallel bar dip"
+  ],
+  "pattern": "dip",
+  "equipment": [
+   "dip bars"
+  ],
+  "muscles": [
+   "lower pectoralis",
+   "triceps",
+   "anterior deltoid"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lean forward ~30° and go to ~90° elbow; don't sink to an extreme stretch if shoulders are stiff.",
+  "steps": [
+   "Grip dip bars, lean torso forward 30°.",
+   "Lower 2-3 s until upper arms are parallel.",
+   "Push up to lockout."
+  ],
+  "cues": [
+   "Push the bars down to the floor."
+  ],
+  "homeSwap": "Dip between two sturdy chairs, feet on the floor for assistance.",
+  "note": "Big upper-body builder; respect stiff shoulders and stop at parallel.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Triceps Dip",
+  "aliases": [
+   "upright dip",
+   "tricep dips",
+   "straight bar dip"
+  ],
+  "pattern": "dip",
+  "equipment": [
+   "dip bars"
+  ],
+  "muscles": [
+   "triceps",
+   "pectoralis major"
+  ],
+  "standing": false,
+  "doThisNotThat": "Stay upright with elbows back; keep shoulders down, not shrugged.",
+  "steps": [
+   "Grip bars, torso upright.",
+   "Lower 2-3 s to 90° elbow.",
+   "Press to lockout."
+  ],
+  "cues": [
+   "Push the bars down."
+  ],
+  "homeSwap": "Chair dip with feet on floor.",
+  "note": "Lockout strength for punches.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Bench Dip",
+  "aliases": [
+   "bench dips",
+   "chair dip"
+  ],
+  "pattern": "dip",
+  "equipment": [
+   "bench",
+   "bodyweight"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep hips close to the bench and stop at 90°; deeper strains the front of the shoulder.",
+  "steps": [
+   "Hands on bench edge, fingers forward.",
+   "Feet out, knees bent.",
+   "Lower to 90° elbow.",
+   "Press up."
+  ],
+  "cues": [
+   "Push the bench down."
+  ],
+  "homeSwap": "Already home-ready (chair).",
+  "note": "Limit depth; front shoulder is vulnerable here.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "10-20"
+  }
+ },
+ {
+  "name": "Ring Dip",
+  "aliases": [
+   "ring dips"
+  ],
+  "pattern": "dip",
+  "equipment": [
+   "rings"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "triceps",
+   "anterior deltoid"
+  ],
+  "standing": false,
+  "doThisNotThat": "Turn rings out at the top and keep them close to the body; only once you have 10 clean bar dips.",
+  "steps": [
+   "Support on rings, arms straight, rings turned out.",
+   "Lower 3 s to 90°.",
+   "Press up."
+  ],
+  "cues": [
+   "Push the rings to the floor."
+  ],
+  "homeSwap": "Chair dip.",
+  "note": "Very high stabilizer demand.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Assisted Dip Machine",
+  "aliases": [
+   "assisted dip",
+   "machine dip"
+  ],
+  "pattern": "dip",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Use only enough assistance to get 8-12 clean reps.",
+  "steps": [
+   "Kneel on the pad, set assist weight.",
+   "Lower 2-3 s to 90°.",
+   "Press up."
+  ],
+  "cues": [
+   "Push the handles down."
+  ],
+  "homeSwap": "Chair dip with feet assisting.",
+  "note": "Bridge to bodyweight dips.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "8-12"
+  }
+ },
+ {
+  "name": "Dumbbell Lateral Raise",
+  "aliases": [
+   "lateral raise",
+   "side raise",
+   "lat raise",
+   "db lateral raise",
+   "side lateral"
+  ],
+  "pattern": "shoulder-raise",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "lateral deltoid",
+   "upper trapezius"
+  ],
+  "standing": true,
+  "doThisNotThat": "Lift out to the sides with a slight forward lean and stop at shoulder height; don't swing or shrug.",
+  "steps": [
+   "Stand, slight lean forward, DBs at sides.",
+   "Raise out to sides, elbows slightly bent.",
+   "Stop at shoulder height.",
+   "Lower 2-3 s."
+  ],
+  "cues": [
+   "Push the dumbbells out to the walls."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Side delts widen the shoulders; key V-taper muscle.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "10-20"
+  }
+ },
+ {
+  "name": "Cable Lateral Raise",
+  "aliases": [
+   "cable side raise",
+   "single arm cable lateral"
+  ],
+  "pattern": "shoulder-raise",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "lateral deltoid",
+   "upper trapezius"
+  ],
+  "standing": true,
+  "doThisNotThat": "Cable behind the body at hand height gives tension at the bottom where dumbbells give none.",
+  "steps": [
+   "Pulley at the lowest setting, cable behind you.",
+   "Raise out to the side to shoulder height.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Push your hand to the wall."
+  ],
+  "homeSwap": "DB lateral raise lying on side (side-lying raise).",
+  "note": "Loads the lengthened position.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "12-20"
+  }
+ },
+ {
+  "name": "Lean-Away Lateral Raise",
+  "aliases": [
+   "lean away raise",
+   "leaning lateral raise"
+  ],
+  "pattern": "shoulder-raise",
+  "equipment": [
+   "dumbbell",
+   "cable"
+  ],
+  "muscles": [
+   "lateral deltoid",
+   "upper trapezius"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hold a post and lean away; lowers the bottom angle for more stretch.",
+  "steps": [
+   "Hold a post with one hand, lean away.",
+   "DB in the other hand.",
+   "Raise to shoulder height.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Push the dumbbell to the wall."
+  ],
+  "homeSwap": "Hold a doorframe and lean away with a DB.",
+  "note": "Lengthened bias for the side delt.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "12-20"
+  }
+ },
+ {
+  "name": "Machine Lateral Raise",
+  "aliases": [
+   "lateral raise machine"
+  ],
+  "pattern": "shoulder-raise",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "lateral deltoid",
+   "upper trapezius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Line up shoulder joint with the machine pivot.",
+  "steps": [
+   "Adjust seat to align shoulders with pivot.",
+   "Raise arms out to shoulder height.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Push the pads out."
+  ],
+  "homeSwap": "DB lateral raise.",
+  "note": "Safe to push to failure.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "12-20"
+  }
+ },
+ {
+  "name": "Seated Dumbbell Lateral Raise",
+  "aliases": [
+   "seated lateral raise"
+  ],
+  "pattern": "shoulder-raise",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "lateral deltoid",
+   "upper trapezius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Sitting kills the body swing; use lighter weight and strict reps.",
+  "steps": [
+   "Sit on a bench, DBs at sides.",
+   "Raise to shoulder height.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Push the dumbbells out to the walls."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Strict reps with light home DBs.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "12-20"
+  }
+ },
+ {
+  "name": "Y-Raise",
+  "aliases": [
+   "y raise",
+   "incline y raise",
+   "lower trap raise"
+  ],
+  "pattern": "shoulder-raise",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "lower trapezius",
+   "lateral deltoid"
+  ],
+  "standing": true,
+  "doThisNotThat": "Raise in a Y at ~30° from the head with thumbs up; light weight.",
+  "steps": [
+   "Lean forward or lie face down on an incline bench.",
+   "Arms in a Y, thumbs up.",
+   "Raise to ear height.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Reach your thumbs to the ceiling."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Lower traps keep shoulder blades healthy for overhead work.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "10-15"
+  }
+ },
+ {
+  "name": "Lu Raise",
+  "aliases": [
+   "lu raise",
+   "lu xiaojun raise"
+  ],
+  "pattern": "shoulder-raise",
+  "equipment": [
+   "dumbbell",
+   "plate"
+  ],
+  "muscles": [
+   "lateral deltoid",
+   "anterior deltoid",
+   "upper trapezius"
+  ],
+  "standing": true,
+  "doThisNotThat": "Raise out to the sides all the way overhead, thumbs up; very light weight.",
+  "steps": [
+   "Stand tall, light DBs at sides.",
+   "Raise out to sides and continue overhead.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Reach to the ceiling."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Full-range overhead raise trains mobility and shoulder health.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "10-15"
+  }
+ },
+ {
+  "name": "Dumbbell Front Raise",
+  "aliases": [
+   "front raise",
+   "front delt raise"
+  ],
+  "pattern": "shoulder-raise",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "anterior deltoid"
+  ],
+  "standing": true,
+  "doThisNotThat": "Usually unnecessary: pressing already hits the front delts. Do it only if they lag.",
+  "steps": [
+   "Stand tall.",
+   "Raise DBs in front to eye height.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Push the dumbbells forward."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Low priority for you; presses cover it.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "10-15"
+  }
+ },
+ {
+  "name": "Wide-Grip Upright Row",
+  "aliases": [
+   "upright row",
+   "wide upright row"
+  ],
+  "pattern": "shoulder-raise",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "cable"
+  ],
+  "muscles": [
+   "lateral deltoid",
+   "upper trapezius"
+  ],
+  "standing": true,
+  "doThisNotThat": "Grip wide and stop at chest/upper-ab height; narrow grip to the chin pinches the shoulder.",
+  "steps": [
+   "Grip wider than shoulders.",
+   "Pull up leading with the elbows.",
+   "Stop when elbows reach shoulder height.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Lead with your elbows to the ceiling."
+  ],
+  "homeSwap": "DB upright row with wide hands.",
+  "note": "Side delt builder; stop if any pinch.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Rope Triceps Pushdown",
+  "aliases": [
+   "tricep pushdown",
+   "rope pushdown",
+   "triceps pushdown",
+   "rope extension"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pin elbows to the ribs and split the rope apart at lockout; no shoulder involvement.",
+  "steps": [
+   "Rope on a high pulley.",
+   "Elbows pinned at the sides.",
+   "Push down and split the rope at the bottom.",
+   "Return 2-3 s to 90°+."
+  ],
+  "cues": [
+   "Split the rope apart at the bottom."
+  ],
+  "homeSwap": "Overhead DB extension or diamond push-up.",
+  "note": "Stasinaki 2018 found no clear difference vs overhead work; mix both.",
+  "noteGrade": "B"
+ },
+ {
+  "name": "Straight-Bar Pushdown",
+  "aliases": [
+   "bar pushdown",
+   "straight bar tricep pushdown"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Elbows still, push the bar to the thighs.",
+  "steps": [
+   "Bar on high pulley, overhand grip.",
+   "Elbows at sides.",
+   "Push to lockout.",
+   "Return 2-3 s."
+  ],
+  "cues": [
+   "Push the bar to your thighs."
+  ],
+  "homeSwap": "Diamond push-up.",
+  "note": "Heavier loading than rope.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "V-Bar Pushdown",
+  "aliases": [
+   "v bar pushdown",
+   "v-handle pushdown"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Neutral-ish grip is easiest on the wrists; still pin the elbows.",
+  "steps": [
+   "V-bar on high pulley.",
+   "Elbows at sides.",
+   "Push to lockout."
+  ],
+  "cues": [
+   "Push the bar to your thighs."
+  ],
+  "homeSwap": "Diamond push-up.",
+  "note": "Wrist-friendly option.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Single-Arm Cable Pushdown",
+  "aliases": [
+   "one arm pushdown",
+   "single arm tricep extension"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "One arm at a time, elbow pinned, full lockout.",
+  "steps": [
+   "Handle on high pulley.",
+   "Elbow at side.",
+   "Push to lockout.",
+   "Return 3 s."
+  ],
+  "cues": [
+   "Punch the handle down to the floor."
+  ],
+  "homeSwap": "Single-arm DB kickback.",
+  "note": "Fixes side-to-side imbalances.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Overhead Cable Triceps Extension",
+  "aliases": [
+   "overhead cable extension",
+   "cable overhead tricep",
+   "overhead rope extension"
+  ],
+  "pattern": "elbow-extension-overhead",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "triceps (long head)"
+  ],
+  "standing": true,
+  "doThisNotThat": "Face away from the stack and let the hands go deep behind the head for a full long-head stretch.",
+  "steps": [
+   "Rope on low or mid pulley, face away.",
+   "Staggered stance, elbows up by ears.",
+   "Extend forward and up to lockout.",
+   "Return 3 s to deep stretch."
+  ],
+  "cues": [
+   "Punch the rope forward and up."
+  ],
+  "homeSwap": "Two-hand overhead DB extension.",
+  "note": "Maeo 2022: overhead position grew triceps more than the same extension with arms at the sides.",
+  "noteGrade": "B"
+ },
+ {
+  "name": "Two-Hand Overhead Dumbbell Extension",
+  "aliases": [
+   "overhead dumbbell extension",
+   "french press",
+   "seated tricep extension",
+   "overhead tricep extension"
+  ],
+  "pattern": "elbow-extension-overhead",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "triceps (long head)"
+  ],
+  "standing": false,
+  "doThisNotThat": "Elbows point forward and in; lower the DB deep behind the head.",
+  "steps": [
+   "Sit tall, hold one DB with both hands overhead.",
+   "Lower 3 s behind the head.",
+   "Extend to lockout."
+  ],
+  "cues": [
+   "Push the dumbbell to the ceiling."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Long head grows in stretch (Maeo 2022).",
+  "noteGrade": "B"
+ },
+ {
+  "name": "Single-Arm Overhead Dumbbell Extension",
+  "aliases": [
+   "one arm overhead extension",
+   "single arm french press"
+  ],
+  "pattern": "elbow-extension-overhead",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "triceps (long head)"
+  ],
+  "standing": false,
+  "doThisNotThat": "Light DB, elbow pointing up, lower behind the head.",
+  "steps": [
+   "Sit tall, DB overhead in one hand.",
+   "Lower 3 s behind the head.",
+   "Extend."
+  ],
+  "cues": [
+   "Push the dumbbell to the ceiling."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "One arm makes light home DBs heavier.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "EZ-Bar Skull Crusher",
+  "aliases": [
+   "skull crushers",
+   "lying tricep extension",
+   "skullcrusher",
+   "ez bar extension"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "ez-bar",
+   "bench"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lower the bar behind the head, not to the forehead, so the long head is stretched.",
+  "steps": [
+   "Lie on a bench, EZ bar over the chest.",
+   "Upper arms angled slightly back.",
+   "Lower 3 s behind the head.",
+   "Extend."
+  ],
+  "cues": [
+   "Push the bar to the ceiling."
+  ],
+  "homeSwap": "DB skull crusher.",
+  "note": "Behind-head version adds lengthened bias.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Dumbbell Skull Crusher",
+  "aliases": [
+   "db skull crusher",
+   "dumbbell lying extension"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Neutral grip, lower the DBs beside the head.",
+  "steps": [
+   "Lie flat, DBs above.",
+   "Lower 3 s beside the head.",
+   "Extend."
+  ],
+  "cues": [
+   "Push the dumbbells to the ceiling."
+  ],
+  "homeSwap": "Floor DB skull crusher.",
+  "note": "Wrist-friendly.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "JM Press",
+  "aliases": [
+   "jm press"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Hybrid of close-grip press and skull crusher; bar travels toward the chin.",
+  "steps": [
+   "Close grip, bar over chest.",
+   "Lower bar toward chin with elbows forward.",
+   "Press back."
+  ],
+  "cues": [
+   "Push the bar to the ceiling."
+  ],
+  "homeSwap": "Close-grip push-up.",
+  "note": "Heavy triceps overload.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Dumbbell Triceps Kickback",
+  "aliases": [
+   "kickback",
+   "tricep kickback",
+   "db kickback"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Upper arm parallel to the floor and still; lock out fully and squeeze 1 s.",
+  "steps": [
+   "Hinge or brace on a bench.",
+   "Upper arm parallel to floor.",
+   "Extend fully, hold 1 s.",
+   "Lower 2-3 s."
+  ],
+  "cues": [
+   "Push the dumbbell back to the wall."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Finishing work; short-range at the stretch.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "12-20"
+  }
+ },
+ {
+  "name": "Tate Press",
+  "aliases": [
+   "tate press"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Elbows flare out and DBs touch the chest; light weight.",
+  "steps": [
+   "Lie flat, DBs above chest.",
+   "Bend elbows outward to touch DBs to chest.",
+   "Extend."
+  ],
+  "cues": [
+   "Push the dumbbells to the ceiling."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Unusual angle for triceps variety.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Barbell Curl",
+  "aliases": [
+   "bicep curl",
+   "bb curl",
+   "straight bar curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "Elbows still at the sides; curl up without swinging.",
+  "steps": [
+   "Stand, shoulder-width underhand grip.",
+   "Elbows at sides.",
+   "Curl up, squeeze.",
+   "Lower 2-3 s to full extension."
+  ],
+  "cues": [
+   "Pull your hands toward your shoulders."
+  ],
+  "homeSwap": "DB curl.",
+  "note": "Full extension at the bottom loads the stretch.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "EZ-Bar Curl",
+  "aliases": [
+   "ez bar curl",
+   "ez curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "ez-bar"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "Angled grip is easier on the wrists; same strict elbows.",
+  "steps": [
+   "Grip the angled handles.",
+   "Elbows at sides.",
+   "Curl, lower 2-3 s."
+  ],
+  "cues": [
+   "Pull hands to shoulders."
+  ],
+  "homeSwap": "DB curl.",
+  "note": "Wrist-friendly barbell curl.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Alternating Dumbbell Curl",
+  "aliases": [
+   "db curl",
+   "dumbbell curl",
+   "alternating curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "Supinate (turn pinky up) as you curl and lower fully.",
+  "steps": [
+   "DBs at sides, palms facing in.",
+   "Curl one up, turning palm up.",
+   "Lower 2-3 s, alternate."
+  ],
+  "cues": [
+   "Turn the pinky to the ceiling."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Supination fully trains biceps.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Supinating Dumbbell Curl",
+  "aliases": [
+   "twist curl",
+   "supination curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "Start neutral and rotate to palm-up through the top.",
+  "steps": [
+   "Start palms in.",
+   "Curl and rotate palms up.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Turn the pinky up."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Supination is half the biceps' job.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "EZ-Bar Preacher Curl",
+  "aliases": [
+   "preacher curl",
+   "ez preacher",
+   "scott curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "ez-bar",
+   "preacher bench"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": false,
+  "doThisNotThat": "Armpits at the top of the pad and lower to nearly straight under control.",
+  "steps": [
+   "Sit with armpits on the pad top.",
+   "Lower 3 s to near lockout.",
+   "Curl up."
+  ],
+  "cues": [
+   "Pull the bar to your chin."
+  ],
+  "homeSwap": "DB curl on an incline bench (chest-supported).",
+  "note": "Hardest at the stretched bottom: great for growth.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Dumbbell Preacher Curl",
+  "aliases": [
+   "single arm preacher",
+   "db preacher curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "dumbbell",
+   "preacher bench"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": false,
+  "doThisNotThat": "One arm at a time on the pad; full stretch.",
+  "steps": [
+   "Arm on pad.",
+   "Lower 3 s.",
+   "Curl."
+  ],
+  "cues": [
+   "Pull dumbbell to shoulder."
+  ],
+  "homeSwap": "Arm over the back of a chair.",
+  "note": "Unilateral preacher.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Machine Preacher Curl",
+  "aliases": [
+   "preacher curl machine",
+   "machine curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": false,
+  "doThisNotThat": "Align elbow with machine pivot.",
+  "steps": [
+   "Upper arms flat on the pad, armpits at its top edge.",
+   "Curl up and squeeze 1 s.",
+   "Lower 3 s to nearly straight arms."
+  ],
+  "cues": [
+   "Pull handles to shoulders."
+  ],
+  "homeSwap": "DB curl.",
+  "note": "Safe failure.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Spider Curl",
+  "aliases": [
+   "spider curls",
+   "prone incline curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": false,
+  "doThisNotThat": "Chest on an incline bench, arms hanging straight down; strict top-range squeeze.",
+  "steps": [
+   "Lie face-down on 45° bench.",
+   "Arms straight down.",
+   "Curl up."
+  ],
+  "cues": [
+   "Pull dumbbells to shoulders."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Peak contraction emphasis.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Concentration Curl",
+  "aliases": [
+   "concentration curl",
+   "seated concentration curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": false,
+  "doThisNotThat": "Elbow braced on inner thigh; full range.",
+  "steps": [
+   "Sit, elbow on inner thigh.",
+   "Curl up, squeeze.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Pull dumbbell to shoulder."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Strict isolation.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Cable Curl",
+  "aliases": [
+   "cable bicep curl",
+   "cable curls"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "Step back slightly so tension stays on at the bottom.",
+  "steps": [
+   "Bar on low pulley.",
+   "Curl.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Pull the bar to your shoulders."
+  ],
+  "homeSwap": "DB curl.",
+  "note": "Constant tension.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Bayesian Cable Curl",
+  "aliases": [
+   "bayesian curl",
+   "behind the body cable curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "Face away from the pulley with the arm behind the body; maximum long-head stretch.",
+  "steps": [
+   "Low pulley behind you.",
+   "Arm extended behind the torso.",
+   "Curl up.",
+   "Lower 3 s to stretch."
+  ],
+  "cues": [
+   "Pull the handle to your shoulder."
+  ],
+  "homeSwap": "Incline DB curl.",
+  "note": "Lengthened bias.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Drag Curl",
+  "aliases": [
+   "drag curl",
+   "barbell drag curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "barbell",
+   "dumbbell"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "Drag the bar up the body with elbows moving back.",
+  "steps": [
+   "Stand with bar.",
+   "Pull elbows back as you curl.",
+   "Bar stays on the body."
+  ],
+  "cues": [
+   "Drag the bar up your shirt."
+  ],
+  "homeSwap": "DB drag curl.",
+  "note": "Short-head emphasis.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Reverse Curl",
+  "aliases": [
+   "reverse grip curl",
+   "overhand curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "barbell",
+   "ez-bar",
+   "dumbbell"
+  ],
+  "muscles": [
+   "brachioradialis",
+   "brachialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "Overhand grip, wrists straight.",
+  "steps": [
+   "Overhand grip.",
+   "Curl.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Pull knuckles to the ceiling."
+  ],
+  "homeSwap": "DB reverse curl.",
+  "note": "Forearm size and grip.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Cross-Body Hammer Curl",
+  "aliases": [
+   "cross body curl",
+   "pinwheel curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "Curl across the body toward the opposite shoulder.",
+  "steps": [
+   "Neutral grip.",
+   "Curl toward opposite shoulder.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Pull thumb to opposite shoulder."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Brachialis emphasis.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Zottman Curl",
+  "aliases": [
+   "zottman"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachioradialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "Curl up palms up, rotate at the top, lower palms down slowly.",
+  "steps": [
+   "Curl up supinated.",
+   "Rotate to pronated at top.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Turn the pinky up on the way up."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Forearm eccentric work.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "21s Curl",
+  "aliases": [
+   "21s",
+   "twenty ones"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "barbell",
+   "dumbbell"
+  ],
+  "muscles": [
+   "biceps brachii",
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "7 bottom-half, 7 top-half, 7 full reps; use light weight.",
+  "steps": [
+   "7 reps bottom half.",
+   "7 reps top half.",
+   "7 full reps."
+  ],
+  "cues": [
+   "Pull hands to shoulders."
+  ],
+  "homeSwap": "DB 21s.",
+  "note": "Metabolite finisher for pump.",
+  "noteGrade": "C",
+  "prescription": {
+   "sets": "1-2",
+   "reps": "21"
+  }
+ },
+ {
+  "name": "Chin-Up as Biceps Builder",
+  "aliases": [
+   "chin up curl"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "biceps",
+   "latissimus dorsi"
+  ],
+  "standing": false,
+  "doThisNotThat": "Underhand grip, full hang to chin over bar; chin-ups train biceps heavily.",
+  "steps": [
+   "Underhand grip shoulder-width.",
+   "Full hang.",
+   "Pull chin over bar."
+  ],
+  "cues": [
+   "Pull the bar to your chest."
+  ],
+  "homeSwap": "Inverted row underhand under a sturdy table.",
+  "note": "A compound that covers biceps.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Wrist Curl",
+  "aliases": [
+   "wrist curls",
+   "forearm curl"
+  ],
+  "pattern": "forearm-grip",
+  "equipment": [
+   "dumbbell",
+   "barbell"
+  ],
+  "muscles": [
+   "forearm flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Let the bar roll to the fingertips, then curl up.",
+  "steps": [
+   "Forearms on thighs, palms up.",
+   "Roll to fingertips.",
+   "Curl up."
+  ],
+  "cues": [
+   "Curl the bar to the ceiling."
+  ],
+  "homeSwap": "DB wrist curl.",
+  "note": "Grip for grappling.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "12-20"
+  }
+ },
+ {
+  "name": "Reverse Wrist Curl",
+  "aliases": [
+   "reverse wrist curls"
+  ],
+  "pattern": "forearm-grip",
+  "equipment": [
+   "dumbbell",
+   "barbell"
+  ],
+  "muscles": [
+   "forearm extensors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Palms down, light weight.",
+  "steps": [
+   "Sit, forearms on thighs, palms down, wrists just past the knees.",
+   "Let the weight lower 2 s to a full wrist bend.",
+   "Lift the knuckles as high as they go, pause 1 s."
+  ],
+  "cues": [
+   "Lift your knuckles."
+  ],
+  "homeSwap": "DB reverse wrist curl.",
+  "note": "Elbow health balance.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "15-20"
+  }
+ },
+ {
+  "name": "Wrist Roller",
+  "aliases": [
+   "wrist roller"
+  ],
+  "pattern": "forearm-grip",
+  "equipment": [
+   "wrist roller"
+  ],
+  "muscles": [
+   "forearm flexors",
+   "forearm extensors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Arms straight out, roll the weight up and down.",
+  "steps": [
+   "Hold roller at shoulder height.",
+   "Roll up.",
+   "Roll down slowly."
+  ],
+  "cues": [
+   "Roll the rope up."
+  ],
+  "homeSwap": "Towel wrung tightly.",
+  "note": "Forearm size.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Plate Pinch",
+  "aliases": [
+   "plate pinch",
+   "pinch grip hold"
+  ],
+  "pattern": "forearm-grip",
+  "equipment": [
+   "plate"
+  ],
+  "muscles": [
+   "finger flexors",
+   "thumb"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pinch two plates smooth side out.",
+  "steps": [
+   "Put two plates together, smooth sides out.",
+   "Pinch with fingers on one side and thumb on the other.",
+   "Stand tall and hold 20-40 s, then switch hands."
+  ],
+  "cues": [
+   "Crush the plates."
+  ],
+  "homeSwap": "Pinch a heavy book.",
+  "note": "Thumb strength for grips.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "20-40 s holds"
+  }
+ },
+ {
+  "name": "Dead Hang",
+  "aliases": [
+   "dead hang",
+   "bar hang"
+  ],
+  "pattern": "forearm-grip",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "forearm flexors",
+   "latissimus dorsi"
+  ],
+  "standing": false,
+  "doThisNotThat": "Relax the shoulders to decompress, hold 30-60 s.",
+  "steps": [
+   "Grip the bar overhand, hands shoulder-width.",
+   "Lift feet and let the body hang straight.",
+   "Relax the shoulders up by the ears and breathe slowly for 30-60 s."
+  ],
+  "cues": [
+   "Squeeze the bar."
+  ],
+  "homeSwap": "Towel-door hang only if safe; otherwise farmer hold.",
+  "note": "Shoulder decompression plus grip.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "30-60 s"
+  }
+ },
+ {
+  "name": "Farmer Hold",
+  "aliases": [
+   "farmer hold",
+   "static farmer"
+  ],
+  "pattern": "forearm-grip",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "forearm flexors",
+   "forearm extensors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Heaviest DBs, tall posture, 30-45 s.",
+  "steps": [
+   "Deadlift the heaviest dumbbells you own to your sides.",
+   "Stand tall: ribs down, shoulders back, tripod feet.",
+   "Hold 30-45 s without letting the handles roll in your fingers."
+  ],
+  "cues": [
+   "Crush the handles."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Grip for clinch.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "30-45 s"
+  }
+ },
+ {
+  "name": "Fat-Grip Training",
+  "aliases": [
+   "fat grip",
+   "thick grip"
+  ],
+  "pattern": "forearm-grip",
+  "equipment": [
+   "fat grips",
+   "dumbbell"
+  ],
+  "muscles": [
+   "forearm flexors",
+   "forearm extensors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Wrap a towel around the handle for thickness.",
+  "steps": [
+   "Wrap a hand towel tightly around each handle until it is ~5 cm thick.",
+   "Do curls, holds or rows as normal.",
+   "Stop the set when your grip slips before the target muscle fails."
+  ],
+  "cues": [
+   "Crush the handle."
+  ],
+  "homeSwap": "Towel-wrapped DB handles.",
+  "note": "Grip transfer.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Rice Bucket Training",
+  "aliases": [
+   "rice bucket"
+  ],
+  "pattern": "forearm-grip",
+  "equipment": [
+   "bucket of rice"
+  ],
+  "muscles": [
+   "forearm flexors",
+   "forearm extensors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Open, close, and twist hands in a bucket of rice.",
+  "steps": [
+   "Sink hands in rice.",
+   "Open-close fists 30 s.",
+   "Twist 30 s."
+  ],
+  "cues": [
+   "Push the rice apart."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Cheap hand health.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Neck Flexion",
+  "aliases": [
+   "neck curl",
+   "neck flexion"
+  ],
+  "pattern": "neck",
+  "equipment": [
+   "plate",
+   "bodyweight"
+  ],
+  "muscles": [
+   "sternocleidomastoid",
+   "deep neck flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Light load, slow, nod chin down first.",
+  "steps": [
+   "Lie on a bench, head off the end.",
+   "Light plate on forehead (towel).",
+   "Nod chin, curl head up.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Nod your chin toward your chest."
+  ],
+  "homeSwap": "Manual resistance with own hand.",
+  "note": "Neck strength for boxing.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "15-25"
+  }
+ },
+ {
+  "name": "Neck Extension",
+  "aliases": [
+   "neck extension",
+   "prone neck extension"
+  ],
+  "pattern": "neck",
+  "equipment": [
+   "plate",
+   "bodyweight"
+  ],
+  "muscles": [
+   "upper trapezius",
+   "neck extensors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Face down, head off bench, slow.",
+  "steps": [
+   "Lie face down, head off bench.",
+   "Light plate on back of head.",
+   "Extend up.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Look at the wall ahead."
+  ],
+  "homeSwap": "Manual resistance.",
+  "note": "Neck strength for absorbing punches.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "15-25"
+  }
+ },
+ {
+  "name": "Neck Lateral Flexion",
+  "aliases": [
+   "neck side bend",
+   "lateral neck"
+  ],
+  "pattern": "neck",
+  "equipment": [
+   "plate",
+   "bodyweight"
+  ],
+  "muscles": [
+   "scalenes",
+   "sternocleidomastoid"
+  ],
+  "standing": false,
+  "doThisNotThat": "Ear to shoulder, slow and light.",
+  "steps": [
+   "Lie on side, head off bench.",
+   "Light plate.",
+   "Raise ear to ceiling."
+  ],
+  "cues": [
+   "Push your ear to the ceiling."
+  ],
+  "homeSwap": "Manual resistance.",
+  "note": "Side-to-side neck stability.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "15-25"
+  }
+ },
+ {
+  "name": "Neck Harness Extension",
+  "aliases": [
+   "neck harness"
+  ],
+  "pattern": "neck",
+  "equipment": [
+   "neck harness"
+  ],
+  "muscles": [
+   "neck extensors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Start very light; slow reps.",
+  "steps": [
+   "Harness on.",
+   "Hinge slightly.",
+   "Extend head.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Look ahead."
+  ],
+  "homeSwap": "Manual resistance.",
+  "note": "Boxing neck strength.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "15-25"
+  }
+ },
+ {
+  "name": "Neck Isometrics",
+  "aliases": [
+   "neck isometrics",
+   "isometric neck"
+  ],
+  "pattern": "neck",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "neck flexors",
+   "neck extensors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Push head into hand with 50-70% effort, no movement.",
+  "steps": [
+   "Sit or stand tall, chin slightly tucked.",
+   "Place a hand on the forehead and push the head into it at 50-70% effort for 10 s with no movement.",
+   "Repeat with the hand on the back and each side of the head."
+  ],
+  "cues": [
+   "Push your head into your hand."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Safe daily neck work.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "4 x 10 s each direction"
+  }
+ },
+ {
+  "name": "Plate Neck Curl",
+  "aliases": [
+   "plate neck curl"
+  ],
+  "pattern": "neck",
+  "equipment": [
+   "plate"
+  ],
+  "muscles": [
+   "neck flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Towel under plate, light.",
+  "steps": [
+   "Lie on bench, head off end.",
+   "Plate on forehead.",
+   "Curl."
+  ],
+  "cues": [
+   "Nod chin to chest."
+  ],
+  "homeSwap": "Manual resistance.",
+  "note": "Neck for boxing.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "15-25"
+  }
+ },
+ {
+  "name": "Kettlebell Bottoms-Up Press",
+  "aliases": [
+   "bottoms up press",
+   "bottoms-up kb press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "kettlebell"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hold the bell upside down and crush the handle; a wobble means your shoulder isn't stacked yet.",
+  "steps": [
+   "Light KB upside down at the shoulder.",
+   "Crush the handle, wrist straight.",
+   "Press slowly to lockout.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Crush the handle.",
+   "Push the bell to the ceiling."
+  ],
+  "homeSwap": "Hold a DB vertically by one end and press slowly.",
+  "note": "Teaches the rotator cuff to stabilize, protecting the shoulder for punching and overhead work.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "5-8 per side"
+  }
+ },
+ {
+  "name": "Half-Kneeling Landmine Press",
+  "aliases": [
+   "half kneeling landmine",
+   "kneeling landmine press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "landmine",
+   "barbell"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "upper pectoralis",
+   "serratus anterior"
+  ],
+  "standing": false,
+  "doThisNotThat": "Down knee on the same side as the pressing arm, glute squeezed; press up and forward.",
+  "steps": [
+   "Kneel on the pressing-side knee, other foot forward.",
+   "Squeeze the down-side glute.",
+   "Press up and forward, reach at the top.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Drive the bar up and forward."
+  ],
+  "homeSwap": "Half-kneeling single-arm DB press at 45°.",
+  "note": "Glute-to-shoulder diagonal is the same sling a rear-hand punch uses.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Seated Barbell Overhead Press",
+  "aliases": [
+   "seated ohp",
+   "seated military press"
+  ],
+  "pattern": "vertical-press",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "anterior deltoid",
+   "lateral deltoid",
+   "triceps",
+   "upper trapezius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Back on an upright bench, press over the head without arching off the pad.",
+  "steps": [
+   "Bench upright inside a rack.",
+   "Bar at collarbone height.",
+   "Press up, head through.",
+   "Lower 2-3 s."
+  ],
+  "cues": [
+   "Push the bar to the ceiling."
+  ],
+  "homeSwap": "Seated DB press.",
+  "note": "Removes leg help; strict shoulder strength.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Cable Y-Raise",
+  "aliases": [
+   "cable y raise"
+  ],
+  "pattern": "shoulder-raise",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "lower trapezius",
+   "lateral deltoid"
+  ],
+  "standing": true,
+  "doThisNotThat": "Cross the cables low and raise in a Y with thumbs up.",
+  "steps": [
+   "Two low pulleys, cables crossed.",
+   "Raise arms up and out in a Y.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Reach your thumbs to the ceiling."
+  ],
+  "homeSwap": "DB Y-raise lying face down on an incline.",
+  "note": "Shoulder blade health plus side-delt growth.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "12-15"
+  }
+ },
+ {
+  "name": "Cable Triceps Kickback",
+  "aliases": [
+   "cable kickback triceps"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hinge forward, upper arm fixed beside the torso, extend to full lockout.",
+  "steps": [
+   "Low pulley, handle in one hand.",
+   "Hinge, upper arm parallel to floor.",
+   "Extend fully, hold 1 s.",
+   "Return 3 s."
+  ],
+  "cues": [
+   "Push the handle back to the wall."
+  ],
+  "homeSwap": "DB kickback.",
+  "note": "Tension stays on at lockout unlike dumbbells.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "12-20"
+  }
+ },
+ {
+  "name": "Reverse-Grip Pushdown",
+  "aliases": [
+   "underhand pushdown",
+   "reverse grip tricep pushdown"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Underhand grip, elbows pinned, lighter weight.",
+  "steps": [
+   "Straight bar on high pulley, underhand grip.",
+   "Elbows at sides.",
+   "Push down to lockout."
+  ],
+  "cues": [
+   "Push the bar to your thighs."
+  ],
+  "homeSwap": "Diamond push-up.",
+  "note": "Variation if wrists hurt on overhand.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Rope Hammer Curl",
+  "aliases": [
+   "cable hammer curl",
+   "rope curl"
+  ],
+  "pattern": "elbow-flexion",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "brachialis",
+   "brachioradialis"
+  ],
+  "standing": true,
+  "doThisNotThat": "Rope on low pulley, neutral grip, elbows still.",
+  "steps": [
+   "Rope on low pulley.",
+   "Neutral grip.",
+   "Curl up, lower 3 s."
+  ],
+  "cues": [
+   "Pull the rope to your shoulders."
+  ],
+  "homeSwap": "Hammer curl with dumbbells.",
+  "note": "Forearm and arm thickness.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Machine Triceps Extension",
+  "aliases": [
+   "triceps extension machine",
+   "seated tricep machine"
+  ],
+  "pattern": "elbow-extension",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Line elbows up with the pivot; full stretch.",
+  "steps": [
+   "Adjust seat so elbows line up with pivot.",
+   "Extend to lockout.",
+   "Return 3 s."
+  ],
+  "cues": [
+   "Push the pads down."
+  ],
+  "homeSwap": "Overhead DB extension.",
+  "note": "Safe failure.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "10-15"
+  }
+ },
+ {
+  "name": "Dumbbell Floor Press",
+  "aliases": [
+   "db floor press"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "triceps",
+   "pectoralis major"
+  ],
+  "standing": false,
+  "doThisNotThat": "Pause the upper arms on the floor 1 s, then press.",
+  "steps": [
+   "Lie on floor, knees bent.",
+   "Lower DBs until triceps touch floor, pause 1 s.",
+   "Press up."
+  ],
+  "cues": [
+   "Punch the dumbbells to the ceiling."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Shoulder-friendly at home; good on sparring-sore days.",
+  "noteGrade": "C"
+ },
+ {
+  "name": "Hindu Push-Up",
+  "aliases": [
+   "hindu pushup",
+   "dive bomber push up"
+  ],
+  "pattern": "horizontal-press",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "pectoralis major",
+   "anterior deltoid",
+   "triceps",
+   "spinal extensors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Flow from down-dog through a swoop to up-dog; smooth, not rushed.",
+  "steps": [
+   "Start in down-dog.",
+   "Swoop chest forward close to floor.",
+   "Press to up-dog.",
+   "Return."
+  ],
+  "cues": [
+   "Swoop your chest under a low bar."
+  ],
+  "homeSwap": "Already home-ready.",
+  "note": "Combines pressing with thoracic and hip mobility, good for stiffness.",
+  "noteGrade": "C",
+  "prescription": {
+   "reps": "8-15"
+  }
+ }
+]

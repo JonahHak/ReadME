@@ -102,7 +102,12 @@ export function allNames(DATA) {
 const CAT_RANK = { combat: 0.5, skill: 0.5, power: 1, plyo: 1, compound: 2, isolation: 4, core: 5, conditioning: 6, mobility: 8 };
 const BAL_OF_CAT = { power: 'power', plyo: 'power', core: 'core', conditioning: 'conditioning', mobility: 'mobility', combat: 'skill', skill: 'skill' };
 const firstNum = (s, d) => { const m = /(\d+(?:\.\d+)?)/.exec(s || ''); return m ? Number(m[1]) : d; };
-const restSec = s => { const n = firstNum(s, 90); return /min/.test(s || '') ? n * 60 : n; };
+// First "<number> s|sec|min" in the text, in seconds (e.g. "60 s between jumps, 2 min between sets" → 60).
+const restSec = s => {
+  const m = /(\d+(?:\.\d+)?)(?:\s*[-–]\s*\d+(?:\.\d+)?)?\s*(min|sec|s)\b/i.exec(s || '');
+  if (!m) return 90;
+  return /min/i.test(m[2]) ? Number(m[1]) * 60 : Number(m[1]);
+};
 
 function describe(DATA, name) {
   const card = offlineCard(DATA, name);

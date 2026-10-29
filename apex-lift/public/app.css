@@ -81,7 +81,7 @@ details.layer { border-left: 4px solid var(--c, var(--gray)); background: var(--
 details.layer > summary { list-style: none; cursor: pointer; padding: 11px 12px; font-weight: 750; display: flex; align-items: center; gap: 8px; }
 details.layer > summary::-webkit-details-marker { display: none; }
 details.layer > summary::after { content: "+"; margin-left: auto; color: var(--tx3); font-weight: 400; font-size: 18px; }
-details.layer[open] > summary::after { content: "–"; }
+details.layer[open] > summary::after { content: "\2013"; }
 details.layer > summary .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
 .layer-body { padding: 0 12px 12px; color: var(--tx); }
 .layer-body dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 6px 12px; }

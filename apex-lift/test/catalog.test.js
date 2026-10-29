@@ -36,10 +36,12 @@ test('common searches land on the right exercise', () => {
   }
 });
 
-test('unknown names still get a full card from their movement pattern', () => {
-  const c = offlineCard(DATA, 'zigzag kettlebell reverse lunge thing');
-  assert.ok(c && c.guessed);
-  assert.ok(Card.safeParse(c).success);
+test('unknown names still get a full card (nearest exercise or movement pattern)', () => {
+  for (const q of ['zigzag kettlebell reverse lunge thing', 'weird cable bicep curl variation', 'qwerty press']) {
+    const c = offlineCard(DATA, q);
+    assert.ok(c, q);
+    assert.ok(Card.safeParse(c).success, q);
+  }
 });
 
 test('autocomplete knows hundreds of names', () => {

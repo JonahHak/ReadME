@@ -798,7 +798,7 @@ async function boot() {
   const gw = $('#gw');
   if (health?.gateway) { gw.textContent = 'LIVE'; gw.className = 'gw on'; gw.title = `Default model: ${health.defaults?.text}`; }
   else { gw.textContent = 'OFFLINE'; gw.className = 'gw off'; gw.title = health?.reason || 'Preview: offline library only'; }
-  if (DATA.static) showBanner('Preview: running on the offline library (43 cards, 14 sessions, 15 sports). Live AI coaching and photo mode turn on once the app is deployed with OmniRoute.');
+  if (DATA.static) showBanner('Preview: running on the offline library (438 exercises, 14 sessions, 15 sports). Live AI coaching and photo mode turn on once the app is deployed with OmniRoute.');
   if (S.toggles.hrvFlag) showBanner('Energy auto-set to Cooked from your HRV. Tap a different Energy chip to override.');
   (VIEWS[current] || VIEWS.optimize)();
   if (!DATA.static && 'serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});

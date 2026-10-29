@@ -1,0 +1,3119 @@
+[
+ {
+  "name": "Barbell Back Squat",
+  "aliases": [
+   "back squat",
+   "squat",
+   "barbell squat",
+   "high bar squat",
+   "low bar squat",
+   "bb squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "barbell",
+   "rack"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Sit DOWN between your heels, not back onto a chair: knees travel forward past the toes, torso stays more upright and the quads do the work.",
+  "steps": [
+   "Bar on the upper traps (high bar), hands just outside shoulders, elbows pulled down under the bar.",
+   "Unrack, 2 steps back, feet shoulder width, toes out 15-30°.",
+   "Big breath into the belly and brace 360° before each rep.",
+   "Lower 2-3 s until hip crease is at or below knee; stand up fast."
+  ],
+  "cues": [
+   "Spread the floor apart with your feet.",
+   "Push your back into the bar on the way up.",
+   "Drive the ground away."
+  ],
+  "homeSwap": "Goblet squat with your heaviest DB, 3 s lowering + 1 s pause in the hole, or a 1.5-rep squat (down, half up, down, up).",
+  "note": "Flat feet: if your knees cave as you stand, film from the front. A slight heel lift (5-10 mm plates under the heels) fixes ankle-limited depth while the Screw cue fixes the cave.",
+  "hardestPoint": "Just above parallel, where the hip moment arm is longest and most people shoot the hips up first."
+ },
+ {
+  "name": "Front Squat",
+  "aliases": [
+   "front squat",
+   "barbell front squat",
+   "clean grip squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "barbell",
+   "rack"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Elbows UP the whole rep. When they drop, the bar rolls forward and your back rounds before your legs fail.",
+  "steps": [
+   "Bar on the front delts touching the throat; clean grip with 2-3 fingers or crossed arms.",
+   "Elbows high, parallel to the floor.",
+   "Feet shoulder width, toes slightly out.",
+   "Sit straight down between the heels, torso near vertical."
+  ],
+  "cues": [
+   "Elbows to the ceiling.",
+   "Knees out over the pinky toes."
+  ],
+  "homeSwap": "Goblet squat holding the DB vertically against your sternum, elbows inside the knees at the bottom.",
+  "note": "Your wrists and t-spine are stiff: use straps looped around the bar for the grip until the rack position opens up. The upright torso is the closest squat to a basketball rebound or jump stance.",
+  "hardestPoint": "Bottom third, where the upper back must stay extended to keep the bar over mid-foot."
+ },
+ {
+  "name": "Goblet Squat",
+  "aliases": [
+   "goblet squat",
+   "db goblet squat",
+   "kb goblet squat",
+   "dumbbell squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hold the DB tight to the chest and pause 1 s at the bottom. Bouncing out of the hole with the weight drifting away teaches nothing.",
+  "steps": [
+   "Hold one DB vertically by the top head, against your sternum.",
+   "Feet just wider than shoulders, toes out 20°.",
+   "Lower 3 s; elbows finish inside the knees.",
+   "Pause 1 s, then stand fast."
+  ],
+  "cues": [
+   "Push your knees out with your elbows.",
+   "Stand up through the whole foot."
+  ],
+  "homeSwap": "Already a home move: add a 3 s lowering, a 2 s pause and 1.5 reps once the DB gets light.",
+  "note": "Best squat for your stiffness: the counterweight lets you sit deep and upright, so the loaded bottom position builds hip and ankle range every set (Afonso 2021: full-range lifting ≈ stretching for ROM).",
+  "noteGrade": "A-B"
+ },
+ {
+  "name": "Zercher Squat",
+  "aliases": [
+   "zercher squat",
+   "zercher"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors",
+   "upper back",
+   "biceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Keep the bar in the elbow crease and squeeze it to your torso. If it slides to the forearms your back rounds.",
+  "steps": [
+   "Set the bar in a rack at belly height (or deadlift it up).",
+   "Hook it in the crooks of both elbows, hands clasped.",
+   "Feet shoulder width, brace hard.",
+   "Sit down until elbows touch the inside of the thighs, then stand."
+  ],
+  "cues": [
+   "Hug the bar into your stomach.",
+   "Push the floor away."
+  ],
+  "homeSwap": "Goblet squat with a 2 s pause, DB held horizontally in the elbow crease.",
+  "note": "Front-loaded and awkward on purpose: it trains the brace and upper-back position you need when someone is hanging on you in a clinch or wrestling tie-up."
+ },
+ {
+  "name": "Box Squat",
+  "aliases": [
+   "box squat",
+   "squat to box",
+   "bench squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "barbell",
+   "box"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Sit to the box, pause 1 s with tension kept, then explode. Plopping down and rocking off kills the point.",
+  "steps": [
+   "Box set so your hip crease sits at knee height when seated.",
+   "Wider stance, toes out, bar on traps.",
+   "Sit back and down under control until you touch.",
+   "Pause 1 s without relaxing, stand explosively."
+  ],
+  "cues": [
+   "Touch the box like it is made of glass.",
+   "Jump the bar up."
+  ],
+  "homeSwap": "Goblet box squat to a chair: 1 s pause, then stand as fast as possible.",
+  "note": "The pause kills the stretch reflex, so you learn to produce force from a dead stop: starting strength for your first step off the line in football or sprinting."
+ },
+ {
+  "name": "Pause Squat",
+  "aliases": [
+   "pause squat",
+   "paused squat",
+   "paused back squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "barbell",
+   "rack"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pause in the bottom with your brace locked and still. Use about 80-85% of your normal squat weight.",
+  "steps": [
+   "Normal back squat setup.",
+   "Lower 2-3 s to depth.",
+   "Hold 2 s at the bottom without bouncing or relaxing.",
+   "Drive up fast."
+  ],
+  "cues": [
+   "Stay tight like a spring.",
+   "Drive the floor away."
+  ],
+  "homeSwap": "Goblet pause squat, 3 s hold in the hole.",
+  "note": "The hold at the bottom is loaded mobility for your stiff hips and ankles: your nervous system learns the deep position is safe, so it gives you more range."
+ },
+ {
+  "name": "Heels-Elevated Squat",
+  "aliases": [
+   "heels elevated squat",
+   "cyclist squat",
+   "heel elevated goblet squat",
+   "quad squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "dumbbell",
+   "wedge"
+  ],
+  "muscles": [
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Narrow stance, heels on a 2-5 cm wedge, knees drive way past the toes. It is a quad builder, not a hip squat.",
+  "steps": [
+   "Heels on a slant board or 2 plates, feet close (hip width or less).",
+   "DB goblet or DBs at your sides, torso upright.",
+   "Lower 3 s, knees forward over the toes until hamstrings touch calves.",
+   "Stand without letting the knees cave."
+  ],
+  "cues": [
+   "Push your knees over your toes.",
+   "Keep your chest tall to the ceiling."
+  ],
+  "homeSwap": "Already home-friendly: stand on books, DBs at sides, 3 s lowering.",
+  "note": "Works around stiff ankles so you get full knee bend; the deep knee flexion is where the quads get the most stretch (lengthened bias)."
+ },
+ {
+  "name": "Safety Bar Squat",
+  "aliases": [
+   "safety bar squat",
+   "ssb squat",
+   "safety squat bar"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "safety squat bar",
+   "rack"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hold the handles low and push your upper back into the pad. The bar wants to fold you forward.",
+  "steps": [
+   "Pad on the traps, handles in front.",
+   "Feet shoulder width.",
+   "Lower 2-3 s to depth.",
+   "Stand while pushing the upper back up into the bar."
+  ],
+  "cues": [
+   "Push your head back into the bar.",
+   "Spread the floor."
+  ],
+  "homeSwap": "Goblet squat with your heaviest DB, 3 s lowering + 1 s pause in the hole, or a 1.5-rep squat (down, half up, down, up).",
+  "note": "Easier on stiff shoulders than a straight bar, so you can squat heavy without forcing a back-rack position you do not have yet."
+ },
+ {
+  "name": "Smith Machine Squat",
+  "aliases": [
+   "smith squat",
+   "smith machine squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "smith machine"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Put the feet slightly forward of the bar so you can sit straight down; feet right under the bar loads the knees awkwardly.",
+  "steps": [
+   "Bar on traps, feet 10-20 cm in front of the bar line.",
+   "Unrack by twisting the bar, set the safeties at just below depth.",
+   "Lower 3 s to depth.",
+   "Stand fast."
+  ],
+  "cues": [
+   "Push the floor away.",
+   "Stay tall against the bar."
+  ],
+  "homeSwap": "Goblet squat with your heaviest DB, 3 s lowering + 1 s pause in the hole, or a 1.5-rep squat (down, half up, down, up).",
+  "note": "Fixed bar path removes balance demands: good for quad size, poor for athletic transfer. Pair it with a free single-leg move."
+ },
+ {
+  "name": "Hack Squat",
+  "aliases": [
+   "hack squat",
+   "machine hack squat",
+   "hack machine"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Feet low and narrow on the platform, go DEEP. High, wide feet turn it into a weak glute press.",
+  "steps": [
+   "Back flat on the pad, shoulders under the pads.",
+   "Feet hip width, lower-middle of the platform.",
+   "Release handles, lower 3 s until hips are below knees.",
+   "Drive up to just short of lockout."
+  ],
+  "cues": [
+   "Push the platform through the floor.",
+   "Knees track over your middle toes."
+  ],
+  "homeSwap": "Sissy squat holding a door frame, or a heels-elevated goblet squat on 2 plates/books, knees driving far past toes.",
+  "note": "The deep position stretches the quads hardest; stop each set 1 rep short of failure, then add 3-5 lengthened partials in the bottom half."
+ },
+ {
+  "name": "Belt Squat",
+  "aliases": [
+   "belt squat",
+   "hip belt squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "belt squat machine"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hold the handles lightly and stay upright. The point is loading the legs with zero spine load.",
+  "steps": [
+   "Belt around the hips, chain centered under you.",
+   "Feet shoulder width on the platforms.",
+   "Squat straight down to depth.",
+   "Stand up without rocking forward."
+  ],
+  "cues": [
+   "Drive the floor down.",
+   "Hips straight up the chain."
+  ],
+  "homeSwap": "Goblet squat on two chairs holding a DB hanging between your legs (dead-hang DB squat).",
+  "note": "No bar on the back: lets you train legs hard the day after sparring when your neck and back are beat."
+ },
+ {
+  "name": "Pendulum Squat",
+  "aliases": [
+   "pendulum squat",
+   "pendulum machine"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Full depth, slow lowering. The machine curve makes the bottom the hardest part, so do not shortchange it.",
+  "steps": [
+   "Back on the pad, shoulders under the pads.",
+   "Feet mid-platform, hip width.",
+   "Lower 3 s to full depth.",
+   "Drive up to near lockout."
+  ],
+  "cues": [
+   "Push through the whole foot.",
+   "Knees forward."
+  ],
+  "homeSwap": "Sissy squat holding a door frame, or a heels-elevated goblet squat on 2 plates/books, knees driving far past toes.",
+  "note": "Loads the quads most where they are longest; finish the last set with bottom-half partials."
+ },
+ {
+  "name": "V-Squat",
+  "aliases": [
+   "v squat",
+   "v-squat machine",
+   "power squat machine"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Full range and a soft lockout. Half reps with heavy plates do little.",
+  "steps": [
+   "Shoulders under pads, back on the pad.",
+   "Feet shoulder width on the plate.",
+   "Lower 3 s to full depth.",
+   "Stand to just short of lockout."
+  ],
+  "cues": [
+   "Drive the plate away."
+  ],
+  "homeSwap": "Goblet squat with your heaviest DB, 3 s lowering + 1 s pause in the hole, or a 1.5-rep squat (down, half up, down, up).",
+  "note": "Machine stability lets you push close to failure safely on quads, which a heavy free-weight squat does not (1 RIR there)."
+ },
+ {
+  "name": "Sissy Squat",
+  "aliases": [
+   "sissy squat",
+   "sissy squats",
+   "bodyweight sissy squat"
+  ],
+  "pattern": "knee-extension",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads (rectus femoris)"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hips stay extended and knees travel far forward. If you sit back it becomes a normal squat and loses the quad stretch.",
+  "steps": [
+   "Hold a door frame or post with one hand.",
+   "Rise onto the balls of your feet.",
+   "Lean back while knees drive forward and down, body a straight line from knees to shoulders.",
+   "Go as deep as you control, then pull back up with the quads."
+  ],
+  "cues": [
+   "Push your knees toward the wall in front.",
+   "Keep hips and shoulders in one line."
+  ],
+  "homeSwap": "Already a home move; hold a DB to the chest once 15 reps is easy.",
+  "note": "Trains the rectus femoris at long length (hip extended + knee bent), the head most squats miss. Start shallow: knees get sore fast.",
+  "prescription": {
+   "sets": "2-3 working",
+   "reps": "8-15",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "Leg Press",
+  "aliases": [
+   "leg press",
+   "45 degree leg press",
+   "sled leg press",
+   "machine leg press"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lower until your knees nearly touch your chest with your low back still on the pad. Heavy quarter reps are an ego lift.",
+  "steps": [
+   "Back and hips flat on the pad, seat at a comfortable depth.",
+   "Feet mid-platform, shoulder width, toes slightly out.",
+   "Release safeties, lower 3 s as deep as the low back stays down.",
+   "Press to just short of locked knees."
+  ],
+  "cues": [
+   "Push the sled through the wall.",
+   "Knees out over your toes."
+  ],
+  "homeSwap": "Goblet squat with your heaviest DB, 3 s lowering + 1 s pause in the hole, or a 1.5-rep squat (down, half up, down, up).",
+  "note": "Your flat feet still matter here: press through big-toe ball and heel (tripod) so the knees do not drift inward at the bottom."
+ },
+ {
+  "name": "Single-Leg Leg Press",
+  "aliases": [
+   "single leg leg press",
+   "one leg leg press",
+   "unilateral leg press"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Use about 40% of your two-leg weight and go deep. Too heavy and the hip shifts and the low back peels off.",
+  "steps": [
+   "Seat back, one foot centered on the platform.",
+   "Other foot on the floor or frame.",
+   "Lower 3 s until knee approaches chest, hips stay down.",
+   "Press up without twisting."
+  ],
+  "cues": [
+   "Push through the middle of your foot.",
+   "Knee tracks over the second toe."
+  ],
+  "homeSwap": "Rear-foot-elevated split squat on a couch or step, DBs at your sides, 3 s lowering.",
+  "note": "Exposes left-right differences that your bilateral numbers hide; start with the weaker leg and match reps."
+ },
+ {
+  "name": "Leg Press (High Foot)",
+  "aliases": [
+   "high foot leg press",
+   "leg press high and wide",
+   "glute leg press"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "adductors"
+  ],
+  "standing": false,
+  "doThisNotThat": "High feet move the work to glutes and adductors. Go deep enough that the hips flex hard, low back staying down.",
+  "steps": [
+   "Feet high on the platform, slightly wider than shoulders.",
+   "Lower 3 s until thighs approach the torso.",
+   "Press through the heels to just short of lockout."
+  ],
+  "cues": [
+   "Drive through your heels.",
+   "Push the platform up and away."
+  ],
+  "homeSwap": "Single-leg hip thrust with shoulders on the couch, DB on the hip, 2 s squeeze at the top.",
+  "note": "Good on days your knees are sore: high placement reduces knee bend for the same depth."
+ },
+ {
+  "name": "Leg Press (Low Foot)",
+  "aliases": [
+   "low foot leg press",
+   "leg press low narrow",
+   "quad leg press"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "quads"
+  ],
+  "standing": false,
+  "doThisNotThat": "Low and narrow feet bias the quads. Let your heels stay down while knees travel well past the toes.",
+  "steps": [
+   "Feet low on the platform, hip width.",
+   "Lower 3 s, knees forward.",
+   "Press to just short of lockout."
+  ],
+  "cues": [
+   "Push with the whole foot.",
+   "Knees over toes."
+  ],
+  "homeSwap": "Sissy squat holding a door frame, or a heels-elevated goblet squat on 2 plates/books, knees driving far past toes.",
+  "note": "Your ankles are stiff, so the heels may lift: go only as deep as the heel stays down, and move up 2 cm if it pops."
+ },
+ {
+  "name": "Bodyweight Squat",
+  "aliases": [
+   "air squat",
+   "bodyweight squat",
+   "squats",
+   "bw squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pause 1 s at the bottom and stand fast. Bodyweight squats are a mobility and speed drill, not a strength builder past 20 reps.",
+  "steps": [
+   "Feet shoulder width, toes out 15-20°.",
+   "Arms forward for counterbalance.",
+   "Lower 2 s to full depth.",
+   "Pause, then stand explosively."
+  ],
+  "cues": [
+   "Spread the floor.",
+   "Reach your arms to the wall."
+  ],
+  "homeSwap": "Already home; add a jump at the top (squat jump) for power.",
+  "note": "Use it in warm-ups to groove the Screw cue: feel the arch rise and knees line up before you ever load it."
+ },
+ {
+  "name": "Conventional Deadlift",
+  "aliases": [
+   "deadlift",
+   "conventional deadlift",
+   "barbell deadlift",
+   "dl"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "spinal erectors",
+   "lats",
+   "grip"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pull the slack out of the bar before it leaves the floor. Jerking it up rounds your back and wastes the leg drive.",
+  "steps": [
+   "Mid-foot under the bar, feet hip width.",
+   "Hinge and grip just outside the legs.",
+   "Shins to the bar, chest up, lats tight (\"protect your armpits\").",
+   "Pull the slack out until the bar clicks, then push the floor away.",
+   "Lock out with glutes, not by leaning back."
+  ],
+  "cues": [
+   "Push the floor away.",
+   "Drag the bar up your legs.",
+   "Bend the bar around your shins."
+  ],
+  "homeSwap": "Single-leg DB RDL, 3 s lowering, both DBs in the opposite hand to the working leg.",
+  "note": "Stop sets when a rep visibly slows (Pareja-Blanco 2017 logic): grinding deadlifts costs more recovery than any other lift and dulls your sprint and jump work for days.",
+  "noteGrade": "B",
+  "hardestPoint": "Off the floor to just below the knee, where the hip moment arm is longest."
+ },
+ {
+  "name": "Sumo Deadlift",
+  "aliases": [
+   "sumo deadlift",
+   "sumo dl",
+   "wide stance deadlift"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "glutes",
+   "adductors",
+   "quads",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Spread the floor with your feet and push the knees out over the toes before pulling. Without that, it is a bad conventional pull.",
+  "steps": [
+   "Stance wide, shins near the plates, toes out 30-45°.",
+   "Grip inside the knees, arms vertical.",
+   "Hips down, chest up, knees forced out.",
+   "Push the floor apart and stand up."
+  ],
+  "cues": [
+   "Spread the floor.",
+   "Push your knees to the plates."
+  ],
+  "homeSwap": "Sumo goblet squat with a DB hanging between your feet, pause at the bottom.",
+  "note": "Your stiff hips may not allow a deep sumo yet: start with a stance only slightly wider than conventional and widen as the adductors loosen."
+ },
+ {
+  "name": "Trap Bar Deadlift",
+  "aliases": [
+   "trap bar deadlift",
+   "hex bar deadlift",
+   "trap bar",
+   "hex bar"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "trap bar"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "hamstrings",
+   "traps",
+   "grip"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stand in the center and push the floor away like a jump. It is the best heavy lift for athletes because the load sits in line with your center of mass.",
+  "steps": [
+   "Step into the middle, feet hip width.",
+   "Hips down, grip the handles centered.",
+   "Chest up, lats tight.",
+   "Push the floor away fast and stand tall."
+  ],
+  "cues": [
+   "Jump the floor away (without leaving it).",
+   "Stand tall through the crown."
+  ],
+  "homeSwap": "DB suitcase deadlift: one DB in each hand at your sides, same push-the-floor pattern.",
+  "note": "High-handle trap bar pulls are a great power exercise: light-to-moderate loads lifted as fast as possible transfer to vertical jump."
+ },
+ {
+  "name": "Deficit Deadlift",
+  "aliases": [
+   "deficit deadlift",
+   "deficit pull"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "barbell",
+   "plate"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "quads",
+   "erectors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Only 2-5 cm of deficit, and only if you can keep a flat back from the deeper start.",
+  "steps": [
+   "Stand on a 2-5 cm plate.",
+   "Normal deadlift setup, hips a bit lower.",
+   "Push the floor away, keep the bar close."
+  ],
+  "cues": [
+   "Push the floor away.",
+   "Keep the bar against your shins."
+  ],
+  "homeSwap": "Single-leg DB RDL, 3 s lowering, both DBs in the opposite hand to the working leg.",
+  "note": "Your stiff hamstrings may round your back in the deficit; skip this until a normal deadlift from the floor is clean."
+ },
+ {
+  "name": "Snatch-Grip Deadlift",
+  "aliases": [
+   "snatch grip deadlift",
+   "wide grip deadlift"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "upper back",
+   "traps",
+   "glutes",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Wide grip means deeper start and more upper-back work. Use 70-80% of your normal deadlift.",
+  "steps": [
+   "Grip wide (index fingers near the rings or wider).",
+   "Hips lower, chest up.",
+   "Push the floor away, keep the bar close."
+  ],
+  "cues": [
+   "Bend the bar around you.",
+   "Push the floor away."
+  ],
+  "homeSwap": "Single-leg DB RDL, 3 s lowering, both DBs in the opposite hand to the working leg.",
+  "note": "Builds the thick upper back that holds posture under fatigue in boxing and wrestling."
+ },
+ {
+  "name": "Romanian Deadlift",
+  "aliases": [
+   "rdl",
+   "romanian deadlift",
+   "barbell rdl",
+   "bb rdl"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes",
+   "erectors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Push your hips BACK until the hamstrings stop you, keeping a soft knee. Bending the knees more to get the bar lower turns it into a sloppy deadlift.",
+  "steps": [
+   "Start standing, bar at the hips, double overhand grip.",
+   "Soft knees (about 15-20°), fixed.",
+   "Push hips back, bar slides down the thighs 3 s.",
+   "Stop when hips stop moving back (usually mid-shin).",
+   "Drive hips forward to stand."
+  ],
+  "cues": [
+   "Push your hips to the wall behind you.",
+   "Drag the bar down your legs."
+  ],
+  "homeSwap": "Single-leg DB RDL, 3 s lowering, both DBs in the opposite hand to the working leg.",
+  "note": "The loaded stretch on stiff hamstrings is your mobility work: full-range lifting improves ROM about as much as stretching (Afonso 2021).",
+  "noteGrade": "A-B"
+ },
+ {
+  "name": "Dumbbell Romanian Deadlift",
+  "aliases": [
+   "db rdl",
+   "dumbbell rdl",
+   "dumbbell romanian deadlift"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes",
+   "erectors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Let the DBs slide down the front of your thighs. Letting them swing forward of the knees loads your low back instead of the hamstrings.",
+  "steps": [
+   "DBs at your thighs, palms in.",
+   "Soft knees, fixed.",
+   "Hips back 3 s, DBs down the legs.",
+   "Stop when hips stop moving back, stand."
+  ],
+  "cues": [
+   "Hips to the wall behind you.",
+   "Keep the DBs touching your legs."
+  ],
+  "homeSwap": "Single-leg DB RDL, 3 s lowering, both DBs in the opposite hand to the working leg.",
+  "note": "Light home DBs: add a 2 s pause at the bottom stretch and slow the lowering to 4 s to make them heavy."
+ },
+ {
+  "name": "Single-Leg Romanian Deadlift",
+  "aliases": [
+   "single leg rdl",
+   "sl rdl",
+   "single-leg rdl",
+   "one leg rdl",
+   "single leg deadlift"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes",
+   "glute med",
+   "foot intrinsics"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hips stay square to the floor. Opening the hip toward the ceiling feels deeper but loses the glute.",
+  "steps": [
+   "DB in the hand opposite the standing leg.",
+   "Soft standing knee, tripod foot.",
+   "Hinge as the back leg reaches back, body like a seesaw.",
+   "Stop when hips want to rotate open, return."
+  ],
+  "cues": [
+   "Reach your back heel to the wall.",
+   "Point both hip bones at the floor."
+  ],
+  "homeSwap": "Already home; hold the DB in the same-side hand to make balance harder.",
+  "note": "Single-leg balance under load is exactly where your flat foot collapses: grip with the tripod foot and do the Screw on the standing foot every rep."
+ },
+ {
+  "name": "B-Stance Romanian Deadlift",
+  "aliases": [
+   "b stance rdl",
+   "kickstand rdl",
+   "b-stance rdl",
+   "staggered rdl"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "dumbbell",
+   "barbell"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Front leg does ~80% of the work, back toe only for balance. If you push off the back foot it is just an RDL.",
+  "steps": [
+   "Working foot flat, back foot toes beside the working heel.",
+   "DBs at thighs.",
+   "Hinge back 3 s on the front leg.",
+   "Stand by driving the front hip forward."
+  ],
+  "cues": [
+   "Push your front heel into the floor.",
+   "Hips to the wall."
+  ],
+  "homeSwap": "Already home; DBs in both hands, 3 s lowering.",
+  "note": "A bridge to single-leg RDLs when your balance is the limiter: you can load it heavier while still training one side at a time."
+ },
+ {
+  "name": "Cable Romanian Deadlift",
+  "aliases": [
+   "cable rdl",
+   "cable pull through rdl"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stand far enough back that the cable pulls you down and back at the bottom; that keeps tension in the stretch.",
+  "steps": [
+   "Low pulley, straight bar or rope.",
+   "Step back 1-2 steps, soft knees.",
+   "Hinge 3 s until hamstrings stop you.",
+   "Drive the hips through to stand."
+  ],
+  "cues": [
+   "Hips to the wall behind you."
+  ],
+  "homeSwap": "Single-leg DB RDL, 3 s lowering, both DBs in the opposite hand to the working leg.",
+  "note": "Constant tension at the bottom: useful as a lighter, higher-rep hamstring finisher."
+ },
+ {
+  "name": "Stiff-Leg Deadlift",
+  "aliases": [
+   "stiff leg deadlift",
+   "sldl",
+   "stiff legged deadlift"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "barbell",
+   "dumbbell"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes",
+   "erectors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Each rep starts from the floor with near-straight knees, light weight only. Rounding to reach the floor defeats it.",
+  "steps": [
+   "Bar on the floor, feet hip width.",
+   "Knees barely bent.",
+   "Hinge to grip with a flat back.",
+   "Stand by driving hips forward, lower with control."
+  ],
+  "cues": [
+   "Push your hips back.",
+   "Keep the bar against your legs."
+  ],
+  "homeSwap": "Single-leg DB RDL, 3 s lowering, both DBs in the opposite hand to the working leg.",
+  "note": "Your hamstrings are stiff: if you cannot reach the bar with a flat back, elevate it on plates and keep the RDL instead."
+ },
+ {
+  "name": "Good Morning",
+  "aliases": [
+   "good morning",
+   "barbell good morning",
+   "gm"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes",
+   "erectors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Use light weight and hinge only as far as your back stays flat. The long lever makes small loads heavy.",
+  "steps": [
+   "Bar on the traps like a squat.",
+   "Soft knees.",
+   "Push hips back 3 s, torso toward parallel.",
+   "Drive hips forward to stand."
+  ],
+  "cues": [
+   "Hips to the wall.",
+   "Keep the bar pinned to your back."
+  ],
+  "homeSwap": "DB good morning holding one DB at your chest, or bodyweight hands-behind-head with 4 s lowering.",
+  "note": "Trains the hip hinge you need for a stable boxing stance and sprawl; keep it light (RIR 2-3)."
+ },
+ {
+  "name": "Rack Pull",
+  "aliases": [
+   "rack pull",
+   "block pull",
+   "rack deadlift"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "barbell",
+   "rack"
+  ],
+  "muscles": [
+   "glutes",
+   "upper back",
+   "traps",
+   "grip"
+  ],
+  "standing": true,
+  "doThisNotThat": "Set the bar just below the knee and lock out with the glutes. Leaning back at the top is not a lockout.",
+  "steps": [
+   "Bar on pins just below or at the knee.",
+   "Grip, lats tight, chest up.",
+   "Push the hips forward to stand tall.",
+   "Lower back to the pins under control."
+  ],
+  "cues": [
+   "Hips through.",
+   "Stand tall."
+  ],
+  "homeSwap": "Single-leg DB RDL, 3 s lowering, both DBs in the opposite hand to the working leg.",
+  "note": "Builds the upper back and grip without the full-range fatigue. Not a substitute for a full hinge for hamstring growth."
+ },
+ {
+  "name": "Back Extension",
+  "aliases": [
+   "back extension",
+   "45 degree back extension",
+   "hyperextension",
+   "45 hyper",
+   "roman chair"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "back extension bench"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "erectors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hinge at the hips, not the spine. Pad just below the hip crease so you can fold over it.",
+  "steps": [
+   "Set the pad just below the hip bones.",
+   "Feet locked, body straight.",
+   "Hinge down 3 s until hamstrings stop you.",
+   "Drive hips into the pad to come up to a straight line, not past it."
+  ],
+  "cues": [
+   "Push your hips into the pad.",
+   "Reach your chest to the wall."
+  ],
+  "homeSwap": "Single-leg hip hinge to the floor or a prone hip extension off the edge of the bed.",
+  "note": "Rounding the upper back slightly and squeezing the glutes makes it a glute builder; staying flat makes it a hamstring builder."
+ },
+ {
+  "name": "Reverse Hyperextension",
+  "aliases": [
+   "reverse hyper",
+   "reverse hyperextension",
+   "reverse hypers"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "reverse hyper machine",
+   "bench"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "erectors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Swing the legs up with the glutes to a straight line, not higher. Overextending the low back is the mistake.",
+  "steps": [
+   "Lie face down, hips at the edge of the pad.",
+   "Grip the handles.",
+   "Lift the legs to body height with straight knees.",
+   "Lower 2 s with control."
+  ],
+  "cues": [
+   "Kick your heels to the ceiling."
+  ],
+  "homeSwap": "Lie face down on a bed or bench, hips at the edge, lift straight legs to body height.",
+  "note": "Decompresses the spine while working the glutes; handy after heavy squats or a day of sparring."
+ },
+ {
+  "name": "Forward Lunge",
+  "aliases": [
+   "lunge",
+   "forward lunge",
+   "front lunge",
+   "db lunge"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Step out and push back in one move, landing heel-toe. Stepping too short drives the knee forward and pinches it.",
+  "steps": [
+   "DBs at your sides, feet hip width.",
+   "Step forward about 2-3 foot lengths.",
+   "Lower until the back knee nearly touches the floor.",
+   "Push hard off the front foot to return."
+  ],
+  "cues": [
+   "Push the floor back to return.",
+   "Land quiet."
+  ],
+  "homeSwap": "Already home; hold DBs and add a 1 s pause at the bottom.",
+  "note": "The deceleration on landing is what basketball and tennis demand on every hard stop. Stick the landing on your tripod foot."
+ },
+ {
+  "name": "Reverse Lunge",
+  "aliases": [
+   "reverse lunge",
+   "backward lunge",
+   "db reverse lunge",
+   "step back lunge"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Step back and keep about 80% of your weight on the front foot. Pushing off the back foot steals the work.",
+  "steps": [
+   "DBs at your sides.",
+   "Step back 2-3 foot lengths.",
+   "Lower straight down, slight forward torso lean.",
+   "Drive through the front foot to stand."
+  ],
+  "cues": [
+   "Push the front foot through the floor.",
+   "Back knee straight down."
+  ],
+  "homeSwap": "Already home; hold DBs and do 3 s lowering.",
+  "note": "Kinder to the knees than forward lunges. A slight torso lean shifts the work toward the glute."
+ },
+ {
+  "name": "Walking Lunge",
+  "aliases": [
+   "walking lunges",
+   "walking lunge",
+   "db walking lunge"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Long steps, back knee nearly kisses the floor, and no pause at the top. The continuous flow is the point.",
+  "steps": [
+   "DBs at your sides.",
+   "Step forward long, lower the back knee near the floor.",
+   "Drive through the front foot straight into the next step."
+  ],
+  "cues": [
+   "Push the floor behind you.",
+   "Stay tall."
+  ],
+  "homeSwap": "Walking lunge with DBs in a hallway, or reverse lunge in place.",
+  "note": "One of the best home leg moves with light DBs because 20+ steps make even light weight hard."
+ },
+ {
+  "name": "Lateral Lunge",
+  "aliases": [
+   "side lunge",
+   "lateral lunge",
+   "skater lunge"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "bodyweight"
+  ],
+  "muscles": [
+   "adductors",
+   "glutes",
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Sit back into the bent hip with the other leg straight and foot flat. Staying upright just stretches the adductor without load.",
+  "steps": [
+   "Wide stance, toes forward.",
+   "Shift into one hip, sitting back.",
+   "Other leg straight, both feet flat.",
+   "Push back to center."
+  ],
+  "cues": [
+   "Push the floor sideways to return.",
+   "Sit your hips back."
+  ],
+  "homeSwap": "Already home; hold a DB as a goblet.",
+  "note": "Lateral force for every cut and shuffle in basketball, tennis and pickleball, and it loads your stiff adductors at length."
+ },
+ {
+  "name": "Curtsy Lunge",
+  "aliases": [
+   "curtsy lunge",
+   "crossover lunge"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "bodyweight"
+  ],
+  "muscles": [
+   "glute med",
+   "glutes",
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Step behind and across but keep the front knee tracking over the toes; letting it collapse inward defeats the purpose.",
+  "steps": [
+   "Stand tall, DBs at sides or goblet.",
+   "Step one leg behind and across.",
+   "Lower until front thigh is near parallel.",
+   "Drive back up through the front foot."
+  ],
+  "cues": [
+   "Push the front knee out over the little toe."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Directly challenges the knee-cave part of your flat-foot cascade; use the Screw cue on the front foot."
+ },
+ {
+  "name": "Deficit Reverse Lunge",
+  "aliases": [
+   "deficit reverse lunge",
+   "deficit lunge",
+   "elevated reverse lunge"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "step"
+  ],
+  "muscles": [
+   "glutes",
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stand on a 5-10 cm step and step back down. The extra depth is a deep glute and quad stretch, so go slow.",
+  "steps": [
+   "Stand on a step or plate, DBs at your sides.",
+   "Step back off the platform.",
+   "Lower until front hip is below knee.",
+   "Drive back up onto the step."
+  ],
+  "cues": [
+   "Push the step away."
+  ],
+  "homeSwap": "Already home: use a stair.",
+  "note": "Lengthened bias for glutes with light DBs, which makes it one of the best home glute builders."
+ },
+ {
+  "name": "Split Squat",
+  "aliases": [
+   "split squat",
+   "static lunge",
+   "stationary lunge"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Feet stay planted, straight up and down. Bouncing the back foot or shifting forward turns it into a lunge.",
+  "steps": [
+   "Long split stance, back heel up.",
+   "DBs at sides.",
+   "Drop the back knee straight down 3 s.",
+   "Drive up through the front foot."
+  ],
+  "cues": [
+   "Elevator straight down.",
+   "Push the front foot through the floor."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Good starting point before Bulgarians: the back foot on the floor gives you more balance help."
+ },
+ {
+  "name": "Dumbbell Bulgarian Split Squat",
+  "aliases": [
+   "db bulgarian split squat",
+   "dumbbell bulgarian",
+   "db bss",
+   "rear foot elevated split squat dumbbell"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Set the front foot so the knee can travel forward and the back knee drops straight. A too-long stance turns it into a hip flexor stretch.",
+  "steps": [
+   "Back foot laces-down on a bench at knee height.",
+   "Front foot ~2 foot lengths ahead.",
+   "DBs at your sides.",
+   "Lower 3 s until the back knee nearly touches the floor.",
+   "Drive up through the front foot."
+  ],
+  "cues": [
+   "Push the front foot through the floor.",
+   "Back knee straight to the floor."
+  ],
+  "homeSwap": "Already home: couch for the back foot.",
+  "note": "Best home quad and glute builder with light DBs: single-leg doubles the relative load. Slight forward lean = more glute."
+ },
+ {
+  "name": "Barbell Bulgarian Split Squat",
+  "aliases": [
+   "barbell bulgarian split squat",
+   "bb bulgarian",
+   "barbell bss"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Start lighter than you think. Balance with a bar on your back is harder; if you wobble, go back to DBs.",
+  "steps": [
+   "Bar on traps.",
+   "Back foot on bench, front foot 2 lengths ahead.",
+   "Lower 3 s.",
+   "Drive up."
+  ],
+  "cues": [
+   "Push the floor away.",
+   "Stay tall."
+  ],
+  "homeSwap": "Rear-foot-elevated split squat on a couch or step, DBs at your sides, 3 s lowering.",
+  "note": "Only use it once DB BSS needs DBs heavier than you can hold."
+ },
+ {
+  "name": "Front-Foot Elevated Split Squat",
+  "aliases": [
+   "front foot elevated split squat",
+   "ffe split squat",
+   "front foot elevated"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "step"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Front foot on a 5-10 cm plate lets you go deeper than the floor. Use that depth slowly.",
+  "steps": [
+   "Front foot on a plate or step.",
+   "Back foot on the floor, heel up.",
+   "Lower 3 s until the back knee touches the floor.",
+   "Drive up."
+  ],
+  "cues": [
+   "Push the front foot down."
+  ],
+  "homeSwap": "Already home: front foot on a book or stair.",
+  "note": "Extra depth stretches the front glute and the back-leg hip flexor at once; great for your stiff hips."
+ },
+ {
+  "name": "Step-Up",
+  "aliases": [
+   "step up",
+   "step-ups",
+   "box step up",
+   "dumbbell step up"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "box"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Drive through the top foot only. Pushing off the bottom foot makes it easy and useless.",
+  "steps": [
+   "Box at knee height or a bit lower.",
+   "Whole foot on the box, DBs at sides.",
+   "Lean slightly forward, stand up using the top leg.",
+   "Lower 3 s back down."
+  ],
+  "cues": [
+   "Push the box down.",
+   "Stand tall on top."
+  ],
+  "homeSwap": "Already home: a stair or chair.",
+  "note": "Lower slowly: the eccentric on a step-up is the knee-protecting part for landing from jumps."
+ },
+ {
+  "name": "Lateral Step-Up",
+  "aliases": [
+   "lateral step up",
+   "side step up"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "box"
+  ],
+  "muscles": [
+   "quads",
+   "glute med"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stand side-on and keep the working knee over the second toe. The inside knee collapse is what you are training out.",
+  "steps": [
+   "Stand beside a box with one foot on top.",
+   "Push through the top foot to stand.",
+   "Lower the other foot to tap the floor slowly."
+  ],
+  "cues": [
+   "Push the box down.",
+   "Knee over the little toe."
+  ],
+  "homeSwap": "Already home: stair, side-on.",
+  "note": "Directly fights the knee-cave part of your flat-foot cascade."
+ },
+ {
+  "name": "Skater Squat",
+  "aliases": [
+   "skater squat",
+   "single leg squat to pad"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "bodyweight",
+   "dumbbell"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Back knee touches a pad behind you; arms reach forward for balance. Diving forward to cheat depth misses the quads.",
+  "steps": [
+   "Stand on one leg, other knee bent behind you.",
+   "Arms forward.",
+   "Lower until the back knee touches a pad or folded towel.",
+   "Stand up through the front foot."
+  ],
+  "cues": [
+   "Reach your arms to the wall.",
+   "Knee lightly to the pad."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Great single-leg strength test: your goal is 5 clean reps each leg with no hand assist."
+ },
+ {
+  "name": "Pistol Squat",
+  "aliases": [
+   "pistol",
+   "pistol squat",
+   "single leg squat"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hold a light DB forward as a counterweight. It makes depth easier and teaches control.",
+  "steps": [
+   "Stand on one leg, other leg forward.",
+   "Arms or a light DB out front.",
+   "Sit down slowly as low as you control.",
+   "Stand up without bouncing."
+  ],
+  "cues": [
+   "Reach forward.",
+   "Push the floor away."
+  ],
+  "homeSwap": "Already home: start with pistols to a chair.",
+  "note": "Your stiff ankles will limit depth: put the heel on a book until dorsiflexion improves."
+ },
+ {
+  "name": "Cossack Squat",
+  "aliases": [
+   "cossack squat",
+   "cossack",
+   "side squat"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "bodyweight",
+   "dumbbell"
+  ],
+  "muscles": [
+   "adductors",
+   "glutes",
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "The straight leg toes point up and the squatting heel stays down. Go only as deep as your heel stays flat.",
+  "steps": [
+   "Very wide stance.",
+   "Shift to one side and sit down, other leg straight, toes up.",
+   "Counterweight DB held in front.",
+   "Push back to center and switch."
+  ],
+  "cues": [
+   "Sit into your hip.",
+   "Heel heavy."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Loaded mobility for your stiff adductors and ankles: one of the best for the lateral range needed in wrestling and tennis.",
+  "prescription": {
+   "sets": "2-3",
+   "reps": "6-8 per side",
+   "rest": "60-90 s"
+  }
+ },
+ {
+  "name": "Lying Leg Curl",
+  "aliases": [
+   "lying leg curl",
+   "leg curl",
+   "prone leg curl",
+   "hamstring curl",
+   "lying hamstring curl"
+  ],
+  "pattern": "knee-flexion",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "hamstrings",
+   "gastrocnemius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Press your hips into the pad so they do not rise, and lower slowly. Hips popping up shortens the hamstrings and kills the stretch.",
+  "steps": [
+   "Kneecaps just off the end of the pad, ankle pad just above the heels.",
+   "Hips pressed down, grip the handles.",
+   "Curl to full flexion.",
+   "Lower 3 s to full extension."
+  ],
+  "cues": [
+   "Pull your heels to your glutes.",
+   "Push your hips through the pad."
+  ],
+  "homeSwap": "Sliding hamstring curl on socks/towel on a hard floor (hips up), or Nordic curl with feet hooked under a couch.",
+  "note": "Seated leg curls grew hamstrings more than lying ones (Maeo 2021) because the hip is flexed and the hamstrings are longer. If both are available, prefer seated.",
+  "noteGrade": "B"
+ },
+ {
+  "name": "Seated Leg Curl",
+  "aliases": [
+   "seated leg curl",
+   "seated hamstring curl",
+   "seated curl machine"
+  ],
+  "pattern": "knee-flexion",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "hamstrings"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lean your torso forward against the thigh pad. More hip flexion = more hamstring stretch = more growth.",
+  "steps": [
+   "Knees lined up with the machine pivot.",
+   "Thigh pad locked down tight.",
+   "Lean the torso forward.",
+   "Curl to full flexion, lower 3 s."
+  ],
+  "cues": [
+   "Pull your heels under the seat.",
+   "Lean your chest toward your knees."
+  ],
+  "homeSwap": "Sliding hamstring curl on socks/towel on a hard floor (hips up), or Nordic curl with feet hooked under a couch.",
+  "note": "Seated leg curls grew the hamstrings more than lying leg curls in Maeo 2021, due to the long hamstring position. Last set: lengthened partials in the top half.",
+  "noteGrade": "B"
+ },
+ {
+  "name": "Standing Leg Curl",
+  "aliases": [
+   "standing leg curl",
+   "single leg standing curl",
+   "cable leg curl"
+  ],
+  "pattern": "knee-flexion",
+  "equipment": [
+   "machine",
+   "cable"
+  ],
+  "muscles": [
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Keep the hips square and still; rotating to finish the curl uses your back.",
+  "steps": [
+   "Thigh against the pad, ankle pad above the heel.",
+   "Hips square, hold the handles.",
+   "Curl fully, lower 3 s."
+  ],
+  "cues": [
+   "Pull your heel to your butt."
+  ],
+  "homeSwap": "Sliding hamstring curl on socks/towel on a hard floor (hips up), or Nordic curl with feet hooked under a couch.",
+  "note": "Each leg separate: shows imbalances common in sprinters. Match reps on both sides."
+ },
+ {
+  "name": "Single-Leg Leg Curl",
+  "aliases": [
+   "single leg curl",
+   "one leg hamstring curl",
+   "unilateral leg curl"
+  ],
+  "pattern": "knee-flexion",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "hamstrings"
+  ],
+  "standing": false,
+  "doThisNotThat": "Same machine, one leg at a time, lower slower than you lift.",
+  "steps": [
+   "Same setup as the two-leg curl.",
+   "One leg in.",
+   "Curl fully, lower 3-4 s."
+  ],
+  "cues": [
+   "Pull the heel in."
+  ],
+  "homeSwap": "Sliding hamstring curl on socks/towel on a hard floor (hips up), or Nordic curl with feet hooked under a couch.",
+  "note": "One leg at a time lets you lower a weight you can only lift with two legs (two-up, one-down eccentric overload)."
+ },
+ {
+  "name": "Nordic Hamstring Curl",
+  "aliases": [
+   "nordic curl",
+   "nordics",
+   "nordic hamstring",
+   "nhe"
+  ],
+  "pattern": "knee-flexion",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "hamstrings"
+  ],
+  "standing": false,
+  "doThisNotThat": "Fight the fall the whole way with hips straight. Breaking at the hips makes it easier and less protective.",
+  "steps": [
+   "Kneel on a pad, ankles anchored under a couch or held by a partner.",
+   "Body straight from knees to head, glutes tight.",
+   "Lower as slowly as possible.",
+   "Catch yourself with your hands, push back up."
+  ],
+  "cues": [
+   "Keep a straight line from knees to head.",
+   "Fall as slowly as you can."
+  ],
+  "homeSwap": "Already home: anchor feet under the couch.",
+  "note": "Programs including Nordics reduced hamstring injuries by up to about 51% (van Dyk 2019; a later reappraisal is less certain). 2 × 4-6, 1-2x a week is enough.",
+  "noteGrade": "A-B",
+  "prescription": {
+   "sets": "2-3",
+   "reps": "3-6",
+   "rest": "2 min"
+  }
+ },
+ {
+  "name": "Slider Hamstring Curl",
+  "aliases": [
+   "slider curl",
+   "sliding leg curl",
+   "towel hamstring curl",
+   "sliding hamstring curl"
+  ],
+  "pattern": "knee-flexion",
+  "equipment": [
+   "slider",
+   "bodyweight"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep the hips up the whole set. Hips dropping turns it into a sloppy bridge.",
+  "steps": [
+   "Lie on your back, heels on sliders or a towel on a smooth floor.",
+   "Bridge your hips up.",
+   "Slide heels out slowly 3 s, hips stay up.",
+   "Pull heels back to your glutes."
+  ],
+  "cues": [
+   "Pull your heels to your glutes.",
+   "Push your hips to the ceiling."
+  ],
+  "homeSwap": "Already home: socks on a hard floor.",
+  "note": "Best home hamstring curl. Make it single-leg once 12 two-leg reps is easy."
+ },
+ {
+  "name": "Stability Ball Leg Curl",
+  "aliases": [
+   "stability ball leg curl",
+   "swiss ball curl",
+   "ball hamstring curl"
+  ],
+  "pattern": "knee-flexion",
+  "equipment": [
+   "stability ball"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Hips stay up as the ball rolls in. Hips sagging puts it all on the back.",
+  "steps": [
+   "Lie on your back, heels on the ball.",
+   "Bridge up.",
+   "Curl the ball in, hips high.",
+   "Roll out 3 s."
+  ],
+  "cues": [
+   "Pull the ball to your butt."
+  ],
+  "homeSwap": "Sliding hamstring curl on socks/towel on a hard floor (hips up), or Nordic curl with feet hooked under a couch.",
+  "note": "The unstable ball also trains the small ankle muscles your flat feet need."
+ },
+ {
+  "name": "Glute-Ham Raise",
+  "aliases": [
+   "ghr",
+   "glute ham raise",
+   "glute ham developer"
+  ],
+  "pattern": "knee-flexion",
+  "equipment": [
+   "GHD"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Knees just behind the pad; lower to horizontal under control and curl up using the hamstrings, not by hinging.",
+  "steps": [
+   "Feet on the plate, knees just behind the pad.",
+   "Body straight.",
+   "Lower to horizontal.",
+   "Curl back up with hamstrings."
+  ],
+  "cues": [
+   "Pull yourself up with your heels.",
+   "Straight line from knees to head."
+  ],
+  "homeSwap": "Nordic hamstring curl with feet under a couch.",
+  "note": "Trains hamstrings at both the knee and hip, like they work in a sprint."
+ },
+ {
+  "name": "Leg Extension",
+  "aliases": [
+   "leg extension",
+   "leg ext",
+   "quad extension",
+   "knee extension",
+   "seated leg extension"
+  ],
+  "pattern": "knee-extension",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "quads"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lean back slightly or recline the seat. A more open hip lengthens the rectus femoris and makes the quads work harder.",
+  "steps": [
+   "Knee joint lined up with the machine pivot.",
+   "Ankle pad just above the ankle.",
+   "Grip the handles, lean back slightly.",
+   "Extend to straight, lower 3 s to full bend."
+  ],
+  "cues": [
+   "Kick the pad to the ceiling.",
+   "Lower slowly under control."
+  ],
+  "homeSwap": "Sissy squat holding a door frame, or a heels-elevated goblet squat on 2 plates/books, knees driving far past toes.",
+  "note": "Reclining lengthens the rectus femoris (it crosses the hip), which should load it harder; that is mechanism-based. Last set: lengthened partials in the bottom half."
+ },
+ {
+  "name": "Single-Leg Leg Extension",
+  "aliases": [
+   "single leg extension",
+   "one leg leg extension",
+   "unilateral leg extension"
+  ],
+  "pattern": "knee-extension",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "quads"
+  ],
+  "standing": false,
+  "doThisNotThat": "One leg at a time to fix imbalances; same slow lowering.",
+  "steps": [
+   "Same setup as the two-leg extension.",
+   "One leg.",
+   "Extend fully, lower 3 s."
+  ],
+  "cues": [
+   "Kick the pad up."
+  ],
+  "homeSwap": "Sissy squat holding a door frame, or a heels-elevated goblet squat on 2 plates/books, knees driving far past toes.",
+  "note": "Quads are often weaker on the side that collapses most (often the flatter foot); start with that leg."
+ },
+ {
+  "name": "Reverse Nordic",
+  "aliases": [
+   "reverse nordic",
+   "reverse nordics",
+   "kneeling quad lean"
+  ],
+  "pattern": "knee-extension",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads (rectus femoris)",
+   "hip flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Hips stay extended and body straight from knees to head as you lean back. Bending at the hips removes the stretch.",
+  "steps": [
+   "Kneel on a pad, toes tucked or flat.",
+   "Squeeze glutes, body straight.",
+   "Lean back slowly as far as you control.",
+   "Pull back up with the quads."
+  ],
+  "cues": [
+   "Straight line from knees to head.",
+   "Lean back slowly."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Loads the quads and hip flexors at length; great for your stiff hip flexors and knee health in deceleration.",
+  "prescription": {
+   "sets": "2-3",
+   "reps": "6-12",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "Spanish Squat",
+  "aliases": [
+   "spanish squat",
+   "band spanish squat"
+  ],
+  "pattern": "knee-extension",
+  "equipment": [
+   "band",
+   "post"
+  ],
+  "muscles": [
+   "quads",
+   "patellar tendon"
+  ],
+  "standing": true,
+  "doThisNotThat": "Sit back into the band with shins vertical and hold. It loads the quads with little knee shear.",
+  "steps": [
+   "Loop a heavy band around a post and behind both knees.",
+   "Step back until the band is tight.",
+   "Sit down with vertical shins, torso upright.",
+   "Hold 30-45 s."
+  ],
+  "cues": [
+   "Push your knees back into the band."
+  ],
+  "homeSwap": "Wall sit at about 70-90° knee bend, 30-45 s holds.",
+  "note": "Isometric holds can calm down patellar tendon pain; useful after lots of jumping. Five 45 s holds is a common dose (grade C).",
+  "prescription": {
+   "sets": "4-5",
+   "reps": "30-45 s hold",
+   "rest": "60-90 s"
+  }
+ },
+ {
+  "name": "Terminal Knee Extension",
+  "aliases": [
+   "tke",
+   "terminal knee extension",
+   "band tke"
+  ],
+  "pattern": "knee-extension",
+  "equipment": [
+   "band"
+  ],
+  "muscles": [
+   "quads (vastus medialis)"
+  ],
+  "standing": true,
+  "doThisNotThat": "Lock the knee fully against the band. Most of the benefit is in the last 10-20°.",
+  "steps": [
+   "Band around the back of the knee, anchored in front.",
+   "Step back until tight.",
+   "Let the knee bend 20-30°.",
+   "Straighten fully and squeeze 1 s."
+  ],
+  "cues": [
+   "Push the back of your knee into the band."
+  ],
+  "homeSwap": "Single-leg wall sit or straight-leg raise, 1 s squeeze at the top.",
+  "note": "Rehab and warm-up tool. Pair with the Screw cue to line up knee and foot before squats.",
+  "prescription": {
+   "sets": "2",
+   "reps": "15-20",
+   "rest": "45 s"
+  }
+ },
+ {
+  "name": "Wall Sit",
+  "aliases": [
+   "wall sit",
+   "wall squat hold"
+  ],
+  "pattern": "knee-extension",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Thighs parallel, shins vertical, push through the heels. Hands off the thighs.",
+  "steps": [
+   "Back against a wall.",
+   "Slide down until thighs are parallel.",
+   "Shins vertical, feet flat.",
+   "Hold."
+  ],
+  "cues": [
+   "Push the wall up with your back."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Isometric holds are a good knee-friendly way to train quads the day before a game.",
+  "prescription": {
+   "sets": "3",
+   "reps": "30-60 s hold",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Standing Calf Raise",
+  "aliases": [
+   "standing calf raise",
+   "calf raise",
+   "calf raises",
+   "machine calf raise"
+  ],
+  "pattern": "calf",
+  "equipment": [
+   "machine",
+   "dumbbell"
+  ],
+  "muscles": [
+   "gastrocnemius",
+   "soleus"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pause 2 s in the deepest stretch at the bottom. Bouncing out of it uses the tendon, not the muscle.",
+  "steps": [
+   "Balls of the feet on the edge of the step.",
+   "Knees straight but not locked.",
+   "Lower 2 s to the deepest stretch, pause 2 s.",
+   "Rise as high as possible, squeeze 1 s."
+  ],
+  "cues": [
+   "Push the platform through the floor.",
+   "Rise tall onto your big toe."
+  ],
+  "homeSwap": "Single-leg calf raise off a stair, holding a DB, 2 s pause at the bottom stretch.",
+  "note": "Lengthened partials (bottom half only) grew the calves more than full reps (Kassiano 2023). Finish every set with them.",
+  "noteGrade": "B"
+ },
+ {
+  "name": "Seated Calf Raise",
+  "aliases": [
+   "seated calf raise",
+   "soleus raise",
+   "seated calf"
+  ],
+  "pattern": "calf",
+  "equipment": [
+   "machine",
+   "dumbbell"
+  ],
+  "muscles": [
+   "soleus"
+  ],
+  "standing": false,
+  "doThisNotThat": "Same deep 2 s stretch at the bottom. The bent knee shifts work to the soleus.",
+  "steps": [
+   "Knees under the pad, balls of feet on the edge.",
+   "Lower 2 s to full stretch, pause.",
+   "Rise high, squeeze."
+  ],
+  "cues": [
+   "Push the pad up with your toes."
+  ],
+  "homeSwap": "Seated on a chair, heavy DB on each knee, balls of feet on a book.",
+  "note": "The soleus is the main calf muscle for running; strong soleus = more running economy for XC."
+ },
+ {
+  "name": "Leg Press Calf Raise",
+  "aliases": [
+   "leg press calf raise",
+   "calf press",
+   "leg press calves"
+  ],
+  "pattern": "calf",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "gastrocnemius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep the knees straight and safety stops on. Let the platform travel all the way into the stretch.",
+  "steps": [
+   "Balls of feet on the bottom edge of the platform.",
+   "Knees straight, safeties engaged.",
+   "Lower to full stretch, pause 2 s.",
+   "Push up high."
+  ],
+  "cues": [
+   "Push the platform with your big toes."
+  ],
+  "homeSwap": "Single-leg calf raise off a stair, holding a DB, 2 s pause at the bottom stretch.",
+  "note": "Easy to load heavy with zero balance demand; finish with lengthened partials."
+ },
+ {
+  "name": "Donkey Calf Raise",
+  "aliases": [
+   "donkey calf raise",
+   "donkey calves"
+  ],
+  "pattern": "calf",
+  "equipment": [
+   "machine",
+   "bodyweight"
+  ],
+  "muscles": [
+   "gastrocnemius"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hips flexed so the gastrocs are already stretched; go to the deepest stretch and pause.",
+  "steps": [
+   "Hinge forward, hands on a bench.",
+   "Balls of feet on a step.",
+   "Lower deep, pause 2 s.",
+   "Rise high."
+  ],
+  "cues": [
+   "Rise onto your big toes."
+  ],
+  "homeSwap": "Single-leg calf raise off a stair, holding a DB, 2 s pause at the bottom stretch.",
+  "note": "The hip flexion lengthens the gastrocnemius further, a cheap lengthened-bias calf builder."
+ },
+ {
+  "name": "Single-Leg Calf Raise",
+  "aliases": [
+   "single leg calf raise",
+   "one leg calf raise",
+   "sl calf raise"
+  ],
+  "pattern": "calf",
+  "equipment": [
+   "dumbbell",
+   "bodyweight"
+  ],
+  "muscles": [
+   "gastrocnemius",
+   "soleus"
+  ],
+  "standing": true,
+  "doThisNotThat": "Rise over the big toe, not rolling out to the little toe. That is your flat foot leaking force sideways.",
+  "steps": [
+   "Stand on one foot on a step, hold a wall.",
+   "DB in the same-side hand.",
+   "Lower 2 s to the deepest stretch, pause.",
+   "Rise high over the big toe."
+  ],
+  "cues": [
+   "Push the step down with your big toe."
+  ],
+  "homeSwap": "Already home: stair + DB.",
+  "note": "Strengthens the arch-supporting muscles (the tibialis posterior works hard here); the best calf and foot exercise for your flat feet."
+ },
+ {
+  "name": "Tibialis Raise",
+  "aliases": [
+   "tibialis raise",
+   "tib raise",
+   "toe raise",
+   "shin raise"
+  ],
+  "pattern": "calf",
+  "equipment": [
+   "bodyweight",
+   "tib bar"
+  ],
+  "muscles": [
+   "tibialis anterior"
+  ],
+  "standing": true,
+  "doThisNotThat": "Lean your back against a wall with heels forward; the further out the feet, the harder.",
+  "steps": [
+   "Back against a wall, heels 30-60 cm out.",
+   "Legs straight.",
+   "Pull your toes up to your shins as high as possible.",
+   "Lower slowly."
+  ],
+  "cues": [
+   "Pull your toes to the ceiling."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Balances calf work and protects the shins from running load (shin splints are common in XC). Grade C.",
+  "prescription": {
+   "sets": "2",
+   "reps": "15-25",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Barbell Hip Thrust",
+  "aliases": [
+   "hip thrust",
+   "barbell hip thrust",
+   "bb hip thrust",
+   "glute thrust"
+  ],
+  "pattern": "glute-bridge",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "standing": false,
+  "doThisNotThat": "Chin tucked and ribs down at the top. Arching the low back to \"finish\" moves the work out of the glutes.",
+  "steps": [
+   "Shoulder blades on a bench edge, bar padded over the hips.",
+   "Feet flat, shins vertical at the top.",
+   "Lower hips 2 s.",
+   "Drive up until hips are level with knees, squeeze 1 s."
+  ],
+  "cues": [
+   "Push your knees forward.",
+   "Drive the bar to the ceiling."
+  ],
+  "homeSwap": "Single-leg hip thrust with shoulders on the couch, DB on the hip, 2 s squeeze at the top.",
+  "note": "The thrust loads the glutes hardest at full hip extension, the opposite of a squat; doing both covers the whole range. At home, go single-leg to make light DBs hard."
+ },
+ {
+  "name": "Dumbbell Hip Thrust",
+  "aliases": [
+   "db hip thrust",
+   "dumbbell hip thrust"
+  ],
+  "pattern": "glute-bridge",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Hold the DB on the hip crease with both hands; pause 2 s at the top.",
+  "steps": [
+   "Upper back on a couch or bench.",
+   "DB on the hips.",
+   "Lower 2 s, drive up, squeeze 2 s."
+  ],
+  "cues": [
+   "Push your knees forward."
+  ],
+  "homeSwap": "Already home.",
+  "note": "With light DBs, pause at the top and go single-leg to make it hard."
+ },
+ {
+  "name": "Single-Leg Hip Thrust",
+  "aliases": [
+   "single leg hip thrust",
+   "one leg hip thrust",
+   "sl hip thrust"
+  ],
+  "pattern": "glute-bridge",
+  "equipment": [
+   "bodyweight",
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "glutes",
+   "glute med"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep the hips level. One side dropping means the working glute is losing.",
+  "steps": [
+   "Upper back on a bench, one foot planted.",
+   "Other knee pulled up.",
+   "Lower 2 s, drive up, squeeze."
+  ],
+  "cues": [
+   "Push through your heel.",
+   "Keep the belt line level."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Single-leg hip extension is how you sprint and push off; this is the most sport-specific glute builder at home."
+ },
+ {
+  "name": "Hip Thrust Machine",
+  "aliases": [
+   "hip thrust machine",
+   "glute drive",
+   "machine hip thrust"
+  ],
+  "pattern": "glute-bridge",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Same chin-tucked, ribs-down finish. Machines make it easy to overextend the back.",
+  "steps": [
+   "Back on the pad, belt over the hips.",
+   "Feet so shins are vertical at the top.",
+   "Drive up, squeeze 1 s, lower 2 s."
+  ],
+  "cues": [
+   "Push the belt to the ceiling."
+  ],
+  "homeSwap": "Single-leg hip thrust with shoulders on the couch, DB on the hip, 2 s squeeze at the top.",
+  "note": "Simple to push close to failure safely: good for the last set of a glute day."
+ },
+ {
+  "name": "Glute Bridge",
+  "aliases": [
+   "glute bridge",
+   "bridge",
+   "floor bridge",
+   "hip bridge"
+  ],
+  "pattern": "glute-bridge",
+  "equipment": [
+   "bodyweight",
+   "dumbbell"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "standing": false,
+  "doThisNotThat": "Squeeze the glutes for 2 s at the top with ribs down; fast bounce reps barely work.",
+  "steps": [
+   "Lie on your back, knees bent, feet flat.",
+   "Push through heels, lift hips.",
+   "Squeeze 2 s, lower slowly."
+  ],
+  "cues": [
+   "Push the floor away with your heels."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Good warm-up to wake the glutes before sprinting; your arm-first sequencing starts with lazy hips."
+ },
+ {
+  "name": "Single-Leg Glute Bridge",
+  "aliases": [
+   "single leg glute bridge",
+   "one leg bridge"
+  ],
+  "pattern": "glute-bridge",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "glutes",
+   "glute med"
+  ],
+  "standing": false,
+  "doThisNotThat": "Hips level; pause at the top.",
+  "steps": [
+   "On your back, one foot planted, other leg straight up or knee hugged.",
+   "Lift hips.",
+   "Squeeze 2 s, lower slowly."
+  ],
+  "cues": [
+   "Push the floor away with your heel."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Hugging the other knee to the chest stops you from arching the back to cheat."
+ },
+ {
+  "name": "Frog Pump",
+  "aliases": [
+   "frog pump",
+   "frog pumps",
+   "frog bridge"
+  ],
+  "pattern": "glute-bridge",
+  "equipment": [
+   "bodyweight",
+   "dumbbell"
+  ],
+  "muscles": [
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Soles together, knees out, short fast reps with a hard squeeze. It is a pump finisher, not a strength move.",
+  "steps": [
+   "On your back, soles of feet together, knees out.",
+   "Heels close to your butt.",
+   "Thrust hips up, squeeze.",
+   "Repeat fast."
+  ],
+  "cues": [
+   "Push your knees to the floor."
+  ],
+  "homeSwap": "Already home.",
+  "note": "A quick finisher: 2 × 20-30 for a glute pump without fatiguing your legs before sport.",
+  "prescription": {
+   "sets": "2",
+   "reps": "20-30",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Cable Glute Kickback",
+  "aliases": [
+   "cable kickback",
+   "glute kickback",
+   "cable glute kickback"
+  ],
+  "pattern": "glute-bridge",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hinge forward ~45° and kick back and up with a slight bend in the knee. Swinging the leg uses momentum and your back.",
+  "steps": [
+   "Ankle cuff on, low pulley.",
+   "Hold the frame, hinge forward 30-45°.",
+   "Kick back until the hip is fully extended.",
+   "Return slowly."
+  ],
+  "cues": [
+   "Kick your heel to the wall behind you."
+  ],
+  "homeSwap": "Quadruped donkey kick with a DB behind the knee.",
+  "note": "The hinge puts the glute in a longer position at the start, giving more stretch."
+ },
+ {
+  "name": "Glute Kickback Machine",
+  "aliases": [
+   "glute kickback machine",
+   "kickback machine",
+   "butt blaster"
+  ],
+  "pattern": "glute-bridge",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Full range and a 1 s squeeze at the top; no low-back arch.",
+  "steps": [
+   "Chest on the pad, foot on the plate.",
+   "Kick back to full hip extension.",
+   "Squeeze, return slowly."
+  ],
+  "cues": [
+   "Push the plate to the ceiling."
+  ],
+  "homeSwap": "Quadruped donkey kick with a DB behind the knee.",
+  "note": "Good pump finisher after squats or lunges."
+ },
+ {
+  "name": "Hip Abduction Machine",
+  "aliases": [
+   "hip abduction",
+   "abductor machine",
+   "abduction machine",
+   "outer thigh machine"
+  ],
+  "pattern": "hip-abduction",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "glute med",
+   "glute min"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lean your torso forward slightly. It shifts the work to the upper glute, which is the knee-cave fixer.",
+  "steps": [
+   "Sit with knees on the pads.",
+   "Lean forward 20-30°.",
+   "Push the pads out as far as possible.",
+   "Return slowly."
+  ],
+  "cues": [
+   "Push the pads to the walls."
+  ],
+  "homeSwap": "Side-lying hip abduction, toes slightly down, 2 s pause at the top.",
+  "note": "The glute med stops the knee caving inward when your arch collapses; this is the gym version of the Screw cue."
+ },
+ {
+  "name": "Cable Hip Abduction",
+  "aliases": [
+   "cable abduction",
+   "cable hip abduction",
+   "standing cable abduction"
+  ],
+  "pattern": "hip-abduction",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "glute med"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stand tall and lift the leg out to the side without leaning. Leaning means the weight is too heavy.",
+  "steps": [
+   "Cuff on the outside ankle, low pulley.",
+   "Stand side-on, hold the frame.",
+   "Lift the leg out 30-45°.",
+   "Return slowly."
+  ],
+  "cues": [
+   "Push your heel to the wall."
+  ],
+  "homeSwap": "Side-lying hip abduction.",
+  "note": "The standing leg works too: grip the tripod foot to keep the arch up."
+ },
+ {
+  "name": "Banded Lateral Walk",
+  "aliases": [
+   "lateral band walk",
+   "band walk",
+   "monster walk",
+   "banded lateral walk",
+   "crab walk"
+  ],
+  "pattern": "hip-abduction",
+  "equipment": [
+   "band"
+  ],
+  "muscles": [
+   "glute med",
+   "glute min"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stay low in a quarter squat and keep tension the whole time; feet never come together.",
+  "steps": [
+   "Band above the knees or around the ankles.",
+   "Quarter squat, feet hip width.",
+   "Step sideways 10-15 steps each way."
+  ],
+  "cues": [
+   "Push your knees out against the band."
+  ],
+  "homeSwap": "Side-lying hip abduction, or lateral shuffles in a quarter squat.",
+  "note": "Pre-game activation for cutting sports: wakes up the glute med before you change direction."
+ },
+ {
+  "name": "Side-Lying Hip Abduction",
+  "aliases": [
+   "side lying hip abduction",
+   "side leg raise",
+   "lying abduction"
+  ],
+  "pattern": "hip-abduction",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "glute med"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep the top leg slightly behind you with toes pointing down. Bringing it forward turns it into a hip flexor move.",
+  "steps": [
+   "Lie on your side, bottom knee bent.",
+   "Top leg straight, slightly behind the body, toes down.",
+   "Lift 30-40 cm.",
+   "Pause 1 s, lower slowly."
+  ],
+  "cues": [
+   "Push your heel to the wall."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Simple and effective for the knee-cave part of the flat-foot cascade.",
+  "prescription": {
+   "sets": "2-3",
+   "reps": "12-20",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Copenhagen Plank",
+  "aliases": [
+   "copenhagen",
+   "copenhagen plank",
+   "copenhagen adduction",
+   "copenhagen adductor"
+  ],
+  "pattern": "hip-adduction",
+  "equipment": [
+   "bench",
+   "bodyweight"
+  ],
+  "muscles": [
+   "adductors",
+   "obliques"
+  ],
+  "standing": false,
+  "doThisNotThat": "Start with the bench at the knee (short lever) and work toward the ankle. Jumping straight to the long lever is how groins get tweaked.",
+  "steps": [
+   "Side plank with your top leg on a bench (knee for short lever, ankle for long).",
+   "Bottom leg under the bench.",
+   "Lift the hips into a straight line.",
+   "Hold or do slow reps lifting the bottom leg to the bench."
+  ],
+  "cues": [
+   "Push the bench down with your top leg."
+  ],
+  "homeSwap": "Already home: use a couch.",
+  "note": "One Copenhagen exercise 3x/week preseason then 1x/week was linked to 41% lower odds of groin problems (Harøy 2019).",
+  "noteGrade": "A-B",
+  "prescription": {
+   "sets": "2-3",
+   "reps": "15-30 s or 5-8 reps per side",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Adduction Machine",
+  "aliases": [
+   "adductor machine",
+   "hip adduction machine",
+   "inner thigh machine",
+   "adduction"
+  ],
+  "pattern": "hip-adduction",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "adductors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Set the start as wide as is comfortable and lower slowly. The wide, stretched position is where the growth is.",
+  "steps": [
+   "Sit, knees on the pads, start wide.",
+   "Squeeze the pads together.",
+   "Return 3 s to the widest position."
+  ],
+  "cues": [
+   "Squeeze the pads together."
+  ],
+  "homeSwap": "Copenhagen plank, or lying adduction with a DB-free side plank.",
+  "note": "Your adductors are stiff: the wide loaded stretch here improves your squat depth and lateral range."
+ },
+ {
+  "name": "Cable Hip Adduction",
+  "aliases": [
+   "cable adduction",
+   "cable hip adduction",
+   "standing adduction"
+  ],
+  "pattern": "hip-adduction",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stand tall and pull the leg across the body slowly; no swinging.",
+  "steps": [
+   "Cuff on the inside ankle, low pulley.",
+   "Stand side-on.",
+   "Pull the leg across in front of the standing leg.",
+   "Return slowly."
+  ],
+  "cues": [
+   "Sweep your foot across the floor."
+  ],
+  "homeSwap": "Copenhagen plank on a couch.",
+  "note": "Adductor strength helps every lateral push-off in basketball and every shot in wrestling."
+ },
+ {
+  "name": "Landmine Squat",
+  "aliases": [
+   "landmine squat",
+   "landmine goblet squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "landmine",
+   "barbell"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hold the bar end at your chest and lean into it slightly; the arc lets you sit deep and upright.",
+  "steps": [
+   "Bar end in a landmine or corner, hold it at your sternum with both hands.",
+   "Feet shoulder width, slightly in front of you.",
+   "Sit down 3 s to full depth.",
+   "Stand driving the bar up the arc."
+  ],
+  "cues": [
+   "Push the floor away.",
+   "Chest tall to the bar."
+  ],
+  "homeSwap": "Goblet squat with your heaviest DB, 3 s lowering + 1 s pause in the hole, or a 1.5-rep squat (down, half up, down, up).",
+  "note": "The angled load is forgiving on stiff ankles and hips, so it is a good stepping stone to a full back squat."
+ },
+ {
+  "name": "Overhead Squat",
+  "aliases": [
+   "overhead squat",
+   "ohs",
+   "snatch grip overhead squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "barbell",
+   "dowel"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors",
+   "shoulders",
+   "upper back"
+  ],
+  "standing": true,
+  "doThisNotThat": "Start with a broomstick. Your mobility, not your strength, sets the load here.",
+  "steps": [
+   "Wide snatch grip, bar locked overhead.",
+   "Push the bar up and slightly back, armpits forward.",
+   "Squat down 3 s keeping the bar over mid-foot.",
+   "Stand tall."
+  ],
+  "cues": [
+   "Push the bar to the ceiling.",
+   "Knees out."
+  ],
+  "homeSwap": "Overhead squat with a broomstick or one light DB held overhead (single-arm).",
+  "note": "A full-body mobility test for your all-over stiffness: film it monthly; deeper and more upright = progress.",
+  "prescription": {
+   "sets": "3",
+   "reps": "5-8",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "Dumbbell Sumo Squat",
+  "aliases": [
+   "sumo squat",
+   "db sumo squat",
+   "plie squat",
+   "dumbbell sumo squat"
+  ],
+  "pattern": "squat",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "adductors",
+   "glutes",
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stand on two boxes or plates so the DB can drop below your feet; more depth = more adductor stretch.",
+  "steps": [
+   "Wide stance, toes out 30-45°.",
+   "One DB hanging between your legs by the top head.",
+   "Sit straight down 3 s, knees out over the toes.",
+   "Stand up squeezing the glutes."
+  ],
+  "cues": [
+   "Push your knees out to the walls."
+  ],
+  "homeSwap": "Already home: stand on two stairs or books.",
+  "note": "Loads your stiff adductors in a long position, which helps squat depth and lateral range."
+ },
+ {
+  "name": "Kettlebell Deadlift",
+  "aliases": [
+   "kettlebell deadlift",
+   "kb deadlift",
+   "dumbbell deadlift",
+   "db deadlift"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "kettlebell",
+   "dumbbell"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Bell between the feet in line with your ankles; hips back and push the floor away.",
+  "steps": [
+   "Bell between your feet, mid-foot line.",
+   "Hinge and grip with a flat back.",
+   "Push the floor away, stand tall.",
+   "Hinge back down with control."
+  ],
+  "cues": [
+   "Push the floor away.",
+   "Stand tall."
+  ],
+  "homeSwap": "Single-leg DB RDL, 3 s lowering, both DBs in the opposite hand to the working leg.",
+  "note": "The cleanest way to learn the hinge before a barbell; perfect for home with one heavy DB."
+ },
+ {
+  "name": "Smith Machine Split Squat",
+  "aliases": [
+   "smith split squat",
+   "smith machine bulgarian",
+   "smith bss"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "smith machine",
+   "bench"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "The bar balances for you, so push close to failure and go deep.",
+  "steps": [
+   "Bar on traps, front foot slightly ahead of the bar line.",
+   "Back foot on a bench or floor.",
+   "Lower 3 s.",
+   "Drive up."
+  ],
+  "cues": [
+   "Push the front foot through the floor."
+  ],
+  "homeSwap": "Rear-foot-elevated split squat on a couch or step, DBs at your sides, 3 s lowering.",
+  "note": "Removes balance so you can load single-leg hard; mix with free versions for athletic transfer."
+ },
+ {
+  "name": "Landmine Reverse Lunge",
+  "aliases": [
+   "landmine lunge",
+   "landmine reverse lunge"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "landmine",
+   "barbell"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hold the bar end in the hand opposite the working leg; it challenges hip stability like a punch from a split stance.",
+  "steps": [
+   "Bar end held at the shoulder or hip.",
+   "Step back into a lunge.",
+   "Lower 2-3 s.",
+   "Drive back up through the front foot."
+  ],
+  "cues": [
+   "Push the front foot through the floor."
+  ],
+  "homeSwap": "DB reverse lunge with the DB in the opposite hand.",
+  "note": "Offset load builds the anti-rotation core you need to stay stable while throwing punches from a staggered stance."
+ },
+ {
+  "name": "Step-Down",
+  "aliases": [
+   "step down",
+   "eccentric step down",
+   "lateral step down",
+   "heel tap step down"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "bodyweight",
+   "step"
+  ],
+  "muscles": [
+   "quads",
+   "glute med"
+  ],
+  "standing": true,
+  "doThisNotThat": "Lower the free heel to the floor in 3 s with the knee over the second toe; do not drop.",
+  "steps": [
+   "Stand on a step on one leg.",
+   "Slowly lower the free heel toward the floor.",
+   "Tap lightly, stand back up."
+  ],
+  "cues": [
+   "Tap the floor like it is hot.",
+   "Knee over the little toe."
+  ],
+  "homeSwap": "Already home: a stair.",
+  "note": "Controlled knee bend on one leg is exactly the landing skill that protects your knees in jumps and cuts.",
+  "prescription": {
+   "sets": "2-3",
+   "reps": "8-12 per leg",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Poliquin Step-Up",
+  "aliases": [
+   "poliquin step up",
+   "petersen step up",
+   "heel elevated step up"
+  ],
+  "pattern": "knee-extension",
+  "equipment": [
+   "plate",
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads (vastus medialis)"
+  ],
+  "standing": true,
+  "doThisNotThat": "Heel on a raised plate, knee drives forward over the toes and you push up through the front of the foot. Small range, high quality.",
+  "steps": [
+   "Stand on a low step with the working heel raised on a small plate.",
+   "Lower the other heel toward the floor, knee forward.",
+   "Push back up through the forefoot."
+  ],
+  "cues": [
+   "Push your knee over your toes."
+  ],
+  "homeSwap": "Already home: a book under the heel on a stair.",
+  "note": "Knee-forward strength for the VMO, a classic knee-health drill for jumping athletes.",
+  "prescription": {
+   "sets": "2-3",
+   "reps": "10-15",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Hip Airplane",
+  "aliases": [
+   "hip airplane",
+   "airplanes"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "glute med",
+   "hip rotators",
+   "foot intrinsics"
+  ],
+  "standing": true,
+  "doThisNotThat": "Rotate the hip open and closed while keeping the standing foot arched. Hold a wall at first.",
+  "steps": [
+   "Stand on one leg, hinge until your torso is near parallel.",
+   "Rotate your pelvis open toward the ceiling slowly.",
+   "Rotate back closed.",
+   "Keep the standing knee over the toes."
+  ],
+  "cues": [
+   "Turn your belly button to the wall.",
+   "Grip the floor with your foot."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Trains the hip rotation control your flat-foot cascade throws off; great before cutting sports.",
+  "prescription": {
+   "sets": "2",
+   "reps": "5-6 per side",
+   "rest": "45 s"
+  }
+ },
+ {
+  "name": "Kas Glute Bridge",
+  "aliases": [
+   "kas glute bridge",
+   "kas bridge",
+   "short range hip thrust"
+  ],
+  "pattern": "glute-bridge",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "muscles": [
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Only move the top third of a hip thrust, keeping chin tucked and ribs down. Constant glute tension.",
+  "steps": [
+   "Hip thrust setup.",
+   "Lift to full extension.",
+   "Lower only a few inches, then thrust back up."
+  ],
+  "cues": [
+   "Drive the bar to the ceiling."
+  ],
+  "homeSwap": "Single-leg hip thrust with shoulders on the couch, DB on the hip, 2 s squeeze at the top.",
+  "note": "Short range at the top where glutes are shortest: good pump finisher after a full-range hinge."
+ },
+ {
+  "name": "Kneeling Leg Curl",
+  "aliases": [
+   "kneeling leg curl",
+   "kneeling hamstring curl",
+   "single leg kneeling curl"
+  ],
+  "pattern": "knee-flexion",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "hamstrings"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep the hip still and lower slowly; the hip-flexed position gives more hamstring stretch than lying.",
+  "steps": [
+   "Kneel on the pad, forearms supported.",
+   "Working ankle under the roller.",
+   "Curl, lower 3 s."
+  ],
+  "cues": [
+   "Pull your heel to your butt."
+  ],
+  "homeSwap": "Sliding hamstring curl on socks/towel on a hard floor (hips up), or Nordic curl with feet hooked under a couch.",
+  "note": "Hip flexion lengthens the hamstrings, which should load them harder at the start of the rep (mechanism-based)."
+ },
+ {
+  "name": "Bodyweight Calf Raise",
+  "aliases": [
+   "bodyweight calf raise",
+   "stair calf raise",
+   "double leg calf raise"
+  ],
+  "pattern": "calf",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "gastrocnemius",
+   "soleus"
+  ],
+  "standing": true,
+  "doThisNotThat": "Go off a stair for the full stretch, pause at the bottom.",
+  "steps": [
+   "Balls of feet on a stair, hold the rail.",
+   "Lower 2 s, pause 2 s.",
+   "Rise high, squeeze 1 s."
+  ],
+  "cues": [
+   "Push the stair down with your big toes."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Once 25 reps is easy, go single-leg: your flat feet benefit most from the single-leg version."
+ },
+ {
+  "name": "Smith Machine Calf Raise",
+  "aliases": [
+   "smith calf raise",
+   "smith machine calf raise"
+  ],
+  "pattern": "calf",
+  "equipment": [
+   "smith machine",
+   "step"
+  ],
+  "muscles": [
+   "gastrocnemius",
+   "soleus"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stand on a plate or step for the deep stretch, pause at the bottom.",
+  "steps": [
+   "Bar on traps, balls of feet on a step.",
+   "Lower 2 s, pause.",
+   "Rise high."
+  ],
+  "cues": [
+   "Push the step down with your big toes."
+  ],
+  "homeSwap": "Single-leg calf raise off a stair, holding a DB, 2 s pause at the bottom stretch.",
+  "note": "Finish each set with bottom-half lengthened partials (Kassiano 2023).",
+  "noteGrade": "B"
+ },
+ {
+  "name": "Single-Leg Hip Hinge Bodyweight",
+  "aliases": [
+   "bodyweight single leg rdl",
+   "single leg hinge",
+   "bodyweight rdl"
+  ],
+  "pattern": "hinge",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes",
+   "foot intrinsics"
+  ],
+  "standing": true,
+  "doThisNotThat": "Reach both hands to the floor slowly with hips square; balance is the training.",
+  "steps": [
+   "Stand on one leg, soft knee.",
+   "Hinge forward as the back leg rises.",
+   "Reach toward the floor 3 s.",
+   "Return tall."
+  ],
+  "cues": [
+   "Reach your back heel to the wall."
+  ],
+  "homeSwap": "Already home.",
+  "note": "Daily balance and foot drill: do it barefoot to train the tripod foot."
+ },
+ {
+  "name": "Dumbbell Step-Up to Knee Drive",
+  "aliases": [
+   "step up knee drive",
+   "step up with knee drive",
+   "high knee step up"
+  ],
+  "pattern": "single-leg",
+  "equipment": [
+   "dumbbell",
+   "box"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "hip flexors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Drive up and snap the opposite knee to hip height, like a sprint stride.",
+  "steps": [
+   "Foot on a knee-height box.",
+   "Push through the top foot.",
+   "Drive the other knee up fast at the top.",
+   "Lower 3 s."
+  ],
+  "cues": [
+   "Punch your knee to the ceiling."
+  ],
+  "homeSwap": "Already home: stair step-up with knee drive.",
+  "note": "Matches the sprint and jump pattern: hip extension on one side, knee drive on the other."
+ }
+]

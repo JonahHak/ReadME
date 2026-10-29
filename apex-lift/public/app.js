@@ -48,6 +48,7 @@ function go(tab) {
   history.replaceState(null, '', `#${tab}`);
   renderTabs();
   $('#toggles').hidden = !TOGGLE_TABS.has(tab);
+  $('#view').onclick = null;
   VIEWS[tab]();
   $(`[data-tab="${tab}"]`)?.scrollIntoView({ inline: 'center', block: 'nearest' });
   window.scrollTo(0, 0);
@@ -125,7 +126,7 @@ function logSummary() {
 // ---------- streaming API ----------
 const LOCAL = {
   'api/optimize': b => offline.offlineCard(DATA.lib, b.input),
-  'api/session': b => offline.offlineSession(DATA.lib, b.input, S.toggles),
+  'api/session': b => (b.exercises?.length ? offline.planWorkout(DATA.lib, b.exercises, S.toggles) : offline.offlineSession(DATA.lib, b.input, S.toggles)),
   'api/pregame': b => offline.offlinePregame(DATA.lib, b.input),
   'api/vision': () => null,
 };
@@ -317,7 +318,7 @@ const COMMON = ['Incline Dumbbell Press', 'Bulgarian Split Squat', 'Pogo Hops', 
 const VIEWS = {
   optimize() {
     $('#view').innerHTML = h`
-      <form id="askForm" class="ask"><input id="ask" placeholder="Any exercise… e.g. incline DB press" autocomplete="off" enterkeyhint="go">
+      ${raw(exerciseDatalist())}<form id="askForm" class="ask"><input id="ask" list="exlist" placeholder="Any exercise… e.g. leg curl, incline DB press" autocomplete="off" enterkeyhint="go">
         <label class="icon-btn" title="Photo">📷<input id="photo" type="file" accept="image/*" hidden></label>
         <button class="btn">Go</button></form>
       <div class="suggest">${raw(COMMON.map(c => h`<button class="chip" data-pick="${c}">${c}</button>`).join(''))}</div>
@@ -328,12 +329,19 @@ const VIEWS = {
   },
 
   session() {
+    const mine = S.buildMode === 'mine';
     $('#view').innerHTML = h`
-      <form id="askForm" class="ask"><input id="ask" placeholder="leg day · chest and bis · VO2 day · 15 min hotel" autocomplete="off" enterkeyhint="go"><button class="btn">Build</button></form>
-      <div class="suggest">${raw(['Leg day', 'Chest and bis', 'Back and tris', 'Boxing conditioning', 'VO2 day', '15 min hotel room', 'I only have dumbbells'].map(c => h`<button class="chip" data-pick="${c}">${c}</button>`).join(''))}</div>
-      <div class="row muted" style="font-size:13px">Program mode: <b>${{ split: 'Current split', triphasic: 'Triphasic block', 'six-day': '6-day template' }[S.settings.programMode]}</b> <span class="dim">(change in Settings)</span></div>
-      <div id="out"></div>`;
-    $('#askForm').onsubmit = e => { e.preventDefault(); const v = $('#ask').value.trim(); if (v) buildSession(v); };
+      <div class="suggest" id="modes"><button class="chip ${mine ? '' : 'on'}" data-mode="apex">APEX builds it</button><button class="chip ${mine ? 'on' : ''}" data-mode="mine">I pick the exercises</button></div>
+      <div id="builder"></div><div id="out"></div>`;
+    $('#modes').onclick = e => { const b = e.target.closest('[data-mode]'); if (b) { S.buildMode = b.dataset.mode; save(); VIEWS.session(); } };
+    if (mine) renderPicker();
+    else {
+      $('#builder').innerHTML = h`
+        <form id="askForm" class="ask"><input id="ask" placeholder="leg day · chest and bis · VO2 day · 15 min hotel" autocomplete="off" enterkeyhint="go"><button class="btn">Build</button></form>
+        <div class="suggest">${raw(['Leg day', 'Chest and bis', 'Back and tris', 'Boxing conditioning', 'VO2 day', '15 min hotel room', 'I only have dumbbells'].map(c => h`<button class="chip" data-pick="${c}">${c}</button>`).join(''))}</div>
+        <div class="row muted" style="font-size:13px">Program mode: <b>${{ split: 'Current split', triphasic: 'Triphasic block', 'six-day': '6-day template' }[S.settings.programMode]}</b> <span class="dim">(change in Settings)</span></div>`;
+      $('#askForm').onsubmit = e => { e.preventDefault(); const v = $('#ask').value.trim(); if (v) buildSession(v); };
+    }
     if (S.last.session) $('#out').innerHTML = renderSession(S.last.session.data, S.last.session);
   },
 
@@ -437,6 +445,44 @@ const VIEWS = {
   },
 };
 
+// ---------- "I pick the exercises" builder ----------
+function exerciseDatalist() {
+  const names = DATA.lib ? offline.allNames(DATA.lib) : [];
+  return `<datalist id="exlist">${names.map(n => `<option value="${esc(n)}">`).join('')}</datalist>`;
+}
+
+function renderPicker() {
+  S.custom ||= [];
+  const list = S.custom;
+  $('#builder').innerHTML = h`
+    <form id="pickForm" class="ask"><input id="pick" list="exlist" placeholder="Type any exercise… leg curl, lat pulldown, box jump" autocomplete="off" enterkeyhint="done"><button class="btn ghost">Add</button></form>
+    ${raw(exerciseDatalist())}
+    <p class="dim" style="font-size:12px;margin:0 0 8px">${DATA.lib ? `${offline.allNames(DATA.lib).length} exercises in the library. Anything else gets coached by its movement pattern.` : ''}</p>
+    ${raw(list.length ? list.map((n, i) => h`<div class="item"><div class="item-top"><span class="name">${i + 1}. ${n}</span>
+      <button class="btn ghost sm" data-mv="${i}:-1" aria-label="Move up">↑</button><button class="btn ghost sm" data-mv="${i}:1" aria-label="Move down">↓</button><button class="btn ghost sm" data-del="${i}" aria-label="Remove">✕</button></div></div>`).join('')
+      : '<p class="muted">Add the exercises you want to do today, in any order. APEX puts them in the best order, sets your sets, reps and rest, adds a warm-up and cooldown, and tells you exactly how to do each one.</p>')}
+    <div class="row" style="margin:10px 0">
+      <button class="btn" id="howTo" ${list.length ? '' : 'disabled'}>Tell me how to do it</button>
+      ${raw(list.length ? '<button class="btn ghost sm" id="clearPick">Clear</button>' : '')}
+    </div>`;
+  const add = v => {
+    v = v.trim();
+    if (!v || list.some(x => x.toLowerCase() === v.toLowerCase())) return;
+    const card = DATA.lib ? offline.offlineCard(DATA.lib, v) : null;
+    list.push(card && !card.guessed ? card.name : v);
+    save(); renderPicker(); $('#pick').focus();
+  };
+  $('#pickForm').onsubmit = e => { e.preventDefault(); add($('#pick').value); };
+  $('#builder').onclick = e => {
+    const mv = e.target.closest('[data-mv]');
+    const del = e.target.closest('[data-del]');
+    if (mv) { const [i, d] = mv.dataset.mv.split(':').map(Number); const j = i + d; if (j >= 0 && j < list.length) { [list[i], list[j]] = [list[j], list[i]]; save(); renderPicker(); } }
+    if (del) { list.splice(+del.dataset.del, 1); save(); renderPicker(); }
+    if (e.target.id === 'clearPick') { list.length = 0; save(); renderPicker(); }
+    if (e.target.id === 'howTo') buildSession('My workout', list.slice());
+  };
+}
+
 // ---------- Session (Mode C) ----------
 const PHASE_COLOR = { 'CNS Prime': 'blue', Main: 'lime', Power: 'purple', Accessory: 'gold', Finisher: 'red', Cooldown: 'green', Conditioning: 'amber', Skill: 'blue' };
 
@@ -456,12 +502,12 @@ function renderSession(s, meta = {}) {
   </div>`;
 }
 
-async function buildSession(input) {
+async function buildSession(input, exercises) {
   const out = $('#out');
-  out.innerHTML = statusLine(`Building "${esc(input)}"…`);
+  out.innerHTML = statusLine(exercises ? 'Coaching your workout…' : `Building "${esc(input)}"…`);
   let meta = {};
   try {
-    const fin = await stream('api/session', { input }, {
+    const fin = await stream('api/session', { input, exercises }, {
       onMeta: m => { meta = m; },
       onPartial: p => { out.innerHTML = renderSession(p, { ...meta, streaming: true }); },
     });
@@ -743,10 +789,10 @@ async function boot() {
   $('#toggles').hidden = !TOGGLE_TABS.has(current);
   const [health, prof] = await Promise.all([getJSON('api/health'), getJSON('api/profile')]);
   DATA.health = health; DATA.profile = prof?.profile || ''; DATA.morning5 = prof?.morning5 || null;
+  const [lib, catalog, patterns, p] = await Promise.all([getJSON('data/exercises.json'), getJSON('data/catalog.json'), getJSON('data/patterns.json'), health ? null : getJSON('data/profile.json')]);
+  DATA.lib = { ...(lib || { cards: [], pregame: [], sessions: [] }), catalog: catalog || [], patterns: patterns || {} };
   if (!health) {
     DATA.static = true;
-    const [lib, p] = await Promise.all([getJSON('data/exercises.json'), getJSON('data/profile.json')]);
-    DATA.lib = lib || { cards: [], pregame: [], sessions: [] };
     DATA.profile = p?.profile || ''; DATA.morning5 = lib?.morning5 || null;
   }
   const gw = $('#gw');

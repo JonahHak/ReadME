@@ -37,8 +37,13 @@ const ASK = {
     'setup.cues: max 3, external focus. footBase required for standing lifts; sequencing required for rotational/throwing/striking moves. ' +
     'Label the power pairing PAPE (~4-8 min rest) or contrast (short rest). Grade every tip; never invent a citation. ' +
     'Swaps must fit the equipment toggle. If a sore spot is loaded by this exercise, say how to adjust in prescription.load.',
-  session: ({ input }) =>
-    `MODE C — BUILD MY SESSION.\nRequest: "${input}"\n` +
+  session: ({ input, exercises }) =>
+    (exercises?.length
+      ? `MODE C — HE PICKED THE EXERCISES, YOU COACH THEM.\nHis exercises, in his order: ${exercises.map((e, i) => `${i + 1}. ${e}`).join('; ')}\n` +
+        'Use EXACTLY these exercises (same names). You may reorder for performance (power/heavy first, isolations after, core/conditioning last) and must say what moved and why in rules. ' +
+        'Add the CNS Prime and Cooldown blocks yourself; add one labeled power pairing only if he picked none. Give each exercise its dose, rest and one external cue in note. ' +
+        'Flag missing balance (push without pull, quads without hamstrings) in rules without adding exercises he did not pick. '
+      : `MODE C — BUILD MY SESSION.\nRequest: "${input}"\n`) +
     'Order: CNS Prime → Main → Power → Accessory → Finisher → Cooldown (Conditioning/Skill blocks allowed). ' +
     'Fit inside the time toggle. Use real exercise names (each expands into its own card). 1 warm-up set per exercise. ' +
     'Use the training_log for double-progression targets (name the load/reps to beat). One measurable win + why. ' +
@@ -56,8 +61,8 @@ const ASK = {
     `Otherwise machineSetup/formAudit = null.${context ? `\nAthlete note: ${context}` : ''}`,
 };
 
-export function buildMessages(kind, { input, context, image, profile, log, toggles }) {
-  const text = ASK[kind]({ input, context });
+export function buildMessages(kind, { input, context, image, profile, log, toggles, exercises }) {
+  const text = ASK[kind]({ input, context, exercises });
   const user = image
     ? [{ type: 'text', text }, { type: 'image_url', image_url: { url: image } }]
     : text;

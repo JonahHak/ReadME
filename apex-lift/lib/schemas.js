@@ -133,3 +133,58 @@ export function validate(kind, obj) {
   const issues = r.error.issues.slice(0, 12).map(i => `${i.path.join('.') || '(root)'}: ${i.message}`);
   return { ok: false, error: issues.join('; ') };
 }
+
+// ---------- Exercise catalog (data/catalog.json) + movement patterns (data/patterns.json) ----------
+// A catalog entry is exercise-specific (setup, cues, swap). Its pattern supplies the deep layers.
+export const PATTERN_IDS = [
+  'squat', 'hinge', 'single-leg', 'knee-flexion', 'knee-extension', 'calf', 'glute-bridge', 'hip-abduction', 'hip-adduction',
+  'horizontal-press', 'incline-press', 'vertical-press', 'chest-fly', 'dip', 'horizontal-pull', 'vertical-pull',
+  'scap-rear-delt', 'shrug', 'shoulder-raise', 'elbow-flexion', 'elbow-extension-overhead', 'elbow-extension', 'forearm-grip',
+  'neck', 'core-anti-extension', 'core-anti-rotation', 'core-flexion', 'rotational-power', 'plyo-lower', 'plyo-upper',
+  'olympic', 'ballistic-hinge', 'carry', 'sprint-agility', 'cardio', 'combat', 'mobility',
+];
+
+export const CatalogEntry = z.object({
+  name: str,
+  aliases: z.array(z.string()).default([]),
+  pattern: z.enum(PATTERN_IDS),
+  equipment: z.array(z.string()).min(1),
+  muscles: z.array(z.string()).min(1),
+  standing: z.boolean(),
+  doThisNotThat: str,
+  steps: z.array(str).min(3).max(6),
+  cues: z.array(str).min(1).max(3),
+  homeSwap: str,
+  note: str, // one exercise-specific, Jonah-specific detail; becomes the first small tip
+  noteGrade: Grade.default('C'),
+  hardestPoint: z.string().optional(),
+  prescription: z.object({ sets: str, reps: str, rest: str }).partial().optional(),
+});
+
+export const Pattern = z.object({
+  id: z.enum(PATTERN_IDS),
+  label: str,
+  category: Card.shape.category,
+  rank: z.number().min(0).max(9), // session order: 1 power, 2 main compound, 3 secondary, 4 isolation, 5 core, 6 conditioning, 8 mobility
+  balance: z.enum(['push', 'pull', 'quad', 'hip', 'core', 'power', 'conditioning', 'arms', 'skill', 'mobility', 'other']),
+  keywords: z.array(z.string()).min(3),
+  doThisNotThat: str,
+  priorityNote: z.string().optional(),
+  prescription: Card.shape.prescription,
+  defaultSteps: z.array(str).min(3),
+  defaultCues: z.array(str).min(1).max(3),
+  biomechanics: Card.shape.biomechanics,
+  neural: Card.shape.neural,
+  elastic: z.string().nullable(),
+  mobility: str,
+  footBase: z.string().nullable(),
+  footBaseSeated: z.string().nullable(),
+  sequencing: z.string().nullable(),
+  looks: Card.shape.looks,
+  sportTransfer: Card.shape.sportTransfer,
+  intensityTechnique: Card.shape.intensityTechnique,
+  tips: z.array(Tip).min(3).max(5),
+  teachMe: str,
+  swaps: Card.shape.swaps,
+  evidence: Card.shape.evidence,
+});

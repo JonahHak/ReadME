@@ -3,7 +3,7 @@ import express from 'express';
 import { gatewayConfig, listModels, pickDefaults, chatStream, chatOnce } from './lib/omniroute.js';
 import { buildMessages } from './lib/prompt.js';
 import { extractJson, validate } from './lib/schemas.js';
-import { offlineCard, offlinePregame, offlineSession, offlineIndex, morning5 } from './lib/fallback.js';
+import { offlineCard, offlinePregame, offlineSession, offlineIndex, morning5, planWorkout } from './lib/fallback.js';
 import { DEFAULT_PROFILE } from './lib/profile.js';
 
 const app = express();
@@ -32,9 +32,9 @@ app.get('/api/health', async (_req, res) => {
 app.get('/api/profile', (_req, res) => res.json({ profile: DEFAULT_PROFILE, morning5: morning5() }));
 
 const OFFLINE = {
-  card: (input) => offlineCard(input),
-  session: (input, toggles) => offlineSession(input, toggles),
-  pregame: (input) => offlinePregame(input),
+  card: ({ input }) => offlineCard(input || ''),
+  session: ({ input, toggles, exercises }) => (exercises?.length ? planWorkout(exercises, toggles || {}) : offlineSession(input || '', toggles || {})),
+  pregame: ({ input }) => offlinePregame(input || ''),
   vision: () => null,
 };
 
@@ -49,7 +49,7 @@ function sse(res) {
 }
 
 function sendOffline(send, kind, body, reason) {
-  const data = OFFLINE[kind](body.input || '', body.toggles || {});
+  const data = OFFLINE[kind](body);
   if (data) send('final', { data, source: 'offline', note: reason });
   else send('error', { message: kind === 'vision'
     ? `Photo mode needs the OmniRoute gateway (${reason}). Pick the exercise from the offline list instead.`

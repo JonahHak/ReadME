@@ -1,0 +1,4184 @@
+[
+ {
+  "name": "Box Jump",
+  "aliases": [
+   "box jumps",
+   "box jump",
+   "jump onto box"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "box"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Jump high and land soft and quiet on a box at hip height or lower. Don't pick a box so tall that you land in a deep tuck: that just tests hip flexibility.",
+  "steps": [
+   "Stand a half-step from the box, feet hip-width, tripod feet screwed into the floor.",
+   "Load fast: arms swing back while hips hinge to about 1/4 squat.",
+   "Drive the floor away and swing the arms up hard, hips then knees then ankles.",
+   "Land with the whole foot at the same time, knees over toes, in an athletic quarter squat, and freeze 1 s.",
+   "Step down, never jump down; reset fully before the next rep."
+  ],
+  "cues": [
+   "Push the floor through the ceiling",
+   "Land like a cat: silent box",
+   "Freeze the landing for 1 s"
+  ],
+  "homeSwap": "Jump onto the bottom stair or a sturdy step, or do max-height squat jumps with a stuck landing on the floor.",
+  "note": "Flat feet show up on the landing: watch for knees caving in. If they do, lower the box and own Step-and-Stick landings before chasing height.",
+  "prescription": {
+   "sets": "3-4",
+   "reps": "3-5 max-intent reps",
+   "rest": "60-90 s (full recovery)"
+  }
+ },
+ {
+  "name": "Seated Box Jump",
+  "aliases": [
+   "seated box jumps",
+   "seated jump"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "box",
+   "bench"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Start fully still on a bench so no stretch-reflex helps you. That isolates pure concentric rate of force, so don't rock forward first.",
+  "steps": [
+   "Sit on a bench at knee height, feet flat under the knees, a box 1-2 ft in front.",
+   "Lean the chest slightly forward, arms back.",
+   "Explode up and forward with an arm swing and land on the box in a quarter squat.",
+   "Stick it 1 s, step down, sit fully back down before the next rep."
+  ],
+  "cues": [
+   "Rip yourself off the bench",
+   "Land quiet on top"
+  ],
+  "homeSwap": "Sit on a chair or bed edge and jump to a max-height floor landing; stick it.",
+  "note": "Your weak spot is getting going from a dead stop (late reactions). Starting from zero trains the first 100 ms of force, which is exactly where you are slow.",
+  "prescription": {
+   "sets": "3-4",
+   "reps": "3-5 max-intent reps",
+   "rest": "60-90 s (full recovery)"
+  }
+ },
+ {
+  "name": "Broad Jump",
+  "aliases": [
+   "broad jumps",
+   "standing long jump",
+   "standing broad jump",
+   "long jump"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Jump out at about a 45° takeoff and stick the landing. Don't fall forward or step after: a jump only counts if you land balanced.",
+  "steps": [
+   "Toes behind a line, feet hip-width, tripod feet.",
+   "Arms swing back as the hips hinge fast to a quarter squat.",
+   "Throw the arms forward and up, extending hips, knees and ankles together at about 45°.",
+   "Pull the knees through and land heels-to-mid-foot in a half squat, arms forward.",
+   "Hold 2 s, measure from the line to the back heel."
+  ],
+  "cues": [
+   "Throw your hips to the far wall",
+   "Stick it like a statue"
+  ],
+  "homeSwap": "Same drill; mark distance with a sock or tape on the floor.",
+  "note": "This is your weekly athleticism test. Same warm-up, best of 3; the number climbing is the visible win.",
+  "prescription": {
+   "sets": "3-4",
+   "reps": "3-5 max-intent reps",
+   "rest": "60-90 s (full recovery)"
+  }
+ },
+ {
+  "name": "Depth Jump",
+  "aliases": [
+   "depth jumps",
+   "shock jump",
+   "drop and jump"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "box"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Step off a low box (12-18 in) and leave the floor as fast as possible. Don't drop from a high box and sink into a deep squat: that's a slow jump, not a reactive one.",
+  "steps": [
+   "Stand on a 12-18 in box, toes at the edge.",
+   "Step off, don't hop down.",
+   "Hit the floor on the balls of the feet with stiff ankles and rebound up instantly, under ~0.25 s.",
+   "Reach and jump max height, then land quietly in a quarter squat."
+  ],
+  "cues": [
+   "Floor is lava",
+   "Bounce off it"
+  ],
+  "homeSwap": "Step off the bottom stair (about 7-8 in) into a rebound jump, or do pogo-into-max jump.",
+  "note": "Advanced: earn it with 4+ weeks of pogos and clean box jumps first. Low volume (3x3-4), because reactive work is about contact quality.",
+  "prescription": {
+   "sets": "3",
+   "reps": "3-4",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "Drop Jump",
+  "aliases": [
+   "drop jumps",
+   "drop landing",
+   "drop and stick"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "box"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Step off a low box and either stick a silent landing or rebound fast with a short contact. Don't let the knees cave or the heels slam.",
+  "steps": [
+   "Stand on a 12 in box.",
+   "Step off with one foot and land on two feet together.",
+   "Land in an athletic quarter squat with knees over toes and freeze 2 s (stick version), or rebound instantly (reactive version).",
+   "Reset fully."
+  ],
+  "cues": [
+   "Land soft and silent",
+   "Knees push out over the pinky toes"
+  ],
+  "homeSwap": "Step off the bottom stair into a stuck landing.",
+  "note": "Drop landings teach the brain that landing is safe, which loosens the threat-state grip. Start with the stick version before going reactive.",
+  "prescription": {
+   "sets": "3",
+   "reps": "4-5",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Pogo Hops",
+  "aliases": [
+   "pogos",
+   "pogo jumps",
+   "pogo hop"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "calves",
+   "achilles",
+   "soleus"
+  ],
+  "standing": true,
+  "doThisNotThat": "Short, stiff, quiet bounces off the balls of the feet with locked knees. Don't do mini squat jumps.",
+  "steps": [
+   "Stand tall, feet hip-width, weight on the balls of the feet.",
+   "Knees soft but almost locked; ankles do the work.",
+   "Bounce fast off the floor, heels barely kissing it.",
+   "Arms swing small and quick in rhythm."
+  ],
+  "cues": [
+   "Floor is a hot pan",
+   "Bounce like a basketball"
+  ],
+  "homeSwap": "Same drill; it needs nothing.",
+  "note": "Do 2x10-20 before every run: it tunes the Achilles spring that XC economy depends on, and preps the feet that flatten when you are tired.",
+  "prescription": {
+   "sets": "3",
+   "reps": "10-20 contacts",
+   "rest": "60 s"
+  },
+  "noteGrade": "B"
+ },
+ {
+  "name": "Ankle Hops",
+  "aliases": [
+   "ankle hop",
+   "ankle bounces",
+   "ankling hops"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "calves",
+   "achilles",
+   "foot intrinsics"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hop forward in small, fast contacts using only the ankles. Don't bend the knees to make up for a lazy ankle.",
+  "steps": [
+   "Stand tall, arms bent like running.",
+   "Hop forward 6-12 in per contact using only the ankles.",
+   "Land and leave on the balls of the feet with the toes pulled up just before contact.",
+   "Go 10-15 m, walk back."
+  ],
+  "cues": [
+   "Quick off the ground",
+   "Toes up before you land"
+  ],
+  "homeSwap": "Hop in place or down a hallway.",
+  "note": "Pulling the toes up before contact pre-stiffens the arch, which matters more for you with flat feet.",
+  "prescription": {
+   "sets": "3",
+   "reps": "10-20 contacts",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Tuck Jump",
+  "aliases": [
+   "tuck jumps",
+   "knee tuck jump"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Jump straight up and bring the knees to the hands at the top, then land soft and centered. Don't pike, kick the heels back, or land with the knees in.",
+  "steps": [
+   "Feet hip-width, hands out at chest height, palms down.",
+   "Dip fast and jump vertically.",
+   "Drive the knees up to touch the hands at peak.",
+   "Extend the legs back down and land quietly in the same spot."
+  ],
+  "cues": [
+   "Knees to your palms",
+   "Land on the same spot"
+  ],
+  "homeSwap": "Same drill; do it on carpet or grass.",
+  "note": "A tuck jump is also a landing test: if your knees cave on landing, cut reps and fix it with drop landings.",
+  "prescription": {
+   "sets": "3",
+   "reps": "5",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Squat Jump",
+  "aliases": [
+   "jump squat",
+   "jump squats",
+   "bodyweight jump squat",
+   "squat jumps"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight",
+   "dumbbell"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pause 2 s at the bottom, then explode. With no bounce you train pure concentric power. Don't do fast sloppy reps for a burn.",
+  "steps": [
+   "Feet shoulder-width, tripod feet, hands on hips or behind the head.",
+   "Sit to a half squat and hold 2 s.",
+   "Explode straight up as high as possible.",
+   "Land soft and reset completely between reps."
+  ],
+  "cues": [
+   "Push the floor away hard",
+   "Disappear upward"
+  ],
+  "homeSwap": "Same drill; hold light dumbbells at your sides only if height stays the same.",
+  "note": "Stop the set when the height visibly drops. Pareja-Blanco 2017 showed that stopping early keeps the speed gains.",
+  "prescription": {
+   "sets": "3-4",
+   "reps": "3-5 max-intent reps",
+   "rest": "60-90 s (full recovery)"
+  },
+  "noteGrade": "B"
+ },
+ {
+  "name": "Countermovement Jump",
+  "aliases": [
+   "cmj",
+   "vertical jump",
+   "vert",
+   "vertical",
+   "max jump"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "A fast dip into a full-out vertical with an arm swing. Don't do a slow, deep dip.",
+  "steps": [
+   "Stand tall under a wall or a reach target.",
+   "Swing the arms back as you drop fast to about a quarter squat.",
+   "Reverse instantly: arms up, hips, knees and ankles extend.",
+   "Reach high, land soft."
+  ],
+  "cues": [
+   "Touch the ceiling",
+   "Fast down, faster up"
+  ],
+  "homeSwap": "Same; use a wall and chalk or a sticky note to mark the reach.",
+  "note": "This is your weekly vertical test. The arm swing adds a lot of height, so always test it the same way.",
+  "prescription": {
+   "sets": "3-4",
+   "reps": "3-5 max-intent reps",
+   "rest": "60-90 s (full recovery)"
+  }
+ },
+ {
+  "name": "Split Jump",
+  "aliases": [
+   "split squat jump",
+   "jumping lunges",
+   "lunge jumps",
+   "scissor jumps"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Jump vertically out of a split stance and switch legs in the air, landing balanced. Don't bounce through sloppy lunges for reps.",
+  "steps": [
+   "Split stance, front shin vertical, back knee 2 in off the floor.",
+   "Explode up, switch legs mid-air.",
+   "Land in the mirrored split with the front foot flat and knee over the toes.",
+   "Reset 1 s, repeat."
+  ],
+  "cues": [
+   "Go straight up, not forward",
+   "Land with the front foot glued"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "Front-knee collapse on landing is the flat-foot cascade in action. Screw the front foot into the floor on every landing.",
+  "prescription": {
+   "sets": "3",
+   "reps": "4-6 per side",
+   "rest": "60-90 s"
+  }
+ },
+ {
+  "name": "Lateral Bound",
+  "aliases": [
+   "lateral bounds",
+   "side bounds",
+   "skater jumps (stick)",
+   "heidens"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "glutes",
+   "adductors",
+   "quads",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "Push off one leg sideways for distance and stick the landing on the other leg for 1-2 s. Don't bounce through for speed before you can stick it.",
+  "steps": [
+   "Stand on the right leg, slight hinge.",
+   "Load the hip, then drive the floor away sideways.",
+   "Land on the left leg with the knee over the pinky toe, hip back, and freeze.",
+   "Bound back."
+  ],
+  "cues": [
+   "Push the floor sideways",
+   "Stick like a statue"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "This builds the side-to-side push for tennis, pickleball, basketball defense and cutting. The stick trains the outer hip to stop your knee caving.",
+  "prescription": {
+   "sets": "3",
+   "reps": "4-5 per side",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Skater Bound",
+  "aliases": [
+   "skater bounds",
+   "skaters",
+   "speed skaters"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "glutes",
+   "adductors",
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Bound diagonally forward-side with a quick landing and rhythm. Don't go straight sideways with a heavy, flat-footed landing.",
+  "steps": [
+   "Start on one leg.",
+   "Push off diagonally forward and to the side.",
+   "Land on the other foot, balls first, then whole foot, with the hip loaded.",
+   "Rebound into the next bound with a smooth rhythm."
+  ],
+  "cues": [
+   "Push the ground behind you",
+   "Quiet landings"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "Do the stick version (Lateral Bound) first for 2-3 weeks, then move to rhythm skaters.",
+  "prescription": {
+   "sets": "3",
+   "reps": "6-8 per side",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Single-Leg Hop",
+  "aliases": [
+   "single leg hops",
+   "one leg hop",
+   "single-leg jump",
+   "single leg broad jump"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hop forward on one leg and stick each landing. Don't chain hops before you can land each one balanced.",
+  "steps": [
+   "Stand on one leg, tripod foot.",
+   "Hop forward 1-3 ft.",
+   "Land on the same leg, knee over the second toe, and hold 2 s.",
+   "Progress to continuous hops later."
+  ],
+  "cues": [
+   "Stick each landing",
+   "Knee tracks over your middle toe"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "With flat feet, single-leg landings show the ankle-knee collapse most clearly. Film one set from the front.",
+  "prescription": {
+   "sets": "3",
+   "reps": "4 per leg",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Hurdle Hops",
+  "aliases": [
+   "hurdle jumps",
+   "mini hurdle hops",
+   "continuous hurdle hops"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "hurdles"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Rebound over a row of low hurdles with short ground contacts. Don't use hurdles so tall you have to tuck and land heavy.",
+  "steps": [
+   "Set 4-6 hurdles at 6-12 in, about 3 ft apart.",
+   "Two-foot jump over the first.",
+   "Rebound off the balls of the feet over each next one with minimal knee bend.",
+   "Land and walk back."
+  ],
+  "cues": [
+   "Bounce, don't land",
+   "Quick off the floor"
+  ],
+  "homeSwap": "Hop over a rolled towel or shoes, line of 4.",
+  "note": "Keep contacts low (30-50 per session total jumps) while your feet adapt.",
+  "prescription": {
+   "sets": "3-4",
+   "reps": "1 run of 4-6 hurdles",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Bounding",
+  "aliases": [
+   "bounds",
+   "triple jump",
+   "running bounds",
+   "alternate leg bounds"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Exaggerated running strides for height and distance, hanging in the air. Don't do short choppy strides or reach the foot out in front.",
+  "steps": [
+   "Jog in 3-4 steps.",
+   "Drive off one leg, knee of the other leg punching forward and up.",
+   "Land under the hips, mid-foot, and push into the next bound.",
+   "Use the opposite arm with each leg, big swings. Go 20-30 m."
+  ],
+  "cues": [
+   "Hang in the air",
+   "Paw the ground backward"
+  ],
+  "homeSwap": "Same drill on grass or a field.",
+  "note": "Bounding is sprint and XC power in one drill: longer strides from the same effort.",
+  "prescription": {
+   "sets": "3-4",
+   "reps": "20-30 m",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "A-Skip",
+  "aliases": [
+   "a skip",
+   "a skips",
+   "a-skips"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "hip flexors",
+   "calves",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "A rhythmic skip with a high knee, toes up, and the foot striking down under the hip. Don't lean back or flop the foot down in front.",
+  "steps": [
+   "Tall posture, slight forward lean.",
+   "Drive one knee up to hip height, toes pulled up.",
+   "Strike the foot down and back under the hip as the other knee rises.",
+   "Arms run opposite, elbows about 90°. Go 20 m."
+  ],
+  "cues": [
+   "Punch the knee up",
+   "Hammer the ground under you"
+  ],
+  "homeSwap": "Same drill in a hallway or the street.",
+  "note": "Grooves the running pattern so the foot lands under you, cutting the overstriding that wastes energy in XC.",
+  "prescription": {
+   "sets": "2-3",
+   "reps": "20 m",
+   "rest": "walk back"
+  }
+ },
+ {
+  "name": "B-Skip",
+  "aliases": [
+   "b skip",
+   "b skips",
+   "b-skips"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "hamstrings",
+   "hip flexors",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "An A-skip plus a leg extension that paws back under the hip. Don't kick out straight-legged and land in front.",
+  "steps": [
+   "Start as an A-skip.",
+   "At the top, extend the lower leg forward.",
+   "Claw it down and back so the foot lands under the hip.",
+   "Keep a steady rhythm. Go 20 m."
+  ],
+  "cues": [
+   "Claw the ground back"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "Trains the hamstrings at speed in the position where sprinters strain them.",
+  "prescription": {
+   "sets": "2",
+   "reps": "20 m",
+   "rest": "walk back"
+  }
+ },
+ {
+  "name": "Power Skip",
+  "aliases": [
+   "power skips",
+   "skips for height",
+   "skipping for height"
+  ],
+  "pattern": "plyo-lower",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Skip for maximum height with a big opposite arm drive. Don't do a lazy playground skip.",
+  "steps": [
+   "Skip forward.",
+   "Drive off the ground with one leg, punching the other knee and the opposite arm up.",
+   "Go as high as possible, land and repeat the other side.",
+   "Go 20 m."
+  ],
+  "cues": [
+   "Reach the sky with your knee",
+   "Arm punch up"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "Teaches the arm and leg to fire together. You tend to fire the arm first, and here it has to sync with the leg drive.",
+  "prescription": {
+   "sets": "3",
+   "reps": "20 m",
+   "rest": "walk back"
+  }
+ },
+ {
+  "name": "Plyometric Push-Up",
+  "aliases": [
+   "plyo push-up",
+   "plyo pushups",
+   "explosive push-up",
+   "explosive pushups"
+  ],
+  "pattern": "plyo-upper",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "chest",
+   "triceps",
+   "front delts"
+  ],
+  "standing": false,
+  "doThisNotThat": "Push hard enough that the hands leave the floor, then land with soft elbows. Don't do tiny hops with a sagging hip.",
+  "steps": [
+   "High plank, hands just outside the shoulders, body in one line.",
+   "Lower for 1-2 s to 2 in off the floor.",
+   "Explode so the hands leave the floor.",
+   "Catch with bent elbows and reset."
+  ],
+  "cues": [
+   "Push the floor away",
+   "Float the hands"
+  ],
+  "homeSwap": "Same drill; elevate the hands on a bed or couch edge to make it easier.",
+  "note": "Upper-body rate of force development is what makes a jab snap. Stop when the hands stop leaving the floor.",
+  "prescription": {
+   "sets": "3",
+   "reps": "4-6",
+   "rest": "60-90 s"
+  }
+ },
+ {
+  "name": "Clap Push-Up",
+  "aliases": [
+   "clap pushups",
+   "clapping push-up"
+  ],
+  "pattern": "plyo-upper",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "chest",
+   "triceps",
+   "front delts"
+  ],
+  "standing": false,
+  "doThisNotThat": "Get enough air to clap once and return the hands before landing. Don't clap if you can't keep the hips in line.",
+  "steps": [
+   "High plank.",
+   "Lower fast to 2 in off the floor.",
+   "Explode up and clap once.",
+   "Catch with soft elbows and stay in a straight plank."
+  ],
+  "cues": [
+   "Explode off the floor",
+   "Hands back before you land"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "Only progress from plyo push-ups when every rep clears the floor by about 2 in.",
+  "prescription": {
+   "sets": "3",
+   "reps": "3-5",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "Med-Ball Chest Pass",
+  "aliases": [
+   "chest pass",
+   "medicine ball chest pass",
+   "med ball chest throw"
+  ],
+  "pattern": "plyo-upper",
+  "equipment": [
+   "med ball"
+  ],
+  "muscles": [
+   "chest",
+   "triceps",
+   "front delts",
+   "core"
+  ],
+  "standing": true,
+  "doThisNotThat": "Throw the ball into a wall as hard as possible from a split stance, legs into hips into arms. Don't push it like a slow bench press.",
+  "steps": [
+   "Stand 3-5 ft from a solid wall in a split stance, ball at the chest.",
+   "Shift weight back, then drive the back foot into the floor.",
+   "Punch the ball into the wall with both arms, finishing with arms straight.",
+   "Catch the rebound or let it drop, and reset."
+  ],
+  "cues": [
+   "Throw through the wall",
+   "Back foot drives it"
+  ],
+  "homeSwap": "Explosive push-up, or chest-throw a pillow or a basketball against the wall.",
+  "note": "Ground force goes up through the legs to the arms. The back-foot drive trains the push that starts a cross.",
+  "prescription": {
+   "sets": "3",
+   "reps": "5",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Overhead Med-Ball Slam",
+  "aliases": [
+   "med ball slam",
+   "ball slams",
+   "slam ball",
+   "overhead slam"
+  ],
+  "pattern": "plyo-upper",
+  "equipment": [
+   "med ball"
+  ],
+  "muscles": [
+   "lats",
+   "core",
+   "shoulders",
+   "hip flexors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Reach tall onto the toes, then slam down with your whole body, hips back. Don't just throw with the arms while standing tall.",
+  "steps": [
+   "Feet hip-width, ball overhead, up on the toes, full stretch.",
+   "Snap the hips back and crunch down hard, driving the ball into the floor.",
+   "Throw it about 1 ft in front of the toes.",
+   "Pick it up and re-set to full height each rep."
+  ],
+  "cues": [
+   "Smash a hole in the floor",
+   "Tall, then violent"
+  ],
+  "homeSwap": "Fast overhead pull-downs with a light dumbbell (no release), or slam a rolled towel.",
+  "note": "A fun release for the nervous system, and it trains the lats-to-abs chain used in overhand rights and sprawls.",
+  "prescription": {
+   "sets": "3",
+   "reps": "6-8",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Rotational Med-Ball Slam",
+  "aliases": [
+   "rotational slam",
+   "side slam",
+   "med ball rotational slam"
+  ],
+  "pattern": "plyo-upper",
+  "equipment": [
+   "med ball"
+  ],
+  "muscles": [
+   "obliques",
+   "lats",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pivot the feet and let the hips turn first, then slam the ball down outside the front foot. Don't rotate only the arms with the feet stuck.",
+  "steps": [
+   "Stand square, ball overhead.",
+   "Pivot onto the back foot's toe as the hips turn.",
+   "Slam down outside the opposite foot.",
+   "Alternate sides."
+  ],
+  "cues": [
+   "Hips turn, ball follows",
+   "Slam outside your foot"
+  ],
+  "homeSwap": "Fast DB woodchop (no release) or a towel slam.",
+  "note": "Builds the hips-before-arms order you are missing, with a target on the floor.",
+  "prescription": {
+   "sets": "3",
+   "reps": "5 per side",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Med-Ball Scoop Toss",
+  "aliases": [
+   "scoop toss",
+   "med ball scoop",
+   "underhand rotational throw"
+  ],
+  "pattern": "plyo-upper",
+  "equipment": [
+   "med ball"
+  ],
+  "muscles": [
+   "obliques",
+   "glutes",
+   "hip rotators"
+  ],
+  "standing": true,
+  "doThisNotThat": "An underhand rotational throw from the back hip into a wall. Don't muscle it with the arms or stand square.",
+  "steps": [
+   "Stand sideways 4-6 ft from a wall, athletic stance.",
+   "Load the ball on the back hip, weight on the back leg.",
+   "Drive the back foot and turn the hips toward the wall; the arms follow last.",
+   "Release low-to-high into the wall."
+  ],
+  "cues": [
+   "Back hip throws it",
+   "Arms are just ropes"
+  ],
+  "homeSwap": "DB rotational punch-throw (no release).",
+  "note": "Same hip-first order as a forehand, a swing or a hook. Grade C: mechanism-based link to rotational sport power.",
+  "prescription": {
+   "sets": "3",
+   "reps": "5 per side",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Med-Ball Side Toss",
+  "aliases": [
+   "side toss",
+   "shot put throw",
+   "med ball shot put"
+  ],
+  "pattern": "plyo-upper",
+  "equipment": [
+   "med ball"
+  ],
+  "muscles": [
+   "obliques",
+   "chest",
+   "triceps",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Throw from a shot-put position at chest height, back foot first. Don't push with the arm alone.",
+  "steps": [
+   "Stand sideways to a wall, ball at the back shoulder.",
+   "Sit into the back hip.",
+   "Drive the back foot and rotate, finishing with the arm extending through the ball.",
+   "Catch and reset."
+  ],
+  "cues": [
+   "Back foot first",
+   "Punch it through the wall"
+  ],
+  "homeSwap": "Rotational punch with a light dumbbell, held, not thrown.",
+  "note": "The closest throw to a cross or a straight right: ground to hip to fist.",
+  "prescription": {
+   "sets": "3",
+   "reps": "5 per side",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Overhead Backward Throw",
+  "aliases": [
+   "backward med ball throw",
+   "overhead back toss",
+   "reverse throw",
+   "obt"
+  ],
+  "pattern": "plyo-upper",
+  "equipment": [
+   "med ball"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "back",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hinge down, then extend the hips violently and throw the ball back over your head. Don't pull with the arms and bend the back.",
+  "steps": [
+   "Feet shoulder-width, ball at arm's length.",
+   "Hinge and squat to bring the ball between the knees.",
+   "Jump-extend the hips, knees and ankles and throw the ball up and back.",
+   "Do it in an open field, with no one behind you."
+  ],
+  "cues": [
+   "Throw it over the house",
+   "Hips snap it"
+  ],
+  "homeSwap": "Max-height squat jump while swinging a light DB up (no release).",
+  "note": "A whole-body triple-extension test. Distance tracks power, which makes it a good visible win.",
+  "prescription": {
+   "sets": "3",
+   "reps": "4",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "Depth Push-Up",
+  "aliases": [
+   "depth pushups",
+   "drop push-up",
+   "shock push-up"
+  ],
+  "pattern": "plyo-upper",
+  "equipment": [
+   "plates",
+   "books"
+  ],
+  "muscles": [
+   "chest",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Drop the hands off low blocks to the floor and rebound instantly. Don't sink to the bottom and pause.",
+  "steps": [
+   "Hands on two low blocks or books, plank position.",
+   "Pop the hands off the blocks to the floor.",
+   "Absorb briefly and explode back up onto the blocks.",
+   "Stay rigid from head to heels."
+  ],
+  "cues": [
+   "Floor is hot",
+   "Rebound up"
+  ],
+  "homeSwap": "Use two thick books; same drill.",
+  "note": "Advanced. Start only after 3x6 clean plyo push-ups.",
+  "prescription": {
+   "sets": "3",
+   "reps": "3-5",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "Landmine Rotational Punch",
+  "aliases": [
+   "landmine punch",
+   "landmine rotational press",
+   "landmine rotation press",
+   "landmine press rotation"
+  ],
+  "pattern": "rotational-power",
+  "equipment": [
+   "landmine",
+   "barbell"
+  ],
+  "muscles": [
+   "obliques",
+   "glutes",
+   "shoulders",
+   "triceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pivot the back foot and let the hip turn first, then punch the bar up and across. Don't press it with the arm from a square stance.",
+  "steps": [
+   "Bar in the landmine, hold the end at the back shoulder with one hand, fighting stance.",
+   "Load the back hip.",
+   "Pivot the back foot (squash the bug) and drive the hip through.",
+   "Punch the bar up and forward until the arm is long, chin behind the shoulder.",
+   "Control it back to the shoulder."
+  ],
+  "cues": [
+   "Back heel turns out first",
+   "Punch through the bar end"
+  ],
+  "homeSwap": "DB rotational punch-throw with a light dumbbell.",
+  "note": "The closest loaded copy of a cross. Your arm fires first, so start each rep with a 1 s back-foot pivot drill.",
+  "prescription": {
+   "sets": "3",
+   "reps": "5 per side",
+   "rest": "60-90 s"
+  }
+ },
+ {
+  "name": "Cable Rotational Punch",
+  "aliases": [
+   "cable punch",
+   "cable rotational press",
+   "cable cross punch"
+  ],
+  "pattern": "rotational-power",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "obliques",
+   "chest",
+   "triceps",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Set the cable at shoulder height behind you and punch explosively from the hip. Don't use a weight so heavy that the turn slows down.",
+  "steps": [
+   "Cable at shoulder height, handle in the rear hand, fighting stance facing away.",
+   "Load the back hip, hand at the chin.",
+   "Pivot the back foot, turn the hips, then extend the fist straight forward.",
+   "Return slowly to the guard."
+  ],
+  "cues": [
+   "Hip first, fist last",
+   "Snap the fist out"
+  ],
+  "homeSwap": "Shadow cross with a 2-5 lb DB, held tight.",
+  "note": "Light and fast: the goal is speed of rotation, not load.",
+  "prescription": {
+   "sets": "3",
+   "reps": "5 per side",
+   "rest": "60-90 s"
+  }
+ },
+ {
+  "name": "Dumbbell Rotational Punch-Throw",
+  "aliases": [
+   "db rotational punch",
+   "dumbbell punch",
+   "weighted punches",
+   "db punch throw"
+  ],
+  "pattern": "rotational-power",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "obliques",
+   "shoulders",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Use a very light DB, rotate from the hip and punch, stopping the arm with control. Don't throw heavy weights with a locked elbow.",
+  "steps": [
+   "Fighting stance, 2-5 lb DB at the chin.",
+   "Load the back leg.",
+   "Pivot, turn the hips, punch to full reach without locking the elbow.",
+   "Snap back to the guard."
+  ],
+  "cues": [
+   "Back foot squashes the bug",
+   "Fist back to chin fast"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Keep it 2-5 lb. Heavier slows the hand and grooves a pushing punch.",
+  "prescription": {
+   "sets": "3",
+   "reps": "8 per side",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Hip Snap Drill",
+  "aliases": [
+   "hip snap",
+   "hip snaps",
+   "hip rotation drill"
+  ],
+  "pattern": "rotational-power",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "obliques",
+   "glutes",
+   "hip rotators"
+  ],
+  "standing": true,
+  "doThisNotThat": "Turn the hips and pivot the back foot while the shoulders lag for a split second, then let them whip through. Don't turn everything as one block.",
+  "steps": [
+   "Athletic stance, hands at the chest.",
+   "Load the back hip.",
+   "Snap the back hip forward and pivot the back heel out.",
+   "Feel the shoulders arrive a beat later.",
+   "Reset and repeat."
+  ],
+  "cues": [
+   "Belt buckle turns first",
+   "Shoulders arrive late"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "This is your core sequencing fix: hips lead, arm whips. Do it before swings, throws and punches.",
+  "prescription": {
+   "sets": "2-3",
+   "reps": "10 per side",
+   "rest": "30 s"
+  }
+ },
+ {
+  "name": "Power Clean",
+  "aliases": [
+   "power cleans",
+   "clean",
+   "cleans",
+   "barbell clean"
+  ],
+  "pattern": "olympic",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "quads",
+   "traps",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "Keep the bar close, extend the hips violently, then drop under fast into a quarter-squat catch. Don't pull early with the arms or reverse-curl it.",
+  "steps": [
+   "Bar over mid-foot, shoulder-width grip, shins near the bar, chest up.",
+   "Push the floor away to lift the bar to the knees, back angle unchanged.",
+   "From mid-thigh, jump explosively: hips, knees, ankles extend, then shrug.",
+   "Pull yourself under, elbows whip around, catch on the shoulders in a quarter squat.",
+   "Stand up, return the bar under control."
+  ],
+  "cues": [
+   "Jump the bar off your thighs",
+   "Elbows fast"
+  ],
+  "homeSwap": "DB Hang Clean.",
+  "note": "Learn it from a coach first. Technique decides how much power you get, and your arm-first habit shows up as an early arm pull.",
+  "prescription": {
+   "sets": "3-5",
+   "reps": "2-3",
+   "rest": "2-3 min"
+  }
+ },
+ {
+  "name": "Hang Clean",
+  "aliases": [
+   "hang power clean",
+   "hang cleans",
+   "hang power cleans"
+  ],
+  "pattern": "olympic",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "traps",
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Start at mid-thigh, hinge, then jump and shrug. Don't bounce it off the thighs with a bent-arm pull.",
+  "steps": [
+   "Stand with the bar at hip height.",
+   "Hinge with the bar sliding to just above the knees, shoulders over the bar.",
+   "Explode with the hips, shrug, then pull under.",
+   "Catch high in a quarter squat with the elbows forward."
+  ],
+  "cues": [
+   "Jump and shrug",
+   "Elbows through"
+  ],
+  "homeSwap": "DB Hang Clean.",
+  "note": "Easier to learn than the full clean, and it teaches the hip snap that powers every jump.",
+  "prescription": {
+   "sets": "3-5",
+   "reps": "2-3",
+   "rest": "2-3 min"
+  }
+ },
+ {
+  "name": "Power Snatch",
+  "aliases": [
+   "power snatches",
+   "snatch",
+   "barbell snatch"
+  ],
+  "pattern": "olympic",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "shoulders",
+   "traps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Wide grip, keep the bar close, extend explosively and punch up into a quarter squat overhead. Don't press it out at the top.",
+  "steps": [
+   "Snatch-width grip (bar sits in the hip crease when standing).",
+   "Lift from the floor with the chest over the bar.",
+   "Jump from the hip crease, bar close.",
+   "Pull under and punch the arms straight overhead, catch in a quarter squat."
+  ],
+  "cues": [
+   "Bar brushes the hips",
+   "Punch the ceiling"
+  ],
+  "homeSwap": "DB Snatch.",
+  "note": "Requires overhead mobility that stiff shoulders may lack. Do wall slides and pass-throughs first, and use the DB version until the bar overhead feels easy.",
+  "prescription": {
+   "sets": "3-5",
+   "reps": "2-3",
+   "rest": "2-3 min"
+  }
+ },
+ {
+  "name": "Hang Snatch",
+  "aliases": [
+   "hang power snatch",
+   "hang snatches"
+  ],
+  "pattern": "olympic",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "glutes",
+   "shoulders",
+   "traps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Start from above the knee and snap the hips. Don't muscle-pull with bent arms.",
+  "steps": [
+   "Snatch grip, bar at the hips.",
+   "Hinge to above the knee.",
+   "Explode, shrug, pull under.",
+   "Catch overhead in a quarter squat with arms locked."
+  ],
+  "cues": [
+   "Hips hit the bar",
+   "Catch it locked"
+  ],
+  "homeSwap": "DB Snatch.",
+  "note": "Light only. It's a speed drill; a stiff thoracic spine pushes the bar forward.",
+  "prescription": {
+   "sets": "3-5",
+   "reps": "2-3",
+   "rest": "2-3 min"
+  }
+ },
+ {
+  "name": "Push Jerk",
+  "aliases": [
+   "push jerks",
+   "jerk",
+   "barbell jerk"
+  ],
+  "pattern": "olympic",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "shoulders",
+   "triceps",
+   "quads",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "Dip and drive with the legs, then push yourself under the bar into a partial squat. Don't press it out with the arms.",
+  "steps": [
+   "Bar in the front rack, feet hip-width.",
+   "Dip 3-4 in straight down, knees out.",
+   "Drive up hard and pop the bar off the shoulders.",
+   "Push yourself under and lock out in a quarter squat, then stand."
+  ],
+  "cues": [
+   "Legs launch it",
+   "Punch yourself down under"
+  ],
+  "homeSwap": "DB push press with light dumbbells.",
+  "note": "A short, straight dip is a sharp, stiff stretch-shortening action, the same quality as a jump takeoff.",
+  "prescription": {
+   "sets": "3-5",
+   "reps": "2-3",
+   "rest": "2-3 min"
+  }
+ },
+ {
+  "name": "Split Jerk",
+  "aliases": [
+   "split jerks"
+  ],
+  "pattern": "olympic",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "shoulders",
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Dip, drive, then split the feet front and back under the bar. Don't land with the feet in line or too narrow.",
+  "steps": [
+   "Front rack.",
+   "Dip and drive.",
+   "Split one foot forward and one back, landing at the same time as the arms lock.",
+   "Recover the front foot back, then the back foot forward."
+  ],
+  "cues": [
+   "Fast feet",
+   "Lock and split together"
+  ],
+  "homeSwap": "DB push press.",
+  "note": "Coach-led only. Good for split-stance stability, which also carries over to fighting stance.",
+  "prescription": {
+   "sets": "3-5",
+   "reps": "2-3",
+   "rest": "2-3 min"
+  }
+ },
+ {
+  "name": "Clean Pull",
+  "aliases": [
+   "clean pulls",
+   "clean high pull"
+  ],
+  "pattern": "olympic",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "traps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Lift like a clean, extend hard onto the toes and shrug, with arms long. Don't bend the arms.",
+  "steps": [
+   "Clean setup.",
+   "Lift to mid-thigh.",
+   "Explode upward: hips, knees, ankles, then shrug.",
+   "Lower under control."
+  ],
+  "cues": [
+   "Jump with the bar",
+   "Arms are ropes"
+  ],
+  "homeSwap": "Jump shrug with dumbbells.",
+  "note": "Lets you train hip power heavier than you can catch, with no catch to learn yet.",
+  "prescription": {
+   "sets": "3-4",
+   "reps": "3",
+   "rest": "2 min"
+  }
+ },
+ {
+  "name": "High Pull",
+  "aliases": [
+   "high pulls",
+   "barbell high pull",
+   "snatch high pull"
+  ],
+  "pattern": "olympic",
+  "equipment": [
+   "barbell",
+   "dumbbell"
+  ],
+  "muscles": [
+   "traps",
+   "glutes",
+   "rear delts"
+  ],
+  "standing": true,
+  "doThisNotThat": "Jump first, then let the elbows ride high and out with the bar close. Don't do a slow upright-row grind.",
+  "steps": [
+   "Hang position at mid-thigh.",
+   "Explode the hips.",
+   "Let the elbows rise high and out to bring the bar to the chest.",
+   "Control the bar down."
+  ],
+  "cues": [
+   "Hips throw it up",
+   "Elbows to the ceiling"
+  ],
+  "homeSwap": "DB high pull.",
+  "note": "A safe way to learn the power transfer from hips to arms.",
+  "prescription": {
+   "sets": "3",
+   "reps": "4-5",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "Dumbbell Snatch",
+  "aliases": [
+   "db snatch",
+   "single arm dumbbell snatch",
+   "dumbbell snatches"
+  ],
+  "pattern": "olympic",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "shoulders",
+   "traps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hinge, jump, and punch the DB overhead in one motion with the DB close. Don't curl or press it.",
+  "steps": [
+   "DB between the feet, hinge, grab with one hand.",
+   "Drive the floor away and extend the hips hard.",
+   "Pull the DB close, elbow high, then punch it overhead as you dip.",
+   "Lock it out, then lower to the shoulder and back to the floor."
+  ],
+  "cues": [
+   "Jump it up",
+   "Punch at the top"
+  ],
+  "homeSwap": "This is the home version: use your heaviest light DB for 5-8 per side.",
+  "note": "Teaches whole-body power from the floor using only home dumbbells.",
+  "prescription": {
+   "sets": "3-4",
+   "reps": "4-6 per side",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "Dumbbell Hang Clean",
+  "aliases": [
+   "db hang clean",
+   "db clean",
+   "dumbbell clean"
+  ],
+  "pattern": "olympic",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "glutes",
+   "traps",
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hinge, jump, and catch the DBs on the shoulders. Don't curl them up.",
+  "steps": [
+   "DBs at the sides.",
+   "Hinge with DBs to the knees.",
+   "Explode up and shrug, then pull under, catching on the shoulders.",
+   "Lower and repeat."
+  ],
+  "cues": [
+   "Jump, then catch soft"
+  ],
+  "homeSwap": "Same.",
+  "note": "A cheap power drill for home. Stop when the catch gets sloppy.",
+  "prescription": {
+   "sets": "3",
+   "reps": "5",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "Kettlebell Swing",
+  "aliases": [
+   "kb swing",
+   "kb swings",
+   "kettlebell swings",
+   "russian swing",
+   "two hand swing",
+   "dumbbell swing",
+   "db swing"
+  ],
+  "pattern": "ballistic-hinge",
+  "equipment": [
+   "kettlebell",
+   "dumbbell"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "core",
+   "grip"
+  ],
+  "standing": true,
+  "doThisNotThat": "A hip hinge with a violent hip snap that floats the bell to chest height. Don't squat it or lift it with the arms.",
+  "steps": [
+   "Bell a foot in front. Hinge, grab, tilt it toward you.",
+   "Hike it back high between the thighs.",
+   "Snap the hips forward and squeeze the glutes; the bell floats to chest height.",
+   "Let it fall and hinge back late. Exhale hard at the top."
+  ],
+  "cues": [
+   "Hike the bell like a football",
+   "Snap the hips"
+  ],
+  "homeSwap": "Two-hand DB swing holding one end of a light DB.",
+  "note": "A hinge for anyone stiff in the hamstrings. Also a 20-30 s conditioning interval, a good EIB warm-up item.",
+  "prescription": {
+   "sets": "4-5",
+   "reps": "10-15",
+   "rest": "45-60 s"
+  }
+ },
+ {
+  "name": "Single-Arm Kettlebell Swing",
+  "aliases": [
+   "one arm kb swing",
+   "single arm swing"
+  ],
+  "pattern": "ballistic-hinge",
+  "equipment": [
+   "kettlebell"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "obliques",
+   "grip"
+  ],
+  "standing": true,
+  "doThisNotThat": "One hand on the bell, square shoulders, and fight the twist. Don't let the shoulder get yanked forward.",
+  "steps": [
+   "Same as a two-hand swing, one hand on the bell.",
+   "Free arm out to the side for balance.",
+   "Resist rotation as you swing.",
+   "Switch hands every set."
+  ],
+  "cues": [
+   "Keep your chest square"
+  ],
+  "homeSwap": "Single-arm DB swing.",
+  "note": "Adds anti-rotation for the core, the same demand as staying square while punching.",
+  "prescription": {
+   "sets": "3",
+   "reps": "10 per side",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Kettlebell Clean",
+  "aliases": [
+   "kb clean",
+   "kettlebell cleans"
+  ],
+  "pattern": "ballistic-hinge",
+  "equipment": [
+   "kettlebell"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "forearms"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hip snap, keep the bell close, and let it roll softly into the rack. Don't bang it on the forearm.",
+  "steps": [
+   "Swing setup.",
+   "Hike back.",
+   "Snap the hips and pull the elbow back; the bell rolls around the hand into the rack.",
+   "Drop it back into the hike."
+  ],
+  "cues": [
+   "Zip up the jacket",
+   "Soft catch"
+  ],
+  "homeSwap": "DB Hang Clean.",
+  "note": "Teaches the tight hip-to-arm handoff that your sequencing lacks.",
+  "prescription": {
+   "sets": "3",
+   "reps": "6 per side",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Acceleration Sprint",
+  "aliases": [
+   "sprints",
+   "sprint",
+   "acceleration sprints",
+   "10 yard sprint",
+   "20 yard sprint",
+   "starts"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "quads",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "Lean forward from the ankles, push back with piston strides, and rise gradually over 10-20 yd. Don't pop upright on step 1 or reach the foot out front.",
+  "steps": [
+   "Two-point stance, lean forward, opposite arm to the front leg.",
+   "Push the ground back and down with full extension.",
+   "Drive the knees, punch the arms cheek to hip.",
+   "Stay low for about 5 steps, rising over 10-20 yd.",
+   "Walk back and fully recover."
+  ],
+  "cues": [
+   "Push the ground behind you",
+   "Low and long first steps"
+  ],
+  "homeSwap": "Treadmill sprints at 8-10% incline for 6-8 s, or hill sprints.",
+  "note": "Do 8 x 30 s hard / 30 s easy first: the interval warm-up blunts EIB and its protective window lasts ~1-2 h. Measure your 10-yd time weekly; it's the purest speed number.",
+  "prescription": {
+   "sets": "4-6",
+   "reps": "1 rep",
+   "rest": "90 s-2 min (full recovery)"
+  }
+ },
+ {
+  "name": "Flying Sprint",
+  "aliases": [
+   "flying 10",
+   "flying 20",
+   "flying sprints",
+   "fly 10",
+   "fly 20s",
+   "max velocity sprint"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "hamstrings",
+   "glutes",
+   "calves",
+   "hip flexors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Build up for 20 m, then hit max speed for 10-20 m. Run tall and relaxed. Don't strain with a clenched face and shoulders.",
+  "steps": [
+   "Mark a 20 m build zone and a 10-20 m fly zone.",
+   "Accelerate smoothly through the build zone.",
+   "Hit max speed in the fly zone, tall, with the foot landing under the hip.",
+   "Decelerate gradually, walk back."
+  ],
+  "cues": [
+   "Run tall",
+   "Relax the jaw",
+   "Hit the ground under your hips"
+  ],
+  "homeSwap": "Treadmill: hit max speed for 8-10 s, carefully; hold the rails to step off.",
+  "note": "Relaxation is speed. Your threat state tenses you up, so practice loose shoulders and a soft jaw.",
+  "prescription": {
+   "sets": "3-5",
+   "reps": "1",
+   "rest": "2-3 min"
+  }
+ },
+ {
+  "name": "Hill Sprint",
+  "aliases": [
+   "hill sprints",
+   "incline sprints",
+   "uphill sprint",
+   "treadmill hill sprint"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "hill",
+   "treadmill"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "calves",
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Sprint 8-10 s up a moderate hill driving the knees, then walk down. Don't run steep or long hills until you're cooked.",
+  "steps": [
+   "Find a 5-10% hill.",
+   "Sprint up hard for 8-10 s with the hips tall.",
+   "Punch the arms, drive the knees, push the ground back.",
+   "Walk down for full recovery."
+  ],
+  "cues": [
+   "Push the hill behind you"
+  ],
+  "homeSwap": "Treadmill at 8-10% incline, 6-8 s bursts.",
+  "note": "The incline caps top speed and shortens the stride, which makes hill sprints a safer way to build speed on the hamstrings. Do 8 x 30 s hard / 30 s easy first: the interval warm-up blunts EIB and its protective window lasts ~1-2 h.",
+  "prescription": {
+   "sets": "6-8",
+   "reps": "8-10 s",
+   "rest": "90 s (walk down)"
+  }
+ },
+ {
+  "name": "Sled Push",
+  "aliases": [
+   "prowler push",
+   "sled pushes",
+   "prowler"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "sled"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "Lean low with arms long and drive the ground back in short, powerful steps. Don't push upright with bent arms.",
+  "steps": [
+   "Hands on the high poles, arms long, body at about 45°.",
+   "Drive one knee forward and push the ground back.",
+   "Short powerful steps, keep the hips low.",
+   "Go 10-20 m."
+  ],
+  "cues": [
+   "Push the ground backward",
+   "Stay low"
+  ],
+  "homeSwap": "Treadmill push with the belt off (if safe), or a wall-drive march.",
+  "note": "Pure acceleration mechanics with no eccentric soreness. Fine on game-week days.",
+  "prescription": {
+   "sets": "4-6",
+   "reps": "10-20 m",
+   "rest": "90 s"
+  }
+ },
+ {
+  "name": "Sled Pull",
+  "aliases": [
+   "sled drag",
+   "sled pulls",
+   "backward sled drag",
+   "reverse sled drag"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "sled"
+  ],
+  "muscles": [
+   "quads",
+   "calves",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Walk backward with a long arm-line, the knee driving over the toe each step. Don't lean back and pull with the arms.",
+  "steps": [
+   "Strap or rope to the sled.",
+   "Face the sled, sit into a quarter squat.",
+   "Step backward, pushing through the front of the foot.",
+   "Steady cadence for 20 m."
+  ],
+  "cues": [
+   "Push the floor away with each step"
+  ],
+  "homeSwap": "Backward incline walk on the treadmill at low speed.",
+  "note": "Builds knees and quads that stay healthy for jumping, and the reverse direction is easy on the joints.",
+  "prescription": {
+   "sets": "4",
+   "reps": "20 m",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "5-10-5 Pro Agility",
+  "aliases": [
+   "pro agility",
+   "shuttle",
+   "5-10-5",
+   "20 yard shuttle",
+   "short shuttle"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "cones"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "Low hips, outside foot plants beyond your body, push off it. Don't round off the turn tall.",
+  "steps": [
+   "Three cones 5 yd apart, start at the middle.",
+   "Sprint 5 yd right and touch the line.",
+   "Plant the outside foot, sink the hips, sprint 10 yd left and touch.",
+   "Sprint back 5 yd through the middle."
+  ],
+  "cues": [
+   "Plant outside and push away",
+   "Low through the turn"
+  ],
+  "homeSwap": "Same drill in a hallway or driveway.",
+  "note": "The plant step is where the flat-foot cascade collapses the knee. Screw that foot in on every plant.",
+  "prescription": {
+   "sets": "4-6",
+   "reps": "1 rep",
+   "rest": "60-90 s"
+  }
+ },
+ {
+  "name": "T-Drill",
+  "aliases": [
+   "t drill",
+   "t-test",
+   "t test agility"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "cones"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Sprint, then shuffle with no crossing feet, staying low. Don't turn the shoulders and run sideways.",
+  "steps": [
+   "Cones in a T: 10 yd forward, 5 yd each side.",
+   "Sprint forward.",
+   "Shuffle left 5 yd, right 10 yd, left 5 yd.",
+   "Backpedal to start."
+  ],
+  "cues": [
+   "Shuffle, don't cross",
+   "Eyes forward"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "Teaches you to move the feet instead of reaching, the habit behind your random contact on the court.",
+  "prescription": {
+   "sets": "4-6",
+   "reps": "1 rep",
+   "rest": "60-90 s"
+  }
+ },
+ {
+  "name": "L-Drill",
+  "aliases": [
+   "3 cone drill",
+   "three cone drill",
+   "l drill"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "cones"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "Lean into each turn and keep the feet under the hips. Don't take wide, loopy turns.",
+  "steps": [
+   "Three cones in an L, 5 yd apart.",
+   "Sprint to cone 2 and back.",
+   "Sprint around cone 2, weave around cone 3, and back.",
+   "Time it."
+  ],
+  "cues": [
+   "Lean into the turn"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "Tight turns need ankle control: a strong tripod foot keeps you from rolling out.",
+  "prescription": {
+   "sets": "4-6",
+   "reps": "1 rep",
+   "rest": "60-90 s"
+  }
+ },
+ {
+  "name": "Agility Ladder Drills",
+  "aliases": [
+   "ladder drills",
+   "agility ladder",
+   "speed ladder",
+   "ickey shuffle",
+   "in and outs"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "ladder"
+  ],
+  "muscles": [
+   "calves",
+   "hip flexors",
+   "foot intrinsics"
+  ],
+  "standing": true,
+  "doThisNotThat": "Quick, light feet on the balls of the feet, eyes up. Don't stare at your feet or stomp flat-footed.",
+  "steps": [
+   "Pick a pattern: one-in, two-in, ickey shuffle, in-out.",
+   "Start slow and perfect.",
+   "Speed up while staying rhythmic.",
+   "Finish with a 5 yd sprint out to tie it to real movement."
+  ],
+  "cues": [
+   "Light feet",
+   "Eyes up"
+  ],
+  "homeSwap": "Draw a ladder with tape or chalk.",
+  "note": "Ladders mostly train rhythm, not real game agility (grade C). Finish each rep with a sprint or a reaction to make it transfer.",
+  "prescription": {
+   "sets": "4-6",
+   "reps": "1 run",
+   "rest": "30-45 s"
+  }
+ },
+ {
+  "name": "Cone Drills",
+  "aliases": [
+   "cone drill",
+   "cone weaves",
+   "zig zag drill",
+   "w drill"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "cones"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Cut at each cone with the outside foot plant and hips low. Don't round every cone tall.",
+  "steps": [
+   "Set 4-6 cones in a zig-zag, 5 yd apart.",
+   "Sprint to each cone.",
+   "Plant the outside foot and cut hard to the next.",
+   "Accelerate out of each cut."
+  ],
+  "cues": [
+   "Plant and push",
+   "Head through the cut"
+  ],
+  "homeSwap": "Same drill with shoes as markers.",
+  "note": "Cutting is where ankles and knees get hurt. Own a slow, sticky cut before going fast.",
+  "prescription": {
+   "sets": "4-6",
+   "reps": "1 rep",
+   "rest": "60-90 s"
+  }
+ },
+ {
+  "name": "Backpedal",
+  "aliases": [
+   "back pedal",
+   "backpedaling",
+   "backpedal drill"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "calves",
+   "hip flexors"
+  ],
+  "standing": true,
+  "doThisNotThat": "Low hips, chest over the toes, quick reaching steps under you. Don't lean back and clomp on the heels.",
+  "steps": [
+   "Athletic stance.",
+   "Push off the front of the feet, stepping back under the hips.",
+   "Arms run like a sprint.",
+   "Go 10-15 yd, then turn and sprint forward."
+  ],
+  "cues": [
+   "Push the ground forward",
+   "Chest over toes"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "Football defense and boxing retreats depend on this.",
+  "prescription": {
+   "sets": "4",
+   "reps": "10-15 yd",
+   "rest": "45 s"
+  }
+ },
+ {
+  "name": "Defensive Slides",
+  "aliases": [
+   "defensive slide",
+   "lateral shuffle",
+   "side shuffle",
+   "shuffles"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "glutes",
+   "adductors",
+   "quads"
+  ],
+  "standing": true,
+  "doThisNotThat": "Low hips, push off the trail leg and never click the heels together. Don't pop up tall or cross the feet.",
+  "steps": [
+   "Ready position: knees ~25°, hip hinge ~15°.",
+   "Push off the trail foot, step the lead foot.",
+   "Keep a wide base, head level.",
+   "Slide 5-10 yd and back."
+  ],
+  "cues": [
+   "Push off the back foot",
+   "Head stays level"
+  ],
+  "homeSwap": "Same drill in a hallway.",
+  "note": "Hold your ready position for 60 s first so the angles are installed and you don't need to think about them in the game.",
+  "prescription": {
+   "sets": "4",
+   "reps": "15 s",
+   "rest": "30 s"
+  }
+ },
+ {
+  "name": "Shuttle Run",
+  "aliases": [
+   "shuttle runs",
+   "suicides",
+   "line drills",
+   "300 yard shuttle"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "Sprint, touch, turn low, repeat with clean turns. Don't turn tall, flat-footed and sloppy.",
+  "steps": [
+   "Lines at 5-25 yd.",
+   "Sprint to a line, touch with the outside hand.",
+   "Plant, sink, and turn back.",
+   "Repeat for the set distance."
+  ],
+  "cues": [
+   "Low turn",
+   "Touch and go"
+  ],
+  "homeSwap": "Treadmill intervals.",
+  "note": "Do 8 x 30 s hard / 30 s easy first: the interval warm-up blunts EIB and its protective window lasts ~1-2 h. Long shuttles are conditioning; keep HR rest-to-work honest.",
+  "prescription": {
+   "sets": "4-6",
+   "reps": "1 run",
+   "rest": "60-90 s"
+  }
+ },
+ {
+  "name": "Mirror Drill",
+  "aliases": [
+   "mirror drill",
+   "partner mirror",
+   "shadow drill",
+   "reaction drill"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "partner"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "adductors"
+  ],
+  "standing": true,
+  "doThisNotThat": "React to a partner and stay square. Don't guess or cross your feet.",
+  "steps": [
+   "Face your partner 3-5 ft apart, both in ready position.",
+   "Leader moves randomly: side, forward, back.",
+   "Follower mirrors with short steps, staying square.",
+   "10-15 s bursts, switch roles."
+  ],
+  "cues": [
+   "Eyes on their hips",
+   "Stay square"
+  ],
+  "homeSwap": "With your sibling: same drill, and they lead.",
+  "note": "Pure reaction training against a live person, the best kind of reaction drill for your late reactions.",
+  "prescription": {
+   "sets": "6",
+   "reps": "10-15 s",
+   "rest": "30 s"
+  }
+ },
+ {
+  "name": "Reaction Ball Drill",
+  "aliases": [
+   "reaction ball",
+   "reaction ball drills",
+   "tennis ball drop"
+  ],
+  "pattern": "sprint-agility",
+  "equipment": [
+   "reaction ball",
+   "tennis ball"
+  ],
+  "muscles": [
+   "forearms",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "Throw the ball against a wall and react to random bounces with your feet first, then your hand. Don't stand flat-footed and only reach.",
+  "steps": [
+   "Stand 6-8 ft from a wall in ready position.",
+   "Throw the ball against the wall or the floor.",
+   "Move the feet to the bounce and catch.",
+   "Switch hands."
+  ],
+  "cues": [
+   "Feet to the ball",
+   "Catch late and soft"
+  ],
+  "homeSwap": "A tennis ball off the wall or a corner, or a partner drop drill.",
+  "note": "Object approach without threat helps fear of the ball. Start close and slow, and add speed only when catching feels easy.",
+  "prescription": {
+   "sets": "3-4",
+   "reps": "30-60 s",
+   "rest": "30 s"
+  }
+ },
+ {
+  "name": "Treadmill Run",
+  "aliases": [
+   "running",
+   "run",
+   "jog",
+   "treadmill",
+   "treadmill running"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "treadmill"
+  ],
+  "muscles": [
+   "heart",
+   "calves",
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Run at a pace you can hold while breathing in a rhythm, cadence 170-180. Don't start every run at race pace.",
+  "steps": [
+   "Set a 1% incline (matches outdoor effort).",
+   "Warm up: 5 min easy, then 4-6 x 20 s pickups.",
+   "Run at the target pace, cadence 170-180 (beat-synced music helps).",
+   "Cool down 3-5 min."
+  ],
+  "cues": [
+   "Quick quiet feet",
+   "Land under your hips"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "XC baseline ~8:22/mile at ~173 HR. Easy runs belong around 130-150 bpm, not 173. Pogos before runs tune the Achilles.",
+  "prescription": {
+   "sets": "1",
+   "reps": "20-40 min",
+   "rest": "n/a"
+  }
+ },
+ {
+  "name": "Zone 2 Run",
+  "aliases": [
+   "zone 2",
+   "zone two",
+   "easy run",
+   "z2",
+   "nasal breathing run",
+   "recovery run"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "treadmill"
+  ],
+  "muscles": [
+   "heart",
+   "legs"
+  ],
+  "standing": true,
+  "doThisNotThat": "Go slow enough to breathe through the nose, about 60-70% of max HR. Don't turn every easy run into a tempo.",
+  "steps": [
+   "Pick a pace you can sustain with nasal breathing.",
+   "HR target ~120-145 bpm (60-70% of ~200-205).",
+   "Walk breaks are allowed to stay in zone.",
+   "30-45 min."
+  ],
+  "cues": [
+   "Breathe through your nose",
+   "Easy cadence 170+"
+  ],
+  "homeSwap": "Treadmill incline walk at the same HR.",
+  "note": "Your HR runs high naturally, so trust the nasal-breathing test over a strict number. Grade B-C for nasal breathing as a pacing tool.",
+  "prescription": {
+   "sets": "1",
+   "reps": "30-45 min",
+   "rest": "n/a"
+  }
+ },
+ {
+  "name": "Incline Walk",
+  "aliases": [
+   "incline treadmill walk",
+   "12-3-30",
+   "treadmill incline walk",
+   "hill walk"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "treadmill"
+  ],
+  "muscles": [
+   "glutes",
+   "calves",
+   "heart"
+  ],
+  "standing": true,
+  "doThisNotThat": "Walk at an incline without holding the rails. Don't hang on the handles.",
+  "steps": [
+   "Incline 8-12%, speed 3-3.5 mph.",
+   "Walk tall, arms swinging.",
+   "Roll through each foot.",
+   "20-40 min."
+  ],
+  "cues": [
+   "Push the belt behind you",
+   "Hands free"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Low-impact Zone 2 when your legs are cooked or a game is close.",
+  "prescription": {
+   "sets": "1",
+   "reps": "20-40 min",
+   "rest": "n/a"
+  }
+ },
+ {
+  "name": "Treadmill Intervals",
+  "aliases": [
+   "intervals",
+   "hiit run",
+   "treadmill hiit",
+   "run intervals",
+   "30/30s"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "treadmill"
+  ],
+  "muscles": [
+   "heart",
+   "legs"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hard repeats with set recovery, HR 85-95% of max. Don't go all-out on rep 1 and die by rep 4.",
+  "steps": [
+   "Warm up 8 x 30 s hard / 30 s easy (EIB prep).",
+   "Main: e.g. 6-10 x 1 min hard (HR 172-190) / 1 min walk.",
+   "Keep every rep the same speed.",
+   "Cool down 5 min."
+  ],
+  "cues": [
+   "Same speed every rep"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Do 8 x 30 s hard / 30 s easy first: the interval warm-up blunts EIB and its protective window lasts ~1-2 h. The aim is equal reps; if pace drops >5%, stop.",
+  "prescription": {
+   "sets": "6-10",
+   "reps": "1 min hard",
+   "rest": "1 min easy"
+  }
+ },
+ {
+  "name": "Norwegian 4x4",
+  "aliases": [
+   "4x4",
+   "4x4 intervals",
+   "norwegian 4 by 4",
+   "vo2 max intervals",
+   "vo2 intervals"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "treadmill"
+  ],
+  "muscles": [
+   "heart",
+   "lungs",
+   "legs"
+  ],
+  "standing": true,
+  "doThisNotThat": "Four 4-min intervals at 85-95% of max HR with 3 min easy between. Don't start the first one at 100%.",
+  "steps": [
+   "Warm up 10 min including 8 x 30 s pickups (EIB).",
+   "4 min at 85-95% max HR (~172-195 bpm); on a treadmill, use a 4-8% incline.",
+   "3 min active recovery at ~60-70% (walk or jog).",
+   "Repeat 4 times, then cool down."
+  ],
+  "cues": [
+   "Smooth and strong, not a sprint"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Once a week. HR lags, so rep 1 may only hit 85% by the end; that is normal.",
+  "prescription": {
+   "sets": "4",
+   "reps": "4 min @ 85-95% HRmax",
+   "rest": "3 min easy"
+  }
+ },
+ {
+  "name": "Air Bike",
+  "aliases": [
+   "assault bike",
+   "airdyne",
+   "fan bike",
+   "echo bike",
+   "air bike sprints"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "air bike"
+  ],
+  "muscles": [
+   "legs",
+   "arms",
+   "heart"
+  ],
+  "standing": false,
+  "doThisNotThat": "Push and pull with arms and legs together for short all-out bursts. Don't hammer the legs only.",
+  "steps": [
+   "Seat height: slight knee bend at the bottom.",
+   "Warm up 3-5 min easy.",
+   "Sprints: 10-20 s all-out, push-pull arms and legs.",
+   "Recover 40-60 s easy."
+  ],
+  "cues": [
+   "Push and pull the handles",
+   "Kick the pedals down"
+  ],
+  "homeSwap": "Burpees or treadmill sprints.",
+  "note": "No impact, so it's great for conditioning on game-heavy weeks.",
+  "prescription": {
+   "sets": "6-10",
+   "reps": "10-20 s sprint",
+   "rest": "40-60 s easy"
+  }
+ },
+ {
+  "name": "Stationary Bike",
+  "aliases": [
+   "bike",
+   "cycling",
+   "spin bike",
+   "exercise bike",
+   "peloton"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "bike"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "heart"
+  ],
+  "standing": false,
+  "doThisNotThat": "Use a seat height that gives a slight knee bend at the bottom, and a steady cadence of 80-100 rpm. Don't ride a seat that's too low with the knees jamming.",
+  "steps": [
+   "Seat at hip height standing next to it.",
+   "Ball of the foot on the pedal.",
+   "Zone 2: steady and conversational for 30-45 min.",
+   "Or intervals: 30 s hard / 90 s easy."
+  ],
+  "cues": [
+   "Push and pull circles"
+  ],
+  "homeSwap": "Treadmill incline walk.",
+  "note": "Easy on the joints: use it for Zone 2 the day after a hard leg day.",
+  "prescription": {
+   "sets": "1",
+   "reps": "20-45 min",
+   "rest": "n/a"
+  }
+ },
+ {
+  "name": "Rowing Machine",
+  "aliases": [
+   "rower",
+   "row erg",
+   "erg",
+   "rowing",
+   "concept 2",
+   "indoor rowing"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "rower"
+  ],
+  "muscles": [
+   "legs",
+   "back",
+   "arms",
+   "heart"
+  ],
+  "standing": false,
+  "doThisNotThat": "Legs, then hips, then arms on the drive, and arms, hips, legs on the way back. Don't pull with the arms first.",
+  "steps": [
+   "Strap the feet, damper 4-6.",
+   "Catch: shins vertical, arms long, chest tall.",
+   "Push the legs, then swing the hips back, then pull the handle to the ribs.",
+   "Return: arms, then hips, then knees. 1:2 drive-to-recovery rhythm."
+  ],
+  "cues": [
+   "Push the floor away with the feet",
+   "Legs, then body, then arms"
+  ],
+  "homeSwap": "Treadmill intervals.",
+  "note": "Rowing exposes your arm-first habit. If the arms pull before the legs finish, slow down: the rower drills legs-then-body-then-arms.",
+  "prescription": {
+   "sets": "1",
+   "reps": "10-20 min or 6-8 x 250 m",
+   "rest": "60-90 s between intervals"
+  }
+ },
+ {
+  "name": "Ski Erg",
+  "aliases": [
+   "ski erg",
+   "skierg",
+   "ski machine"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "ski erg"
+  ],
+  "muscles": [
+   "lats",
+   "core",
+   "triceps",
+   "heart"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hinge and crunch down with straight-ish arms, hips back. Don't pull with bent arms only.",
+  "steps": [
+   "Stand close, arms up holding the handles.",
+   "Drive down with the lats and abs while hinging the hips back.",
+   "Finish with hands past the hips.",
+   "Stand tall and reach back up."
+  ],
+  "cues": [
+   "Pull down to your pockets",
+   "Hips back"
+  ],
+  "homeSwap": "Overhead med-ball slam intervals with a towel, or burpees.",
+  "note": "The same downward chain used in sprawls and overhand strikes.",
+  "prescription": {
+   "sets": "6-8",
+   "reps": "30 s",
+   "rest": "30-60 s"
+  }
+ },
+ {
+  "name": "Jump Rope",
+  "aliases": [
+   "jumping rope",
+   "skipping",
+   "skip rope",
+   "rope skipping",
+   "jump roping"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "jump rope"
+  ],
+  "muscles": [
+   "calves",
+   "heart",
+   "shoulders"
+  ],
+  "standing": true,
+  "doThisNotThat": "Small quiet jumps off the balls of the feet, wrists turn the rope. Don't do big jumps with arms swinging wide.",
+  "steps": [
+   "Rope handles at armpit height when standing on the middle.",
+   "Elbows close to the ribs.",
+   "Turn the rope with the wrists.",
+   "Bounce 1-2 in off the floor."
+  ],
+  "cues": [
+   "Quiet feet",
+   "Wrists, not arms"
+  ],
+  "homeSwap": "Pogo hops in rhythm, or fake-rope (no rope) bounces.",
+  "note": "Boxers use rope for rhythm and calf springiness. 3 x 3 min rounds with 1 min rest, like a fight.",
+  "prescription": {
+   "sets": "3-5",
+   "reps": "2-3 min rounds",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Double-Unders",
+  "aliases": [
+   "double unders",
+   "dubs",
+   "double under"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "jump rope"
+  ],
+  "muscles": [
+   "calves",
+   "heart",
+   "forearms"
+  ],
+  "standing": true,
+  "doThisNotThat": "Jump a bit higher and spin the wrists twice as fast. Don't pike the legs or flail the arms.",
+  "steps": [
+   "Get 30 smooth singles first.",
+   "Add one quick wrist flick per jump for two rotations.",
+   "Stay tall, legs nearly straight.",
+   "Build singles-double patterns."
+  ],
+  "cues": [
+   "Fast wrists",
+   "Stay tall"
+  ],
+  "homeSwap": "Pogo hops.",
+  "note": "A coordination win you can measure: count max unbroken doubles weekly.",
+  "prescription": {
+   "sets": "5",
+   "reps": "20-40 s",
+   "rest": "30-60 s"
+  }
+ },
+ {
+  "name": "Burpee",
+  "aliases": [
+   "burpees",
+   "burpie"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "full body",
+   "heart"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hands down, jump back to a plank, chest down, jump up with clean form. Don't slap down like a worm with a sagging back.",
+  "steps": [
+   "Squat, hands to the floor.",
+   "Jump the feet back to a plank.",
+   "Chest to the floor (optional), push up.",
+   "Jump the feet in and jump up with the hands overhead."
+  ],
+  "cues": [
+   "Snap the feet back",
+   "Jump up tall"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "The burpee's jump-back is the same action as a sprawl, so you also get a combat drill.",
+  "prescription": {
+   "sets": "4-6",
+   "reps": "30 s",
+   "rest": "30 s"
+  }
+ },
+ {
+  "name": "Mountain Climbers",
+  "aliases": [
+   "mountain climber",
+   "climbers"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "core",
+   "hip flexors",
+   "shoulders"
+  ],
+  "standing": false,
+  "doThisNotThat": "Hold a solid plank and drive the knees fast under the hips. Don't pike the butt up or bounce the hips.",
+  "steps": [
+   "High plank, hands under the shoulders.",
+   "Drive one knee to the chest.",
+   "Switch fast, keeping the hips level.",
+   "Breathe rhythmically."
+  ],
+  "cues": [
+   "Knees punch your chest",
+   "Hips stay level"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Good EIB-friendly interval item, since short bursts allow breathing control.",
+  "prescription": {
+   "sets": "4",
+   "reps": "20-30 s",
+   "rest": "30 s"
+  }
+ },
+ {
+  "name": "Stair Climber",
+  "aliases": [
+   "stairmaster",
+   "stair master",
+   "stairs",
+   "stair climbing"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "stair climber"
+  ],
+  "muscles": [
+   "glutes",
+   "quads",
+   "calves",
+   "heart"
+  ],
+  "standing": true,
+  "doThisNotThat": "Climb upright with the whole foot on each step, hands light on the rails. Don't lean on the rails at a hunch.",
+  "steps": [
+   "Pick a speed you can keep without holding on.",
+   "Step through the whole foot.",
+   "Drive through the heel and mid-foot.",
+   "15-30 min."
+  ],
+  "cues": [
+   "Stand tall",
+   "Push each step away"
+  ],
+  "homeSwap": "Walk or run your house stairs.",
+  "note": "Good low-impact Zone 2 for XC season.",
+  "prescription": {
+   "sets": "1",
+   "reps": "15-30 min",
+   "rest": "n/a"
+  }
+ },
+ {
+  "name": "Battle Ropes",
+  "aliases": [
+   "battle rope",
+   "ropes",
+   "battle rope waves"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "battle rope"
+  ],
+  "muscles": [
+   "shoulders",
+   "core",
+   "legs"
+  ],
+  "standing": true,
+  "doThisNotThat": "Athletic stance with fast waves powered by the hips and legs. Don't stand tall and only flick the arms.",
+  "steps": [
+   "Quarter squat, rope ends in hands.",
+   "Make alternating or double waves.",
+   "Keep the waves reaching the anchor.",
+   "20-30 s bursts."
+  ],
+  "cues": [
+   "Waves hit the anchor"
+  ],
+  "homeSwap": "Fast DB shadowboxing with 1-2 lb, or a towel snap drill.",
+  "note": "Builds shoulder endurance for keeping your guard up in round 3.",
+  "prescription": {
+   "sets": "6",
+   "reps": "20-30 s",
+   "rest": "30-40 s"
+  }
+ },
+ {
+  "name": "Bear Crawl",
+  "aliases": [
+   "bear crawls",
+   "bear walk",
+   "crawling"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "shoulders",
+   "core",
+   "quads"
+  ],
+  "standing": false,
+  "doThisNotThat": "Knees 1 in off the floor, back flat, opposite hand and foot move together. Don't crawl with the butt high.",
+  "steps": [
+   "Hands under the shoulders, knees under the hips, lift the knees 1 in.",
+   "Move opposite hand and foot together in small steps.",
+   "Keep the back flat and the hips still.",
+   "Crawl forward, backward, sideways."
+  ],
+  "cues": [
+   "Back flat as a table",
+   "Small steps"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Contralateral crawling patterns help the coordination behind your wobbly walk. Grade C, mechanism-based.",
+  "prescription": {
+   "sets": "4",
+   "reps": "10-15 m",
+   "rest": "30-45 s"
+  }
+ },
+ {
+  "name": "Swimming",
+  "aliases": [
+   "swim",
+   "laps",
+   "pool"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "pool"
+  ],
+  "muscles": [
+   "full body",
+   "lungs"
+  ],
+  "standing": false,
+  "doThisNotThat": "Long, relaxed strokes with steady exhales underwater. Don't hold your breath and thrash.",
+  "steps": [
+   "Warm up 2-4 easy lengths.",
+   "Swim steady laps, exhaling through the nose underwater.",
+   "Rest at the wall as needed.",
+   "15-30 min."
+  ],
+  "cues": [
+   "Long body",
+   "Exhale underwater"
+  ],
+  "homeSwap": "Treadmill incline walk.",
+  "note": "Warm humid air is easier on EIB for many asthmatics. Never do breath-hold work in water.",
+  "prescription": {
+   "sets": "1",
+   "reps": "15-30 min",
+   "rest": "as needed"
+  }
+ },
+ {
+  "name": "Elliptical",
+  "aliases": [
+   "elliptical trainer",
+   "cross trainer"
+  ],
+  "pattern": "cardio",
+  "equipment": [
+   "elliptical"
+  ],
+  "muscles": [
+   "legs",
+   "heart"
+  ],
+  "standing": true,
+  "doThisNotThat": "Upright with full strides and steady cadence. Don't lean on the handles.",
+  "steps": [
+   "Stand tall.",
+   "Push and pull the handles in rhythm.",
+   "Full stride.",
+   "20-40 min."
+  ],
+  "cues": [
+   "Stand tall"
+  ],
+  "homeSwap": "Treadmill incline walk.",
+  "note": "A low-impact Zone 2 option when your shins are beat.",
+  "prescription": {
+   "sets": "1",
+   "reps": "20-40 min",
+   "rest": "n/a"
+  }
+ },
+ {
+  "name": "Shadowboxing Rounds",
+  "aliases": [
+   "shadow boxing",
+   "shadowbox",
+   "shadow boxing rounds",
+   "shadow work"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "shoulders",
+   "core",
+   "calves",
+   "hips"
+  ],
+  "standing": true,
+  "doThisNotThat": "Throw every punch with the hips leading and the hand returning to the guard, moving your feet. Don't stand still flinging arms.",
+  "steps": [
+   "Fighting stance: lead foot slightly turned in, back heel up, chin down, hands at the cheekbones.",
+   "Round 1: footwork + jab only.",
+   "Round 2: 1-2, 1-2-3, with a slip or pivot after each combo.",
+   "Round 3: free, at 70% effort, visualizing an opponent."
+  ],
+  "cues": [
+   "Hip turns, fist follows",
+   "Hands home to your chin"
+  ],
+  "homeSwap": "This is the home version: use a mirror.",
+  "note": "Contact ladder level 0, so it's always safe with your sibling around. Zahabi: 70% effort, often, beats rare max sessions.",
+  "prescription": {
+   "sets": "3-6",
+   "reps": "2-3 min rounds",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Heavy Bag Rounds",
+  "aliases": [
+   "heavy bag",
+   "bag work",
+   "punching bag",
+   "bag rounds",
+   "boxing bag"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "heavy bag"
+  ],
+  "muscles": [
+   "shoulders",
+   "core",
+   "hips",
+   "calves"
+  ],
+  "standing": true,
+  "doThisNotThat": "Strike through a spot 3 in inside the bag, turning the hips, and move after each combo. Don't push the bag or stand flat-footed in front of it.",
+  "steps": [
+   "Wrap your hands, put on gloves.",
+   "Stand at jab distance.",
+   "Work in 2-3 min rounds: combo, angle out, reset.",
+   "Focus on snap and return, not arm power."
+  ],
+  "cues": [
+   "Hit 3 in inside the bag",
+   "Move after you throw"
+  ],
+  "homeSwap": "Shadowboxing Rounds with 1-2 lb dumbbells, or a pillow on the wall for alignment.",
+  "note": "Wrap your hands every time; bones in a teenager's hand are still growing. Keep the bag at 70-80% power most rounds.",
+  "prescription": {
+   "sets": "3-6",
+   "reps": "2-3 min rounds",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Double-End Bag",
+  "aliases": [
+   "double end bag",
+   "double-end",
+   "reflex bag",
+   "crazy bag"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "double-end bag"
+  ],
+  "muscles": [
+   "shoulders",
+   "forearms",
+   "eyes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Light, accurate shots, then slip or reset as the ball rebounds. Don't swing hard and get tagged on the rebound.",
+  "steps": [
+   "Stand at jab range.",
+   "Jab and watch the rebound.",
+   "Add slips and counters off the return.",
+   "2 min rounds."
+  ],
+  "cues": [
+   "Hit and slip the return",
+   "Eyes on the ball"
+  ],
+  "homeSwap": "Reaction ball drills or a tennis ball on a string.",
+  "note": "An excellent rebound target for training your eyes: object approach that's safe and predictable, which helps the fear-of-ball freeze.",
+  "prescription": {
+   "sets": "3-6",
+   "reps": "2-3 min rounds",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Speed Bag",
+  "aliases": [
+   "speed bag",
+   "speedbag"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "speed bag"
+  ],
+  "muscles": [
+   "shoulders",
+   "forearms"
+  ],
+  "standing": true,
+  "doThisNotThat": "Small circles with the side of the fist, steady rhythm. Don't punch it straight on, hard.",
+  "steps": [
+   "Bag at mouth level.",
+   "Hit with the side of the fist in small circles.",
+   "Let it rebound 3 times (front-back-front), then hit again.",
+   "Switch hands in rhythm."
+  ],
+  "cues": [
+   "Stay in rhythm",
+   "Small circles"
+  ],
+  "homeSwap": "Fist rolls in front of a mirror, or wall-ball juggling.",
+  "note": "Mostly a rhythm and shoulder-endurance drill; low transfer to real punching power. Grade C.",
+  "prescription": {
+   "sets": "3",
+   "reps": "2 min",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Focus Mitts",
+  "aliases": [
+   "mitts",
+   "pads",
+   "mitt work",
+   "pad work",
+   "focus pads"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "focus mitts",
+   "gloves"
+  ],
+  "muscles": [
+   "shoulders",
+   "core",
+   "hips"
+  ],
+  "standing": true,
+  "doThisNotThat": "Partner calls the combos, you hit the pad with snap and return. Don't follow the pad and drop your guard.",
+  "steps": [
+   "Partner holds the mitts at face height and calls numbers.",
+   "Throw the called combo, then return to the guard.",
+   "Add defense: the partner swats back and you slip or block.",
+   "2-3 min rounds."
+  ],
+  "cues": [
+   "Snap and return",
+   "Chin down"
+  ],
+  "homeSwap": "Shadowboxing Rounds with a partner calling combos.",
+  "note": "Contact ladder level 1: fine with your sibling holding pads. Keep their hands safe with light, accurate shots.",
+  "prescription": {
+   "sets": "3-6",
+   "reps": "2-3 min rounds",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Slip Drills",
+  "aliases": [
+   "slip rope",
+   "slips",
+   "slipping drill",
+   "head movement drill",
+   "bob and weave"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "rope",
+   "bodyweight"
+  ],
+  "muscles": [
+   "legs",
+   "core",
+   "neck"
+  ],
+  "standing": true,
+  "doThisNotThat": "Bend the knees and turn the shoulders a few inches to slip, eyes up. Don't bend at the waist or look at the floor.",
+  "steps": [
+   "String a rope at chin height.",
+   "Walk under it with small bob and weaves, knees bending.",
+   "Slip left and right by turning the shoulders, not leaning.",
+   "Throw a counter after each slip."
+  ],
+  "cues": [
+   "Dip under the line",
+   "Eyes on the target"
+  ],
+  "homeSwap": "A broom handle on two chairs, or a string across a doorway.",
+  "note": "Head movement that is installed, not thought, kills the freeze response. Daily rounds at level 0.",
+  "prescription": {
+   "sets": "3",
+   "reps": "2 min",
+   "rest": "45 s"
+  }
+ },
+ {
+  "name": "Boxing Footwork Drills",
+  "aliases": [
+   "footwork",
+   "boxing footwork",
+   "step drag",
+   "pivot drill",
+   "footwork ladder boxing"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "calves",
+   "adductors",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "The foot nearest the direction moves first and the other follows, keeping stance width. Don't cross the feet or bounce high.",
+  "steps": [
+   "Fighting stance.",
+   "Step forward: front foot first, back foot follows.",
+   "Step back: back foot first. Same for sides.",
+   "Add pivots off the lead foot: 90° turns."
+  ],
+  "cues": [
+   "Same stance width every step",
+   "Glide, don't hop"
+  ],
+  "homeSwap": "Same drill, with tape marks on the floor.",
+  "note": "Footwork is the base for moving your feet instead of reaching. Tripod foot through every step.",
+  "prescription": {
+   "sets": "3",
+   "reps": "2 min",
+   "rest": "45 s"
+  }
+ },
+ {
+  "name": "Sprawl",
+  "aliases": [
+   "sprawls",
+   "sprawl drill",
+   "takedown defense sprawl"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "core",
+   "hip flexors",
+   "chest",
+   "calves"
+  ],
+  "standing": false,
+  "doThisNotThat": "Shoot the legs back and drop the hips onto the floor (onto the opponent), then pop back up. Don't land on your knees or with your hips high.",
+  "steps": [
+   "Fighting stance.",
+   "Explosively kick both legs back, hips dropping to the floor.",
+   "Hands catch the floor, chest heavy, head up.",
+   "Snap back to the stance."
+  ],
+  "cues": [
+   "Hips crush the floor",
+   "Pop back up fast"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Contact ladder level 0, so it's safe solo. Also great conditioning: 30 s of sprawls is brutal.",
+  "prescription": {
+   "sets": "4",
+   "reps": "20-30 s",
+   "rest": "30-45 s"
+  }
+ },
+ {
+  "name": "Double-Leg Shot",
+  "aliases": [
+   "double leg",
+   "double leg takedown",
+   "penetration step",
+   "shot",
+   "shooting"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "bodyweight",
+   "mat"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "hip flexors",
+   "neck"
+  ],
+  "standing": true,
+  "doThisNotThat": "Change levels first, step deep between their feet, drive with the head up and the back straight. Don't dive in head down from too far away.",
+  "steps": [
+   "Stance, level change: bend the knees, not the waist.",
+   "Penetration step: lead knee drops to the mat between their feet.",
+   "Head on their chest/side, arms wrap the back of the thighs.",
+   "Drive off the back foot, turn the corner.",
+   "Solo: shoot across the mat and stand back up."
+  ],
+  "cues": [
+   "Level change, then step",
+   "Head up, drive through"
+  ],
+  "homeSwap": "Solo penetration steps across the room.",
+  "note": "Contact ladder level 2 at most with your sibling: cooperative drilling, they let you finish. Mat or soft floor only.",
+  "prescription": {
+   "sets": "3",
+   "reps": "6-10 per side",
+   "rest": "45-60 s"
+  }
+ },
+ {
+  "name": "Single-Leg Shot",
+  "aliases": [
+   "single leg",
+   "single leg takedown",
+   "high single"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "mat"
+  ],
+  "muscles": [
+   "quads",
+   "glutes",
+   "hip flexors",
+   "grip"
+  ],
+  "standing": true,
+  "doThisNotThat": "Change levels, attack the lead leg, secure it high and finish by running the pipe or driving. Don't reach for the leg from far away.",
+  "steps": [
+   "Level change.",
+   "Step to the outside of the lead foot.",
+   "Grab behind the knee, pull the leg to your hip.",
+   "Head inside, finish by driving or turning."
+  ],
+  "cues": [
+   "Feet first, hands last",
+   "Head inside"
+  ],
+  "homeSwap": "Solo level changes and penetration steps.",
+  "note": "Level 2 drilling only with your sibling. Tap early, light pressure.",
+  "prescription": {
+   "sets": "3",
+   "reps": "6-10 per side",
+   "rest": "45-60 s"
+  }
+ },
+ {
+  "name": "Hip Escape",
+  "aliases": [
+   "shrimp",
+   "shrimping",
+   "hip escapes",
+   "hip escape drill"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "mat"
+  ],
+  "muscles": [
+   "obliques",
+   "glutes",
+   "hip flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Bridge onto your shoulder, push the floor away with your foot and slide the hips back. Don't just slide flat on your back.",
+  "steps": [
+   "On your back, knees bent.",
+   "Turn to one side onto the shoulder.",
+   "Push the floor away with the bottom foot and shoot the hips back.",
+   "Hands frame as if pushing a hip away. Travel the mat."
+  ],
+  "cues": [
+   "Push the floor away with the foot",
+   "Hips go back"
+  ],
+  "homeSwap": "Same drill on a carpet.",
+  "note": "The BJJ fundamental. Level 0 solo, daily 2-3 lengths of the room.",
+  "prescription": {
+   "sets": "3",
+   "reps": "length of the room",
+   "rest": "30 s"
+  }
+ },
+ {
+  "name": "Bridge and Roll",
+  "aliases": [
+   "upa",
+   "bridge escape",
+   "trap and roll",
+   "mount escape"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "mat"
+  ],
+  "muscles": [
+   "glutes",
+   "hamstrings",
+   "core"
+  ],
+  "standing": false,
+  "doThisNotThat": "Trap one side (arm and foot), then bridge high and over the shoulder on that side. Don't bridge straight up.",
+  "steps": [
+   "On your back, partner (or imagined) in mount.",
+   "Trap their arm to your chest and their foot with your foot on the same side.",
+   "Bridge hard over the shoulder on the trapped side.",
+   "Roll into their guard."
+  ],
+  "cues": [
+   "Bridge over your shoulder",
+   "Trap first, then bridge"
+  ],
+  "homeSwap": "Solo bridges to each side.",
+  "note": "Level 2 with your sibling: they go limp, let you roll. Glute bridge strength makes it powerful.",
+  "prescription": {
+   "sets": "3",
+   "reps": "6-10 per side",
+   "rest": "45-60 s"
+  }
+ },
+ {
+  "name": "Technical Stand-Up",
+  "aliases": [
+   "technical standup",
+   "tech stand up",
+   "base stand up"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "core",
+   "shoulders",
+   "legs"
+  ],
+  "standing": false,
+  "doThisNotThat": "Base on a hand and foot, lift the hips and swing the leg behind you into stance, hands up. Don't stand up forward with your face exposed.",
+  "steps": [
+   "Sit, one hand posted behind, the opposite foot planted.",
+   "Other hand up as a frame.",
+   "Lift the hips, swing the free leg back through.",
+   "Land in fighting stance."
+  ],
+  "cues": [
+   "Hips up, leg through",
+   "Guard up"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "Teaches getting up safely, from fights and from falls on any field.",
+  "prescription": {
+   "sets": "3",
+   "reps": "6-10 per side",
+   "rest": "45-60 s"
+  }
+ },
+ {
+  "name": "Sit-Out",
+  "aliases": [
+   "sit outs",
+   "sitout",
+   "wrestling sit out"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "mat"
+  ],
+  "muscles": [
+   "core",
+   "hips",
+   "shoulders"
+  ],
+  "standing": false,
+  "doThisNotThat": "From all fours, kick one leg through and turn to face the other way, hips low. Don't sit straight back on your butt.",
+  "steps": [
+   "On all fours.",
+   "Kick the leg through under the body.",
+   "Turn the hips so you face the other way, sitting low.",
+   "Return and alternate."
+  ],
+  "cues": [
+   "Kick through",
+   "Hips low"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "Builds hip rotation for your stiff hips under load, plus a bottom-position escape.",
+  "prescription": {
+   "sets": "3",
+   "reps": "10 per side",
+   "rest": "30 s"
+  }
+ },
+ {
+  "name": "Granby Roll",
+  "aliases": [
+   "granby",
+   "granby rolls",
+   "shoulder roll wrestling"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "mat"
+  ],
+  "muscles": [
+   "neck",
+   "core",
+   "shoulders"
+  ],
+  "standing": false,
+  "doThisNotThat": "Roll over the shoulders, not the neck, with the head tucked to the side. Don't roll on top of your head.",
+  "steps": [
+   "From a kneeling base, tuck one shoulder.",
+   "Roll across the shoulders with feet walking.",
+   "Keep the weight on the shoulders.",
+   "Come up to base or turn into the opponent."
+  ],
+  "cues": [
+   "Roll over the shoulders"
+  ],
+  "homeSwap": "Practice on a soft mattress first.",
+  "note": "Learn from a coach. With stiff necks and backs, start with shoulder rolls first.",
+  "prescription": {
+   "sets": "3",
+   "reps": "4 per side",
+   "rest": "45 s"
+  }
+ },
+ {
+  "name": "Level Change Drill",
+  "aliases": [
+   "level changes",
+   "level change",
+   "change levels"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "quads",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Bend the knees to drop straight down with the back straight and eyes up. Don't bend at the waist and look at the floor.",
+  "steps": [
+   "Fighting stance.",
+   "Drop 6-12 in by bending the knees, hands up.",
+   "Pop back up.",
+   "Add a feint jab before each drop."
+  ],
+  "cues": [
+   "Elevator down, not a bow",
+   "Eyes up"
+  ],
+  "homeSwap": "Same drill.",
+  "note": "Head up and spine stacked protects the neck. Level 0, daily.",
+  "prescription": {
+   "sets": "3",
+   "reps": "10",
+   "rest": "30 s"
+  }
+ },
+ {
+  "name": "Clinch Knee Drill",
+  "aliases": [
+   "clinch knees",
+   "knees in the clinch",
+   "muay thai knees"
+  ],
+  "pattern": "combat",
+  "equipment": [
+   "bodyweight",
+   "heavy bag"
+  ],
+  "muscles": [
+   "hip flexors",
+   "glutes",
+   "core"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pull the head or bag down, drive the hips forward and the knee up. Don't lean back with just the leg.",
+  "steps": [
+   "Hold a bag or imagined head with both hands.",
+   "Step back with the striking leg.",
+   "Drive the hips forward and knee up.",
+   "Alternate."
+  ],
+  "cues": [
+   "Hips through",
+   "Pull down as the knee goes up"
+  ],
+  "homeSwap": "Air knees at a wall, holding the top of a door frame for support.",
+  "note": "Hips lead again. Light on a partner: level 2 max.",
+  "prescription": {
+   "sets": "3",
+   "reps": "10 per side",
+   "rest": "45 s"
+  }
+ },
+ {
+  "name": "90/90 Hip Switch",
+  "aliases": [
+   "90 90",
+   "90/90",
+   "hip switches",
+   "90-90 stretch"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "hip rotators",
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Sit tall and rotate the knees side to side with the hands off the floor if you can. Don't slump with the hands propping you up.",
+  "steps": [
+   "Sit with both knees bent at 90°, one in front, one to the side.",
+   "Sit tall.",
+   "Rotate both knees to the other side.",
+   "Move slowly, pausing at the end range."
+  ],
+  "cues": [
+   "Sit tall",
+   "Knees tip like windshield wipers"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Your hips are stiff in rotation, which robs punching and swinging. Do this daily in your Morning 5.",
+  "prescription": {
+   "sets": "2",
+   "reps": "30-60 s or 5-8 slow reps per side",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Couch Stretch",
+  "aliases": [
+   "couch stretch",
+   "hip flexor stretch",
+   "kneeling hip flexor stretch"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "hip flexors",
+   "quads"
+  ],
+  "standing": false,
+  "doThisNotThat": "Back knee at the wall, squeeze the glute, tuck the pelvis. Don't arch the lower back to fake range.",
+  "steps": [
+   "Kneel with the back shin up a wall or couch.",
+   "Front foot forward in a lunge.",
+   "Squeeze the glute on the back leg, tuck the pelvis.",
+   "Stay tall and breathe 60 s."
+  ],
+  "cues": [
+   "Squeeze the back glute",
+   "Stand tall"
+  ],
+  "homeSwap": "Same; use the couch.",
+  "note": "Tight hip flexors reduce hip extension for sprinting. Do this after training, not before power work.",
+  "prescription": {
+   "sets": "2",
+   "reps": "30-60 s or 5-8 slow reps per side",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "World's Greatest Stretch",
+  "aliases": [
+   "worlds greatest stretch",
+   "wgs",
+   "lunge with rotation",
+   "spiderman lunge rotation"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "hips",
+   "thoracic spine",
+   "hamstrings"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lunge, drop the elbow to the instep, rotate the arm to the sky, then shift back into a hamstring stretch. Don't rush through it.",
+  "steps": [
+   "Big lunge, back knee off the floor.",
+   "Same-side elbow down to the instep.",
+   "Rotate that arm up to the ceiling, eyes follow.",
+   "Hands down, shift hips back to straighten the front leg."
+  ],
+  "cues": [
+   "Reach the ceiling",
+   "Eyes follow the hand"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "A full-body warm-up in one move for all-over stiffness.",
+  "prescription": {
+   "sets": "2",
+   "reps": "4 per side",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Deep Squat Hold",
+  "aliases": [
+   "deep squat",
+   "squat hold",
+   "third world squat",
+   "asian squat",
+   "resting squat"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "ankles",
+   "hips"
+  ],
+  "standing": true,
+  "doThisNotThat": "Sit in a deep squat, heels down and chest up, with knees out. Don't let the heels lift and the feet collapse.",
+  "steps": [
+   "Feet shoulder-width, toes slightly out.",
+   "Sit all the way down.",
+   "Elbows push the knees out.",
+   "Hold a doorframe if needed; breathe 30-60 s."
+  ],
+  "cues": [
+   "Heels stay heavy",
+   "Knees out over the toes"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Flat feet collapse here: keep the tripod and screw the feet. Elevate the heels on a book if needed at first.",
+  "prescription": {
+   "sets": "2",
+   "reps": "30-60 s or 5-8 slow reps per side",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Hip CARs",
+  "aliases": [
+   "hip cars",
+   "controlled articular rotations hips",
+   "hip circles"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "hips"
+  ],
+  "standing": true,
+  "doThisNotThat": "Draw the biggest slow circle with the knee while the rest of the body stays still. Don't swing fast.",
+  "steps": [
+   "Stand holding a wall.",
+   "Lift the knee, open it out, rotate back and down, slowly.",
+   "Keep the pelvis still.",
+   "Reverse direction."
+  ],
+  "cues": [
+   "Draw a slow, big circle"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Controlled range is range the nervous system will let you use. Grade C.",
+  "prescription": {
+   "sets": "1-2",
+   "reps": "3-5 per direction",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Shoulder CARs",
+  "aliases": [
+   "shoulder cars",
+   "arm circles",
+   "shoulder circles"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "shoulders"
+  ],
+  "standing": true,
+  "doThisNotThat": "Slow, biggest-possible arm circles with the ribs still. Don't swing.",
+  "steps": [
+   "Stand tall, make a fist.",
+   "Raise the arm forward and overhead, then rotate it back and down.",
+   "Keep the ribs down.",
+   "Reverse."
+  ],
+  "cues": [
+   "Biggest circle possible"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "For a stiff upper back and shoulders before pressing and boxing.",
+  "prescription": {
+   "sets": "1-2",
+   "reps": "3-5 per direction",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Open Book Rotation",
+  "aliases": [
+   "open book",
+   "thoracic rotation",
+   "t-spine rotation",
+   "thoracic opener"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "thoracic spine",
+   "chest"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lie on your side with the knees stacked and open the top arm to the floor behind, eyes following. Don't let the knees come apart.",
+  "steps": [
+   "Lie on your side, knees bent to 90°, arms straight forward.",
+   "Open the top arm in an arc to the other side.",
+   "Eyes follow, exhale.",
+   "Return."
+  ],
+  "cues": [
+   "Eyes follow the hand",
+   "Knees glued together"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Upper-back rotation is the link that lets the hips hand off to the arm.",
+  "prescription": {
+   "sets": "2",
+   "reps": "8 per side",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Ankle Dorsiflexion Rocks",
+  "aliases": [
+   "ankle mobility",
+   "knee to wall",
+   "ankle rocks",
+   "dorsiflexion stretch"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "ankles",
+   "calves"
+  ],
+  "standing": false,
+  "doThisNotThat": "Knee travels over the pinky toe with the heel down and the arch up. Don't let the arch collapse to fake range.",
+  "steps": [
+   "Half-kneel facing a wall.",
+   "Front foot about 4 in from the wall.",
+   "Drive the knee forward toward the wall, heel down.",
+   "Hold 2 s, rock back."
+  ],
+  "cues": [
+   "Heel heavy",
+   "Knee over the pinky toe"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Flat feet fake ankle range by collapsing the arch. Keeping the arch lifted during this is the real fix.",
+  "prescription": {
+   "sets": "2",
+   "reps": "10 per side",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Calf and Soleus Stretch",
+  "aliases": [
+   "calf stretch",
+   "soleus stretch",
+   "wall calf stretch"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "calves",
+   "soleus"
+  ],
+  "standing": true,
+  "doThisNotThat": "Straight knee for the calf, bent knee for the soleus, heel on the floor. Don't roll onto the inside of the foot.",
+  "steps": [
+   "Hands on a wall, one leg back.",
+   "Back heel down, knee straight, 30 s.",
+   "Bend the back knee, 30 s.",
+   "Keep the arch lifted."
+  ],
+  "cues": [
+   "Heel heavy"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "After runs, not before. Keeps the spring flexible for XC.",
+  "prescription": {
+   "sets": "2",
+   "reps": "30-60 s or 5-8 slow reps per side",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Pigeon Stretch",
+  "aliases": [
+   "pigeon",
+   "pigeon pose",
+   "glute stretch"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "glutes",
+   "hip rotators"
+  ],
+  "standing": false,
+  "doThisNotThat": "Front shin across, hips square, fold slowly over the front shin. Don't twist or let the knee hurt.",
+  "steps": [
+   "From all fours, bring one knee forward behind the wrist, shin angled across.",
+   "Slide the back leg straight back.",
+   "Square the hips, fold over the front leg.",
+   "Breathe 60 s."
+  ],
+  "cues": [
+   "Square your hips"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Any knee pain = swap to a figure-4 stretch on your back.",
+  "prescription": {
+   "sets": "2",
+   "reps": "30-60 s or 5-8 slow reps per side",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Frog Stretch",
+  "aliases": [
+   "frog",
+   "frog pose",
+   "adductor stretch"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "adductors",
+   "hips"
+  ],
+  "standing": false,
+  "doThisNotThat": "Knees wide, rock the hips back slowly. Don't bounce.",
+  "steps": [
+   "On all fours, slide the knees wide.",
+   "Shins parallel, feet in line with knees.",
+   "Rock the hips back slowly.",
+   "Breathe."
+  ],
+  "cues": [
+   "Hips back slowly"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Adductor range protects the groin in cutting and wrestling; pair with Copenhagen strength.",
+  "prescription": {
+   "sets": "2",
+   "reps": "30-60 s or 5-8 slow reps per side",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Hamstring Nerve Floss",
+  "aliases": [
+   "nerve floss",
+   "sciatic floss",
+   "nerve sliders",
+   "hamstring flossing",
+   "neural glides"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "hamstrings",
+   "sciatic nerve"
+  ],
+  "standing": false,
+  "doThisNotThat": "Seated, extend the knee while looking up, then bend it while looking down. Don't hold a hard static stretch.",
+  "steps": [
+   "Sit on a chair, slight slump.",
+   "Straighten one knee as you look up.",
+   "Bend the knee as you look down.",
+   "Smooth and easy, 10-15 reps."
+  ],
+  "cues": [
+   "Smooth, no stretch pain"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Much of your \"tight hamstring\" feeling can be a protective nerve. Sliders calm it down. Grade C.",
+  "prescription": {
+   "sets": "2",
+   "reps": "10-15 per side",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Cat-Cow",
+  "aliases": [
+   "cat cow",
+   "cat camel",
+   "spinal flexion extension"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "spine"
+  ],
+  "standing": false,
+  "doThisNotThat": "Move one vertebra at a time in rhythm with the breath. Don't snap through it.",
+  "steps": [
+   "All fours.",
+   "Inhale: drop the belly, lift the chest (cow).",
+   "Exhale: round the back, tuck the chin (cat).",
+   "Slow, 8-10 reps."
+  ],
+  "cues": [
+   "Breath leads the movement"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "A gentle downshift for a stiff spine; good in nightly mobility.",
+  "prescription": {
+   "sets": "1",
+   "reps": "8-10",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Wall Slides",
+  "aliases": [
+   "wall slide",
+   "wall angels",
+   "scapular wall slides"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "upper back",
+   "shoulders"
+  ],
+  "standing": true,
+  "doThisNotThat": "Back and arms against the wall, slide up keeping the ribs down. Don't arch the lower back.",
+  "steps": [
+   "Stand with the back to the wall, feet 6 in out.",
+   "Arms in a W against the wall.",
+   "Slide up to a Y without losing contact.",
+   "Ribs down."
+  ],
+  "cues": [
+   "Wrists stay on the wall",
+   "Ribs down"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Prerequisite for safe overhead pressing and snatching with stiff shoulders.",
+  "prescription": {
+   "sets": "2",
+   "reps": "10",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Stick Pass-Through",
+  "aliases": [
+   "pvc pass through",
+   "shoulder dislocates",
+   "broomstick pass through",
+   "pass-throughs"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "broomstick"
+  ],
+  "muscles": [
+   "shoulders",
+   "chest"
+  ],
+  "standing": true,
+  "doThisNotThat": "Wide grip, straight arms, slowly over and behind. Don't go narrow and force it.",
+  "steps": [
+   "Hold a broomstick very wide.",
+   "Lift it overhead with straight arms.",
+   "Continue behind to the lower back.",
+   "Bring it back. Narrow the grip slowly over weeks."
+  ],
+  "cues": [
+   "Straight arms",
+   "Slow"
+  ],
+  "homeSwap": "Broomstick or towel.",
+  "note": "Builds the overhead range boxing and snatching need. Never force pain.",
+  "prescription": {
+   "sets": "2",
+   "reps": "10",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Short-Foot Exercise",
+  "aliases": [
+   "short foot",
+   "arch lifts",
+   "foot doming",
+   "doming"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "foot intrinsics"
+  ],
+  "standing": false,
+  "doThisNotThat": "Pull the ball of the foot toward the heel to lift the arch without curling the toes. Don't crunch the toes.",
+  "steps": [
+   "Sit, foot flat.",
+   "Without curling the toes, slide the ball toward the heel.",
+   "Arch lifts; hold 5 s.",
+   "Progress to standing, then single-leg."
+  ],
+  "cues": [
+   "Make a dome under your foot"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Meta-analysis shows a small effect on navicular drop; the real win is control (grade B-C).",
+  "prescription": {
+   "sets": "3",
+   "reps": "5 x 5 s per foot",
+   "rest": "none"
+  },
+  "noteGrade": "B-C"
+ },
+ {
+  "name": "Toe Yoga",
+  "aliases": [
+   "toe yoga",
+   "toe lifts",
+   "big toe lifts"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "foot intrinsics"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lift the big toe with the others down, then switch. Don't let the foot roll.",
+  "steps": [
+   "Sit or stand barefoot.",
+   "Lift the big toe; keep the others down.",
+   "Then press the big toe down and lift the other four.",
+   "Alternate slowly."
+  ],
+  "cues": [
+   "Big toe up, others down"
+  ],
+  "homeSwap": "This is the home version.",
+  "note": "Independent toe control is what the tripod foot needs.",
+  "prescription": {
+   "sets": "2",
+   "reps": "10",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Hip Distraction Stretch",
+  "aliases": [
+   "banded hip distraction",
+   "hip distraction",
+   "band hip stretch"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "band"
+  ],
+  "muscles": [
+   "hips"
+  ],
+  "standing": false,
+  "doThisNotThat": "Band pulls the hip joint gently while you sink into the stretch. Don't pinch the front of the hip.",
+  "steps": [
+   "Band around the upper thigh, anchored behind.",
+   "Step into a lunge or kneeling stretch.",
+   "Let the band pull the hip back.",
+   "Hold 60 s."
+  ],
+  "cues": [
+   "Let the band pull"
+  ],
+  "homeSwap": "No band: a half-kneeling hip flexor rock-and-hold, or a deep squat hold.",
+  "note": "Grade C. Often feels better than a normal stretch if your hip pinches.",
+  "prescription": {
+   "sets": "2",
+   "reps": "30-60 s or 5-8 slow reps per side",
+   "rest": "none"
+  }
+ },
+ {
+  "name": "Foam Rolling",
+  "aliases": [
+   "foam roll",
+   "foam roller",
+   "rolling out",
+   "self myofascial release",
+   "smr"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "foam roller"
+  ],
+  "muscles": [
+   "quads",
+   "calves",
+   "upper back"
+  ],
+  "standing": false,
+  "doThisNotThat": "Roll slowly with breathing, spending 30-60 s per area. Don't grind on painful spots or roll the lower back.",
+  "steps": [
+   "Roller under the target muscle.",
+   "Roll slowly 2-3 in at a time.",
+   "Breathe out on tender spots.",
+   "30-60 s per area."
+  ],
+  "cues": [
+   "Slow and breathing"
+  ],
+  "homeSwap": "A rolling pin, or a tennis ball against a wall.",
+  "note": "Short-term range and comfort only (grade B-C). It's a downshift tool, not a fix.",
+  "prescription": {
+   "sets": "1",
+   "reps": "30-60 s per area",
+   "rest": "none"
+  },
+  "noteGrade": "B-C"
+ }
+]

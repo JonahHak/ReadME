@@ -1,0 +1,3066 @@
+[
+ {
+  "name": "Pull-Up",
+  "aliases": [
+   "pull up",
+   "pull ups",
+   "pullups",
+   "pull-ups",
+   "overhand pull up"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Start every rep from a dead hang with shoulders set down, not a half-rep from bent arms with shrugged shoulders.",
+  "steps": [
+   "Grip the bar overhand just outside shoulder width, thumbs around the bar.",
+   "Hang with arms long, then pull the shoulder blades down 1-2 inches without bending the elbows.",
+   "Squeeze legs together, toes slightly in front, ribs down.",
+   "Pull until the chin clears the bar, then lower in 2-3 s to a full hang."
+  ],
+  "cues": [
+   "Pull the bar down to your chest",
+   "Drive your elbows into your back pockets"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Lats are the \"V\" of the V-taper and the engine of the clinch frame and the double-leg finish; a full dead hang every rep also lengthens a stiff upper back and shoulders.",
+  "hardestPoint": "Top 3 inches, where the lats are short and the biceps take over."
+ },
+ {
+  "name": "Wide-Grip Pull-Up",
+  "aliases": [
+   "wide grip pull up",
+   "wide pull ups",
+   "wide grip pullup"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Go only ~1.5x shoulder width, not as wide as the bar allows; super-wide grips shorten range and strain the shoulder.",
+  "steps": [
+   "Grip about 1.5x shoulder width overhand.",
+   "Set the shoulders down from a dead hang.",
+   "Pull the upper chest toward the bar, slight lean back.",
+   "Lower in 2-3 s to full hang."
+  ],
+  "cues": [
+   "Bring your chest to the bar",
+   "Bend the bar into a U"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Wide grip biases the upper lats and teres major that make the back look wider from the front; keep reps fewer and cleaner than standard pull-ups."
+ },
+ {
+  "name": "Neutral-Grip Pull-Up",
+  "aliases": [
+   "neutral grip pull up",
+   "hammer grip pull up",
+   "parallel grip pull up",
+   "neutral pullups"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Use neutral grip if your shoulders or elbows complain on overhand; it is the most joint-friendly vertical pull.",
+  "steps": [
+   "Grab the parallel handles, palms facing each other.",
+   "Dead hang, shoulders pulled down.",
+   "Pull until the chin passes the handles, elbows tight to the ribs.",
+   "Lower in 2-3 s."
+  ],
+  "cues": [
+   "Pull your elbows down to your hips",
+   "Lift your chest to your hands"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Neutral grip matches the hand position of a clinch frame and a grappling collar tie, so the strength carries straight over."
+ },
+ {
+  "name": "Weighted Pull-Up",
+  "aliases": [
+   "weighted pull up",
+   "weighted pullups",
+   "pull up with weight"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "pull-up bar",
+   "dip belt",
+   "dumbbell"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Add weight only once you own 8+ strict bodyweight reps; ugly kipping with a plate is not strength.",
+  "steps": [
+   "Hold a dumbbell between your feet or hang a plate from a dip belt.",
+   "Dead hang, shoulders set down, legs still.",
+   "Pull chin over the bar without swinging.",
+   "Lower in 2-3 s; stop the set when a rep visibly slows."
+  ],
+  "cues": [
+   "Pull the bar to your collarbones",
+   "Keep the weight still under you"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "At ~130 lb your relative strength is the athletic number; +10-25 lb for sets of 4-6 is plenty to drive the lats without grinding.",
+  "prescription": {
+   "sets": "3 working",
+   "reps": "4-6",
+   "rest": "3 min"
+  }
+ },
+ {
+  "name": "Assisted Pull-Up Machine",
+  "aliases": [
+   "assisted pull up",
+   "assisted pullup machine",
+   "gravitron",
+   "assisted chin up"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Use the least assistance that still lets you hit full range; lower the counterweight a notch every week you hit the top of the rep range.",
+  "steps": [
+   "Set the counterweight (more weight = more help).",
+   "Kneel or stand on the pad, grip just outside shoulder width.",
+   "Start from straight arms with shoulders set down.",
+   "Pull chin over the handles, lower in 3 s."
+  ],
+  "cues": [
+   "Pull the handles to your chest",
+   "Push the pad down with your knees"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Treat this as a bridge to bodyweight pull-ups: track the assistance number in the log, the win is that number dropping."
+ },
+ {
+  "name": "Band-Assisted Pull-Up",
+  "aliases": [
+   "band assisted pull up",
+   "banded pull up",
+   "pull up with band"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "pull-up bar",
+   "band"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Use the band for reps at the bottom, but finish the set with negatives so you train the full range unassisted.",
+  "steps": [
+   "Loop a band over the bar and put one knee or both feet in it.",
+   "Dead hang, shoulders down.",
+   "Pull chin over the bar.",
+   "Lower in 3 s; band helps most at the bottom, so own the top."
+  ],
+  "cues": [
+   "Pull the bar to your chest",
+   "Keep your legs still"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Bands help most where you are already strongest (the bottom), so pair with negatives to build the top range."
+ },
+ {
+  "name": "Negative Pull-Up",
+  "aliases": [
+   "pull up negative",
+   "eccentric pull up",
+   "negatives",
+   "slow pull up"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "pull-up bar",
+   "box"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Jump to the top and lower for 4-5 s; don't drop the last third, which is exactly the range you need.",
+  "steps": [
+   "Stand on a box so your chin is at bar height.",
+   "Grip overhand, step off with the chin over the bar.",
+   "Lower for 4-5 s to a full dead hang.",
+   "Step back up and repeat; 3-5 reps per set."
+  ],
+  "cues": [
+   "Hold the bar at your chest as long as you can",
+   "Lower like an elevator, not a trapdoor"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Eccentrics build pulling strength fastest for a beginner, but they make you sore: avoid them within 48 h of a fight or game.",
+  "prescription": {
+   "sets": "3 working",
+   "reps": "3-5 (4-5 s lowering)",
+   "rest": "2 min"
+  }
+ },
+ {
+  "name": "L-Sit Pull-Up",
+  "aliases": [
+   "l sit pull up",
+   "l-sit pullup",
+   "pull up l sit"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps",
+   "hip flexors",
+   "abs"
+  ],
+  "standing": false,
+  "doThisNotThat": "Hold legs straight at hip height the whole rep; letting them drop turns it into a normal pull-up with extra fatigue.",
+  "steps": [
+   "Dead hang, shoulders set down.",
+   "Lift straight legs to hip height (bend knees if needed).",
+   "Pull chin over the bar without legs dropping.",
+   "Lower in 2-3 s."
+  ],
+  "cues": [
+   "Point your toes at the wall in front",
+   "Pull the bar to your chest"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Trains the hollow-body position that ties lats to abs, the same link that keeps posture in a grappling scramble."
+ },
+ {
+  "name": "Chin-Up",
+  "aliases": [
+   "chin up",
+   "chin ups",
+   "chinups",
+   "underhand pull up",
+   "supinated pull up"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps",
+   "biceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep shoulders down at the bottom; don't turn chin-ups into a neck-craning reach for the bar.",
+  "steps": [
+   "Grip underhand, shoulder width.",
+   "Dead hang, then pull shoulders down.",
+   "Pull until the chin clears the bar, chest toward the bar.",
+   "Lower in 2-3 s to full hang."
+  ],
+  "cues": [
+   "Pull your elbows down to your ribs",
+   "Bring your chest to the bar"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Underhand puts the biceps in a strong line, so most people get 1-3 more reps: good for arm size, and great for clinch and collar-tie strength."
+ },
+ {
+  "name": "Scapular Pull-Up",
+  "aliases": [
+   "scap pull up",
+   "scapula pull up",
+   "scap pulls",
+   "shoulder shrug pull up"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "lower traps",
+   "lats",
+   "serratus"
+  ],
+  "standing": false,
+  "doThisNotThat": "Move only the shoulder blades, arms stay straight; it is a 2-inch movement, not a half pull-up.",
+  "steps": [
+   "Dead hang, overhand grip.",
+   "Keeping elbows straight, pull the shoulders down away from the ears.",
+   "Pause 2 s, then let the shoulders rise slowly to full hang.",
+   "Do 8-12 slow reps."
+  ],
+  "cues": [
+   "Push the bar toward your feet",
+   "Make your neck long"
+  ],
+  "homeSwap": "Prone Y-T-W raises on the floor or a bench, 2-5 lb dumbbells or thumbs up with no weight.",
+  "note": "Fixes the \"shrugged-up\" posture and protects the shoulder for punching volume; a perfect warm-up set before pull-ups.",
+  "prescription": {
+   "sets": "2",
+   "reps": "8-12",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "Lat Pulldown",
+  "aliases": [
+   "lat pull down",
+   "lat pulldown",
+   "pulldowns",
+   "pull down",
+   "wide grip pulldown",
+   "lat pulldown wide"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "cable",
+   "machine"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Pull the bar to the upper chest with a slight lean back, not behind the neck and not with a big swing.",
+  "steps": [
+   "Set the thigh pad so your legs are locked under it.",
+   "Grip ~1.5x shoulder width overhand.",
+   "Lean back ~10-15°, chest up.",
+   "Pull the bar to the top of the chest, pause 1 s, let it rise over 2-3 s until the arms are fully long."
+  ],
+  "cues": [
+   "Pull the bar to your collarbones",
+   "Drive your elbows into your back pockets"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Let the bar rise all the way so the lats get a full stretch; the lengthened end of the range is where stretch-loaded growth happens and where your stiff shoulders gain range.",
+  "hardestPoint": "Bottom 3 inches (bar near the chest), where the lats are shortest."
+ },
+ {
+  "name": "Close-Grip Lat Pulldown",
+  "aliases": [
+   "close grip pulldown",
+   "v bar pulldown",
+   "v-bar lat pulldown",
+   "close grip lat pull down"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "cable",
+   "machine"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Use the V-bar and pull to the sternum with elbows driving down and back, not just bending the arms.",
+  "steps": [
+   "Attach a V-bar handle; lock thighs under the pad.",
+   "Start with arms long and lats stretched.",
+   "Lean back slightly and pull the handle to the bottom of the chest.",
+   "Pause, then return over 2-3 s."
+  ],
+  "cues": [
+   "Pull the handle to your sternum",
+   "Elbows down to your hips"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Close grip gives a longer range of motion for the lower lats, the part that makes the waist look narrow from behind."
+ },
+ {
+  "name": "Neutral-Grip Lat Pulldown",
+  "aliases": [
+   "neutral grip pulldown",
+   "parallel grip pulldown",
+   "hammer grip pulldown"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "cable",
+   "machine"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Choose the wide neutral handles if overhand bothers your elbows; same lats, friendlier joints.",
+  "steps": [
+   "Attach wide neutral handles; lock in.",
+   "Arms long, shoulders up in a stretch.",
+   "Pull handles to the upper chest, elbows by the ribs.",
+   "Return over 2-3 s."
+  ],
+  "cues": [
+   "Pull your elbows into your sides",
+   "Chest up to the handles"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Matches the hand angle of a body-lock and collar tie; strong here means you control the clinch instead of getting pulled around."
+ },
+ {
+  "name": "Underhand Lat Pulldown",
+  "aliases": [
+   "reverse grip pulldown",
+   "underhand pulldown",
+   "supinated pulldown",
+   "chin up pulldown"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "cable",
+   "machine"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps",
+   "biceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep the elbows in front of the body and pull to the lower chest; it biases lower lats, not just biceps.",
+  "steps": [
+   "Grip underhand at shoulder width.",
+   "Lock thighs under the pad, arms long.",
+   "Pull to the lower chest, slight lean back.",
+   "Return slowly to full stretch."
+  ],
+  "cues": [
+   "Pull your elbows to your hips",
+   "Bar to your lower chest"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "A good chin-up builder when you can't yet do bodyweight reps; track load until it's about 80% of your bodyweight."
+ },
+ {
+  "name": "Single-Arm Lat Pulldown",
+  "aliases": [
+   "single arm pulldown",
+   "one arm lat pulldown",
+   "unilateral pulldown"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Let the working shoulder rise into a full stretch at the top, then pull the elbow down to the hip; one side at a time doubles your focus.",
+  "steps": [
+   "Attach a D-handle to the high pulley; sit or kneel facing it.",
+   "Reach up so the lat is stretched.",
+   "Pull the elbow down toward the hip, slight lean toward the working side.",
+   "Return over 2-3 s to full stretch."
+  ],
+  "cues": [
+   "Drive your elbow into your back pocket",
+   "Pull the handle to your armpit"
+  ],
+  "homeSwap": "One-arm dumbbell row with the elbow driving toward the hip.",
+  "note": "Unilateral work evens out side-to-side differences; boxers usually have a stronger rear-hand side, and this exposes it."
+ },
+ {
+  "name": "Kneeling Cable Pulldown",
+  "aliases": [
+   "half kneeling pulldown",
+   "kneeling lat pulldown",
+   "tall kneeling pulldown"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "rear delts",
+   "biceps",
+   "mid traps",
+   "abs"
+  ],
+  "standing": false,
+  "doThisNotThat": "Kneel tall with glutes squeezed so the ribs stay down; arching the low back to finish the rep turns it into a shrug.",
+  "steps": [
+   "Set a rope or bar on the high pulley; kneel tall a step back.",
+   "Squeeze glutes, ribs down, arms long overhead.",
+   "Pull to the upper chest without leaning back.",
+   "Return over 2-3 s."
+  ],
+  "cues": [
+   "Pull the rope to your chest",
+   "Stay tall like a wall behind you"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Teaches lats and abs to work together with no leg brace, the same brace you need when pummeling for underhooks."
+ },
+ {
+  "name": "Straight-Arm Pulldown",
+  "aliases": [
+   "straight arm pulldown",
+   "straight arm lat pulldown",
+   "stiff arm pulldown",
+   "cable pullover"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "lats",
+   "teres major",
+   "long head triceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Keep the arms nearly straight and hinge slightly; bending the elbows turns it into a triceps pushdown.",
+  "steps": [
+   "Set a rope or straight bar on the high pulley; step back 2 steps.",
+   "Hinge ~20°, arms straight overhead with a slight elbow bend.",
+   "Sweep the bar down in an arc to the thighs.",
+   "Return over 2-3 s until the lats are stretched."
+  ],
+  "cues": [
+   "Sweep the bar to your thighs",
+   "Push the floor away through tripod feet"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor (lengthened lats) + one-arm DB row with the elbow driving toward the hip to bias lats.",
+  "note": "Isolates the lats with no biceps help, which teaches you to feel lats before pull-ups; the same arc as a sprawl's arm drive."
+ },
+ {
+  "name": "Dumbbell Pullover",
+  "aliases": [
+   "db pullover",
+   "dumbbell pull over",
+   "pullovers",
+   "bench pullover"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "lats",
+   "pecs",
+   "long head triceps",
+   "serratus"
+  ],
+  "standing": false,
+  "doThisNotThat": "Stop when the arms reach ear level with ribs down; flaring the ribs to get deeper only stretches the low back.",
+  "steps": [
+   "Lie across or along a bench, one dumbbell held vertically by the inner plate.",
+   "Arms over the chest, slight elbow bend.",
+   "Lower the dumbbell behind the head in 3 s until upper arms are by the ears.",
+   "Pull it back over the chest."
+  ],
+  "cues": [
+   "Pull the dumbbell over in a rainbow",
+   "Keep your ribs pinned to the bench"
+  ],
+  "homeSwap": "Same exercise on the floor with a light dumbbell; the floor stops you from over-arching.",
+  "note": "A loaded stretch for lats and chest that opens a stiff thoracic spine; breathe out as you pull to keep ribs down (good habit with asthma)."
+ },
+ {
+  "name": "Cable Pullover",
+  "aliases": [
+   "cable pull over",
+   "lying cable pullover",
+   "rope pullover"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "cable",
+   "bench"
+  ],
+  "muscles": [
+   "lats",
+   "teres major"
+  ],
+  "standing": false,
+  "doThisNotThat": "Use the cable to keep tension at the stretched position, where a dumbbell pullover goes light.",
+  "steps": [
+   "Lie on a bench with your head toward a low pulley, rope or bar in hand.",
+   "Arms straight overhead in a stretch.",
+   "Pull to over the chest.",
+   "Return over 3 s to full stretch."
+  ],
+  "cues": [
+   "Pull the rope to your chest in an arc",
+   "Ribs heavy"
+  ],
+  "homeSwap": "Dumbbell pullover on the floor.",
+  "note": "Constant tension at long muscle length; good finisher for lats when your grip is fried from rows."
+ },
+ {
+  "name": "Barbell Row",
+  "aliases": [
+   "barbell row",
+   "bent over row",
+   "bent-over row",
+   "bb row",
+   "bent over barbell row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hinge to ~45° and keep the torso still; standing up more each rep turns it into a shrug.",
+  "steps": [
+   "Grip just outside shoulder width, overhand.",
+   "Hinge to ~45°, knees soft, bar hanging below the shoulders.",
+   "Brace, then row to the lower ribs.",
+   "Lower in 2 s to straight arms without the torso moving."
+  ],
+  "cues": [
+   "Pull the bar to your belt",
+   "Screw your feet into the floor"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "The hinge hold builds the same static back strength you use holding a wrestling stance; brace with a big exhale on each pull."
+ },
+ {
+  "name": "Pendlay Row",
+  "aliases": [
+   "pendlay row",
+   "dead stop row",
+   "floor row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Reset the bar on the floor every rep and pull explosively; it is a power row, not a slow grind.",
+  "steps": [
+   "Bar on the floor; hinge until torso is near parallel.",
+   "Grip just outside shoulder width.",
+   "Rip the bar to the lower chest.",
+   "Return it to the floor, reset, repeat."
+  ],
+  "cues": [
+   "Snap the bar to your sternum",
+   "Push the floor away"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "Dead-stop reps train rate of force development in the upper back; great before boxing because they are fast but low-fatigue.",
+  "prescription": {
+   "sets": "3 working",
+   "reps": "5-6",
+   "rest": "2.5 min"
+  }
+ },
+ {
+  "name": "Yates Row",
+  "aliases": [
+   "yates row",
+   "underhand barbell row",
+   "reverse grip row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps",
+   "biceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Use an underhand grip and ~70° torso angle; don't let it become an upright jerk with the hips.",
+  "steps": [
+   "Underhand grip at shoulder width.",
+   "Hinge to ~70°, knees soft.",
+   "Row to the belly button, elbows tight.",
+   "Lower under control."
+  ],
+  "cues": [
+   "Pull the bar to your belly button",
+   "Elbows brush your ribs"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "More upright = more load and more lower lats; keep it honest by stopping when rep speed drops."
+ },
+ {
+  "name": "One-Arm Dumbbell Row",
+  "aliases": [
+   "one arm db row",
+   "single arm dumbbell row",
+   "db row",
+   "dumbbell row",
+   "one arm row",
+   "bench row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Row the elbow toward the hip in an arc, not straight up toward the ceiling.",
+  "steps": [
+   "Left hand and knee on a bench, right foot planted wide.",
+   "Dumbbell hanging, shoulder stretched toward the floor.",
+   "Row the elbow toward the hip.",
+   "Lower in 2-3 s to a full stretch."
+  ],
+  "cues": [
+   "Pull your elbow to your back pocket",
+   "Push the bench away with your support hand"
+  ],
+  "homeSwap": "Same exercise with a chair and your heaviest dumbbell; add a 2 s pause at the top and a 3 s lowering.",
+  "note": "Your best home back builder; at the bottom let the shoulder blade slide forward for the stretch, then pull it back first. This is the shoulder blade motion behind a strong jab retraction."
+ },
+ {
+  "name": "Chest-Supported Dumbbell Row",
+  "aliases": [
+   "chest supported db row",
+   "incline dumbbell row",
+   "chest supported row",
+   "incline bench row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Let the bench hold your body so 100% of the effort goes to the back; no hip swing possible.",
+  "steps": [
+   "Set a bench to ~30°; lie face down with chest at the top.",
+   "Dumbbells hanging straight down.",
+   "Row both elbows back to the ribs.",
+   "Lower in 2-3 s."
+  ],
+  "cues": [
+   "Pull the dumbbells to your hips",
+   "Keep your chest glued to the pad"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "Removes low-back fatigue, so it is the row to use on a leg-heavy week or when the back is tired from wrestling."
+ },
+ {
+  "name": "Seal Row",
+  "aliases": [
+   "seal row",
+   "bench seal row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lie flat on a high bench so the legs can't help; pure back.",
+  "steps": [
+   "Lie face down on a raised flat bench.",
+   "Grab a barbell or dumbbells below.",
+   "Row to the bench underside.",
+   "Lower to a full stretch."
+  ],
+  "cues": [
+   "Pull the bar to the bench",
+   "Keep your hips heavy"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "Zero cheating means lower loads; track reps and pauses as the progression, not weight jumps."
+ },
+ {
+  "name": "T-Bar Row",
+  "aliases": [
+   "t bar row",
+   "t-bar row",
+   "tbar row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "barbell",
+   "landmine",
+   "machine"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Use a close neutral grip and row to the chest with a fixed hinge; don't stand up as you pull.",
+  "steps": [
+   "Straddle the bar, hinge to ~45°, V-handle under the plates.",
+   "Brace, arms long.",
+   "Row to the lower chest.",
+   "Lower 2 s."
+  ],
+  "cues": [
+   "Pull the handle to your chest",
+   "Tripod feet"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "Lets you load heavy with a neutral grip that matches the clinch; great mid-back thickness builder."
+ },
+ {
+  "name": "Meadows Row",
+  "aliases": [
+   "meadows row",
+   "landmine row",
+   "single arm landmine row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "landmine",
+   "barbell"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stand perpendicular to the bar and row the end with an overhand grip; the angle stretches the upper lats.",
+  "steps": [
+   "Bar end in a landmine; stand perpendicular to it.",
+   "Staggered stance, hinge, grip the thick end overhand.",
+   "Row the elbow up and back.",
+   "Lower to a full stretch."
+  ],
+  "cues": [
+   "Pull your elbow past your hip",
+   "Push the ground away with the front foot"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "Staggered stance plus a single arm mimics a rear-hand pull in a clinch; train both sides evenly."
+ },
+ {
+  "name": "Seated Cable Row",
+  "aliases": [
+   "cable row",
+   "seated row",
+   "seated cable row",
+   "v bar row",
+   "low row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Let the shoulders reach forward at the start for the stretch, then row; keeping them pinned the whole time cuts the range.",
+  "steps": [
+   "Sit with feet on the platform, knees soft, V-handle in hand.",
+   "Torso upright, arms long, shoulders reaching forward.",
+   "Row to the belly, elbows tight.",
+   "Return 2-3 s, letting the shoulder blades slide forward."
+  ],
+  "cues": [
+   "Pull the handle to your belly button",
+   "Push your feet into the platform"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "Torso stays near vertical; a 10° lean is fine, rocking 30° is momentum. Exhale as you pull."
+ },
+ {
+  "name": "Wide-Grip Cable Row",
+  "aliases": [
+   "wide grip cable row",
+   "wide row",
+   "cable row wide grip"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "upper back",
+   "rear delts",
+   "rhomboids",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Elbows flare ~60° and pull to the lower chest to bias upper back and rear delts.",
+  "steps": [
+   "Attach a straight bar, grip wide.",
+   "Sit tall, arms long.",
+   "Row to the lower chest with elbows out.",
+   "Return slowly."
+  ],
+  "cues": [
+   "Pull the bar to your chest",
+   "Spread the bar apart"
+  ],
+  "homeSwap": "Prone Y-T-W raises on the floor or a bench, 2-5 lb dumbbells or thumbs up with no weight.",
+  "note": "Upper back and rear delts build the posture that counters a slouched, forward-shoulder look."
+ },
+ {
+  "name": "Single-Arm Cable Row",
+  "aliases": [
+   "single arm cable row",
+   "one arm cable row",
+   "unilateral cable row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Let the torso rotate a little toward the cable at the stretch, then turn back as you row; this trains the full chain.",
+  "steps": [
+   "Set a handle at chest height; split stance.",
+   "Reach forward, letting the shoulder blade wrap around.",
+   "Row and rotate back to square.",
+   "Return slowly."
+  ],
+  "cues": [
+   "Pull your elbow behind you",
+   "Drive through your front foot"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "The rotation-to-square pattern is the reverse of a cross; it trains the deceleration side of punching."
+ },
+ {
+  "name": "Machine Row",
+  "aliases": [
+   "machine row",
+   "hammer strength row",
+   "seated machine row",
+   "chest supported machine row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Set the seat so the handles line up with your lower chest; too low and it becomes a shrug.",
+  "steps": [
+   "Adjust seat so handles are at lower-chest height.",
+   "Chest on the pad.",
+   "Row elbows back.",
+   "Return to full stretch."
+  ],
+  "cues": [
+   "Pull the handles to your ribs",
+   "Chest stays on the pad"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "Easy to push close to failure safely; take the last set to failure with lengthened partials."
+ },
+ {
+  "name": "Kroc Row",
+  "aliases": [
+   "kroc row",
+   "kroc rows",
+   "heavy db row high rep"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps",
+   "grip"
+  ],
+  "standing": true,
+  "doThisNotThat": "Heavy dumbbell, 15-20 reps, a little body English allowed, but the lowering stays controlled.",
+  "steps": [
+   "One hand on a bench, staggered stance.",
+   "Heaviest dumbbell you can row for 15+.",
+   "Row explosively; slight torso rotation okay.",
+   "Lower under control."
+  ],
+  "cues": [
+   "Rip the dumbbell to your hip",
+   "Plant your feet"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "High-rep heavy rows build grip endurance for grappling; use as a once-a-week finisher, not every session.",
+  "prescription": {
+   "sets": "1-2",
+   "reps": "15-20",
+   "rest": "2 min"
+  }
+ },
+ {
+  "name": "Inverted Row",
+  "aliases": [
+   "inverted row",
+   "australian pull up",
+   "body row",
+   "table row",
+   "bodyweight row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "bodyweight",
+   "barbell",
+   "smith"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep the body in one plank line from heels to head; sagging hips cut the load.",
+  "steps": [
+   "Set a bar at waist height (or lie under a sturdy table).",
+   "Hang under it, heels on the floor, body straight.",
+   "Pull the chest to the bar.",
+   "Lower in 2-3 s."
+  ],
+  "cues": [
+   "Pull your chest to the bar",
+   "Squeeze your glutes like a plank"
+  ],
+  "homeSwap": "Lie under a sturdy table, grip the edge, and row your chest up to it; elevate your feet to make it harder.",
+  "note": "At home this is your best horizontal pull; feet elevated plus a 2 s pause at the top progresses it for months."
+ },
+ {
+  "name": "Ring Row",
+  "aliases": [
+   "ring row",
+   "trx row",
+   "suspension row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "rings"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Let the hands turn naturally from palms-down to palms-in as you pull; the rings let the shoulders move freely.",
+  "steps": [
+   "Set rings or straps at chest height.",
+   "Walk feet forward, body straight.",
+   "Row hands to the ribs.",
+   "Lower slowly."
+  ],
+  "cues": [
+   "Pull the rings to your ribs",
+   "Stay stiff like a board"
+  ],
+  "homeSwap": "Towel row under a sturdy table.",
+  "note": "Unstable handles force the shoulder stabilizers to work, good for punch-heavy shoulders."
+ },
+ {
+  "name": "Renegade Row",
+  "aliases": [
+   "renegade row",
+   "plank row",
+   "pushup row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps",
+   "abs",
+   "obliques"
+  ],
+  "standing": false,
+  "doThisNotThat": "Feet wide and hips square; the win is a still torso, not a heavy row.",
+  "steps": [
+   "Plank on two dumbbells, feet wider than hips.",
+   "Brace, push one dumbbell into the floor.",
+   "Row the other to the hip without the hips rotating.",
+   "Alternate sides."
+  ],
+  "cues": [
+   "Push the floor away with the bottom hand",
+   "Keep your belt buckle facing the floor"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "An anti-rotation drill as much as a row; it builds the stiff trunk that stops you getting turned in the clinch."
+ },
+ {
+  "name": "Gorilla Row",
+  "aliases": [
+   "gorilla row",
+   "kb gorilla row",
+   "alternating bent over row"
+  ],
+  "pattern": "horizontal-pull",
+  "equipment": [
+   "kettlebell",
+   "dumbbell"
+  ],
+  "muscles": [
+   "lats",
+   "rhomboids",
+   "mid traps",
+   "rear delts",
+   "biceps",
+   "obliques"
+  ],
+  "standing": true,
+  "doThisNotThat": "Wide deep hinge, alternating rows, with the non-rowing hand pressing down into its bell.",
+  "steps": [
+   "Two kettlebells between the feet, wide stance.",
+   "Hinge low, grip both handles.",
+   "Row one while pressing the other down.",
+   "Alternate sides."
+  ],
+  "cues": [
+   "Push one bell into the floor as you pull the other",
+   "Tripod feet"
+  ],
+  "homeSwap": "One-arm dumbbell row braced on a chair, 3 s lowering, 1 s squeeze; or towel row under a sturdy table (feet planted, body straight).",
+  "note": "Alternating push-pull through the trunk is the same rhythm as hand-fighting."
+ },
+ {
+  "name": "Face Pull",
+  "aliases": [
+   "face pull",
+   "face pulls",
+   "rope face pull",
+   "cable face pull"
+  ],
+  "pattern": "scap-rear-delt",
+  "equipment": [
+   "cable",
+   "band"
+  ],
+  "muscles": [
+   "rear delts",
+   "rotator cuff",
+   "mid traps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pull the rope to your forehead and spread the hands apart; finish with thumbs pointing back.",
+  "steps": [
+   "Rope on a pulley at forehead height.",
+   "Step back, arms long.",
+   "Pull to the forehead, hands spreading to ear level.",
+   "Return slowly."
+  ],
+  "cues": [
+   "Pull the rope apart to your ears",
+   "Show your biceps to the wall"
+  ],
+  "homeSwap": "Prone Y-T-W raises on the floor or a bench, 2-5 lb dumbbells or thumbs up with no weight.",
+  "note": "Balances all the pressing and punching; 2-3 sets weekly is cheap shoulder insurance for a boxer."
+ },
+ {
+  "name": "Bent-Over Dumbbell Rear Delt Fly",
+  "aliases": [
+   "rear delt fly",
+   "bent over reverse fly",
+   "rear fly",
+   "reverse dumbbell fly",
+   "rear delt raise"
+  ],
+  "pattern": "scap-rear-delt",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "rear delts",
+   "rhomboids"
+  ],
+  "standing": true,
+  "doThisNotThat": "Lead with the pinkies and keep a slight elbow bend; heaving heavy weights turns it into a row.",
+  "steps": [
+   "Light dumbbells; hinge to ~70°.",
+   "Arms hanging, slight elbow bend.",
+   "Sweep arms out to the sides.",
+   "Lower in 2 s."
+  ],
+  "cues": [
+   "Throw the dumbbells to the walls",
+   "Tripod feet"
+  ],
+  "homeSwap": "Same exercise with your light home dumbbells; add a 1 s pause at the top.",
+  "note": "Rear delts round out the shoulder for the \"3D\" look, and they decelerate the arm after every punch."
+ },
+ {
+  "name": "Cable Rear Delt Fly",
+  "aliases": [
+   "cable rear delt fly",
+   "cable reverse fly",
+   "cross cable rear delt"
+  ],
+  "pattern": "scap-rear-delt",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "rear delts"
+  ],
+  "standing": true,
+  "doThisNotThat": "Cross the cables (left hand takes the right cable) at shoulder height for a longer stretch.",
+  "steps": [
+   "Set two pulleys at shoulder height.",
+   "Cross arms to grab opposite cables.",
+   "Sweep arms out wide.",
+   "Return slowly to crossed."
+  ],
+  "cues": [
+   "Sweep your hands to the walls",
+   "Stay tall"
+  ],
+  "homeSwap": "Prone Y-T-W raises on the floor or a bench, 2-5 lb dumbbells or thumbs up with no weight.",
+  "note": "Constant tension through a long range; the crossed start stretches the rear delt."
+ },
+ {
+  "name": "Reverse Pec Deck",
+  "aliases": [
+   "reverse pec deck",
+   "reverse fly machine",
+   "rear delt machine"
+  ],
+  "pattern": "scap-rear-delt",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "rear delts",
+   "mid traps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Set the handles so arms start forward, and lead with the elbows, not the hands.",
+  "steps": [
+   "Face the pad, chest on it.",
+   "Handles at shoulder height.",
+   "Sweep arms back to in line with the body.",
+   "Return slowly."
+  ],
+  "cues": [
+   "Push the handles to the walls",
+   "Chest on the pad"
+  ],
+  "homeSwap": "Prone Y-T-W raises on the floor or a bench, 2-5 lb dumbbells or thumbs up with no weight.",
+  "note": "Easy to take to failure safely: last set to failure plus partials in the stretched (front) position."
+ },
+ {
+  "name": "Chest-Supported Rear Delt Raise",
+  "aliases": [
+   "chest supported rear delt",
+   "incline rear delt raise",
+   "prone rear delt fly"
+  ],
+  "pattern": "scap-rear-delt",
+  "equipment": [
+   "dumbbell",
+   "bench"
+  ],
+  "muscles": [
+   "rear delts"
+  ],
+  "standing": false,
+  "doThisNotThat": "Chest on an incline bench removes momentum completely.",
+  "steps": [
+   "Incline bench ~30°, lie face down.",
+   "Light dumbbells hanging.",
+   "Raise arms out to the sides.",
+   "Lower slowly."
+  ],
+  "cues": [
+   "Spread the dumbbells to the walls",
+   "Chest stays down"
+  ],
+  "homeSwap": "Prone Y-T-W raises on the floor or a bench, 2-5 lb dumbbells or thumbs up with no weight.",
+  "note": "Pure rear delt with no lower-back fatigue; a good accessory after heavy legs."
+ },
+ {
+  "name": "Band Pull-Apart",
+  "aliases": [
+   "band pull apart",
+   "pull aparts",
+   "band pullapart"
+  ],
+  "pattern": "scap-rear-delt",
+  "equipment": [
+   "band"
+  ],
+  "muscles": [
+   "rear delts",
+   "rhomboids",
+   "mid traps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Keep arms straight at shoulder height and pull until the band touches the chest.",
+  "steps": [
+   "Hold a light band at shoulder width, arms straight in front.",
+   "Stand tall.",
+   "Pull the band apart to the chest.",
+   "Return slowly."
+  ],
+  "cues": [
+   "Stretch the band to your chest",
+   "Stay tall"
+  ],
+  "homeSwap": "Prone Y-T-W raises on the floor or a bench, 2-5 lb dumbbells or thumbs up with no weight.",
+  "note": "High-rep, low-fatigue posture work; 2 sets of 20 between rounds of shadowboxing keeps the shoulders healthy.",
+  "prescription": {
+   "sets": "2-3",
+   "reps": "15-25",
+   "rest": "45 s"
+  }
+ },
+ {
+  "name": "Prone Y-T-W Raise",
+  "aliases": [
+   "ytw",
+   "y t w",
+   "prone ytw",
+   "y raises",
+   "t raises",
+   "w raises"
+  ],
+  "pattern": "scap-rear-delt",
+  "equipment": [
+   "bodyweight",
+   "dumbbell"
+  ],
+  "muscles": [
+   "lower traps",
+   "mid traps",
+   "rotator cuff"
+  ],
+  "standing": false,
+  "doThisNotThat": "Thumbs up and arms long; tiny weights or none, perfect shape beats heavy.",
+  "steps": [
+   "Lie face down on the floor or an incline bench.",
+   "Raise arms into a Y, hold 2 s.",
+   "Then a T, hold 2 s.",
+   "Then a W, hold 2 s."
+  ],
+  "cues": [
+   "Reach your thumbs to the ceiling",
+   "Keep your forehead down"
+  ],
+  "homeSwap": "Prone Y-T-W raises on the floor or a bench, 2-5 lb dumbbells or thumbs up with no weight.",
+  "note": "Lower traps fix the shrugged shoulder posture; do these on rest days too."
+ },
+ {
+  "name": "Barbell Shrug",
+  "aliases": [
+   "barbell shrug",
+   "shrugs",
+   "bb shrug"
+  ],
+  "pattern": "shrug",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "upper traps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Shrug straight up toward the ears and pause; rolling the shoulders adds nothing.",
+  "steps": [
+   "Hold the bar at hip height, shoulder width.",
+   "Stand tall, tripod feet.",
+   "Shrug up, pause 1-2 s.",
+   "Lower slowly to a full stretch."
+  ],
+  "cues": [
+   "Lift your shoulders to your ears",
+   "Keep your arms like ropes"
+  ],
+  "homeSwap": "Dumbbell shrug with your heaviest pair, 2 s pause at the top.",
+  "note": "Big traps protect the neck in boxing and grappling; pair shrugs with neck work."
+ },
+ {
+  "name": "Dumbbell Shrug",
+  "aliases": [
+   "db shrug",
+   "dumbbell shrugs"
+  ],
+  "pattern": "shrug",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "upper traps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hold the pause at the top for 2 s every rep.",
+  "steps": [
+   "Dumbbells at the sides.",
+   "Stand tall.",
+   "Shrug up, pause.",
+   "Lower to full stretch."
+  ],
+  "cues": [
+   "Lift your shoulders to your ears",
+   "Stand tall"
+  ],
+  "homeSwap": "Same at home; slow the lowering to 3 s.",
+  "note": "Neck and trap mass is part of a fighter's look and protection."
+ },
+ {
+  "name": "Trap Bar Shrug",
+  "aliases": [
+   "trap bar shrug",
+   "hex bar shrug"
+  ],
+  "pattern": "shrug",
+  "equipment": [
+   "trap bar"
+  ],
+  "muscles": [
+   "upper traps"
+  ],
+  "standing": true,
+  "doThisNotThat": "The neutral grip lets you load heavy without the bar dragging on your thighs.",
+  "steps": [
+   "Stand in the trap bar, grip the handles.",
+   "Lift to standing.",
+   "Shrug and pause.",
+   "Lower slowly."
+  ],
+  "cues": [
+   "Lift your shoulders to your ears",
+   "Tripod feet"
+  ],
+  "homeSwap": "Dumbbell shrug.",
+  "note": "Easiest heavy shrug on the back; good when the low back is tired."
+ },
+ {
+  "name": "Cable Shrug",
+  "aliases": [
+   "cable shrug"
+  ],
+  "pattern": "shrug",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "upper traps"
+  ],
+  "standing": true,
+  "doThisNotThat": "Constant tension at the bottom stretch.",
+  "steps": [
+   "Attach a straight bar to a low pulley; stand close to the stack.",
+   "Grip shoulder width, arms long.",
+   "Shrug straight up and pause 1-2 s.",
+   "Lower to a full stretch."
+  ],
+  "cues": [
+   "Lift your shoulders to your ears"
+  ],
+  "homeSwap": "Dumbbell shrug.",
+  "note": "Constant tension at the bottom stretch where dumbbells go light; good for high-rep trap and neck-protection work after heavy pulls."
+ },
+ {
+  "name": "Barbell High Pull",
+  "aliases": [
+   "high pull",
+   "barbell high pull",
+   "rack pull high pull"
+  ],
+  "pattern": "olympic",
+  "equipment": [
+   "barbell"
+  ],
+  "muscles": [
+   "traps",
+   "glutes",
+   "hamstrings",
+   "rear delts"
+  ],
+  "standing": true,
+  "doThisNotThat": "Explode with the hips and let the elbows ride high; it is a jump with the arms following, not an upright row.",
+  "steps": [
+   "Bar at mid-thigh (hang position).",
+   "Dip a few inches with a vertical torso.",
+   "Drive hips and legs through like a jump.",
+   "Let the elbows pull high and out; bar to the chest."
+  ],
+  "cues": [
+   "Jump the bar up",
+   "Elbows high and wide"
+  ],
+  "homeSwap": "Dumbbell high pull from the hang with the same jump.",
+  "note": "Ground → hips → traps → arms sequencing is the exact firing order your arm-first habit needs; light and fast.",
+  "prescription": {
+   "sets": "3 working",
+   "reps": "3-5",
+   "rest": "2 min"
+  }
+ },
+ {
+  "name": "Front Plank",
+  "aliases": [
+   "plank",
+   "planks",
+   "front plank",
+   "forearm plank"
+  ],
+  "pattern": "core-anti-extension",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs",
+   "obliques",
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Squeeze glutes and pull elbows toward toes; long sloppy holds teach nothing.",
+  "steps": [
+   "Forearms on the floor, elbows under shoulders.",
+   "Legs straight, feet hip width.",
+   "Squeeze glutes, ribs down.",
+   "Breathe in short nasal breaths; hold 20-30 s."
+  ],
+  "cues": [
+   "Pull your elbows to your toes",
+   "Push the floor away"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Short, maximal-tension holds (20-30 s) build more trunk stiffness than 2-minute holds; exhale-focused breathing keeps the brace without breath-holding.",
+  "prescription": {
+   "sets": "3",
+   "reps": "20-30 s",
+   "rest": "45 s"
+  }
+ },
+ {
+  "name": "RKC Plank",
+  "aliases": [
+   "rkc plank",
+   "hardstyle plank"
+  ],
+  "pattern": "core-anti-extension",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs",
+   "glutes",
+   "lats"
+  ],
+  "standing": false,
+  "doThisNotThat": "Maximum full-body tension for 10-15 s, not a long relaxed hold.",
+  "steps": [
+   "Forearm plank, elbows slightly ahead of shoulders.",
+   "Squeeze glutes and quads hard.",
+   "Drag elbows toward toes without moving.",
+   "Hold 10-15 s."
+  ],
+  "cues": [
+   "Pull your elbows to your toes",
+   "Crush the floor"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Teaches the full-body tension you need to absorb a body shot or a takedown attempt.",
+  "prescription": {
+   "sets": "3",
+   "reps": "10-15 s",
+   "rest": "45 s"
+  }
+ },
+ {
+  "name": "Side Plank",
+  "aliases": [
+   "side plank",
+   "side planks"
+  ],
+  "pattern": "core-anti-rotation",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "obliques",
+   "glute medius",
+   "quadratus lumborum"
+  ],
+  "standing": false,
+  "doThisNotThat": "Stack shoulder over elbow and push hips forward; sagging hips just hang off the joints.",
+  "steps": [
+   "Elbow under shoulder, legs stacked or staggered.",
+   "Lift hips to a straight line.",
+   "Push top hip forward slightly.",
+   "Hold 20-30 s each side."
+  ],
+  "cues": [
+   "Push the floor away",
+   "Lift your top hip to the ceiling"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Lateral trunk stiffness transfers to stance and to resisting being bent sideways in the clinch.",
+  "prescription": {
+   "sets": "2-3",
+   "reps": "20-30 s/side",
+   "rest": "30 s"
+  }
+ },
+ {
+  "name": "Side Plank with Leg Lift",
+  "aliases": [
+   "side plank leg lift",
+   "side plank abduction",
+   "star plank"
+  ],
+  "pattern": "core-anti-rotation",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "obliques",
+   "glute medius"
+  ],
+  "standing": false,
+  "doThisNotThat": "Lift the top leg slowly without the hips dropping or rotating.",
+  "steps": [
+   "Side plank on elbow.",
+   "Lift top leg 12 inches.",
+   "Hold 2 s, lower.",
+   "6-10 lifts per side."
+  ],
+  "cues": [
+   "Kick the top heel to the wall",
+   "Hips forward"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Glute medius control here helps stop the knee from caving, which flat feet push toward."
+ },
+ {
+  "name": "Dead Bug",
+  "aliases": [
+   "dead bug",
+   "deadbug",
+   "dead bugs"
+  ],
+  "pattern": "core-anti-extension",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs",
+   "obliques"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep the low back pressed down; if it lifts, shorten the range.",
+  "steps": [
+   "Lie on your back, arms to the ceiling, knees over hips.",
+   "Exhale fully, press low back into the floor.",
+   "Lower opposite arm and leg slowly.",
+   "Return and switch."
+  ],
+  "cues": [
+   "Push your low back into the floor",
+   "Reach your heel long"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Long exhales during dead bugs train the diaphragm and brace together; useful breathing practice with asthma."
+ },
+ {
+  "name": "Bird Dog",
+  "aliases": [
+   "bird dog",
+   "birddog",
+   "bird dogs"
+  ],
+  "pattern": "core-anti-rotation",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs",
+   "glutes",
+   "spinal erectors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Move slow enough that a cup on your back would not spill.",
+  "steps": [
+   "Hands under shoulders, knees under hips.",
+   "Reach one arm and the opposite leg long.",
+   "Hold 2 s.",
+   "Return and switch."
+  ],
+  "cues": [
+   "Reach your heel to the wall behind",
+   "Keep your back flat like a table"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Cross-body coordination drill, good for your sequencing and balance work."
+ },
+ {
+  "name": "Hollow Body Hold",
+  "aliases": [
+   "hollow hold",
+   "hollow body",
+   "hollow rock",
+   "hollow rocks"
+  ],
+  "pattern": "core-anti-extension",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs",
+   "hip flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Low back flat on the floor; raise legs higher if it lifts.",
+  "steps": [
+   "Lie on your back, arms overhead.",
+   "Press low back down, lift shoulders and legs.",
+   "Hold 20-30 s or rock gently.",
+   "Bend knees to make it easier."
+  ],
+  "cues": [
+   "Push your low back into the floor",
+   "Reach long"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "The hollow position is the base for gymnastics and for the L-sit pull-up."
+ },
+ {
+  "name": "Ab Wheel Rollout",
+  "aliases": [
+   "ab wheel",
+   "ab roller",
+   "rollout",
+   "ab wheel rollout",
+   "kneeling rollout"
+  ],
+  "pattern": "core-anti-extension",
+  "equipment": [
+   "ab wheel"
+  ],
+  "muscles": [
+   "abs",
+   "lats"
+  ],
+  "standing": false,
+  "doThisNotThat": "Roll only as far as you can keep a flat back; sagging hips load the spine, not the abs.",
+  "steps": [
+   "Kneel, wheel under shoulders.",
+   "Brace and squeeze glutes.",
+   "Roll forward slowly.",
+   "Pull back with the arms and abs together."
+  ],
+  "cues": [
+   "Push the wheel away with your arms",
+   "Keep your hips tucked"
+  ],
+  "homeSwap": "Floor slider or towel rollout on a smooth floor.",
+  "note": "One of the strongest anti-extension exercises; protects the low back in sprawls."
+ },
+ {
+  "name": "Standing Ab Wheel Rollout",
+  "aliases": [
+   "standing rollout",
+   "standing ab wheel"
+  ],
+  "pattern": "core-anti-extension",
+  "equipment": [
+   "ab wheel"
+  ],
+  "muscles": [
+   "abs",
+   "lats"
+  ],
+  "standing": false,
+  "doThisNotThat": "Advanced only: master full kneeling rollouts first.",
+  "steps": [
+   "Stand, hinge and place the wheel on the floor in front of the feet.",
+   "Brace hard, squeeze glutes, tuck the pelvis.",
+   "Roll out only as far as you can keep a flat back (start with a wall stopping the wheel).",
+   "Pull back to standing with arms and abs together."
+  ],
+  "cues": [
+   "Push the wheel far away",
+   "Keep your hips tucked"
+  ],
+  "homeSwap": "Kneeling rollout with a pause.",
+  "note": "Only after 10+ clean full kneeling rollouts; use a wall to limit the range and move the wall back an inch a week."
+ },
+ {
+  "name": "Stability Ball Rollout",
+  "aliases": [
+   "swiss ball rollout",
+   "ball rollout"
+  ],
+  "pattern": "core-anti-extension",
+  "equipment": [
+   "stability ball"
+  ],
+  "muscles": [
+   "abs"
+  ],
+  "standing": false,
+  "doThisNotThat": "Roll only until the arms are overhead with hips still tucked; the ball makes the rollout easier than a wheel, so use it to learn the shape.",
+  "steps": [
+   "Kneel facing a stability ball, forearms on top, fists together.",
+   "Squeeze glutes and tuck the pelvis slightly.",
+   "Roll the ball forward until hips and shoulders form a line.",
+   "Pull it back with the forearms and abs, exhaling."
+  ],
+  "cues": [
+   "Push the ball away with your forearms",
+   "Keep your hips tucked"
+  ],
+  "homeSwap": "Kneeling ab wheel or plank.",
+  "note": "The easiest anti-extension progression before the ab wheel; sets of 8-10 slow reps build the brace you need to stay stiff when a body shot lands."
+ },
+ {
+  "name": "Stir the Pot",
+  "aliases": [
+   "stir the pot",
+   "ball stir the pot"
+  ],
+  "pattern": "core-anti-extension",
+  "equipment": [
+   "stability ball"
+  ],
+  "muscles": [
+   "abs",
+   "obliques"
+  ],
+  "standing": false,
+  "doThisNotThat": "Draw small slow circles with the forearms while hips and ribs stay totally still; big fast circles let the trunk wobble.",
+  "steps": [
+   "Forearm plank on a stability ball, feet wide.",
+   "Squeeze glutes, ribs down.",
+   "Draw 5 small circles clockwise with the forearms.",
+   "Then 5 counterclockwise; rest."
+  ],
+  "cues": [
+   "Draw small circles with your elbows",
+   "Keep your belt buckle still"
+  ],
+  "homeSwap": "Plank with shoulder taps.",
+  "note": "Unstable anti-extension trains the reflexive trunk stiffness that keeps you square when someone pushes or pulls you off balance."
+ },
+ {
+  "name": "Pallof Press",
+  "aliases": [
+   "pallof press",
+   "paloff press",
+   "anti rotation press",
+   "cable pallof"
+  ],
+  "pattern": "core-anti-rotation",
+  "equipment": [
+   "cable",
+   "band"
+  ],
+  "muscles": [
+   "obliques",
+   "abs"
+  ],
+  "standing": true,
+  "doThisNotThat": "Press straight out and hold; the cable tries to rotate you, your job is to not move.",
+  "steps": [
+   "Cable or band at chest height; stand side-on.",
+   "Handle at chest, feet hip width.",
+   "Press straight out, hold 2 s.",
+   "Return; 8-12 reps per side."
+  ],
+  "cues": [
+   "Push the handle straight out",
+   "Screw your feet into the floor"
+  ],
+  "homeSwap": "Plank shoulder taps or a single-arm DB farmer hold.",
+  "note": "Anti-rotation stiffness is what lets hip rotation reach the fist instead of leaking out of the trunk."
+ },
+ {
+  "name": "Pallof Walkout",
+  "aliases": [
+   "pallof walkout",
+   "anti rotation walkout"
+  ],
+  "pattern": "core-anti-rotation",
+  "equipment": [
+   "cable",
+   "band"
+  ],
+  "muscles": [
+   "obliques",
+   "abs"
+  ],
+  "standing": true,
+  "doThisNotThat": "Walk sideways with arms extended; don't let the cable pull you around.",
+  "steps": [
+   "Cable or band at chest height; hold the handle at your sternum and press arms straight.",
+   "Stand side-on in an athletic stance: knees ~25°, tripod feet.",
+   "Side-step away from the anchor 3-4 steps with arms locked out.",
+   "Hold 2 s, then step back in; 4-6 trips per side."
+  ],
+  "cues": [
+   "Keep your hands on your center line",
+   "Push the floor sideways with each step"
+  ],
+  "homeSwap": "Suitcase carry.",
+  "note": "Combines footwork with a braced trunk, like circling the ring while staying square to the opponent."
+ },
+ {
+  "name": "Overhead Pallof Press",
+  "aliases": [
+   "overhead pallof",
+   "pallof press overhead"
+  ],
+  "pattern": "core-anti-rotation",
+  "equipment": [
+   "cable",
+   "band"
+  ],
+  "muscles": [
+   "obliques",
+   "abs",
+   "shoulders"
+  ],
+  "standing": true,
+  "doThisNotThat": "Press overhead without arching the low back.",
+  "steps": [
+   "Stand side-on to a chest-height cable or band.",
+   "Hold the handle at your sternum, feet hip width, glutes on.",
+   "Press the handle straight overhead without the ribs flaring.",
+   "Hold 2 s, lower; 8 per side."
+  ],
+  "cues": [
+   "Reach the handle to the ceiling",
+   "Keep your ribs down"
+  ],
+  "homeSwap": "Plank shoulder taps.",
+  "note": "Adds shoulder stability to anti-rotation; useful for volleyball and tennis overhead positions where the trunk must stay stacked."
+ },
+ {
+  "name": "Half-Kneeling Cable Chop",
+  "aliases": [
+   "cable chop",
+   "half kneeling chop",
+   "high to low chop"
+  ],
+  "pattern": "rotational-power",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "obliques",
+   "abs",
+   "lats"
+  ],
+  "standing": false,
+  "doThisNotThat": "Turn from the hips with the arms following, not a pull with the arms.",
+  "steps": [
+   "Half kneel, inside knee down, rope on a high pulley.",
+   "Rope over the far shoulder.",
+   "Pull across and down past the far hip.",
+   "Return slowly."
+  ],
+  "cues": [
+   "Pull the rope to your far hip",
+   "Turn your belt buckle first"
+  ],
+  "homeSwap": "Dumbbell woodchop from half kneeling.",
+  "note": "Teaches hips-lead rotation, the same order you need in a hook or rear hand."
+ },
+ {
+  "name": "Half-Kneeling Cable Lift",
+  "aliases": [
+   "cable lift",
+   "low to high lift",
+   "half kneeling lift"
+  ],
+  "pattern": "rotational-power",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "obliques",
+   "abs"
+  ],
+  "standing": false,
+  "doThisNotThat": "Push and pull the rope up across the body; the trunk stays tall.",
+  "steps": [
+   "Half kneel with the inside knee down, rope on a low pulley beside you.",
+   "Grip the rope at the near hip, tall torso.",
+   "Pull the rope to the chest, then press it up and across to the far shoulder.",
+   "Return slowly; 8-10 per side."
+  ],
+  "cues": [
+   "Push the rope to the far ceiling",
+   "Stay tall on your knee"
+  ],
+  "homeSwap": "Dumbbell lift from half kneeling.",
+  "note": "Low-to-high mirrors an uppercut or a golf/tennis follow-through; the trunk transfers force from the hip without bending."
+ },
+ {
+  "name": "Cable Woodchop",
+  "aliases": [
+   "woodchop",
+   "wood chop",
+   "cable woodchopper",
+   "woodchoppers"
+  ],
+  "pattern": "rotational-power",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "obliques",
+   "abs",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pivot the back foot and drive the hips; the arms are just ropes.",
+  "steps": [
+   "Cable high, stand side-on.",
+   "Rotate from the hips, pivoting back foot.",
+   "Finish facing away.",
+   "Return slowly."
+  ],
+  "cues": [
+   "Throw the rope past your hip",
+   "Pivot your back heel"
+  ],
+  "homeSwap": "Dumbbell woodchop.",
+  "note": "The back-foot pivot is the same pivot as a power punch."
+ },
+ {
+  "name": "Dumbbell Woodchop",
+  "aliases": [
+   "db woodchop",
+   "dumbbell wood chop"
+  ],
+  "pattern": "rotational-power",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "obliques",
+   "abs",
+   "glutes"
+  ],
+  "standing": true,
+  "doThisNotThat": "Pivot and let the hips start.",
+  "steps": [
+   "Hold one dumbbell with both hands outside one shoulder, feet shoulder width.",
+   "Rotate the hips first and chop the dumbbell down across to the opposite knee.",
+   "Pivot the back foot as you turn.",
+   "Return under control; 8-10 per side."
+  ],
+  "cues": [
+   "Chop the dumbbell past your knee",
+   "Pivot your back heel"
+  ],
+  "homeSwap": "Same at home with a light dumbbell.",
+  "note": "Your home rotational drill: keep it light and fast, the goal is hips first, arms last, the fix for your arm-first sequencing."
+ },
+ {
+  "name": "Landmine Rotation",
+  "aliases": [
+   "landmine rotation",
+   "landmine rainbow",
+   "landmine twist",
+   "landmine 180"
+  ],
+  "pattern": "rotational-power",
+  "equipment": [
+   "landmine",
+   "barbell"
+  ],
+  "muscles": [
+   "obliques",
+   "abs",
+   "glutes",
+   "shoulders"
+  ],
+  "standing": true,
+  "doThisNotThat": "Move the bar in a rainbow with the hips driving and arms almost straight.",
+  "steps": [
+   "Hold the bar end with both hands at eye level.",
+   "Pivot feet and rotate the bar to one hip.",
+   "Drive back to the other side.",
+   "Keep arms long."
+  ],
+  "cues": [
+   "Draw a rainbow with the bar",
+   "Pivot your feet"
+  ],
+  "homeSwap": "Dumbbell woodchop.",
+  "note": "Great rotational strength drill for punching."
+ },
+ {
+  "name": "Russian Twist",
+  "aliases": [
+   "russian twist",
+   "russian twists",
+   "seated twist"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "bodyweight",
+   "dumbbell"
+  ],
+  "muscles": [
+   "obliques"
+  ],
+  "standing": false,
+  "doThisNotThat": "Rotate the ribcage, not just the arms; better yet, choose Pallof press or chops for punch transfer.",
+  "steps": [
+   "Sit, lean back ~45° with a straight back.",
+   "Feet down (easier) or up (harder).",
+   "Rotate the ribcage to touch the floor beside each hip.",
+   "Exhale on each turn."
+  ],
+  "cues": [
+   "Turn your chest to each wall"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Weak transfer to punching versus standing anti-rotation and chops; keep it as an accessory, not the main core work."
+ },
+ {
+  "name": "Hanging Knee Raise",
+  "aliases": [
+   "hanging knee raise",
+   "hanging knee raises",
+   "knee raise"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "abs",
+   "hip flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Curl the pelvis up, don't just lift the knees.",
+  "steps": [
+   "Hang from a bar, shoulders pulled down.",
+   "Bring the knees up toward the chest.",
+   "Curl the pelvis up at the top so the low back rounds slightly.",
+   "Lower in 2-3 s without swinging."
+  ],
+  "cues": [
+   "Bring your knees to your chest",
+   "Curl your hips up"
+  ],
+  "homeSwap": "Lying reverse crunch.",
+  "note": "Curling the pelvis (not just lifting the knees) is what works the abs; hanging also builds grip for grappling and decompresses the spine."
+ },
+ {
+  "name": "Hanging Leg Raise",
+  "aliases": [
+   "hanging leg raise",
+   "hanging leg raises",
+   "leg raises hanging"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "abs",
+   "hip flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Straight legs, no swing.",
+  "steps": [
+   "Hang with shoulders set down, legs straight.",
+   "Lift straight legs to hip height or higher.",
+   "Curl the pelvis at the top.",
+   "Lower in 2-3 s, no swing."
+  ],
+  "cues": [
+   "Lift your toes to the bar",
+   "Stay still"
+  ],
+  "homeSwap": "Lying leg raise.",
+  "note": "Strong lower abs and hip flexors help you absorb body shots and lift the knees for checks and knees in MMA."
+ },
+ {
+  "name": "Toes-to-Bar",
+  "aliases": [
+   "toes to bar",
+   "t2b"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "abs",
+   "lats",
+   "hip flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Strict toes to bar with no kipping.",
+  "steps": [
+   "Hang from the bar, shoulders set.",
+   "Press the bar down toward your hips with straight arms.",
+   "Lift the legs and touch the toes to the bar.",
+   "Lower slowly; no kipping."
+  ],
+  "cues": [
+   "Touch the bar with your toes",
+   "Push the bar down"
+  ],
+  "homeSwap": "V-up.",
+  "note": "Lats push the bar down while the abs curl; advanced, so build hanging leg raises to 10 clean reps first."
+ },
+ {
+  "name": "Captain's Chair Knee Raise",
+  "aliases": [
+   "captains chair",
+   "captain chair leg raise",
+   "vertical knee raise"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "machine"
+  ],
+  "muscles": [
+   "abs",
+   "hip flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Curl the hips up off the pad.",
+  "steps": [
+   "Back flat on the pad, forearms on the rests.",
+   "Let the legs hang straight.",
+   "Raise the knees and curl the hips off the pad.",
+   "Lower slowly."
+  ],
+  "cues": [
+   "Bring your knees to your chest"
+  ],
+  "homeSwap": "Lying reverse crunch.",
+  "note": "A supported version of the hanging knee raise when grip is tired; still curl the pelvis, not just the knees."
+ },
+ {
+  "name": "Lying Leg Raise",
+  "aliases": [
+   "lying leg raise",
+   "leg raises",
+   "leg lifts"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs",
+   "hip flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep low back pressed down.",
+  "steps": [
+   "Lie on your back, hands under the hips.",
+   "Press the low back into the floor.",
+   "Raise straight legs to 90°.",
+   "Lower slowly, stopping where the low back lifts."
+  ],
+  "cues": [
+   "Push your low back into the floor",
+   "Lift your toes to the ceiling"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Stop the lowering where the back peels off the floor; that point moves lower as you get stronger, track it."
+ },
+ {
+  "name": "Reverse Crunch",
+  "aliases": [
+   "reverse crunch",
+   "reverse crunches"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs"
+  ],
+  "standing": false,
+  "doThisNotThat": "Curl hips off the floor.",
+  "steps": [
+   "Lie on your back, knees bent at 90°, hands by the hips.",
+   "Exhale and curl the knees toward the chest, lifting the hips.",
+   "Pause 1 s.",
+   "Lower slowly."
+  ],
+  "cues": [
+   "Curl your hips to your ribs"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Lower-ab emphasis with less hip flexor than leg raises; a long exhale at the top trains the breathing brace."
+ },
+ {
+  "name": "Cable Crunch",
+  "aliases": [
+   "cable crunch",
+   "kneeling cable crunch",
+   "rope crunch"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "cable"
+  ],
+  "muscles": [
+   "abs"
+  ],
+  "standing": false,
+  "doThisNotThat": "Curl the spine; don't just bend at the hips.",
+  "steps": [
+   "Kneel facing a high pulley, rope held at the sides of the head.",
+   "Hips stay still and high.",
+   "Curl the ribs down toward the hips, elbows to the knees.",
+   "Return slowly to a stretch."
+  ],
+  "cues": [
+   "Curl your ribs to your hips"
+  ],
+  "homeSwap": "Crunch with a pause.",
+  "note": "Loadable ab hypertrophy: progress weight like any lift, 8-15 reps, last set to failure; visible abs need muscle plus staying lean (not dieting)."
+ },
+ {
+  "name": "Crunch",
+  "aliases": [
+   "crunch",
+   "crunches",
+   "abs",
+   "ab crunch"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs"
+  ],
+  "standing": false,
+  "doThisNotThat": "Curl only the upper back off the floor; exhale fully at the top.",
+  "steps": [
+   "Lie on your back, knees bent, hands across the chest.",
+   "Exhale fully and curl the shoulder blades off the floor.",
+   "Pause 1 s at the top.",
+   "Lower slowly."
+  ],
+  "cues": [
+   "Curl your ribs to your hips"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Full exhale at the top doubles as breathing practice."
+ },
+ {
+  "name": "Sit-Up",
+  "aliases": [
+   "sit up",
+   "sit ups",
+   "situps"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs",
+   "hip flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Controlled, no yanking the neck.",
+  "steps": [
+   "Lie on your back, knees bent, feet flat.",
+   "Arms across the chest.",
+   "Curl up to sitting, chin tucked.",
+   "Lower slowly."
+  ],
+  "cues": [
+   "Curl your chest to your knees"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Fine for abs, but crunches, rollouts and anti-rotation work cover more; don't yank the neck."
+ },
+ {
+  "name": "Decline Sit-Up",
+  "aliases": [
+   "decline sit up",
+   "decline situps"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "bench"
+  ],
+  "muscles": [
+   "abs",
+   "hip flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Controlled lowering.",
+  "steps": [
+   "Hook the feet on a decline bench.",
+   "Arms across the chest.",
+   "Lower back slowly to just above parallel.",
+   "Curl up to upright."
+  ],
+  "cues": [
+   "Curl your chest to your knees"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Harder sit-up; hold a light plate on the chest to progress. Keep the lowering slow to load the abs, not the hip flexors."
+ },
+ {
+  "name": "V-Up",
+  "aliases": [
+   "v up",
+   "v-ups",
+   "vups"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs",
+   "hip flexors"
+  ],
+  "standing": false,
+  "doThisNotThat": "Reach hands to feet at the same time.",
+  "steps": [
+   "Lie flat, arms overhead, legs straight.",
+   "Lift arms and legs at the same time.",
+   "Touch hands to feet at the top.",
+   "Lower slowly."
+  ],
+  "cues": [
+   "Touch your toes"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Coordination and core together; bend knees (tuck-ups) if the back arches on the way down."
+ },
+ {
+  "name": "L-Sit",
+  "aliases": [
+   "l sit",
+   "l-sit hold",
+   "parallette l sit"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "bodyweight",
+   "parallettes"
+  ],
+  "muscles": [
+   "abs",
+   "hip flexors",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Push down hard and lift legs straight.",
+  "steps": [
+   "Hands on parallettes, dip bars or two sturdy chairs.",
+   "Push down hard so the shoulders depress.",
+   "Lift the legs straight in front.",
+   "Hold 10-20 s; tuck knees to make it easier."
+  ],
+  "cues": [
+   "Push the floor away",
+   "Point your toes forward"
+  ],
+  "homeSwap": "Tuck sit between two chairs.",
+  "note": "Builds hip flexor, triceps and core strength together; also a great test of how much your stiff hamstrings let you hold straight legs."
+ },
+ {
+  "name": "Dragon Flag",
+  "aliases": [
+   "dragon flag",
+   "dragon flags"
+  ],
+  "pattern": "core-anti-extension",
+  "equipment": [
+   "bench"
+  ],
+  "muscles": [
+   "abs",
+   "lats"
+  ],
+  "standing": false,
+  "doThisNotThat": "Advanced; lower slowly in one line.",
+  "steps": [
+   "Lie on a bench and grip the bench behind your head.",
+   "Lift the body to vertical on the upper back.",
+   "Lower in a straight line slowly.",
+   "Start with eccentric-only reps."
+  ],
+  "cues": [
+   "Stay stiff like a board"
+  ],
+  "homeSwap": "Lying leg raise.",
+  "note": "Very hard; 3-5 slow negatives beats sloppy full reps. Skip within 48 h of a game."
+ },
+ {
+  "name": "Jefferson Curl",
+  "aliases": [
+   "jefferson curl",
+   "jefferson curls"
+  ],
+  "pattern": "mobility",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "spinal erectors",
+   "hamstrings"
+  ],
+  "standing": true,
+  "doThisNotThat": "Very light weight, slow vertebra-by-vertebra roll.",
+  "steps": [
+   "Stand on a low box with a 5-10 lb weight.",
+   "Tuck the chin and roll down one vertebra at a time.",
+   "Let the weight go below the box as range allows.",
+   "Roll back up slowly, head last."
+  ],
+  "cues": [
+   "Roll down one vertebra at a time"
+  ],
+  "homeSwap": "Bodyweight Jefferson curl.",
+  "note": "Light only (5-10 lb): this builds spinal flexion range for an all-over-stiff back, not strength. Stop if anything feels sharp.",
+  "prescription": {
+   "sets": "2",
+   "reps": "5-8 slow",
+   "rest": "60 s"
+  }
+ },
+ {
+  "name": "McGill Curl-Up",
+  "aliases": [
+   "mcgill curl up",
+   "curl up"
+  ],
+  "pattern": "core-flexion",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs"
+  ],
+  "standing": false,
+  "doThisNotThat": "Tiny range, neutral spine.",
+  "steps": [
+   "Lie on your back, one knee bent, the other leg straight.",
+   "Hands under the low back to keep its natural curve.",
+   "Lift head and shoulders an inch or two; hold 8-10 s.",
+   "Do 5 holds, switch legs."
+  ],
+  "cues": [
+   "Lift your chest a few inches"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Spine-friendly ab endurance; good on days the back is tired from wrestling."
+ },
+ {
+  "name": "Farmer Carry",
+  "aliases": [
+   "farmer carry",
+   "farmers walk",
+   "farmer walk",
+   "farmers carry"
+  ],
+  "pattern": "carry",
+  "equipment": [
+   "dumbbell",
+   "kettlebell"
+  ],
+  "muscles": [
+   "grip",
+   "traps",
+   "core"
+  ],
+  "standing": true,
+  "doThisNotThat": "Walk tall with short, quick, quiet steps; slouching with long strides wastes the drill.",
+  "steps": [
+   "Deadlift two heavy dumbbells or kettlebells to your sides.",
+   "Stand tall, shoulders down, ribs stacked over the pelvis.",
+   "Walk 20-40 m with short, quick steps.",
+   "Set down with a flat back."
+  ],
+  "cues": [
+   "Walk tall like a string pulls your head",
+   "Crush the handles"
+  ],
+  "homeSwap": "Same with heavy home dumbbells.",
+  "note": "Grip, traps and posture in one; also builds the foot stiffness flat feet need, as each step lands on a tripod foot under load."
+ },
+ {
+  "name": "Suitcase Carry",
+  "aliases": [
+   "suitcase carry",
+   "single arm carry"
+  ],
+  "pattern": "carry",
+  "equipment": [
+   "dumbbell",
+   "kettlebell"
+  ],
+  "muscles": [
+   "obliques",
+   "grip"
+  ],
+  "standing": true,
+  "doThisNotThat": "Stay perfectly level with one heavy weight; leaning away from it hides the work.",
+  "steps": [
+   "Pick up one heavy dumbbell or kettlebell.",
+   "Stand tall, both shoulders level.",
+   "Walk 20-30 m with short steps.",
+   "Switch hands and repeat."
+  ],
+  "cues": [
+   "Stay level like a waiter",
+   "Walk tall"
+  ],
+  "homeSwap": "Same at home.",
+  "note": "Anti-lateral flexion: the obliques on the empty-hand side work hardest, the same side bend you resist in a clinch."
+ },
+ {
+  "name": "Overhead Carry",
+  "aliases": [
+   "overhead carry",
+   "waiter walk overhead"
+  ],
+  "pattern": "carry",
+  "equipment": [
+   "dumbbell",
+   "kettlebell"
+  ],
+  "muscles": [
+   "shoulders",
+   "core"
+  ],
+  "standing": true,
+  "doThisNotThat": "Lock the arm straight with the biceps by the ear; a bent elbow overhead dumps the load into the low back.",
+  "steps": [
+   "Press one dumbbell or kettlebell overhead.",
+   "Lock the elbow, biceps by the ear, ribs down.",
+   "Walk 15-30 m.",
+   "Lower under control, switch arms."
+  ],
+  "cues": [
+   "Reach the weight to the ceiling",
+   "Ribs down"
+  ],
+  "homeSwap": "Same at home.",
+  "note": "Shoulder stability for punching and volleyball; if your shoulders are stiff overhead, start light and don't force the lockout."
+ },
+ {
+  "name": "Front-Rack Carry",
+  "aliases": [
+   "front rack carry",
+   "goblet carry"
+  ],
+  "pattern": "carry",
+  "equipment": [
+   "kettlebell",
+   "dumbbell"
+  ],
+  "muscles": [
+   "abs",
+   "upper back"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hold the weights high at the chest with elbows in; letting them sag pulls you into a slouch.",
+  "steps": [
+   "Hold one weight as a goblet or two kettlebells in the rack position.",
+   "Elbows in, chest up, ribs down.",
+   "Walk 20-30 m.",
+   "Set down with control."
+  ],
+  "cues": [
+   "Keep the weight on your chest",
+   "Walk tall"
+  ],
+  "homeSwap": "Same at home.",
+  "note": "Anti-extension carry that also trains breathing under load: short nasal breaths behind a brace, useful practice with asthma."
+ },
+ {
+  "name": "Waiter Carry",
+  "aliases": [
+   "waiter carry",
+   "waiters walk"
+  ],
+  "pattern": "carry",
+  "equipment": [
+   "kettlebell",
+   "dumbbell"
+  ],
+  "muscles": [
+   "shoulders",
+   "core"
+  ],
+  "standing": true,
+  "doThisNotThat": "Hold the weight overhead palm up like a tray and keep it level.",
+  "steps": [
+   "Hold a kettlebell or dumbbell overhead, palm up like a tray.",
+   "Elbow locked, biceps by the ear.",
+   "Walk 15-30 m.",
+   "Switch arms."
+  ],
+  "cues": [
+   "Keep the tray level"
+  ],
+  "homeSwap": "Same at home.",
+  "note": "Rotator-cuff stability for the shoulders that take all your punching volume."
+ },
+ {
+  "name": "Sandbag Bear-Hug Carry",
+  "aliases": [
+   "sandbag carry",
+   "bear hug carry"
+  ],
+  "pattern": "carry",
+  "equipment": [
+   "sandbag"
+  ],
+  "muscles": [
+   "core",
+   "upper back"
+  ],
+  "standing": true,
+  "doThisNotThat": "Squeeze the bag high on the chest; letting it slide to the belly rounds the back.",
+  "steps": [
+   "Lift a sandbag (or heavy backpack) and hug it high on the chest.",
+   "Lock the hands around it.",
+   "Walk 20-40 m.",
+   "Set down with a hinge."
+  ],
+  "cues": [
+   "Squeeze the bag into your chest",
+   "Walk tall"
+  ],
+  "homeSwap": "Bear-hug a heavy backpack filled with books.",
+  "note": "Direct grappling transfer: it is a body lock with a resisting load."
+ },
+ {
+  "name": "Plank Shoulder Tap",
+  "aliases": [
+   "shoulder taps",
+   "plank shoulder taps",
+   "high plank shoulder tap"
+  ],
+  "pattern": "core-anti-rotation",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "obliques",
+   "abs",
+   "shoulders"
+  ],
+  "standing": false,
+  "doThisNotThat": "Feet wider than hips and hips dead still; fast rocking taps miss the point.",
+  "steps": [
+   "High plank, hands under shoulders, feet wide.",
+   "Squeeze glutes, ribs down.",
+   "Lift one hand to tap the opposite shoulder without the hips moving.",
+   "Alternate slowly; 10-20 taps."
+  ],
+  "cues": [
+   "Keep your belt buckle facing the floor",
+   "Push the floor away"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Best home anti-rotation drill: narrow the feet to make it harder."
+ },
+ {
+  "name": "Body Saw",
+  "aliases": [
+   "body saw",
+   "forearm plank saw",
+   "slider body saw"
+  ],
+  "pattern": "core-anti-extension",
+  "equipment": [
+   "slider",
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs",
+   "lats"
+  ],
+  "standing": false,
+  "doThisNotThat": "Push back only as far as the hips stay level.",
+  "steps": [
+   "Forearm plank with feet on sliders or a towel.",
+   "Push the body back by moving the forearms.",
+   "Pull forward to the start.",
+   "8-12 slow reps."
+  ],
+  "cues": [
+   "Push the floor forward with your forearms",
+   "Hips level"
+  ],
+  "homeSwap": "Towel under the feet on a smooth floor.",
+  "note": "A home ab-wheel substitute; the longer lever trains the same anti-extension."
+ },
+ {
+  "name": "Hanging Windshield Wiper",
+  "aliases": [
+   "windshield wipers",
+   "hanging windshield wiper"
+  ],
+  "pattern": "core-anti-rotation",
+  "equipment": [
+   "pull-up bar"
+  ],
+  "muscles": [
+   "obliques",
+   "abs",
+   "lats"
+  ],
+  "standing": false,
+  "doThisNotThat": "Control the rotation; don't let the legs swing past where you can stop them.",
+  "steps": [
+   "Hang with legs raised to 90° (bent knees easier).",
+   "Rotate the legs to one side.",
+   "Stop, pull back through center.",
+   "Alternate."
+  ],
+  "cues": [
+   "Point your toes to each wall"
+  ],
+  "homeSwap": "Lying windshield wiper on the floor.",
+  "note": "Rotational control for grappling, where you turn the hips while hanging onto an opponent."
+ },
+ {
+  "name": "Turkish Get-Up",
+  "aliases": [
+   "turkish get up",
+   "tgu",
+   "get up"
+  ],
+  "pattern": "core-anti-rotation",
+  "equipment": [
+   "kettlebell",
+   "dumbbell"
+  ],
+  "muscles": [
+   "shoulders",
+   "core",
+   "glutes"
+  ],
+  "standing": false,
+  "doThisNotThat": "Light weight, slow, eyes on the bell; speed or heavy loads miss the point.",
+  "steps": [
+   "Lie down, bell pressed up in one hand, same-side knee bent.",
+   "Roll to the elbow, then the hand.",
+   "Bridge the hips and sweep the leg to a kneel.",
+   "Stand up; reverse each step to lie down."
+  ],
+  "cues": [
+   "Keep your eyes on the bell",
+   "Punch the ceiling"
+  ],
+  "homeSwap": "Bodyweight get-up with a shoe balanced on the fist.",
+  "note": "Builds shoulder stability and the floor-to-standing pattern (technical stand-up) used in MMA and BJJ."
+ },
+ {
+  "name": "Bear Plank Hold",
+  "aliases": [
+   "bear plank",
+   "bear hold",
+   "hover bear"
+  ],
+  "pattern": "core-anti-extension",
+  "equipment": [
+   "bodyweight"
+  ],
+  "muscles": [
+   "abs",
+   "quads",
+   "shoulders"
+  ],
+  "standing": false,
+  "doThisNotThat": "Knees hover 1 inch off the floor with back flat.",
+  "steps": [
+   "Hands under shoulders, knees under hips.",
+   "Lift knees 1 inch off the floor.",
+   "Hold 20-40 s, breathing through the nose.",
+   "Add shoulder taps to progress."
+  ],
+  "cues": [
+   "Push the floor away",
+   "Keep a cup balanced on your back"
+  ],
+  "homeSwap": "Same move on the floor with bodyweight; slow the tempo to 3 s each way to make it harder.",
+  "note": "Base for bear crawls and the grappling base position."
+ },
+ {
+  "name": "Single-Arm Dumbbell Pullover to Press",
+  "aliases": [
+   "pullover press"
+  ],
+  "pattern": "vertical-pull",
+  "equipment": [
+   "dumbbell"
+  ],
+  "muscles": [
+   "lats",
+   "pecs",
+   "triceps"
+  ],
+  "standing": false,
+  "doThisNotThat": "Keep ribs down through the stretch.",
+  "steps": [
+   "Lie on the floor, dumbbell held over the chest.",
+   "Lower it behind the head in 3 s.",
+   "Pull back over the chest.",
+   "Press to lockout; repeat."
+  ],
+  "cues": [
+   "Pull the dumbbell over your chest",
+   "Ribs heavy"
+  ],
+  "homeSwap": "Same at home.",
+  "note": "Combines a lats stretch with a press; good home upper-body finisher."
+ }
+]
